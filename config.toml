@@ -1,7 +1,7 @@
 baseURL = "https://iamanuragh.in/"
 languageCode = "en-us"
 title = "Welcome"
-theme="hugo-theme-nix"
+theme="hugo-theme"
 [params]
   Name = "Anuragh KP"
   HeaderUsername = "0x55aa"
