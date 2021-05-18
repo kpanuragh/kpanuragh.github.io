@@ -1,6 +1,6 @@
 baseURL = "https://iamanuragh.in/"
 languageCode = "en-us"
-title = "Welcome"
+title = "Anuragh K P"
 theme="hugo-theme"
 [params]
   Name = "Anuragh KP"
