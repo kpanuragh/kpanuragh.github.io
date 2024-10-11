@@ -1,0 +1,5 @@
+baseURL = 'https://kpanuragh.github.io/'
+languageCode = 'en-us'
+title = 'Found 0x55aa'
+theme = 'hugo-dead-simple'
+

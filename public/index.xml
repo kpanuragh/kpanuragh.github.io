@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Found 0x55aa</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Found 0x55aa</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Love Open Source</title>
+      <link>http://localhost:1313/posts/why-i-love-open-source/</link>
+      <pubDate>Fri, 11 Oct 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-i-love-open-source/</guid>
+      <description>A lot of my friends have asked me, &amp;ldquo;Why do you love open source so much?&amp;rdquo; Honestly, for me, the answer is pretty simple: if something doesn’t work, I can fix it. That’s it. I mean, how great is that?&#xA;As a developer, I use tons of packages daily, many of which are built by other people. Of course, these packages aren’t always perfect—they might not follow the best coding practices, or they might have bugs.</description>
+    </item>
+  </channel>
+</rss>
