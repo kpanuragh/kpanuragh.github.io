@@ -6,8 +6,46 @@ body {
     padding: 0;
 }
 
+.boot-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1b2029;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 100;
+}
+
+.boot-animation p {
+    display: inline-block;
+    animation: blink 2s linear infinite;
+}
+
+.log-container {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #1b2029;
+    color: #c8ccd4;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 50;
+}
+
+.log-message {
+    animation: scrollLog 20s linear infinite;
+}
+
 .container {
-    max-width: 800px;
+    display: none;
+    max-width: 90%;
     margin: 20px auto;
     padding: 15px;
     background-color: #1b2029;
@@ -21,7 +59,7 @@ header {
 
 h1 {
     color: #81a1c1;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
@@ -39,9 +77,10 @@ h2 {
     color: #88c0d0;
 }
 
-ul {
+ul, li {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -60,4 +99,50 @@ a:hover {
 footer {
     margin-top: 40px;
     text-align: center;
+    font-size: 0.9em;
+}
+
+@keyframes scrollLog {
+    from { transform: translateY(100%); }
+    to { transform: translateY(-200%); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+    .boot-animation {
+        padding: 15px;
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .log-container {
+        width: calc(100% - 40px);
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .boot-animation, .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    footer a {
+        display: block;
+        margin-top: 5px;
+    }
 }
