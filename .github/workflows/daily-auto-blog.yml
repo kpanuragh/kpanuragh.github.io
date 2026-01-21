@@ -1,4 +1,4 @@
-name: Daily Auto-Generate Blog Post
+name: Daily Auto-Generate Blog Posts
 
 on:
   # Run daily at 11 AM UTC
@@ -8,11 +8,11 @@ on:
   # Allow manual trigger
   workflow_dispatch:
     inputs:
-      topic:
-        description: 'Specific blog topic (optional)'
+      count:
+        description: 'Number of blog posts to generate (1-4)'
         required: false
         type: string
-        default: 'trending tech topics'
+        default: '2'
 
 permissions:
   contents: write
@@ -22,9 +22,8 @@ permissions:
   pages: write
 
 jobs:
-  generate-blog:
+  generate-security-blog:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,55 +39,212 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate blog post with Claude
-        id: claude
+      - name: Generate Security Blog Post
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
-            Generate a new blog post for today about "${{ inputs.topic }}".
+            Generate a fun, engaging blog post about **Cybersecurity** or **Web Security**.
 
-            **Instructions:**
-            1. First, run `npm run fetch-trends` to get current trending topics from GitHub, Hacker News, and Dev.to
-            2. Analyze the trending topics and identify interesting patterns or hot topics
-            3. Create an engaging blog post about: **${{ inputs.topic }}**
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read `content/posts/common-web-vulnerabilities.md` as a style reference
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🔒 🛡️ 💉 🎯 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Only minimal, essential code examples
+            - Include "Real Talk" or "Pro Tip" sections
 
-            **Blog Post Requirements:**
-            - Conversational and fun tone (like chatting with a friend over coffee)
-            - Use emojis for personality ✨ 🚀 💡
-            - Include minimal but practical code examples (only when needed)
-            - Length: 800-1200 words
-            - Focus on what's trending and why developers should care
-            - Be funny and relatable - use analogies and humor
-            - Show both good and bad code examples when relevant
-            - End with a call-to-action
+            **Steps:**
+            1. Run `npm run fetch-trends` to see current security topics
+            2. Pick ONE specific security topic (e.g., "API Security", "OWASP Top 10", "JWT Security", "Docker Security", etc.)
+            3. Write 800-1000 words in the EXACT style of existing posts
 
-            **File Details:**
-            - Create markdown file in `content/posts/` directory
-            - Filename format: `YYYY-MM-DD-slug.md` (e.g., `2026-01-21-awesome-tech-trends.md`)
-            - Use proper frontmatter:
-              ```markdown
-              ---
-              title: "Your Catchy Title"
-              date: "2026-01-21"
-              excerpt: "Hook the reader in 2-3 sentences that make them want to read more"
-              tags: ["tag1", "tag2", "tag3", "tag4"]
-              featured: false
-              ---
-              ```
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🔒"
+            - Date: "2026-01-21"
+            - Tags: ["cybersecurity", "web-security", "security", plus 1-2 specific tags]
+            - Filename: `2026-01-21-[slug].md` in `content/posts/`
 
-            **Style Guide:**
-            - Match the tone of existing posts in `content/posts/` directory
-            - Use section headings with emojis
-            - Keep paragraphs short and scannable
-            - Add "Real Talk" or "Pro Tip" sections
-            - Include a TL;DR at the end
-            - Reference specific trending projects/articles you found
+            **Must include:**
+            - Funny opening line
+            - Practical examples
+            - Good vs Bad code comparisons
+            - Analogies that make it relatable
+            - TL;DR or conclusion with links to LinkedIn/GitHub
 
-            **After creating the post:**
-            1. Commit the new file with message: "feat: Daily blog post - [your catchy title]"
-            2. Push the changes to the repository
+            After creating, commit with: "feat: Security blog - [title]" and push!
 
-            Check existing posts in `content/posts/` for examples of the style!
+          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
 
-          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Edit(*)"'
+  generate-laravel-blog:
+    runs-on: ubuntu-latest
+    needs: generate-security-blog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Laravel Blog Post
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Generate a fun, engaging blog post about **Laravel or PHP development**.
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read `content/posts/laravel-performance-tips.md` as a style reference
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🚀 💨 ⚡ 🎯 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Only minimal, essential code examples
+            - Include "Real Talk" or "Pro Tip" sections
+
+            **Steps:**
+            1. Run `npm run fetch-trends` to see current Laravel/PHP topics
+            2. Pick ONE specific Laravel topic (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", etc.)
+            3. Write 800-1000 words in the EXACT style of existing posts
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🚀"
+            - Date: "2026-01-21"
+            - Tags: ["laravel", "php", "web-dev", plus 1-2 specific tags]
+            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+
+            **Must include:**
+            - Funny opening line
+            - Practical examples with before/after code
+            - Relatable analogies
+            - Bonus tips section
+            - TL;DR or conclusion with links
+
+            After creating, commit with: "feat: Laravel blog - [title]" and push!
+
+          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
+
+  generate-rust-blog:
+    runs-on: ubuntu-latest
+    needs: generate-laravel-blog
+    if: ${{ github.event.inputs.count >= '3' || github.event_name == 'schedule' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Rust/Systems Programming Blog Post
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Generate a fun, engaging blog post about **Rust, Systems Programming, or Performance**.
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🦀 ⚡ 🚀 🔥 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Only minimal, essential code examples
+            - Make Rust accessible to non-Rust developers
+
+            **Steps:**
+            1. Run `npm run fetch-trends` to see current Rust/systems topics
+            2. Pick ONE specific topic (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", etc.)
+            3. Write 800-1000 words in the EXACT style of existing posts
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🦀"
+            - Date: "2026-01-21"
+            - Tags: ["rust", "systems-programming", "performance", plus 1-2 specific tags]
+            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+
+            **Must include:**
+            - Funny opening line
+            - Why developers should care
+            - Comparisons with other languages
+            - Practical examples
+            - TL;DR or conclusion
+
+            After creating, commit with: "feat: Rust blog - [title]" and push!
+
+          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
+
+  generate-opensource-blog:
+    runs-on: ubuntu-latest
+    needs: generate-rust-blog
+    if: ${{ github.event.inputs.count >= '4' || github.event_name == 'schedule' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Open Source Blog Post
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Generate a fun, engaging blog post about **Open Source, GitHub, or Developer Tools**.
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🌍 🚀 💻 🎉 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Focus on community and contribution stories
+
+            **Steps:**
+            1. Run `npm run fetch-trends` to see trending open source projects
+            2. Pick ONE specific topic (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", etc.)
+            3. Write 800-1000 words in the EXACT style of existing posts
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🌍"
+            - Date: "2026-01-21"
+            - Tags: ["open-source", "github", "community", plus 1-2 specific tags]
+            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+
+            **Must include:**
+            - Funny opening line
+            - Personal stories or examples
+            - Specific projects/tools to check out
+            - How to get involved
+            - TL;DR or conclusion
+
+            After creating, commit with: "feat: Open source blog - [title]" and push!
+
+          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
