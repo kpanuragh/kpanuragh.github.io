@@ -77,7 +77,7 @@ jobs:
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash(*),Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit"
 
   generate-laravel-blog:
     runs-on: ubuntu-latest
@@ -136,7 +136,7 @@ jobs:
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash(*),Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit"
 
   generate-rust-blog:
     runs-on: ubuntu-latest
@@ -196,7 +196,7 @@ jobs:
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash(*),Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit"
 
   generate-opensource-blog:
     runs-on: ubuntu-latest
@@ -255,4 +255,4 @@ jobs:
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash(*),Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit"
