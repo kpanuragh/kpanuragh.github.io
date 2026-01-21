@@ -1,0 +1,42 @@
+{
+  "topics": [
+    "Latest Web Development Trends",
+    "This Week in Tech",
+    "Laravel and PHP Updates",
+    "Cybersecurity News and Tips",
+    "Open Source Projects to Watch",
+    "JavaScript Framework Wars",
+    "Backend Development Best Practices",
+    "DevOps and Cloud Computing",
+    "API Design Patterns",
+    "Database Performance Tips"
+  ],
+  "sources": {
+    "github": {
+      "enabled": true,
+      "categories": ["web", "php", "security", "javascript"]
+    },
+    "hackerNews": {
+      "enabled": true,
+      "minScore": 100
+    },
+    "devTo": {
+      "enabled": true,
+      "tags": ["webdev", "javascript", "php", "security"]
+    }
+  },
+  "generation": {
+    "schedule": "weekly",
+    "dayOfWeek": "Monday",
+    "time": "09:00",
+    "autoPublish": true,
+    "requireReview": false
+  },
+  "style": {
+    "tone": "conversational",
+    "useEmojis": true,
+    "targetLength": 1000,
+    "includeCodeExamples": true,
+    "maxCodeExamples": 3
+  }
+}

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fetch-trends": "node scripts/fetch-trends.js",
+    "generate-blog": "node scripts/generate-blog.js",
+    "auto-blog": "node scripts/generate-blog.js && npm run build"
   },
   "repository": {
     "type": "git",
