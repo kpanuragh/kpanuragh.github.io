@@ -64,78 +64,321 @@
   animation: scrollLog 20s linear infinite;
 }
 
-/* Code Syntax Highlighting - Dark Terminal Theme */
+/* Code Syntax Highlighting - Enhanced Dark Terminal Theme */
 .hljs {
-  @apply bg-terminal-card text-terminal-text rounded-lg p-4 my-4 overflow-x-auto;
+  @apply bg-terminal-card text-terminal-text rounded-lg overflow-x-auto;
+  padding: 1.5rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 
+/* Keywords - Purple/Blue tones */
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-literal,
-.hljs-section,
-.hljs-link {
-  @apply text-terminal-accent;
+.hljs-section {
+  color: #bd93f9;
+  font-weight: 500;
 }
 
+/* Strings - Green */
 .hljs-string,
+.hljs-addition {
+  color: #50fa7b;
+}
+
+/* Function names, titles - Cyan */
 .hljs-title,
 .hljs-name,
+.hljs-function {
+  color: #8be9fd;
+  font-weight: 600;
+}
+
+/* Types, classes - Yellow */
 .hljs-type,
+.hljs-class,
+.hljs-built_in {
+  color: #f1fa8c;
+}
+
+/* Variables, attributes - Orange */
+.hljs-variable,
 .hljs-attribute,
+.hljs-attr {
+  color: #ffb86c;
+}
+
+/* Numbers - Purple */
+.hljs-number {
+  color: #bd93f9;
+}
+
+/* Operators, symbols - Pink/Red */
 .hljs-symbol,
 .hljs-bullet,
-.hljs-addition,
-.hljs-variable,
-.hljs-template-tag,
-.hljs-template-variable {
-  @apply text-terminal-success;
+.hljs-link,
+.hljs-operator {
+  color: #ff79c6;
 }
 
+/* Template tags - Light blue */
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-tag {
+  color: #8be9fd;
+}
+
+/* Comments - Muted gray */
 .hljs-comment,
 .hljs-quote,
-.hljs-deletion,
-.hljs-meta {
-  @apply text-gray-500;
+.hljs-deletion {
+  color: #6272a4;
+  font-style: italic;
 }
 
+/* Meta, preprocessor - Pink */
+.hljs-meta,
+.hljs-meta-keyword {
+  color: #ff79c6;
+}
+
+/* Doctags - Cyan */
+.hljs-doctag {
+  color: #8be9fd;
+  font-weight: 600;
+}
+
+/* Regex - Red */
+.hljs-regexp {
+  color: #f1fa8c;
+}
+
+/* Emphasis & Strong in code */
 .hljs-emphasis {
-  @apply italic;
+  font-style: italic;
+  color: #f1fa8c;
 }
 
 .hljs-strong {
-  @apply font-bold;
+  font-weight: 700;
+  color: #ff79c6;
 }
 
-/* Blog Post Typography */
+/* Highlighted/selected code */
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #50fa7b;
+  font-weight: 600;
+}
+
+/* Params */
+.hljs-params {
+  color: #ffb86c;
+}
+
+/* Blog Post Typography - Enhanced for Beautiful Rendering */
 .prose {
-  @apply max-w-none;
+  @apply max-w-none text-terminal-text;
+  font-size: 1.125rem;
+  line-height: 1.8;
 }
 
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
+/* Headings with Better Hierarchy */
+.prose h1 {
+  @apply text-terminal-highlight font-bold;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.prose h2 {
+  @apply text-terminal-highlight font-bold;
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-terminal-border);
+}
+
+.prose h3 {
+  @apply text-terminal-accent font-bold;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose h4 {
+  @apply text-terminal-accent font-semibold;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-bottom: 0.875rem;
+}
+
 .prose h5,
 .prose h6 {
-  @apply text-terminal-highlight;
+  @apply text-terminal-highlight font-semibold;
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
+/* Paragraphs with Better Spacing */
+.prose p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Links with Better Styling */
 .prose a {
-  @apply text-terminal-success no-underline hover:underline;
+  @apply text-terminal-success no-underline;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid transparent;
 }
 
+.prose a:hover {
+  @apply underline;
+  border-bottom-color: var(--color-terminal-success);
+}
+
+/* Inline Code with Better Contrast */
 .prose code {
-  @apply bg-terminal-card text-terminal-success rounded px-1 py-0.5;
+  @apply bg-terminal-card text-terminal-success rounded;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid var(--color-terminal-border);
 }
 
+/* Code Blocks with Enhanced Styling */
 .prose pre {
   @apply bg-terminal-card rounded-lg;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  overflow-x: auto;
+  border: 1px solid var(--color-terminal-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
 }
 
+.prose pre code {
+  @apply bg-transparent border-0 p-0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Lists with Better Spacing */
+.prose ul,
+.prose ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.75rem;
+}
+
+.prose li {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.prose ul > li {
+  list-style-type: none;
+  position: relative;
+}
+
+.prose ul > li::before {
+  content: "▸";
+  position: absolute;
+  left: -1.5rem;
+  color: var(--color-terminal-success);
+  font-weight: bold;
+}
+
+.prose ol > li {
+  padding-left: 0.5rem;
+}
+
+/* Nested Lists */
+.prose ul ul,
+.prose ol ul,
+.prose ul ol,
+.prose ol ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Blockquotes with Better Style */
 .prose blockquote {
-  @apply border-l-4 border-terminal-border pl-4 italic text-gray-400;
+  @apply border-l-4 border-terminal-accent pl-6 italic;
+  margin: 2rem 0;
+  padding: 1rem 0 1rem 1.5rem;
+  background: rgba(129, 161, 193, 0.05);
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--color-terminal-highlight);
 }
 
+.prose blockquote p {
+  margin: 0.5rem 0;
+}
+
+/* Strong/Bold Text */
 .prose strong {
   @apply text-terminal-accent font-bold;
+  font-weight: 700;
+}
+
+/* Emphasis/Italic */
+.prose em {
+  @apply text-terminal-highlight italic;
+}
+
+/* Horizontal Rules */
+.prose hr {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 2px solid var(--color-terminal-border);
+}
+
+/* Tables */
+.prose table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.prose th {
+  @apply bg-terminal-card text-terminal-accent;
+  padding: 0.875rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid var(--color-terminal-border);
+}
+
+.prose td {
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--color-terminal-border);
+}
+
+.prose tbody tr:hover {
+  background: rgba(129, 161, 193, 0.05);
+}
+
+/* Images */
+.prose img {
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-terminal-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+/* Figcaption */
+.prose figcaption {
+  @apply text-gray-400 text-center italic;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
 }
