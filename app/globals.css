@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terminal-bg: #0d1117;
+  --color-terminal-card: #1b2029;
+  --color-terminal-text: #c8ccd4;
+  --color-terminal-accent: #81a1c1;
+  --color-terminal-success: #50fa7b;
+  --color-terminal-border: #5e81ac;
+  --color-terminal-highlight: #88c0d0;
+
+  --font-family-mono: "Courier New", Courier, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-terminal-bg text-terminal-text font-mono;
+  }
+}
+
+@layer components {
+  .terminal-card {
+    @apply bg-terminal-card rounded-lg shadow-lg p-6;
+  }
+
+  .terminal-heading {
+    @apply border-l-4 border-terminal-border pl-3 text-terminal-highlight;
+  }
+}
+
+/* Boot Animation Styles */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes scrollLog {
+  from { transform: translateY(100%); }
+  to { transform: translateY(-200%); }
+}
+
+.boot-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.boot-animation p {
+  animation: blink 2s linear infinite;
+}
+
+.log-container {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 20px);
+  z-index: 50;
+}
+
+.log-message {
+  animation: scrollLog 20s linear infinite;
+}
+
+/* Code Syntax Highlighting - Dark Terminal Theme */
+.hljs {
+  @apply bg-terminal-card text-terminal-text rounded-lg p-4 my-4 overflow-x-auto;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  @apply text-terminal-accent;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  @apply text-terminal-success;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  @apply text-gray-500;
+}
+
+.hljs-emphasis {
+  @apply italic;
+}
+
+.hljs-strong {
+  @apply font-bold;
+}
+
+/* Blog Post Typography */
+.prose {
+  @apply max-w-none;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  @apply text-terminal-highlight;
+}
+
+.prose a {
+  @apply text-terminal-success no-underline hover:underline;
+}
+
+.prose code {
+  @apply bg-terminal-card text-terminal-success rounded px-1 py-0.5;
+}
+
+.prose pre {
+  @apply bg-terminal-card rounded-lg;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-terminal-border pl-4 italic text-gray-400;
+}
+
+.prose strong {
+  @apply text-terminal-accent font-bold;
+}
