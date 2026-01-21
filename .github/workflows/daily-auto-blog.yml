@@ -30,6 +30,17 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Check for existing security blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*security*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Security blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -40,11 +51,18 @@ jobs:
         run: npm ci
 
       - name: Generate Security Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             Generate a fun, engaging blog post about **Cybersecurity** or **Web Security**.
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, check all existing posts in `content/posts/` directory
+            2. Look for posts with similar topics, especially from the last 7 days
+            3. If you find similar topics (e.g., multiple JWT posts, multiple XSS posts), choose a COMPLETELY DIFFERENT topic
+            4. List the recent topics you found and explicitly state your chosen topic is different
 
             **IMPORTANT STYLE REQUIREMENTS:**
             - Read `content/posts/common-web-vulnerabilities.md` as a style reference
@@ -56,9 +74,10 @@ jobs:
             - Include "Real Talk" or "Pro Tip" sections
 
             **Steps:**
-            1. Run `npm run fetch-trends` to see current security topics
-            2. Pick ONE specific security topic (e.g., "API Security", "OWASP Top 10", "JWT Security", "Docker Security", etc.)
-            3. Write 800-1000 words in the EXACT style of existing posts
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-trends` to see current security topics
+            3. Pick ONE specific security topic that hasn't been covered recently (e.g., "API Security", "OWASP Top 10", "Docker Security", "CORS", "SQL Injection", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🔒"
@@ -89,6 +108,17 @@ jobs:
           ref: main
           fetch-depth: 1
 
+      - name: Check for existing Laravel blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*laravel*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Laravel blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -99,11 +129,18 @@ jobs:
         run: npm ci
 
       - name: Generate Laravel Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             Generate a fun, engaging blog post about **Laravel or PHP development**.
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, check all existing posts in `content/posts/` directory
+            2. Look for Laravel/PHP posts with similar topics, especially from the last 7 days
+            3. If you find similar topics (e.g., multiple validation posts, multiple Eloquent posts), choose a COMPLETELY DIFFERENT topic
+            4. List the recent Laravel topics you found and explicitly state your chosen topic is different
 
             **IMPORTANT STYLE REQUIREMENTS:**
             - Read `content/posts/laravel-performance-tips.md` as a style reference
@@ -115,9 +152,10 @@ jobs:
             - Include "Real Talk" or "Pro Tip" sections
 
             **Steps:**
-            1. Run `npm run fetch-trends` to see current Laravel/PHP topics
-            2. Pick ONE specific Laravel topic (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", etc.)
-            3. Write 800-1000 words in the EXACT style of existing posts
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-trends` to see current Laravel/PHP topics
+            3. Pick ONE specific Laravel topic that hasn't been covered recently (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", "Queue Jobs", "Middleware", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🚀"
@@ -149,6 +187,17 @@ jobs:
           ref: main
           fetch-depth: 1
 
+      - name: Check for existing Rust blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*rust*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Rust blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -159,11 +208,18 @@ jobs:
         run: npm ci
 
       - name: Generate Rust/Systems Programming Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             Generate a fun, engaging blog post about **Rust, Systems Programming, or Performance**.
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, check all existing posts in `content/posts/` directory
+            2. Look for Rust/systems posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent Rust topics you found and explicitly state your chosen topic is different
 
             **IMPORTANT STYLE REQUIREMENTS:**
             - Read existing posts in `content/posts/` as style references
@@ -175,9 +231,10 @@ jobs:
             - Make Rust accessible to non-Rust developers
 
             **Steps:**
-            1. Run `npm run fetch-trends` to see current Rust/systems topics
-            2. Pick ONE specific topic (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", etc.)
-            3. Write 800-1000 words in the EXACT style of existing posts
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-trends` to see current Rust/systems topics
+            3. Pick ONE specific topic that hasn't been covered recently (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", "Performance Optimization", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🦀"
@@ -209,6 +266,17 @@ jobs:
           ref: main
           fetch-depth: 1
 
+      - name: Check for existing Open Source blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*open*source*.md content/posts/${TODAY}-*opensource*.md content/posts/${TODAY}-*github*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Open Source blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -219,11 +287,18 @@ jobs:
         run: npm ci
 
       - name: Generate Open Source Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             Generate a fun, engaging blog post about **Open Source, GitHub, or Developer Tools**.
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, check all existing posts in `content/posts/` directory
+            2. Look for open source/GitHub posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent open source topics you found and explicitly state your chosen topic is different
 
             **IMPORTANT STYLE REQUIREMENTS:**
             - Read existing posts in `content/posts/` as style references
@@ -234,9 +309,10 @@ jobs:
             - Focus on community and contribution stories
 
             **Steps:**
-            1. Run `npm run fetch-trends` to see trending open source projects
-            2. Pick ONE specific topic (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", etc.)
-            3. Write 800-1000 words in the EXACT style of existing posts
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-trends` to see trending open source projects
+            3. Pick ONE specific topic that hasn't been covered recently (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", "Contributing Guide", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🌍"
