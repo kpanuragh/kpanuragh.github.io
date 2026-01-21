@@ -75,7 +75,8 @@ jobs:
 
             After creating, commit with: "feat: Security blog - [title]" and push!
 
-          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
+          # Allow ALL tools - no restrictions
+          claude_args: ''
 
   generate-laravel-blog:
     runs-on: ubuntu-latest
@@ -132,7 +133,8 @@ jobs:
 
             After creating, commit with: "feat: Laravel blog - [title]" and push!
 
-          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
+          # Allow ALL tools - no restrictions
+          claude_args: ''
 
   generate-rust-blog:
     runs-on: ubuntu-latest
@@ -190,7 +192,8 @@ jobs:
 
             After creating, commit with: "feat: Rust blog - [title]" and push!
 
-          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
+          # Allow ALL tools - no restrictions
+          claude_args: ''
 
   generate-opensource-blog:
     runs-on: ubuntu-latest
@@ -247,4 +250,5 @@ jobs:
 
             After creating, commit with: "feat: Open source blog - [title]" and push!
 
-          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Grep(*)"'
+          # Allow ALL tools - no restrictions
+          claude_args: ''
