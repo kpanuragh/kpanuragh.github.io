@@ -12,23 +12,24 @@ on:
         description: 'Specific blog topic (optional)'
         required: false
         type: string
+        default: 'trending tech topics'
 
 permissions:
   contents: write
-  pages: write
+  issues: write
+  pull-requests: write
   id-token: write
+  pages: write
 
 jobs:
-  generate-and-deploy:
+  generate-blog:
     runs-on: ubuntu-latest
-    outputs:
-      changed: ${{ steps.check.outputs.changed }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -39,60 +40,55 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate blog post
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          BLOG_TOPIC: ${{ inputs.topic || 'trending tech topics' }}
-        run: |
-          echo "🤖 Generating blog post about: $BLOG_TOPIC"
-          node scripts/generate-blog.js
-
-      - name: Check for new blog post
-        id: check
-        run: |
-          if git diff --quiet content/posts/; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "❌ No new blog post was generated"
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "✅ New blog post generated!"
-          fi
-
-      - name: Commit and push new blog post
-        if: steps.check.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Get the new post file
-          NEW_POST=$(git diff --name-only content/posts/ | head -1)
-          TITLE=$(grep "^title:" "$NEW_POST" | sed 's/title: "\(.*\)"/\1/')
-
-          git add content/posts/
-          git commit -m "feat: Auto-generate blog post - $TITLE"
-          git push
-
-      - name: Build site
-        if: steps.check.outputs.changed == 'true'
-        run: npm run build
-
-      - name: Upload artifact
-        if: steps.check.outputs.changed == 'true'
-        uses: actions/upload-pages-artifact@v3
+      - name: Generate blog post with Claude
+        id: claude
+        uses: anthropics/claude-code-action@v1
         with:
-          path: ./out
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Generate a new blog post for today about "${{ inputs.topic }}".
 
-  deploy:
-    if: needs.generate-and-deploy.outputs.changed == 'true'
-    needs: generate-and-deploy
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+            **Instructions:**
+            1. First, run `npm run fetch-trends` to get current trending topics from GitHub, Hacker News, and Dev.to
+            2. Analyze the trending topics and identify interesting patterns or hot topics
+            3. Create an engaging blog post about: **${{ inputs.topic }}**
+
+            **Blog Post Requirements:**
+            - Conversational and fun tone (like chatting with a friend over coffee)
+            - Use emojis for personality ✨ 🚀 💡
+            - Include minimal but practical code examples (only when needed)
+            - Length: 800-1200 words
+            - Focus on what's trending and why developers should care
+            - Be funny and relatable - use analogies and humor
+            - Show both good and bad code examples when relevant
+            - End with a call-to-action
+
+            **File Details:**
+            - Create markdown file in `content/posts/` directory
+            - Filename format: `YYYY-MM-DD-slug.md` (e.g., `2026-01-21-awesome-tech-trends.md`)
+            - Use proper frontmatter:
+              ```markdown
+              ---
+              title: "Your Catchy Title"
+              date: "2026-01-21"
+              excerpt: "Hook the reader in 2-3 sentences that make them want to read more"
+              tags: ["tag1", "tag2", "tag3", "tag4"]
+              featured: false
+              ---
+              ```
+
+            **Style Guide:**
+            - Match the tone of existing posts in `content/posts/` directory
+            - Use section headings with emojis
+            - Keep paragraphs short and scannable
+            - Add "Real Talk" or "Pro Tip" sections
+            - Include a TL;DR at the end
+            - Reference specific trending projects/articles you found
+
+            **After creating the post:**
+            1. Commit the new file with message: "feat: Daily blog post - [your catchy title]"
+            2. Push the changes to the repository
+
+            Check existing posts in `content/posts/` for examples of the style!
+
+          claude_args: '--allowed-tools "Bash(*)" --allowed-tools "Write(*)" --allowed-tools "Read(*)" --allowed-tools "Edit(*)"'
