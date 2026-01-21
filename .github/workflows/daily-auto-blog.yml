@@ -1,0 +1,101 @@
+name: Daily Auto-Generate Blog Post
+
+on:
+  # Run daily at 11 AM UTC
+  schedule:
+    - cron: '0 11 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Specific blog topic (optional)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  generate-blog:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch trending topics
+        id: trends
+        run: |
+          echo "Fetching trends..."
+          npm run fetch-trends > trends-output.txt
+          echo "trends_available=true" >> $GITHUB_OUTPUT
+
+      - name: Create issue for Claude to generate blog
+        id: create-issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const topic = '${{ inputs.topic }}' || 'trending tech topics';
+
+            const issue = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `@claude Generate blog post: ${topic}`,
+              body: `@claude Please generate a new blog post for today!
+
+            **Instructions:**
+            1. Run \`npm run fetch-trends\` to get current trending topics
+            2. Analyze the trending topics from GitHub, Hacker News, and Dev.to
+            3. Create an engaging blog post about: **${topic}**
+            4. The post should be:
+               - Conversational and fun (like chatting with a friend)
+               - Include emojis for personality
+               - Have minimal but practical code examples
+               - 800-1200 words
+               - Focus on what's trending and why it matters
+            5. Create the markdown file in \`content/posts/\` with format: \`YYYY-MM-DD-slug.md\`
+            6. Use proper frontmatter:
+               \`\`\`markdown
+               ---
+               title: "Your Catchy Title"
+               date: "${new Date().toISOString().split('T')[0]}"
+               excerpt: "Hook the reader in 2-3 sentences"
+               tags: ["tag1", "tag2", "tag3"]
+               featured: false
+               ---
+               \`\`\`
+            7. After creating the file, commit it with message: "feat: Daily blog post - [title]"
+            8. Close this issue when done
+
+            **Style Guide:**
+            - Be funny and relatable
+            - Use analogies and real-world examples
+            - Show both good and bad code examples
+            - End with a call-to-action
+            - Match the tone of existing blog posts
+
+            Check \`content/posts/\` for examples of our style!`
+            });
+
+            return issue.data.number;
+
+      - name: Wait for Claude to process
+        run: |
+          echo "Issue created for Claude to generate blog post"
+          echo "Claude will automatically process this and create the blog post"
+          echo "Check the issue: https://github.com/${{ github.repository }}/issues/${{ steps.create-issue.outputs.result }}"
