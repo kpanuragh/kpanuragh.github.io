@@ -2,14 +2,30 @@
   "topics": [
     "Latest Web Development Trends",
     "This Week in Tech",
+    "Artificial Intelligence (AI) and Large Language Models",
+    "Machine Learning (ML) in Production",
+    "DevOps Best Practices and Tools",
+    "Linux System Administration Tips",
+    "Node.js Development and Performance",
+    "React and Modern Frontend Frameworks",
+    "TypeScript Best Practices",
     "Laravel and PHP Updates",
     "Cybersecurity News and Tips",
     "Open Source Projects to Watch",
     "JavaScript Framework Wars",
     "Backend Development Best Practices",
-    "DevOps and Cloud Computing",
     "API Design Patterns",
-    "Database Performance Tips"
+    "Database Performance Tips",
+    "Docker and Kubernetes",
+    "CI/CD Pipelines and Automation",
+    "Cloud Computing (AWS, Azure, GCP)",
+    "Web Performance Optimization",
+    "GraphQL vs REST APIs",
+    "Microservices Architecture",
+    "Serverless Computing",
+    "Rust for Web Development",
+    "Python for Data Science and ML",
+    "Testing Strategies and Best Practices"
   ],
   "sources": {
     "github": {
