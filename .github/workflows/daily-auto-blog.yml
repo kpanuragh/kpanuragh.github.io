@@ -55,11 +55,12 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: |
             Generate a fun, engaging blog post about **Cybersecurity** or **Web Security**.
 
             **CRITICAL: AVOID DUPLICATES**
-            1. First, check all existing posts in `content/posts/` directory
+            1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for posts with similar topics, especially from the last 7 days
             3. If you find similar topics (e.g., multiple JWT posts, multiple XSS posts), choose a COMPLETELY DIFFERENT topic
             4. List the recent topics you found and explicitly state your chosen topic is different
@@ -78,12 +79,13 @@ jobs:
             2. Run `npm run fetch-trends` to see current security topics
             3. Pick ONE specific security topic that hasn't been covered recently (e.g., "API Security", "OWASP Top 10", "Docker Security", "CORS", "SQL Injection", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🔒"
-            - Date: "2026-01-21"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
             - Tags: ["cybersecurity", "web-security", "security", plus 1-2 specific tags]
-            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
 
             **Must include:**
             - Funny opening line
@@ -92,11 +94,17 @@ jobs:
             - Analogies that make it relatable
             - TL;DR or conclusion with links to LinkedIn/GitHub
 
-            After creating, commit with: "feat: Security blog - [title]" and push!
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: Security blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash,Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
 
   generate-laravel-blog:
     runs-on: ubuntu-latest
@@ -133,11 +141,12 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: |
             Generate a fun, engaging blog post about **Laravel or PHP development**.
 
             **CRITICAL: AVOID DUPLICATES**
-            1. First, check all existing posts in `content/posts/` directory
+            1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for Laravel/PHP posts with similar topics, especially from the last 7 days
             3. If you find similar topics (e.g., multiple validation posts, multiple Eloquent posts), choose a COMPLETELY DIFFERENT topic
             4. List the recent Laravel topics you found and explicitly state your chosen topic is different
@@ -156,12 +165,13 @@ jobs:
             2. Run `npm run fetch-trends` to see current Laravel/PHP topics
             3. Pick ONE specific Laravel topic that hasn't been covered recently (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", "Queue Jobs", "Middleware", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🚀"
-            - Date: "2026-01-21"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
             - Tags: ["laravel", "php", "web-dev", plus 1-2 specific tags]
-            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
 
             **Must include:**
             - Funny opening line
@@ -170,11 +180,17 @@ jobs:
             - Bonus tips section
             - TL;DR or conclusion with links
 
-            After creating, commit with: "feat: Laravel blog - [title]" and push!
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: Laravel blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash,Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
 
   generate-rust-blog:
     runs-on: ubuntu-latest
@@ -212,11 +228,12 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: |
             Generate a fun, engaging blog post about **Rust, Systems Programming, or Performance**.
 
             **CRITICAL: AVOID DUPLICATES**
-            1. First, check all existing posts in `content/posts/` directory
+            1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for Rust/systems posts with similar topics, especially from the last 7 days
             3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
             4. List the recent Rust topics you found and explicitly state your chosen topic is different
@@ -235,12 +252,13 @@ jobs:
             2. Run `npm run fetch-trends` to see current Rust/systems topics
             3. Pick ONE specific topic that hasn't been covered recently (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", "Performance Optimization", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🦀"
-            - Date: "2026-01-21"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
             - Tags: ["rust", "systems-programming", "performance", plus 1-2 specific tags]
-            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
 
             **Must include:**
             - Funny opening line
@@ -249,11 +267,17 @@ jobs:
             - Practical examples
             - TL;DR or conclusion
 
-            After creating, commit with: "feat: Rust blog - [title]" and push!
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: Rust blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash,Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
 
   generate-opensource-blog:
     runs-on: ubuntu-latest
@@ -291,11 +315,12 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
           prompt: |
             Generate a fun, engaging blog post about **Open Source, GitHub, or Developer Tools**.
 
             **CRITICAL: AVOID DUPLICATES**
-            1. First, check all existing posts in `content/posts/` directory
+            1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for open source/GitHub posts with similar topics, especially from the last 7 days
             3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
             4. List the recent open source topics you found and explicitly state your chosen topic is different
@@ -313,12 +338,13 @@ jobs:
             2. Run `npm run fetch-trends` to see trending open source projects
             3. Pick ONE specific topic that hasn't been covered recently (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", "Contributing Guide", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
 
             **Format:**
             - Title: "[Catchy Title with Emoji] 🌍"
-            - Date: "2026-01-21"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
             - Tags: ["open-source", "github", "community", plus 1-2 specific tags]
-            - Filename: `2026-01-21-[slug].md` in `content/posts/`
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
 
             **Must include:**
             - Funny opening line
@@ -327,8 +353,14 @@ jobs:
             - How to get involved
             - TL;DR or conclusion
 
-            After creating, commit with: "feat: Open source blog - [title]" and push!
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: Open source blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
 
           # Allow necessary tools for blog generation
           claude_args: |
-            --allowedTools "Bash,Write,Read,Grep,Edit"
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
