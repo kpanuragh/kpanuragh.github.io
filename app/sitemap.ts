@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { getAllPosts } from '@/lib/posts'
+import { getAllPosts, getAllTags } from '@/lib/posts'
 
 export const dynamic = 'force-static'
 
@@ -17,6 +17,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Get all tags
+  const tags = getAllTags()
+
+  // Create sitemap entries for tag pages
+  const tagEntries: MetadataRoute.Sitemap = tags.map((tag) => ({
+    url: `${baseUrl}/blog/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.5,
+  }))
+
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
     {
@@ -28,10 +39,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      changeFrequency: 'daily',
+      priority: 0.9,
     },
   ]
 
-  return [...staticPages, ...blogEntries]
+  return [...staticPages, ...blogEntries, ...tagEntries]
 }

@@ -1,7 +1,19 @@
+import type { Metadata } from 'next';
 import BootAnimation from '@/components/BootAnimation';
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
 import BlogCard from '@/components/BlogCard';
+import { getWebSiteSchema, getPersonSchema } from '@/lib/schema';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: "website",
+    url: 'https://iamanuragh.in',
+  },
+};
 
 export default function Home() {
   const recentPosts = getAllPosts().slice(0, 3);
@@ -58,6 +70,13 @@ export default function Home() {
           </section>
         )}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([getWebSiteSchema(), getPersonSchema()]),
+        }}
+      />
     </>
   );
 }

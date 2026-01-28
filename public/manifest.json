@@ -1,0 +1,23 @@
+{
+  "name": "0x55aa - Personal Blog",
+  "short_name": "0x55aa",
+  "description": "Laravel Developer, Cybersecurity Enthusiast, Open Source Contributor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e27",
+  "theme_color": "#00ff00",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
