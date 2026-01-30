@@ -14,5 +14,5 @@ export const siteConfig = {
     linkedin: "anuragh-k-p", // Update with your LinkedIn username
   },
   locale: "en_US",
-  ogImage: "/og-default.png", // Fallback OG image
+  ogImage: "/og/og-default.png", // Fallback OG image
 };
