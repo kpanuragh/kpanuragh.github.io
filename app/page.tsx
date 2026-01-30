@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import BootAnimation from '@/components/BootAnimation';
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
 import BlogCard from '@/components/BlogCard';
@@ -20,8 +19,6 @@ export default function Home() {
 
   return (
     <>
-      <BootAnimation />
-
       <div className="max-w-5xl mx-auto px-4 py-8">
         <section className="terminal-card mb-12">
           <h1 className="text-4xl font-bold text-terminal-accent mb-6 text-center">
