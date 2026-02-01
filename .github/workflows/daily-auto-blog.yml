@@ -60,13 +60,12 @@ jobs:
             Generate a fun, engaging blog post about **Cybersecurity** or **Web Security**.
 
             **AUTHOR CONTEXT - Write as Anuragh K P:**
-            - Laravel Developer with deep security expertise
-            - Core member of YAS (Yet Another Security) and InitCrew security communities
-            - Open source contributor who has found real vulnerabilities
-            - Experienced in bug bounty and security research
-            - Interested in Radio Frequency (RF) security using SDR devices
-            - Write from FIRST-PERSON perspective sharing real-world experiences
-            - Include phrases like "In my experience...", "When I was researching...", "At YAS/InitCrew, we often see..."
+            - Technical Lead with 7+ years experience building scalable web applications
+            - Expert in Laravel, AWS, Node.js - architected serverless e-commerce backends
+            - Security enthusiast and active in security communities (passion)
+            - Explores RF/SDR security in spare time (hobby)
+            - Write from FIRST-PERSON perspective sharing practical experiences
+            - Include phrases like "In my experience building production systems...", "As someone passionate about security...", "In security communities, we often discuss..."
 
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
@@ -157,12 +156,13 @@ jobs:
             Generate a fun, engaging blog post about **Laravel or PHP development**.
 
             **AUTHOR CONTEXT - Write as Anuragh K P:**
-            - Professional Laravel Developer who codes and debugs daily
-            - Passionate about turning challenges into opportunities for growth
-            - Open source contributor to PHP/Laravel ecosystem
-            - Security-conscious developer who integrates security into Laravel apps
+            - Technical Lead with 7+ years professional experience in Laravel
+            - Architected and deployed scalable, serverless e-commerce backends at Cubet Techno Labs
+            - Expert in Laravel, AWS, Node.js - built production systems handling real traffic
+            - Security-conscious developer who integrates security best practices
+            - Open source contributor to PHP/Laravel ecosystem (passion)
             - Write from FIRST-PERSON perspective sharing real project experiences
-            - Include phrases like "In my projects...", "I learned this the hard way...", "A pattern I use often..."
+            - Include phrases like "In production systems I've built...", "As a Technical Lead, I've learned...", "A pattern that saved us in a real project..."
 
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
@@ -254,12 +254,12 @@ jobs:
             Generate a fun, engaging blog post about **Rust, Systems Programming, or Performance**.
 
             **AUTHOR CONTEXT - Write as Anuragh K P:**
-            - Systems programming enthusiast exploring Rust
-            - Background in security makes memory safety exciting
-            - Interested in RF/SDR programming where performance matters
-            - Learning Rust journey perspective - relatable to beginners
-            - Write from FIRST-PERSON perspective as someone exploring Rust
-            - Include phrases like "What fascinated me about Rust...", "Coming from PHP/Laravel, I found...", "As a security person, I appreciate..."
+            - Technical Lead with 7+ years in Laravel/Node.js, now exploring Rust
+            - RF/SDR hobbyist where systems programming and performance matter
+            - Security enthusiast - memory safety in Rust is exciting from this perspective
+            - Learning Rust journey - relatable to developers coming from web background
+            - Write from FIRST-PERSON perspective as an experienced dev exploring Rust
+            - Include phrases like "Coming from 7 years of Laravel/Node.js...", "What excited me about Rust...", "For my RF/SDR hobby projects, I needed..."
 
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
@@ -351,12 +351,13 @@ jobs:
             Generate a fun, engaging blog post about **Open Source, GitHub, or Developer Tools**.
 
             **AUTHOR CONTEXT - Write as Anuragh K P:**
-            - Active open source contributor to various projects
-            - Core member of YAS (Yet Another Security) and InitCrew communities
-            - Believes in the power of collaboration to drive innovation
-            - Has contributed to PHP/Laravel and security-related projects
+            - Technical Lead by day, open source contributor by passion
+            - 7+ years professional experience in Laravel, AWS, Node.js
+            - Active in security communities and open source projects
+            - Believes in collaboration to drive innovation
+            - Contributes to PHP/Laravel and security-related projects
             - Write from FIRST-PERSON perspective sharing contribution experiences
-            - Include phrases like "My first PR was...", "In the YAS/InitCrew community...", "Contributing to open source taught me..."
+            - Include phrases like "As a full-time developer who contributes to open source...", "In the security community...", "Balancing work and open source taught me..."
 
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
