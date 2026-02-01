@@ -59,6 +59,15 @@ jobs:
           prompt: |
             Generate a fun, engaging blog post about **Cybersecurity** or **Web Security**.
 
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Laravel Developer with deep security expertise
+            - Core member of YAS (Yet Another Security) and InitCrew security communities
+            - Open source contributor who has found real vulnerabilities
+            - Experienced in bug bounty and security research
+            - Interested in Radio Frequency (RF) security using SDR devices
+            - Write from FIRST-PERSON perspective sharing real-world experiences
+            - Include phrases like "In my experience...", "When I was researching...", "At YAS/InitCrew, we often see..."
+
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for posts with similar topics, especially from the last 7 days
@@ -73,11 +82,12 @@ jobs:
             - Short paragraphs, easy to scan
             - Only minimal, essential code examples
             - Include "Real Talk" or "Pro Tip" sections
+            - Share personal anecdotes from security research or community work
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
             2. Run `npm run fetch-trends` to see current security topics
-            3. Pick ONE specific security topic that hasn't been covered recently (e.g., "API Security", "OWASP Top 10", "Docker Security", "CORS", "SQL Injection", etc.)
+            3. Pick ONE specific security topic that hasn't been covered recently (e.g., "API Security", "OWASP Top 10", "Docker Security", "CORS", "SQL Injection", "RF Security", "Bug Bounty Tips", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
 
@@ -89,7 +99,8 @@ jobs:
 
             **Must include:**
             - Funny opening line
-            - Practical examples
+            - Personal experience or story from security research
+            - Practical examples from real-world scenarios
             - Good vs Bad code comparisons
             - Analogies that make it relatable
             - TL;DR or conclusion with links to LinkedIn/GitHub
@@ -145,6 +156,14 @@ jobs:
           prompt: |
             Generate a fun, engaging blog post about **Laravel or PHP development**.
 
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Professional Laravel Developer who codes and debugs daily
+            - Passionate about turning challenges into opportunities for growth
+            - Open source contributor to PHP/Laravel ecosystem
+            - Security-conscious developer who integrates security into Laravel apps
+            - Write from FIRST-PERSON perspective sharing real project experiences
+            - Include phrases like "In my projects...", "I learned this the hard way...", "A pattern I use often..."
+
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for Laravel/PHP posts with similar topics, especially from the last 7 days
@@ -159,11 +178,12 @@ jobs:
             - Short paragraphs, easy to scan
             - Only minimal, essential code examples
             - Include "Real Talk" or "Pro Tip" sections
+            - Share lessons learned from real Laravel projects
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
             2. Run `npm run fetch-trends` to see current Laravel/PHP topics
-            3. Pick ONE specific Laravel topic that hasn't been covered recently (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", "Queue Jobs", "Middleware", etc.)
+            3. Pick ONE specific Laravel topic that hasn't been covered recently (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", "Queue Jobs", "Middleware", "Security in Laravel", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
 
@@ -175,6 +195,7 @@ jobs:
 
             **Must include:**
             - Funny opening line
+            - Personal experience or lesson learned
             - Practical examples with before/after code
             - Relatable analogies
             - Bonus tips section
@@ -232,6 +253,14 @@ jobs:
           prompt: |
             Generate a fun, engaging blog post about **Rust, Systems Programming, or Performance**.
 
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Systems programming enthusiast exploring Rust
+            - Background in security makes memory safety exciting
+            - Interested in RF/SDR programming where performance matters
+            - Learning Rust journey perspective - relatable to beginners
+            - Write from FIRST-PERSON perspective as someone exploring Rust
+            - Include phrases like "What fascinated me about Rust...", "Coming from PHP/Laravel, I found...", "As a security person, I appreciate..."
+
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for Rust/systems posts with similar topics, especially from the last 7 days
@@ -246,11 +275,12 @@ jobs:
             - Short paragraphs, easy to scan
             - Only minimal, essential code examples
             - Make Rust accessible to non-Rust developers
+            - Share the learning journey perspective
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
             2. Run `npm run fetch-trends` to see current Rust/systems topics
-            3. Pick ONE specific topic that hasn't been covered recently (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", "Performance Optimization", etc.)
+            3. Pick ONE specific topic that hasn't been covered recently (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", "Performance Optimization", "Rust for Security Tools", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
 
@@ -262,8 +292,9 @@ jobs:
 
             **Must include:**
             - Funny opening line
+            - Personal learning experience or discovery
             - Why developers should care
-            - Comparisons with other languages
+            - Comparisons with other languages (especially PHP)
             - Practical examples
             - TL;DR or conclusion
 
@@ -319,6 +350,14 @@ jobs:
           prompt: |
             Generate a fun, engaging blog post about **Open Source, GitHub, or Developer Tools**.
 
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Active open source contributor to various projects
+            - Core member of YAS (Yet Another Security) and InitCrew communities
+            - Believes in the power of collaboration to drive innovation
+            - Has contributed to PHP/Laravel and security-related projects
+            - Write from FIRST-PERSON perspective sharing contribution experiences
+            - Include phrases like "My first PR was...", "In the YAS/InitCrew community...", "Contributing to open source taught me..."
+
             **CRITICAL: AVOID DUPLICATES**
             1. First, use Glob to list all existing posts in `content/posts/` directory
             2. Look for open source/GitHub posts with similar topics, especially from the last 7 days
@@ -332,11 +371,12 @@ jobs:
             - Keep it relatable with humor and analogies
             - Short paragraphs, easy to scan
             - Focus on community and contribution stories
+            - Share real experiences from contributing
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
             2. Run `npm run fetch-trends` to see trending open source projects
-            3. Pick ONE specific topic that hasn't been covered recently (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", "Contributing Guide", etc.)
+            3. Pick ONE specific topic that hasn't been covered recently (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", "Contributing Guide", "Security Tools to Contribute To", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
 
@@ -348,9 +388,10 @@ jobs:
 
             **Must include:**
             - Funny opening line
-            - Personal stories or examples
+            - Personal contribution story or experience
             - Specific projects/tools to check out
             - How to get involved
+            - Lessons learned from community work
             - TL;DR or conclusion
 
             **CRITICAL - Git Operations:**
