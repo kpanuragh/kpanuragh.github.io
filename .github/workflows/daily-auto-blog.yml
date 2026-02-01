@@ -7,12 +7,6 @@ on:
 
   # Allow manual trigger
   workflow_dispatch:
-    inputs:
-      count:
-        description: 'Number of blog posts to generate (1-4)'
-        required: false
-        type: string
-        default: '2'
 
 permissions:
   contents: write
@@ -85,7 +79,7 @@ jobs:
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
-            2. Run `npm run fetch-trends` to see current security topics
+            2. Run `npm run fetch-topic-trends security` to see current security trends
             3. Pick ONE specific security topic that hasn't been covered recently (e.g., "API Security", "OWASP Top 10", "Docker Security", "CORS", "SQL Injection", "RF Security", "Bug Bounty Tips", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
@@ -182,7 +176,7 @@ jobs:
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
-            2. Run `npm run fetch-trends` to see current Laravel/PHP topics
+            2. Run `npm run fetch-topic-trends laravel` to see current Laravel trends
             3. Pick ONE specific Laravel topic that hasn't been covered recently (e.g., "Laravel Tips", "Eloquent Tricks", "API Best Practices", "Testing", "Queue Jobs", "Middleware", "Security in Laravel", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
@@ -216,7 +210,6 @@ jobs:
   generate-rust-blog:
     runs-on: ubuntu-latest
     needs: generate-laravel-blog
-    if: ${{ github.event.inputs.count >= '3' || github.event_name == 'schedule' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -279,7 +272,7 @@ jobs:
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
-            2. Run `npm run fetch-trends` to see current Rust/systems topics
+            2. Run `npm run fetch-topic-trends rust` to see current Rust trends
             3. Pick ONE specific topic that hasn't been covered recently (e.g., "Why Rust", "Memory Safety", "Rust for Web", "Learning Rust", "Performance Optimization", "Rust for Security Tools", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
@@ -313,7 +306,6 @@ jobs:
   generate-opensource-blog:
     runs-on: ubuntu-latest
     needs: generate-rust-blog
-    if: ${{ github.event.inputs.count >= '4' || github.event_name == 'schedule' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -376,7 +368,7 @@ jobs:
 
             **Steps:**
             1. Check existing posts to avoid duplicate topics
-            2. Run `npm run fetch-trends` to see trending open source projects
+            2. Run `npm run fetch-topic-trends opensource` to see trending open source projects
             3. Pick ONE specific topic that hasn't been covered recently (e.g., "Getting Started with Open Source", "Cool GitHub Projects", "Maintainer Stories", "Contributing Guide", "Security Tools to Contribute To", etc.)
             4. Write 800-1000 words in the EXACT style of existing posts
             5. Use today's date (get it via `date +%Y-%m-%d` command)
@@ -404,5 +396,476 @@ jobs:
             Verify the push succeeds before completing!
 
           # Allow necessary tools for blog generation
+          claude_args: |
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
+
+  generate-aws-blog:
+    runs-on: ubuntu-latest
+    needs: generate-opensource-blog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Check for existing AWS blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*aws*.md content/posts/${TODAY}-*cloud*.md content/posts/${TODAY}-*serverless*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "AWS/Cloud blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate AWS/Cloud Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            Generate a fun, engaging blog post about **AWS, Cloud Computing, or Serverless**.
+
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Technical Lead with 7+ years experience, heavy AWS user
+            - Architected and deployed scalable, serverless e-commerce backends
+            - Expert in AWS Lambda, S3, EC2, RDS, API Gateway, CloudFront
+            - Built production systems handling real traffic on AWS
+            - Write from FIRST-PERSON perspective sharing real AWS experiences
+            - Include phrases like "In production, I've deployed...", "A serverless pattern that saved us...", "When architecting on AWS, I learned..."
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, use Glob to list all existing posts in `content/posts/` directory
+            2. Look for AWS/cloud posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent AWS topics you found and explicitly state your chosen topic is different
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (☁️ 🚀 ⚡ 💰 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Only minimal, essential code/config examples
+            - Include cost-saving tips and gotchas
+
+            **Steps:**
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-topic-trends aws` to see current AWS/cloud trends
+            3. Pick ONE specific topic (e.g., "Lambda Best Practices", "S3 Security", "Cost Optimization", "Serverless Patterns", "API Gateway Tips", "CloudFront CDN", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] ☁️"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
+            - Tags: ["aws", "cloud", "serverless", plus 1-2 specific tags]
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
+
+            **Must include:**
+            - Funny opening line
+            - Real production experience or lesson learned
+            - Practical examples with code/config snippets
+            - Cost implications or optimization tips
+            - Common pitfalls to avoid
+            - TL;DR or conclusion
+
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: AWS blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
+
+          claude_args: |
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
+
+  generate-nodejs-blog:
+    runs-on: ubuntu-latest
+    needs: generate-aws-blog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Check for existing Node.js blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*node*.md content/posts/${TODAY}-*javascript*.md content/posts/${TODAY}-*express*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Node.js blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Node.js Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            Generate a fun, engaging blog post about **Node.js, JavaScript Backend, or Express.js**.
+
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Former Node.js Developer at Acodez IT Solutions (1.5 years)
+            - Technical Lead with 7+ years experience including Node.js
+            - Built backend APIs and services with Node.js in production
+            - Also expert in Laravel - can compare Node.js vs PHP patterns
+            - Write from FIRST-PERSON perspective sharing real Node.js experiences
+            - Include phrases like "When I was building Node.js APIs...", "Coming from Laravel, Node.js taught me...", "A pattern I use in Express..."
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, use Glob to list all existing posts in `content/posts/` directory
+            2. Look for Node.js/JavaScript posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent Node.js topics you found and explicitly state your chosen topic is different
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🟢 🚀 ⚡ 🔥 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Only minimal, essential code examples
+            - Compare with other languages when relevant
+
+            **Steps:**
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-topic-trends nodejs` to see current Node.js trends
+            3. Pick ONE specific topic (e.g., "Express Middleware", "Async/Await Patterns", "Error Handling", "API Design", "Performance Tips", "Security in Node", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🟢"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
+            - Tags: ["nodejs", "javascript", "backend", plus 1-2 specific tags]
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
+
+            **Must include:**
+            - Funny opening line
+            - Real experience from Node.js projects
+            - Practical code examples
+            - Comparisons with Laravel/PHP when relevant
+            - Common mistakes to avoid
+            - TL;DR or conclusion
+
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: Node.js blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
+
+          claude_args: |
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
+
+  generate-architecture-blog:
+    runs-on: ubuntu-latest
+    needs: generate-nodejs-blog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Check for existing Architecture blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*architecture*.md content/posts/${TODAY}-*scalab*.md content/posts/${TODAY}-*microservice*.md content/posts/${TODAY}-*design*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Architecture blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Architecture/Scalability Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            Generate a fun, engaging blog post about **Software Architecture, Scalability, or System Design**.
+
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Technical Lead with 7+ years architecting production systems
+            - Designed and deployed scalable, serverless e-commerce backends
+            - Experience with high-traffic systems, microservices, and monoliths
+            - Expert in Laravel, AWS, Node.js - seen various architecture patterns
+            - Write from FIRST-PERSON perspective sharing architecture decisions
+            - Include phrases like "When designing our e-commerce backend...", "As a Technical Lead, I've learned...", "A scalability lesson that cost us..."
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, use Glob to list all existing posts in `content/posts/` directory
+            2. Look for architecture/scalability posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent architecture topics you found and explicitly state your chosen topic is different
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🏗️ 📐 🚀 ⚡ etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Use diagrams descriptions or simple ASCII diagrams
+            - Include real-world trade-offs
+
+            **Steps:**
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-topic-trends architecture` to see current architecture trends
+            3. Pick ONE specific topic (e.g., "Microservices vs Monolith", "Database Scaling", "Caching Strategies", "API Design Patterns", "Event-Driven Architecture", "Load Balancing", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🏗️"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
+            - Tags: ["architecture", "scalability", "system-design", plus 1-2 specific tags]
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
+
+            **Must include:**
+            - Funny opening line
+            - Real architecture decision or lesson learned
+            - Trade-offs and when to use what
+            - Practical examples from production
+            - Common mistakes to avoid
+            - TL;DR or conclusion
+
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: Architecture blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
+
+          claude_args: |
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
+
+  generate-devops-blog:
+    runs-on: ubuntu-latest
+    needs: generate-architecture-blog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Check for existing DevOps blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*devops*.md content/posts/${TODAY}-*docker*.md content/posts/${TODAY}-*ci-cd*.md content/posts/${TODAY}-*deploy*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "DevOps blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate DevOps Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            Generate a fun, engaging blog post about **DevOps, CI/CD, Docker, or Deployment**.
+
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - Technical Lead with 7+ years deploying production applications
+            - Experience with AWS deployments, serverless, and containerization
+            - Set up CI/CD pipelines for Laravel and Node.js projects
+            - Worked with Docker, GitHub Actions, and various deployment strategies
+            - Write from FIRST-PERSON perspective sharing DevOps experiences
+            - Include phrases like "After countless deployments...", "A CI/CD pipeline that saved our team...", "Docker taught me the hard way..."
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, use Glob to list all existing posts in `content/posts/` directory
+            2. Look for DevOps/deployment posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent DevOps topics you found and explicitly state your chosen topic is different
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (🐳 🚀 ⚙️ 🔧 etc.)
+            - Keep it relatable with humor and analogies
+            - Short paragraphs, easy to scan
+            - Include practical config snippets
+            - Share deployment horror stories and lessons
+
+            **Steps:**
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-topic-trends devops` to see current DevOps trends
+            3. Pick ONE specific topic (e.g., "Docker Best Practices", "GitHub Actions Tips", "Zero Downtime Deployments", "Environment Management", "Monitoring & Logging", "Infrastructure as Code", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 🐳"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
+            - Tags: ["devops", "deployment", "ci-cd", plus 1-2 specific tags]
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
+
+            **Must include:**
+            - Funny opening line
+            - Real deployment story or lesson learned
+            - Practical config/script examples
+            - Before/after comparisons
+            - Common pitfalls to avoid
+            - TL;DR or conclusion
+
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: DevOps blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
+
+          claude_args: |
+            --allowedTools "Bash,Write,Read,Grep,Edit,Glob"
+
+  generate-rf-sdr-blog:
+    runs-on: ubuntu-latest
+    needs: generate-devops-blog
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Check for existing RF/SDR blog today
+        id: check_existing
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if ls content/posts/${TODAY}-*rf*.md content/posts/${TODAY}-*sdr*.md content/posts/${TODAY}-*radio*.md content/posts/${TODAY}-*signal*.md 2>/dev/null | grep -q .; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "RF/SDR blog already exists for today, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate RF/SDR Blog Post
+        if: steps.check_existing.outputs.exists != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            Generate a fun, engaging blog post about **RF (Radio Frequency), SDR (Software Defined Radio), or Wireless Technology**.
+
+            **AUTHOR CONTEXT - Write as Anuragh K P:**
+            - RF/SDR enthusiast and hobbyist exploring the radio spectrum
+            - Software developer bringing programming skills to RF experimentation
+            - Fascinated by wireless security and signal analysis
+            - Uses SDR devices for learning and experimentation
+            - Write from FIRST-PERSON perspective as a curious hobbyist
+            - Include phrases like "In my RF experiments...", "What fascinated me about SDR...", "As a developer exploring radio frequencies..."
+
+            **CRITICAL: AVOID DUPLICATES**
+            1. First, use Glob to list all existing posts in `content/posts/` directory
+            2. Look for RF/SDR/radio posts with similar topics, especially from the last 7 days
+            3. If you find similar topics, choose a COMPLETELY DIFFERENT topic
+            4. List the recent RF topics you found and explicitly state your chosen topic is different
+
+            **IMPORTANT STYLE REQUIREMENTS:**
+            - Read existing posts in `content/posts/` as style references
+            - Match the exact conversational, funny tone
+            - Use emojis in headings (📡 🔊 📻 ⚡ etc.)
+            - Keep it relatable - explain concepts for beginners
+            - Short paragraphs, easy to scan
+            - Make RF accessible to software developers
+            - Include safety and legal considerations
+
+            **Steps:**
+            1. Check existing posts to avoid duplicate topics
+            2. Run `npm run fetch-topic-trends rf-sdr` to see current RF/SDR trends
+            3. Pick ONE specific topic (e.g., "Getting Started with SDR", "Understanding Radio Frequencies", "RTL-SDR Projects", "Wireless Security Basics", "Signal Analysis", "Ham Radio for Developers", etc.)
+            4. Write 800-1000 words in the EXACT style of existing posts
+            5. Use today's date (get it via `date +%Y-%m-%d` command)
+
+            **Format:**
+            - Title: "[Catchy Title with Emoji] 📡"
+            - Date: Use TODAY'S date (run `date +%Y-%m-%d`)
+            - Tags: ["rf", "sdr", "wireless", "hobby", plus 1-2 specific tags]
+            - Filename: `[TODAY]-[slug].md` in `content/posts/` where [TODAY] is today's date
+
+            **Must include:**
+            - Funny opening line
+            - Personal hobby experience or discovery
+            - Beginner-friendly explanations
+            - Practical project ideas
+            - Legal/safety considerations
+            - Resources for getting started
+            - TL;DR or conclusion
+
+            **CRITICAL - Git Operations:**
+            After creating the blog post, you MUST:
+            1. Run `git add content/posts/[your-new-file].md`
+            2. Run `git commit -m "feat: RF/SDR blog - [title]"`
+            3. Run `git push origin main`
+
+            Verify the push succeeds before completing!
+
           claude_args: |
             --allowedTools "Bash,Write,Read,Grep,Edit,Glob"

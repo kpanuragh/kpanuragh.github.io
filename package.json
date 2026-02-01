@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "fetch-trends": "node scripts/fetch-trends.js",
+    "fetch-topic-trends": "node scripts/fetch-topic-trends.js",
     "generate-blog": "node scripts/generate-blog.js",
     "auto-blog": "node scripts/generate-blog.js && npm run build",
     "generate-og": "tsx scripts/generate-og-images.ts",
