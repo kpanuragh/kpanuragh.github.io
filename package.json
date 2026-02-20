@@ -10,7 +10,12 @@
     "fetch-trends": "node scripts/fetch-trends.js",
     "fetch-topic-trends": "node scripts/fetch-topic-trends.js",
     "generate-blog": "node scripts/generate-blog.js",
+    "batch-blog": "node scripts/batch-generate-blog.js",
+    "batch-blog:quick": "node scripts/batch-generate-blog.js 2",
+    "batch-blog:daily": "node scripts/batch-generate-blog.js 3",
+    "batch-blog:weekly": "node scripts/batch-generate-blog.js 7",
     "auto-blog": "node scripts/generate-blog.js && npm run build",
+    "auto-blog:batch": "node scripts/batch-generate-blog.js && npm run build",
     "generate-og": "tsx scripts/generate-og-images.ts",
     "generate-icons": "tsx scripts/generate-icons.ts",
     "prebuild": "npm run generate-og"

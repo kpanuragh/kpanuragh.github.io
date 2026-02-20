@@ -1,36 +1,132 @@
 {
-  "topics": [
-    "Latest Web Development Trends",
-    "This Week in Tech",
-    "Artificial Intelligence (AI) and Large Language Models",
-    "Machine Learning (ML) in Production",
-    "DevOps Best Practices and Tools",
-    "Linux System Administration Tips",
-    "Node.js Development and Performance",
-    "React and Modern Frontend Frameworks",
-    "TypeScript Best Practices",
-    "Laravel and PHP Updates",
-    "Cybersecurity News and Tips",
-    "Open Source Projects to Watch",
-    "JavaScript Framework Wars",
-    "Backend Development Best Practices",
-    "API Design Patterns",
-    "Database Performance Tips",
-    "Docker and Kubernetes",
-    "CI/CD Pipelines and Automation",
-    "Cloud Computing (AWS, Azure, GCP)",
-    "Web Performance Optimization",
-    "GraphQL vs REST APIs",
-    "Microservices Architecture",
-    "Serverless Computing",
-    "Rust for Web Development",
-    "Python for Data Science and ML",
-    "Testing Strategies and Best Practices"
-  ],
+  "topics": {
+    "backend": [
+      "Node.js Event Loop and Async Patterns",
+      "Express.js Middleware Best Practices",
+      "API Gateway Pattern for Microservices",
+      "Lambda Cold Starts and Performance",
+      "Database Caching Strategies",
+      "Connection Pooling in Production",
+      "Error Handling in Production APIs",
+      "API Versioning Without Breaking Users",
+      "GraphQL vs REST: Making the Right Choice",
+      "Building CLI Tools Done Right",
+      "Performance Profiling and Optimization"
+    ],
+    "security": [
+      "OWASP Top 10 for Developers",
+      "XXE Injection Vulnerabilities",
+      "IDOR: Broken Access Control",
+      "XSS Prevention with CSP",
+      "SQL Injection: Still a Problem",
+      "Authentication Best Practices",
+      "OAuth2 Security Pitfalls",
+      "Secrets Management Done Right",
+      "Security Headers Explained",
+      "Bug Bounty Hunting 101",
+      "Cryptography Fundamentals",
+      "Clickjacking Attacks",
+      "SSTI: Template Injection",
+      "Prototype Pollution in JavaScript",
+      "Race Conditions: Timing Attacks",
+      "Deserialization Attacks"
+    ],
+    "cloud": [
+      "AWS IAM Mistakes That Cost Money",
+      "S3 Security Misconfigurations",
+      "Lambda Concurrency and Throttling",
+      "API Gateway Serverless Gotchas",
+      "EventBridge vs SNS/SQS",
+      "DynamoDB: Not Just NoSQL",
+      "EC2 Auto Scaling Best Practices",
+      "CloudFront CDN Cache Invalidation",
+      "CloudWatch Logs Without Noise",
+      "Step Functions: Orchestrating Lambda",
+      "RDS vs DynamoDB: Database Decisions",
+      "Terraform vs CloudFormation",
+      "CloudFormation Best Practices"
+    ],
+    "devops": [
+      "Docker Multi-Stage Builds",
+      "Kubernetes Health Checks",
+      "Kubernetes for Confused Developers",
+      "CI/CD Pipelines: GitHub Actions Security",
+      "GitOps: Git as Source of Truth",
+      "Container Registries and Security",
+      "Docker Compose for Local Development",
+      "Docker Networking Explained",
+      "Helm Charts: Stop Copy-Pasting YAML",
+      "Zero-Downtime Deployments",
+      "Infrastructure as Code Patterns"
+    ],
+    "architecture": [
+      "Microservices vs Monolith: When to Split",
+      "Event-Driven Architecture",
+      "CQRS: Separate Reads and Writes",
+      "Caching Strategies for Scale",
+      "Database Sharding",
+      "Horizontal vs Vertical Scaling",
+      "Circuit Breakers: Resilience Patterns",
+      "Saga Pattern: Distributed Transactions",
+      "Strangler Fig Pattern: Safe Migration",
+      "System Design Fundamentals"
+    ],
+    "frontend": [
+      "React Performance Optimization",
+      "TypeScript Best Practices",
+      "CSS-in-JS Solutions",
+      "Form Validation Patterns",
+      "State Management Patterns",
+      "Testing React Components",
+      "Accessibility for Web Apps",
+      "Web Performance Optimization",
+      "WebSockets: Real-Time Communication"
+    ],
+    "database": [
+      "Database Replication for HA",
+      "Query Optimization Tips",
+      "N+1 Query Problems",
+      "Index Design Patterns",
+      "Transaction Isolation Levels",
+      "Backup and Recovery Strategies",
+      "Database Monitoring",
+      "Connection Pooling"
+    ],
+    "languages": [
+      "Rust Memory Safety",
+      "Rust Ownership and Borrowing",
+      "Rust Async with Tokio",
+      "Rust Lifetimes Explained",
+      "Rust Enums: No Nulls",
+      "Rust Closures: Fn, FnMut, FnOnce",
+      "Rust String vs str",
+      "Rust Iterators",
+      "Rust FFI: Calling C Libraries",
+      "Rust Performance Benchmarking",
+      "Laravel Best Practices",
+      "Laravel Eloquent ORM",
+      "Laravel Livewire",
+      "PHP Security"
+    ],
+    "opensourcesdr": [
+      "RTL-SDR: $25 Radio Scanner",
+      "GNU Radio: Visual Programming",
+      "FM Radio Hacking",
+      "Bluetooth LE Sniffing",
+      "WiFi Packet Sniffing",
+      "Signal Analysis: Decoding Signals",
+      "Digital Modes: Data in Radio",
+      "Antenna Theory for Developers",
+      "Spectrum Analyzers",
+      "ADSB: Track Planes",
+      "NOAA Weather Satellites",
+      "Ham Radio for Developers"
+    ]
+  },
   "sources": {
     "github": {
       "enabled": true,
-      "categories": ["web", "php", "security", "javascript"]
+      "categories": ["web", "php", "security", "javascript", "rust", "devops"]
     },
     "hackerNews": {
       "enabled": true,
@@ -38,21 +134,23 @@
     },
     "devTo": {
       "enabled": true,
-      "tags": ["webdev", "javascript", "php", "security"]
+      "tags": ["webdev", "javascript", "php", "security", "rust", "devops"]
     }
   },
   "generation": {
-    "schedule": "weekly",
-    "dayOfWeek": "Monday",
+    "schedule": "daily",
     "time": "09:00",
+    "postsPerDay": 2,
     "autoPublish": true,
-    "requireReview": false
+    "requireReview": false,
+    "batchMode": true
   },
   "style": {
     "tone": "conversational",
     "useEmojis": true,
-    "targetLength": 1000,
+    "targetLength": "800-1200",
     "includeCodeExamples": true,
-    "maxCodeExamples": 3
+    "maxCodeExamples": 3,
+    "authorContext": "Senior developer with expertise in security, DevOps, and full-stack development"
   }
 }

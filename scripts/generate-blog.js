@@ -72,7 +72,9 @@ async function callClaudeAPI(prompt) {
 async function generateBlogPost(trends, topic) {
   console.log(`\n🤖 Generating blog post about: ${topic}...\n`);
 
-  const prompt = `You are a tech blogger writing for a personal blog. Your writing style is conversational, witty, and highly engaging - like chatting with a knowledgeable friend over coffee. Generate a blog post based on these trending topics:
+  const authorContext = config.style.authorContext || 'Senior developer with expertise in full-stack development';
+
+  const prompt = `You are a tech blogger writing for a personal blog. Your background: ${authorContext}. Your writing style is conversational, witty, and highly engaging - like chatting with a knowledgeable friend over coffee. Generate a blog post based on these trending topics:
 
 TRENDING DATA:
 ${JSON.stringify(trends, null, 2)}
