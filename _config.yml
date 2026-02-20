@@ -1,0 +1,42 @@
+# Jekyll configuration
+title: Anuragh K P
+description: Tech blog covering security, DevOps, cloud, and software architecture
+author: Anuragh K P
+
+# Build settings
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+
+# Markdown processing
+markdown: kramdown
+kramdown:
+  hard_wrap: true
+  parse_block_html: true
+
+# Exclude Liquid processing in markdown
+# This allows code blocks with template syntax ({{ }}, {% %}) without Jekyll errors
+liquid:
+  error_mode: lax
+
+# Permalink structure
+permalink: /posts/:title
+
+# Include/Exclude
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - scripts
+  - BLOG_GENERATION.md
+  - .github
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title
