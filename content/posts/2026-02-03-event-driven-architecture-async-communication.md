@@ -2,7 +2,7 @@
 title: "Event-Driven Architecture: Stop Waiting for Things to Happen 🎭⚡"
 date: "2026-02-03"
 excerpt: "Your monolith is blocking like it's waiting for a bus that never comes. I moved our e-commerce backend to event-driven architecture and cut response times by 75% - here's how events changed everything!"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"event-driven\\\"", "\\\"microservices\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"event-driven\"", "\"microservices\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "IDOR: The \\\"Just Change the Number\\\" Hack That's Ruining Apps 🔢💀"
 date: "2026-02-20"
 excerpt: "Changing ?invoice_id=1001 to ?invoice_id=1002 and suddenly seeing someone else's bank details? That's IDOR — the embarrassingly simple vulnerability that's OWASP's #1 security risk and still breaks production apps every single day."
-tags: ["\\\"security\\\"", "\\\"owasp\\\"", "\\\"api-security\\\"", "\\\"broken-access-control\\\""]
+tags: ["\"security\"", "\"owasp\"", "\"api-security\"", "\"broken-access-control\""]
 featured: "true"
 ---
 

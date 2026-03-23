@@ -2,7 +2,7 @@
 title: "🧠 Node.js Clustering: Stop Wasting 7 CPU Cores"
 date: "2026-03-05"
 excerpt: "Node.js is single-threaded — but your server has 8 cores. Learn how to use the cluster module to run multiple Node.js processes and actually use all that hardware you're paying for."
-tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"express\\\"", "\\\"clustering\\\""]
+tags: ["\"nodejs\"", "\"backend\"", "\"performance\"", "\"express\"", "\"clustering\""]
 featured: "true"
 ---
 

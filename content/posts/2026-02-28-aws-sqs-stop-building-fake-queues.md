@@ -2,7 +2,7 @@
 title: "AWS SQS: Stop Building Fake Queues and Use the Real Thing 📬⚡"
 date: "2026-02-28"
 excerpt: "I once built a 'message queue' using a DynamoDB table, a cron job, and a lot of prayers. It worked until it didn't. Then I discovered SQS and felt both relieved and deeply embarrassed. Here's everything you need to know to stop reinventing the queue."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sqs\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"sqs\"", "\"cloud\""]
 featured: "true"
 ---
 

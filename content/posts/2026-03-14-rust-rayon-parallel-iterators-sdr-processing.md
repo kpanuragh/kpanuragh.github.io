@@ -2,7 +2,7 @@
 title: "Rust Rayon: I Added One Letter to My Iterator and Got 8x Faster 🦀⚡"
 date: "2026-03-14"
 excerpt: "I was processing a 10-second buffer of raw IQ samples from my RTL-SDR in Rust. It worked fine. Then I changed `.iter()` to `.par_iter()` and suddenly all eight CPU cores lit up like a Christmas tree. That's Rayon — the library that makes parallelism embarrassingly easy."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"parallel\\\"", "\\\"rayon\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"parallel\"", "\"rayon\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Rust FFI: Calling C Libraries Without Losing Your Mind 🦀🔗"
 date: "2026-02-13"
 excerpt: "Coming from 7 years of Laravel/Node.js, I thought all libraries were just 'npm install' away. Then I started RF/SDR work and needed to call C libraries from Rust. FFI (Foreign Function Interface) blew my mind - you get C's speed with Rust's safety!"
-tags: ["\\\"rust\\\"", "\\\"ffi\\\"", "\\\"systems-programming\\\"", "\\\"c-interop\\\""]
+tags: ["\"rust\"", "\"ffi\"", "\"systems-programming\"", "\"c-interop\""]
 featured: "true"
 ---
 

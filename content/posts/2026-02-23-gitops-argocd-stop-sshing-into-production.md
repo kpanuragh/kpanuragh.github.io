@@ -2,7 +2,7 @@
 title: "GitOps with ArgoCD: Stop SSH-ing Into Production Like It's 2012 🚀"
 date: "2026-02-23"
 excerpt: "After years of SSHing into production servers to 'quickly fix' things and creating configuration drift nightmares, I discovered GitOps. ArgoCD made our cluster self-healing. Here's everything I wish I knew before losing two Fridays to manual kubectl apply sessions."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"kubernetes\\\"", "\\\"gitops\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"kubernetes\"", "\"gitops\""]
 featured: "true"
 ---
 

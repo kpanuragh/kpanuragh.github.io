@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Getting Evicted at 3am 😴💀"
 date: "2026-03-22"
 excerpt: "Your pod keeps getting OOMKilled and you have no idea why? After being paged at 3am three times in one week, I finally learned how Kubernetes resource requests and limits actually work — and how to set them without guessing."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"docker\"", "\"deployment\""]
 featured: "true"
 ---
 

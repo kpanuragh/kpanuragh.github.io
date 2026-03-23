@@ -2,7 +2,7 @@
 title: "Database Sharding: When One Database Just Isn't Enough Anymore 🗄️⚡"
 date: "2026-02-05"
 excerpt: "Your database is drowning in 50 million rows and queries are taking 8 seconds. After architecting e-commerce systems handling millions of users, here's how I learned that sometimes you need to split your data across multiple databases - and why it's scarier than it sounds!"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"database\\\"", "\\\"system-design\\\"", "\\\"performance\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"database\"", "\"system-design\"", "\"performance\""]
 featured: "true"
 ---
 

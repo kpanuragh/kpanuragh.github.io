@@ -2,7 +2,7 @@
 title: "SSRF: When Your Server Attacks Itself 🤦‍♂️"
 date: "2026-01-31"
 excerpt: "Ever accidentally turned your server into a weapon against yourself? That's SSRF! Let's talk about this sneaky vulnerability that makes your server do a hacker's dirty work."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"owasp\\\"", "\\\"ssrf\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"owasp\"", "\"ssrf\""]
 featured: "true"
 ---
 

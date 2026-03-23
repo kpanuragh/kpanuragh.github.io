@@ -2,7 +2,7 @@
 title: "CSRF: The Attack That Makes Your Browser Betray You 🕵️"
 date: "2026-03-10"
 excerpt: "You're logged into your bank. You visit a sketchy site. Your browser quietly transfers $10,000 without you knowing. That's CSRF — and your app might be wide open to it right now."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"csrf\\\"", "\\\"owasp\\\"", "\\\"security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"csrf\"", "\"owasp\"", "\"security\""]
 featured: "true"
 ---
 

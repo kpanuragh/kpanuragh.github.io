@@ -2,7 +2,7 @@
 title: "Kubernetes HPA: Stop Waking Up at 3 AM to Scale Pods Manually 📈🤖"
 date: "2026-02-27"
 excerpt: "Your app gets a traffic spike, your pods fall over, and you're frantically SSH-ing into servers at 3 AM. After painful on-call incidents, I learned that Kubernetes HPA can auto-scale your pods in under 30 seconds - here's how to set it up properly!"
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"scaling\\\"", "\\\"automation\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"scaling\"", "\"automation\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Rust's Borrow Checker Is Your New Best Friend 🦀❤️"
 date: "2026-01-21"
 excerpt: "Think the borrow checker is your enemy? Think again! Here's why Rust's most feared feature is actually saving you from 3am debugging sessions."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"memory-safety\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"memory-safety\""]
 featured: "true"
 ---
 

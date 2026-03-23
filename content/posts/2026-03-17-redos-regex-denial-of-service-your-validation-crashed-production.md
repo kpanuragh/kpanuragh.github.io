@@ -2,7 +2,7 @@
 title: "ReDoS: Your Innocent Email Validator Just Took Down Production 💥"
 date: "2026-03-17"
 excerpt: "Regular expressions are supposed to validate input, not crash your servers. And yet here we are. Let's talk about ReDoS — the vulnerability hiding in plain sight inside your sanitization code."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"nodejs\\\"", "\\\"regex\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"nodejs\"", "\"regex\""]
 featured: "false"
 ---
 

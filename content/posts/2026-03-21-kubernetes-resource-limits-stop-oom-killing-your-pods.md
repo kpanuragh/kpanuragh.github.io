@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Letting Your Pods Eat All the RAM 🚀💀"
 date: "2026-03-21"
 excerpt: "Your pod keeps getting OOMKilled at 3am and you have no idea why? After getting paged one too many times, I learned that setting proper CPU and memory limits is the difference between a stable cluster and a production dumpster fire."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"infrastructure\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"docker\"", "\"infrastructure\""]
 featured: "true"
 ---
 

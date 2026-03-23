@@ -2,7 +2,7 @@
 title: "PHP 8.x Features You're Ignoring (and Why Your Code Suffers) 😤"
 date: "2026-03-02"
 excerpt: "You're running PHP 8.3 but writing code like it's 2012. Here's how modern PHP features can make your Laravel app cleaner, faster, and a lot less embarrassing."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"php8\\\"", "\\\"modern-php\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"php8\"", "\"modern-php\""]
 ---
 
 # PHP 8.x Features You're Ignoring (and Why Your Code Suffers) 😤

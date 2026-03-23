@@ -2,7 +2,7 @@
 title: "Makefile for DevOps: Stop Typing the Same Commands 47 Times a Day ⚙️"
 date: "2026-03-06"
 excerpt: "After countless deployments, I kept forgetting whether it was `docker compose up --build -d` or `docker-compose up -d --build`. A Makefile fixed my life. Let me fix yours too."
-tags: ["\\\"devops\\\"", "\\\"automation\\\"", "\\\"ci-cd\\\"", "\\\"productivity\\\""]
+tags: ["\"devops\"", "\"automation\"", "\"ci-cd\"", "\"productivity\""]
 featured: "true"
 ---
 

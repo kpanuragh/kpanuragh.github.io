@@ -2,7 +2,7 @@
 title: "AWS Step Functions: Stop Wiring Lambdas Together with Duct Tape 🍝☁️"
 date: "2026-03-06"
 excerpt: "Your Lambda chaining logic looks like my college codebase — a mess of callbacks, error handlers, and prayers. Step Functions exists specifically so you never have to write that again."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"step-functions\\\"", "\\\"lambda\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"step-functions\"", "\"lambda\""]
 featured: "true"
 ---
 

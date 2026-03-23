@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Letting Your Pods Starve (or Eat Everything) 🐳⚖️"
 date: "2026-03-03"
 excerpt: "Forgot to set resource limits and your whole cluster crashed because one rogue pod ate all the CPU? Been there. Here's the definitive guide to Kubernetes requests and limits so your cluster stays healthy and your pager stays silent."
-tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\"", "\\\"cloud\\\""]
+tags: ["\"kubernetes\"", "\"devops\"", "\"docker\"", "\"deployment\"", "\"cloud\""]
 featured: "true"
 ---
 

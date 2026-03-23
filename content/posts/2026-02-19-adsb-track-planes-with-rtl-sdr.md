@@ -2,7 +2,7 @@
 title: "ADS-B: I'm Tracking Real Planes with a $20 USB Stick! ✈️📡"
 date: "2026-02-19"
 excerpt: "Forget FlightRadar24 subscriptions — I set up my own live aircraft tracker using a $20 RTL-SDR dongle and a Raspberry Pi. Now I watch every flight over my city on a real-time map I built myself. It's the most satisfying SDR project I've ever done, and it takes ONE afternoon!"
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"adsb\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"adsb\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Crashing Your Nodes at 3 AM 💥🐳"
 date: "2026-02-21"
 excerpt: "Your pods keep getting OOMKilled and nodes go NotReady at the worst possible moment? After debugging too many production meltdowns, I learned that resource requests and limits aren't optional - they're survival skills."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"docker\"", "\"deployment\""]
 featured: "true"
 ---
 

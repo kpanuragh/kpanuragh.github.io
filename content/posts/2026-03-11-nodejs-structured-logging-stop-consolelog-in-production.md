@@ -2,7 +2,7 @@
 title: "🪵 Node.js Structured Logging: Stop console.log-ging Your Way to Production Chaos"
 date: "2026-03-11"
 excerpt: "console.log is a lie you tell yourself in development. Here's how structured logging with Pino transforms your Node.js app from a black box into a system you can actually debug at 3am."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"logging\\\"", "\\\"pino\\\"", "\\\"observability\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"logging\"", "\"pino\"", "\"observability\""]
 featured: "true"
 ---
 

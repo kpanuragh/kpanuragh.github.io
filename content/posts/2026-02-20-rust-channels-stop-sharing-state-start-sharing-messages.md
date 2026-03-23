@@ -2,7 +2,7 @@
 title: "Rust Channels: Stop Sharing State, Start Sharing Messages 🦀📨"
 date: "2026-02-20"
 excerpt: "Coming from 7 years of Laravel/Node.js where 'threading' is either a myth or a callback nightmare, Rust channels rewired how I think about concurrency. Spoiler: your threads shouldn't share a brain."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"concurrency\\\"", "\\\"channels\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"concurrency\"", "\"channels\""]
 featured: "true"
 ---
 

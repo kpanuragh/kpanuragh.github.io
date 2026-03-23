@@ -2,7 +2,7 @@
 title: "Your CONTRIBUTING.md Is Why Nobody Contributes to Your Project 📋😬"
 date: "2026-03-21"
 excerpt: "You launched your open source project, slapped a README on it, and wondered why contributors never showed up. Spoiler: it's the CONTRIBUTING.md you never wrote — or the one so terrifying it reads like a legal contract from 1987."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"developer-tools\""]
 featured: "true"
 ---
 

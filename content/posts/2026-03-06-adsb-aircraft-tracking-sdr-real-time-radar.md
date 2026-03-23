@@ -2,7 +2,7 @@
 title: "I Built a Real-Time Radar with a $25 USB Stick ✈️"
 date: "2026-03-06"
 excerpt: "Every commercial airplane overhead is screaming its GPS position, altitude, speed, and callsign at 1090 MHz — unencrypted — for anyone to receive. I tuned in with my RTL-SDR and suddenly had my own live air traffic radar. FlightRadar24 doesn't know what I know."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"adsb\\\"", "\\\"aviation\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"adsb\"", "\"aviation\""]
 featured: "true"
 ---
 

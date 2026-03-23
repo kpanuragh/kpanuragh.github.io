@@ -2,7 +2,7 @@
 title: "Prisma ORM: Stop Writing Raw SQL and Finally Love Your Node.js Database Layer 🗄️"
 date: "2026-03-14"
 excerpt: "Been writing raw SQL queries in your Node.js app? Or drowning in Sequelize boilerplate? Prisma is the ORM that made me feel at home coming from Laravel Eloquent — type-safe, auto-completed, and actually fun to use."
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"prisma\\\"", "\\\"database\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"backend\"", "\"prisma\"", "\"database\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Session Hijacking: The Silent Account Takeover Nobody Talks About 🍪"
 date: "2026-01-21"
 excerpt: "Think sessions are boring? Wait until someone steals yours and takes over your account. Here's how session hijacking works, why your cookies are treasure, and how to protect them like Fort Knox."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"session-management\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"session-management\""]
 featured: "true"
 ---
 

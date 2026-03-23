@@ -2,7 +2,7 @@
 title: "Why Your Pull Request Got Ignored (And How to Get It Merged) 🔀✨"
 date: "2026-02-11"
 excerpt: "Opened a PR to your favorite open source project and... crickets? No response? No merge? No comment? Learn why maintainers ghost PRs and how to write contributions that get MERGED instead of sitting in limbo forever."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"contributing\\\"", "\\\"pull-requests\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"contributing\"", "\"pull-requests\""]
 featured: "true"
 ---
 

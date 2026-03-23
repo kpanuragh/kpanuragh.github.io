@@ -2,7 +2,7 @@
 title: "Server-Side Template Injection: When Your Template Engine Becomes a Weapon 💥🧨"
 date: "2026-02-22"
 excerpt: "You built a slick email system that lets users customize their messages. Cute. Now a hacker is using your Jinja2 template to read your /etc/passwd file and spawn a shell. Learn how SSTI turns friendly curly braces into a remote code execution nightmare — and how to stop it."
-tags: ["\\\"security\\\"", "\\\"web\\\"", "\\\"python\\\"", "\\\"nodejs\\\"", "\\\"ssti\\\""]
+tags: ["\"security\"", "\"web\"", "\"python\"", "\"nodejs\"", "\"ssti\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "AWS SNS: Stop Building Your Own Notification System (I Say This Having Built One) 📢⚡"
 date: "2026-03-05"
 excerpt: "I once built a notification system using cron jobs, a custom email queue, separate SMS API calls, and a Slack webhook I 'temporarily' hardcoded. It worked great until an order confirmation email arrived 4 hours late and a customer's SMS went to someone else. AWS SNS exists. I should have used it."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sns\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"sns\"", "\"cloud\""]
 featured: "true"
 ---
 

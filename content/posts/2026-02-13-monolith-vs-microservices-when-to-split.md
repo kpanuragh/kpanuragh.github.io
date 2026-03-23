@@ -2,7 +2,7 @@
 title: "Monolith vs Microservices: Stop Splitting Your App Just Because It's Cool 🏢⚡"
 date: "2026-02-13"
 excerpt: "Everyone says 'use microservices!' but my monolith served 10 million users just fine. After 7 years architecting systems, here's the truth: Most teams split too early, for the wrong reasons, and regret it immediately!"
-tags: ["\\\"architecture\\\"", "\\\"microservices\\\"", "\\\"scalability\\\"", "\\\"system-design\\\""]
+tags: ["\"architecture\"", "\"microservices\"", "\"scalability\"", "\"system-design\""]
 featured: "true"
 ---
 

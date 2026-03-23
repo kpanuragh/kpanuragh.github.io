@@ -2,7 +2,7 @@
 title: "AWS SQS Dead Letter Queues: Stop Losing Messages at 3 AM 💀📬"
 date: "2026-02-22"
 excerpt: "I once lost 40,000 order events because a Lambda bug silently ate messages until the queue was empty. SQS Dead Letter Queues would have saved me. Don't be me."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sqs\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"sqs\"", "\"cloud\""]
 featured: "true"
 ---
 

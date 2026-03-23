@@ -2,7 +2,7 @@
 title: "The Outbox Pattern: Stop Losing Events When Your Database Commits 📬💥"
 date: "2026-02-19"
 excerpt: "We charged a customer, committed to our database, then our event bus hiccuped. Payment service knew. Inventory service? Blissfully unaware. Orders went into a black hole. The Outbox Pattern was the fix I wish I'd known on day one."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"distributed-systems\\\"", "\\\"event-driven\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"distributed-systems\"", "\"event-driven\""]
 featured: "true"
 ---
 

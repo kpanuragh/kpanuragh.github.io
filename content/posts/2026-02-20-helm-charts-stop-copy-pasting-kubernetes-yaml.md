@@ -2,7 +2,7 @@
 title: "Helm Charts: Stop Copy-Pasting Kubernetes YAML Across Environments 🎩⚓"
 date: "2026-02-20"
 excerpt: "I once managed three Kubernetes environments by maintaining three near-identical YAML folders. Dev, staging, prod — different by exactly three lines each. Then I discovered Helm and felt simultaneously enlightened and deeply ashamed of my past self."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"deployment\\\"", "\\\"helm\\\"", "\\\"containers\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"deployment\"", "\"helm\"", "\"containers\""]
 featured: "true"
 ---
 

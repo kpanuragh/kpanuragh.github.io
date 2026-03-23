@@ -44,10 +44,17 @@ function fixYamlEscaping() {
             // Parse array format
             const arrayContent = value.slice(1, -1); // Remove [ ]
             const items = arrayContent.split(',').map((v: string) => {
-              return v.trim()
-                .replace(/^["']|["']$/g, '')      // Remove surrounding quotes
-                .replace(/\\\\"/g, '"')            // Unescape \"
-                .replace(/\\\\/g, '\\');           // Unescape \\
+              let item = v.trim();
+              // Remove surrounding quotes if present
+              if ((item.startsWith('"') && item.endsWith('"')) ||
+                  (item.startsWith("'") && item.endsWith("'"))) {
+                item = item.slice(1, -1);
+              }
+              // Handle multiple levels of escaping
+              item = item.replace(/\\\\"/g, '"')     // Replace \\" with "
+                         .replace(/\\"/g, '"')        // Replace \" with "
+                         .replace(/\\\\/g, '\\');     // Replace \\\\ with \\
+              return item;
             });
             yamlObj[key] = items;
           } else if (value.startsWith('"') && value.endsWith('"')) {

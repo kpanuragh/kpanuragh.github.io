@@ -2,7 +2,7 @@
 title: "Nginx + Docker: Stop Exposing Your App Ports to the World Like a Rookie 🔧🐳"
 date: "2026-03-11"
 excerpt: "Running Node.js on port 3000 directly? PHP-FPM on 9000? Docker taught me the hard way that exposing raw app ports is the fastest way to get hacked, slowed down, and humiliated. Let Nginx handle the front door."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"docker\\\"", "\\\"nginx\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"docker\"", "\"nginx\""]
 featured: "true"
 ---
 

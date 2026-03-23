@@ -2,7 +2,7 @@
 title: "The Strangler Fig Pattern: Killing Your Monolith One Piece at a Time 🌿🪓"
 date: "2026-02-18"
 excerpt: "Your monolith is 6 years old, 400,000 lines of code, and the original developer left in 2021. Every deploy is a prayer. Everyone's afraid to touch it. The solution isn't a 'big rewrite' - I promise that will kill your company. It's the Strangler Fig Pattern: strangle the beast slowly, without anyone noticing the lights went out."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"migration\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"microservices\"", "\"migration\""]
 featured: "true"
 ---
 

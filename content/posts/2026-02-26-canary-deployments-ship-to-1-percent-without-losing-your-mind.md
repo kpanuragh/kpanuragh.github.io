@@ -2,7 +2,7 @@
 title: "Canary Deployments: How to Ship to 1% of Users Without Losing Your Mind (or Your Job) 🐦"
 date: "2026-02-26"
 excerpt: "After one too many 'we'll just deploy and watch the errors' moments that turned into production incidents, I discovered canary deployments. Now I ship to 1% of users first, sleep normally, and only promote to 100% when the metrics agree."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"aws\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"aws\""]
 featured: "true"
 ---
 

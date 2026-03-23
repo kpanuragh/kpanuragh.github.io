@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Letting Your Pods Eat All the RAM 🐳💀"
 date: "2026-02-22"
 excerpt: "Your pods keep getting OOMKilled and you have no idea why? After watching production nodes melt down at 3 AM, I learned the hard way that Kubernetes resource requests and limits are not optional - they're survival gear."
-tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\"", "\\\"cloud\\\""]
+tags: ["\"kubernetes\"", "\"devops\"", "\"docker\"", "\"deployment\"", "\"cloud\""]
 featured: "true"
 ---
 

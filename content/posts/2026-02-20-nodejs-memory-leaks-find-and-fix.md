@@ -2,7 +2,7 @@
 title: "Your Node.js Server is Bleeding Memory (And How to Stop It) 🩸"
 date: "2026-02-20"
 excerpt: "Memory leaks are like slow carbon monoxide poisoning for your Node.js server — silent, invisible, and deadly. Learn how to find them, fix them, and sleep better at night."
-tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"debugging\\\"", "\\\"javascript\\\""]
+tags: ["\"nodejs\"", "\"backend\"", "\"performance\"", "\"debugging\"", "\"javascript\""]
 featured: "true"
 ---
 

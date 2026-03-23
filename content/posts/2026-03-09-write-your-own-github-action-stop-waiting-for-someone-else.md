@@ -2,7 +2,7 @@
 title: "Write Your Own GitHub Action: Stop Waiting for Someone Else to Build It 🛠️🚀"
 date: "2026-03-09"
 excerpt: "Every time I copy-pasted the same 40-line workflow YAML into another repo, a tiny piece of my soul left. Then I learned to write my own GitHub Action. Now that pain is everyone else's to avoid too."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"devops\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"developer-tools\"", "\"devops\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Your GitHub Profile README: The Portfolio That Actually Gets You Hired 💼✨"
 date: "2026-01-28"
 excerpt: "That blank GitHub profile is costing you job opportunities! Learn how to turn it into a portfolio that makes recruiters say 'We need to hire this person' instead of scrolling past you like everyone else."
-tags: ["\\\"github\\\"", "\\\"open-source\\\"", "\\\"career\\\"", "\\\"portfolio\\\""]
+tags: ["\"github\"", "\"open-source\"", "\"career\"", "\"portfolio\""]
 featured: "true"
 ---
 

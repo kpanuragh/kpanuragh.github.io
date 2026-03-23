@@ -2,7 +2,7 @@
 title: "Laravel Livewire: Build SPAs Without JavaScript Hell 🔥"
 date: "2026-02-03"
 excerpt: "Tired of Vue/React complexity? Livewire lets you build reactive UIs with pure PHP. It's like magic, but real!"
-tags: ["\\\"laravel\\\"", "\\\"livewire\\\"", "\\\"php\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"livewire\"", "\"php\"", "\"web-dev\""]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "🐳 Docker Compose in Production: The Controversial Setup That Actually Saves Small Teams"
 date: "2026-03-20"
 excerpt: "Everyone says 'don't use docker-compose in production, use Kubernetes.' After running it in prod for 3 years without incident, I'd like to respectfully disagree — for the right use case."
-tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"infrastructure\\\""]
+tags: ["\"devops\"", "\"docker\"", "\"deployment\"", "\"ci-cd\"", "\"infrastructure\""]
 featured: "true"
 ---
 

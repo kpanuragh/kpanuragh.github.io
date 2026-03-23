@@ -2,7 +2,7 @@
 title: "Kubernetes Secrets: Stop Storing Passwords in ConfigMaps Like a Rookie 🔐☸️"
 date: "2026-02-13"
 excerpt: "After 7 years deploying to production Kubernetes clusters, I've seen developers treat ConfigMaps like password managers. Here's why your 'secrets' aren't secret at all - and how to actually protect them!"
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"security\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"security\"", "\"deployment\""]
 featured: "true"
 ---
 

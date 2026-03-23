@@ -2,7 +2,7 @@
 title: "Laravel Task Scheduling: Stop Writing Cron Jobs Like It's 1999 ⏰"
 date: "2026-02-20"
 excerpt: "Your server's crontab is a cryptic mess nobody understands. Laravel's task scheduler lets you write readable, testable, version-controlled scheduled tasks — and it's been sitting in your app this whole time."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"automation\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"automation\""]
 ---
 
 

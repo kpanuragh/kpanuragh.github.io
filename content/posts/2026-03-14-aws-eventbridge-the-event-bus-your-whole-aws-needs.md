@@ -2,7 +2,7 @@
 title: "AWS EventBridge: The Event Bus That Ties Your Entire AWS Account Together ⚡🚌"
 date: "2026-03-14"
 excerpt: "You have SQS for queues and SNS for notifications - but who routes events between your 15 AWS services without spaghetti code? EventBridge. And it's probably the most underrated AWS service you're not using."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"eventbridge\\\"", "\\\"event-driven\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"eventbridge\"", "\"event-driven\""]
 featured: "true"
 ---
 

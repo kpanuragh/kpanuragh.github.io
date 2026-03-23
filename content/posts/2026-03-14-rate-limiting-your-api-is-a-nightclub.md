@@ -2,7 +2,7 @@
 title: "🪩 Your API is a Nightclub — And Rate Limiting is the Bouncer"
 date: "2026-03-14"
 excerpt: "Without rate limiting, your API is an open bar with no last call. Learn how to implement rock-solid rate limiting in Express before one angry user (or bot) takes down your entire service."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"api\\\"", "\\\"performance\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"api\"", "\"performance\""]
 featured: "true"
 ---
 

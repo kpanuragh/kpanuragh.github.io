@@ -1,9 +1,9 @@
 ---
 title: "🌊 Node.js Streams: Stop Loading the Whole File Into Memory (Your RAM Will Thank You)"
-date: 2026-03-23
+date: "2026-03-23"
 excerpt: "Processing a 2GB CSV by loading it entirely into memory is like eating an entire buffet in one bite. Node.js Streams let you take it one chunk at a time — and your server stops crashing at 3am."
 tags: ["nodejs", "backend", "streams", "performance", "express"]
-featured: true
+featured: "true"
 ---
 
 # 🌊 Node.js Streams: Stop Loading the Whole File Into Memory

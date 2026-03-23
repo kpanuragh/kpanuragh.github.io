@@ -2,7 +2,7 @@
 title: "AWS Step Functions: Stop Coding Lambda Spaghetti Workflows 🍝⚡"
 date: "2026-02-07"
 excerpt: "Your Lambda functions are calling each other in a tangled mess of async chaos? After years of architecting serverless workflows on AWS, here's how Step Functions saved me from callback hell and $500/month in wasted Lambda executions!"
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"step-functions\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"lambda\"", "\"step-functions\""]
 featured: "true"
 ---
 

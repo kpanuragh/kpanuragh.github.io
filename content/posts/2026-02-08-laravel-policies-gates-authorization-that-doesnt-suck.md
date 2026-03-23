@@ -2,7 +2,7 @@
 title: "Laravel Policies & Gates: Authorization That Doesn't Suck 🔐"
 date: "2026-02-08"
 excerpt: "Stop putting authorization logic everywhere! Let's use Laravel Policies and Gates to keep your code clean and your users in their lane."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"authorization\\\"", "\\\"security\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"authorization\"", "\"security\"", "\"web-dev\""]
 ---
 
 

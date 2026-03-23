@@ -2,7 +2,7 @@
 title: "🏗️ Stop Putting Everything in app.js: Structure Your Express App Before It Eats You Alive"
 date: "2026-02-27"
 excerpt: "Express gives you a blank canvas and infinite rope to hang yourself with. Coming from Laravel, I learned this the hard way when my 'quick' Node.js API turned into a 900-line app.js monster. Here's the structure I wish someone had shown me."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"architecture\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"javascript\"", "\"backend\"", "\"architecture\""]
 featured: "true"
 ---
 

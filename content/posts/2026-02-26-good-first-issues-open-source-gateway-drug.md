@@ -2,7 +2,7 @@
 title: "Good First Issues: The Open Source Gateway Drug 🚪💊"
 date: "2026-02-26"
 excerpt: "Can't find where to start contributing? Drowning in codebases you've never seen? 'Good First Issue' labels exist for exactly this — and they're both a gift for newcomers AND a secret weapon for maintainers. Let me show you both sides of the label."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"contributing\\\"", "\\\"beginners\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"contributing\"", "\"beginners\""]
 featured: "true"
 ---
 

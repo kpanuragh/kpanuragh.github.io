@@ -2,7 +2,7 @@
 title: "Docker Networking: Why Your Containers Can't Talk to Each Other 🐳🌐"
 date: "2026-02-19"
 excerpt: "After spending an entire afternoon convinced my app was broken, I discovered the real culprit: I was trying to connect containers using localhost like a complete amateur. Docker networking is deceptively simple once you stop fighting it."
-tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"containers\\\"", "\\\"networking\\\""]
+tags: ["\"devops\"", "\"docker\"", "\"containers\"", "\"networking\""]
 featured: "true"
 ---
 

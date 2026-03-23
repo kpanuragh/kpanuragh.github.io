@@ -2,7 +2,7 @@
 title: "🔢 Express API Versioning: Stop Breaking Your Users with Every Deploy"
 date: "2026-03-15"
 excerpt: "Every time you change your API without versioning, a developer somewhere cries. Learn how to version your Express API properly so your users don't wake up to a broken integration at 3am."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"api\\\"", "\\\"rest\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"api\"", "\"rest\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "AWS SES: Your Order Confirmation Emails Are Going to Spam (And You Have No Idea) ✉️☁️"
 date: "2026-02-24"
 excerpt: "I spent three days debugging why our e-commerce order confirmation emails had a 40% open rate — until I realized 40% is amazing when the other 60% was silently landing in spam. Here's everything I learned about not destroying your sender reputation on AWS SES."
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"ses\\\"", "\\\"email\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"serverless\"", "\"ses\"", "\"email\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Bug Bounty Hunting 101: Getting Paid to Hack (Legally!) 🎯"
 date: "2026-02-04"
 excerpt: "Want to get paid to break into websites? Welcome to bug bounty hunting! Here's how I got started finding vulnerabilities and why you should too."
-tags: ["\\\"cybersecurity\\\"", "\\\"bug-bounty\\\"", "\\\"security\\\"", "\\\"web-security\\\""]
+tags: ["\"cybersecurity\"", "\"bug-bounty\"", "\"security\"", "\"web-security\""]
 featured: "true"
 ---
 

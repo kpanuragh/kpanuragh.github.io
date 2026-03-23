@@ -2,7 +2,7 @@
 title: "GitHub Issues & Project Boards: Stop Managing Your Open Source Project Like It's 1999 📋🎯"
 date: "2026-02-10"
 excerpt: "Using GitHub Issues like a dumping ground? Drowning in unorganized PRs? Your open source project needs better workflow management, and GitHub has all the tools. Let me show you how to organize chaos into a well-oiled machine!"
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"project-management\\\"", "\\\"workflow\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"project-management\"", "\"workflow\""]
 featured: "true"
 ---
 

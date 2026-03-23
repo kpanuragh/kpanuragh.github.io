@@ -2,7 +2,7 @@
 title: "Ham Radio for Developers: Why I Got My Amateur Radio License (And You Should Too!) 📻⚡"
 date: "2026-02-05"
 excerpt: "I passed my Ham Radio exam and unlocked a whole new world of RF experimentation, digital modes, and legal transmission! From SDR hobbyist to licensed operator - here's why software developers make amazing hams and how to get started with amateur radio."
-tags: ["\\\"rf\\\"", "\\\"ham-radio\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"amateur-radio\\\""]
+tags: ["\"rf\"", "\"ham-radio\"", "\"wireless\"", "\"hobby\"", "\"amateur-radio\""]
 featured: "true"
 ---
 

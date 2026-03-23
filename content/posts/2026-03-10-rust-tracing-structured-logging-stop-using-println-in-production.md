@@ -2,7 +2,7 @@
 title: "Rust's `tracing` Crate: Stop Using println! in Production 🦀📋"
 date: "2026-03-10"
 excerpt: "Coming from 7 years of Laravel's Monolog and Node.js's Winston, I thought I knew logging. Then Rust's tracing crate showed me what structured, async-aware, zero-overhead observability actually looks like. Spoiler: println! is not a logging strategy!"
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"observability\\\"", "\\\"logging\\\"", "\\\"debugging\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"observability\"", "\"logging\"", "\"debugging\""]
 featured: "true"
 ---
 

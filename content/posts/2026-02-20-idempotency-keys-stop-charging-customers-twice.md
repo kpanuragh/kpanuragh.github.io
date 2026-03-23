@@ -2,7 +2,7 @@
 title: "Idempotency Keys: Stop Accidentally Charging Customers Twice 💳🔑"
 date: "2026-02-20"
 excerpt: "Our retry logic was doing its job perfectly. It retried a payment request. Twice. Successfully. One customer, two charges, one very angry support ticket. Idempotency keys were the two-line fix I wish I'd shipped on day one."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"api-design\\\"", "\\\"distributed-systems\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"api-design\"", "\"distributed-systems\""]
 featured: "true"
 ---
 

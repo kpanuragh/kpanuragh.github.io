@@ -2,7 +2,7 @@
 title: "Laravel Transactions: All or Nothing (No Half-Baked Data) 🛡️"
 date: "2026-01-31"
 excerpt: "Your database is a hot mess because you're not using transactions. Let's fix that before your users notice!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"database\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"database\"", "\"web-dev\""]
 ---
 
 

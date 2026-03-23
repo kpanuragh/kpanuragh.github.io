@@ -2,7 +2,7 @@
 title: "Rust Iterators: Lazy, Fast, and Making PHP Developers Cry 🦀🔄"
 date: "2026-02-17"
 excerpt: "Coming from Laravel Collections that load everything into memory, Rust's lazy iterators blew my mind. They compose like LEGO blocks, run at C speed, and allocate NOTHING until you need results. Here's why iterators are Rust's best-kept secret!"
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"iterators\\\"", "\\\"functional-programming\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"iterators\"", "\"functional-programming\""]
 featured: "true"
 ---
 

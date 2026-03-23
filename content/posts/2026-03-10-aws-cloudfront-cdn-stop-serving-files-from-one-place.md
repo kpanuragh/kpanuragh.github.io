@@ -2,7 +2,7 @@
 title: "AWS CloudFront: Stop Serving Files From One Place Like It's 1999 ⚡🌍"
 date: "2026-03-10"
 excerpt: "Your S3 bucket in us-east-1 is making users in Singapore wait 800ms for a logo. CloudFront fixes that AND slashes your bandwidth bill. Here's everything I learned the hard way."
-tags: ["\\\"aws\\\"", "\\\"cloudfront\\\"", "\\\"cdn\\\"", "\\\"serverless\\\"", "\\\"performance\\\""]
+tags: ["\"aws\"", "\"cloudfront\"", "\"cdn\"", "\"serverless\"", "\"performance\""]
 featured: "true"
 ---
 

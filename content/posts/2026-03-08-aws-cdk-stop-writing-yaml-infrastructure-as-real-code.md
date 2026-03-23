@@ -2,7 +2,7 @@
 title: "AWS CDK: Stop Writing YAML and Write Infrastructure in Actual Code ☁️🛠️"
 date: "2026-03-08"
 excerpt: "I spent two years writing CloudFormation YAML by hand. 4,000 lines. Four digits. I once spent an entire afternoon debugging a misaligned space. Then I discovered AWS CDK and I genuinely cannot go back."
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"cdk\\\"", "\\\"infrastructure-as-code\\\"", "\\\"serverless\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"cdk\"", "\"infrastructure-as-code\"", "\"serverless\""]
 featured: "true"
 ---
 

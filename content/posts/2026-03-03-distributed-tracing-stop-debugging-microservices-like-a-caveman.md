@@ -2,7 +2,7 @@
 title: "Distributed Tracing: Stop Debugging Microservices Like a Caveman 🔍🕵️"
 date: "2026-03-03"
 excerpt: "A request hits your API, touches 8 services, and fails somewhere. You stare at 11 different log dashboards like a detective with no clues. After drowning in this pain for months, I discovered distributed tracing — the one tool that turns 'something is slow somewhere' into 'Order Service, line 47, 847ms, it's YOUR fault.'"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"observability\\\"", "\\\"microservices\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"observability\"", "\"microservices\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "EventBridge: Stop Polling and Start Reacting (Your APIs Will Thank You) ⚡🎯"
 date: "2026-02-12"
 excerpt: "Still polling DynamoDB every 5 seconds to check for updates? Your Lambda costs are through the roof and your architecture is held together with duct tape and cron jobs? After architecting event-driven systems on AWS, here's why EventBridge changed everything!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"eventbridge\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"serverless\"", "\"eventbridge\""]
 featured: "true"
 ---
 

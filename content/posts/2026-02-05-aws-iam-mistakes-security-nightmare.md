@@ -2,7 +2,7 @@
 title: "AWS IAM: Stop Giving Your Lambda Function God Mode 🔑👑"
 date: "2026-02-05"
 excerpt: "Your Lambda has full admin access 'just to be safe'? Your access keys are hardcoded? After 7 years of AWS deployments, here are the IAM mistakes that will haunt you at 3 AM when you get the security breach notification!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"security\\\"", "\\\"iam\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"security\"", "\"iam\""]
 featured: "true"
 ---
 

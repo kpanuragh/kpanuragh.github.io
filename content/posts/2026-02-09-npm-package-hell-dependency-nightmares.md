@@ -2,7 +2,7 @@
 title: "NPM Package Hell: Dependency Nightmares & How to Survive 📦"
 date: "2026-02-09"
 excerpt: "Think npm install is harmless? Cool! Now explain why your app broke after updating ONE package. Let's dive into dependency hell, security nightmares, and the package.json chaos that keeps Node.js developers up at night!"
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"npm\\\"", "\\\"devops\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"npm\"", "\"devops\""]
 featured: "true"
 ---
 

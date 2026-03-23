@@ -2,7 +2,7 @@
 title: "DynamoDB: The NoSQL Database That Will Make You Rethink Everything 🚀🗄️"
 date: "2026-03-20"
 excerpt: "DynamoDB is either the best thing that ever happened to your serverless backend or the most expensive mistake of your career. After architecting e-commerce platforms on it for years, here's what I wish someone had told me on day one!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"dynamodb\\\"", "\\\"nosql\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"serverless\"", "\"dynamodb\"", "\"nosql\""]
 featured: "true"
 ---
 

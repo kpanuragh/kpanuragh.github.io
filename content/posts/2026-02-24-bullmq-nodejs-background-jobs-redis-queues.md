@@ -2,7 +2,7 @@
 title: "🐂 BullMQ: Stop Doing Everything Synchronously in Your Node.js App"
 date: "2026-02-24"
 excerpt: "Sending emails inside a request handler? Resizing images on the main thread? Let's talk about BullMQ — Redis-backed job queues that'll save your API response times and your sanity."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"bullmq\\\"", "\\\"redis\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"queues\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"bullmq\"", "\"redis\"", "\"backend\"", "\"performance\"", "\"queues\""]
 featured: "true"
 ---
 

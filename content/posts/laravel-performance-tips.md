@@ -2,7 +2,7 @@
 title: "5 Laravel Tricks That'll Make Your App Fly 🚀"
 date: "2026-01-20"
 excerpt: "Your Laravel app is slow? Let's fix that! Here are 5 simple tricks that actually work (no PhD required)."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"performance\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"performance\"", "\"web-dev\""]
 ---
 
 

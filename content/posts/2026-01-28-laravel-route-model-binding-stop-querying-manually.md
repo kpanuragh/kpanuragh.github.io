@@ -2,7 +2,7 @@
 title: "Laravel Route Model Binding: Stop Querying Models Manually Like a Caveman 🦖"
 date: "2026-01-28"
 excerpt: "Still writing User::findOrFail($id) in every controller? Laravel's route model binding will make you feel like you've discovered fire!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"routing\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"routing\""]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Kubernetes NetworkPolicy: Stop Your Pods From Talking to Strangers 🔒🚦"
 date: "2026-02-28"
 excerpt: "By default every pod in your cluster can talk to every other pod. That's basically leaving every door in your office unlocked. After running production Kubernetes clusters I learned that NetworkPolicy is the firewall you absolutely need but nobody tells you about!"
-tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"security\\\"", "\\\"networking\\\"", "\\\"containers\\\""]
+tags: ["\"kubernetes\"", "\"devops\"", "\"security\"", "\"networking\"", "\"containers\""]
 featured: "true"
 ---
 

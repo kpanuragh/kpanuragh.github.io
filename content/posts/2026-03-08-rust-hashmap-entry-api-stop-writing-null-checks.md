@@ -2,7 +2,7 @@
 title: "Rust HashMap and the Entry API: Stop Writing Null Checks Forever 🦀📊"
 date: "2026-03-08"
 excerpt: "Coming from 7 years of PHP where 'does this key exist?' spawns an if/isset/null cascade that haunts your dreams, discovering Rust's HashMap Entry API felt like someone finally solved the problem properly. One method. No null checks. No 'undefined index' warnings. Just clean logic."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"data-structures\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"data-structures\""]
 featured: "true"
 ---
 

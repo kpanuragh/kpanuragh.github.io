@@ -2,7 +2,7 @@
 title: "🌊 Node.js Streams: Stop Loading Everything Into Memory (Your Server Will Thank You)"
 date: "2026-03-20"
 excerpt: "You wouldn't fill a bathtub before washing your hands. So why are you loading a 2GB file into memory before sending it to a client? Node.js Streams are here to save your RAM — and your sanity."
-tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"streams\\\"", "\\\"express\\\""]
+tags: ["\"nodejs\"", "\"backend\"", "\"performance\"", "\"streams\"", "\"express\""]
 featured: "true"
 ---
 

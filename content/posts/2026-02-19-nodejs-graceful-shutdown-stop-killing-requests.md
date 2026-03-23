@@ -2,7 +2,7 @@
 title: "Node.js Graceful Shutdown: Stop Murdering Your Users' Requests 🛑"
 date: "2026-02-19"
 excerpt: "Your deployment restarts Node.js. 200 users mid-checkout get a connection reset. Their carts vanish. You are the villain. Here's how to not be the villain."
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"express\\\"", "\\\"devops\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"backend\"", "\"express\"", "\"devops\""]
 featured: "true"
 ---
 

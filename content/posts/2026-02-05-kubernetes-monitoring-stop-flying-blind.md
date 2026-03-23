@@ -2,7 +2,7 @@
 title: "Kubernetes Monitoring: Stop Flying Blind in Production 📊🔍"
 date: "2026-02-05"
 excerpt: "After 7 years of production deployments, I learned the hard way: if you can't see what's happening in your K8s cluster, you're one outage away from disaster. Here's how to actually monitor Kubernetes without drowning in metrics!"
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"monitoring\\\"", "\\\"observability\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"monitoring\"", "\"observability\""]
 featured: "true"
 ---
 

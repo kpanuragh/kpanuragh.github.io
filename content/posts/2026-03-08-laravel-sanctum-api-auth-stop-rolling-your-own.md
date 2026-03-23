@@ -2,7 +2,7 @@
 title: "Laravel Sanctum: Stop Rolling Your Own API Auth (You'll Thank Me Later) 🔐"
 date: "2026-03-08"
 excerpt: "Every developer has written their own token auth system at least once. Every developer has regretted it. Laravel Sanctum exists so you never make that mistake again."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"api\\\"", "\\\"authentication\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"api\"", "\"authentication\"", "\"web-dev\""]
 ---
 
 # Laravel Sanctum: Stop Rolling Your Own API Auth (You'll Thank Me Later) 🔐

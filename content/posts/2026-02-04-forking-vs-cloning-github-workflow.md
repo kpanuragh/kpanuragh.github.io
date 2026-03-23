@@ -2,7 +2,7 @@
 title: "Fork vs Clone: Stop Confusing These GitHub Basics 🍴📋"
 date: "2026-02-04"
 excerpt: "Been 'cloning' repos when you should fork? Fork but never sync? Let me explain the difference once and for all, plus the fork workflow that actually makes sense for open source contributions."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"git\\\"", "\\\"workflow\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"git\"", "\"workflow\""]
 featured: "true"
 ---
 

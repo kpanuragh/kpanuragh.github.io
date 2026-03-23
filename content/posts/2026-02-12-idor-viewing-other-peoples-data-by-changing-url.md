@@ -2,7 +2,7 @@
 title: "IDOR: How Changing ?user_id=1 to ?user_id=2 Exposes Everyone's Data 🔓"
 date: "2026-02-12"
 excerpt: "The simplest hack that still works in 2026: just change a number in the URL. Here's why your API is probably leaking user data right now and how to actually fix it."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"idor\\\"", "\\\"authorization\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"idor\"", "\"authorization\""]
 featured: "true"
 ---
 

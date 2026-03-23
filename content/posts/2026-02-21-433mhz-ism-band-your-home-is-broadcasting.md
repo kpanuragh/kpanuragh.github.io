@@ -2,7 +2,7 @@
 title: "Your Home Is Broadcasting Secrets on 433MHz (And So Is Your Neighbor's) 📻⚡"
 date: "2026-02-21"
 excerpt: "I pointed my RTL-SDR at 433MHz and my living room erupted in signals. My neighbor's weather station. Someone's wireless doorbell. A car key fob three houses down. A tire pressure sensor from a passing Toyota. All of them broadcasting in plain text, totally unencrypted, to literally anyone listening. Including me. Including you."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"iot\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"iot\""]
 featured: "true"
 ---
 

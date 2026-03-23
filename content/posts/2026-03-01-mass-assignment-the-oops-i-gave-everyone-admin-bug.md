@@ -2,7 +2,7 @@
 title: "Mass Assignment: The Oops-I-Gave-Everyone-Admin Bug 🎭"
 date: "2026-03-01"
 excerpt: "You built a perfect user registration endpoint. Too bad anyone can send role=admin in the body and become a superuser. Mass assignment is the vulnerability your ORM is hiding from you."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"api-security\\\"", "\\\"owasp\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"api-security\"", "\"owasp\""]
 featured: "true"
 ---
 

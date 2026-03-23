@@ -2,7 +2,7 @@
 title: "Semantic Versioning: The Art of Not Breaking the Internet One Dot at a Time 🔢"
 date: "2026-03-10"
 excerpt: "Ever bumped a package version and watched your users' CI pipelines explode? Semantic versioning is the unspoken gentleman's agreement of open source — and most people are doing it wrong."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\"", "\\\"semver\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"developer-tools\"", "\"semver\""]
 featured: "true"
 ---
 

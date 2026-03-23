@@ -2,7 +2,7 @@
 title: "Forking Open Source Projects: When It's Genius, When It's Chaos 🍴💥"
 date: "2026-02-14"
 excerpt: "Found the perfect library but it's missing ONE feature? Maintainer ghosted you? Before you hit that fork button, read this. Some forks change the world. Others create abandoned repos that haunt GitHub forever."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"maintainers\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"maintainers\""]
 featured: "true"
 ---
 

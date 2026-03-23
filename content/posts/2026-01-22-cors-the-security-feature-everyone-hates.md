@@ -2,7 +2,7 @@
 title: "CORS: The Security Feature Everyone Hates (Until They Get Hacked) 🌐"
 date: "2026-01-22"
 excerpt: "Getting 'blocked by CORS policy' errors? Thinking about just disabling it? DON'T. Here's why CORS exists, why your '*' wildcard is dangerous, and how to fix it properly."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"cors\\\"", "\\\"api-security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"cors\"", "\"api-security\""]
 featured: "true"
 ---
 

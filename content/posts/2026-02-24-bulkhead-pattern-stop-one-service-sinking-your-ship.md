@@ -2,7 +2,7 @@
 title: "The Bulkhead Pattern: Stop One Failing Service From Sinking Your Entire Ship 🚢⚓"
 date: "2026-02-24"
 excerpt: "Our payment service started timing out during Black Friday. Five minutes later, our product catalog was down. Then the cart. Then the homepage. One slow service took down everything. That's not a bug — that's an architecture problem. And the fix has been in shipbuilding for 200 years."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"resilience\\\"", "\\\"microservices\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"resilience\"", "\"microservices\""]
 featured: "true"
 ---
 

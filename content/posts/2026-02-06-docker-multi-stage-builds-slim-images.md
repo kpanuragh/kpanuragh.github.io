@@ -2,7 +2,7 @@
 title: "Docker Multi-Stage Builds: Stop Shipping Your Entire Dev Environment to Production 🐳✂️"
 date: "2026-02-06"
 excerpt: "Your Docker image is 2GB and takes 10 minutes to deploy? After countless production deployments, I learned that multi-stage builds can shrink images by 90% - here's how to stop shipping garbage to production!"
-tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\"", "\\\"optimization\\\""]
+tags: ["\"devops\"", "\"docker\"", "\"deployment\"", "\"optimization\""]
 featured: "true"
 ---
 

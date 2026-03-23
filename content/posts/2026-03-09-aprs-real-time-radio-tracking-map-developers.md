@@ -2,7 +2,7 @@
 title: "APRS: The Radio Protocol That Puts Ham Operators on a Live Map 📡"
 date: "2026-03-09"
 excerpt: "I discovered APRS — a ham radio protocol that broadcasts GPS positions, weather data, and text messages over radio, and someone built a live world map out of it. Here's how I decoded it with a $25 SDR and got absolutely hooked."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"aprs\\\"", "\\\"ham-radio\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"aprs\"", "\"ham-radio\""]
 featured: "true"
 ---
 

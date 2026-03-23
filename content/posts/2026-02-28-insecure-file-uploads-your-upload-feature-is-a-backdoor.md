@@ -2,7 +2,7 @@
 title: "🗂️ Insecure File Uploads: Your Upload Feature Is a Backdoor to Your Server"
 date: "2026-02-28"
 excerpt: "That innocent-looking file upload button? It's one of the most dangerous features you can add to your app. Let's talk about how attackers upload webshells, bypass filters, and own your server — and how to stop them."
-tags: ["\\\"cybersecurity\\\"", "\\\"security\\\"", "\\\"web-security\\\"", "\\\"file-upload\\\"", "\\\"backend\\\""]
+tags: ["\"cybersecurity\"", "\"security\"", "\"web-security\"", "\"file-upload\"", "\"backend\""]
 featured: "true"
 ---
 

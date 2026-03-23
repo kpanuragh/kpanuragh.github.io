@@ -2,7 +2,7 @@
 title: "Prototype Pollution: The JavaScript Vulnerability Hiding in Plain Sight 🧬☠️"
 date: "2026-03-21"
 excerpt: "Your lodash merge call is silently letting attackers rewrite JavaScript's DNA. Prototype pollution is the vulnerability that breaks apps without touching a single line of YOUR code — and it's everywhere."
-tags: ["\\\"security\\\"", "\\\"javascript\\\"", "\\\"nodejs\\\"", "\\\"backend\\\""]
+tags: ["\"security\"", "\"javascript\"", "\"nodejs\"", "\"backend\""]
 featured: "true"
 ---
 

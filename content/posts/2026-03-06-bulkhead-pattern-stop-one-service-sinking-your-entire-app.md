@@ -2,7 +2,7 @@
 title: "The Bulkhead Pattern: Stop Letting One Failing Service Sink Your Entire App 🚢"
 date: "2026-03-06"
 excerpt: "Your payment service melts down. Your product catalog goes offline. Your homepage dies. All because one service went rogue. The Titanic had watertight compartments — your architecture needs them too."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"resilience\\\"", "\\\"distributed-systems\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"resilience\"", "\"distributed-systems\""]
 featured: "true"
 ---
 

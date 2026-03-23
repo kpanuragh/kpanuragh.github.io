@@ -2,7 +2,7 @@
 title: "Laravel HTTP Client: Stop Writing Guzzle Spaghetti Code 🍝"
 date: "2026-03-12"
 excerpt: "You're still instantiating GuzzleHttp\\\\Client manually in 2026? We need to talk. Laravel's HTTP Client has been here since 7.x and it's gorgeous."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"api\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"api\""]
 ---
 
 # Laravel HTTP Client: Stop Writing Guzzle Spaghetti Code 🍝

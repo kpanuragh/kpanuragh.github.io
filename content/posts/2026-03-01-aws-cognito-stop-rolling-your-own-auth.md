@@ -2,7 +2,7 @@
 title: "AWS Cognito: Stop Rolling Your Own Auth (I Learned This the Hard Way) 🔐⚡"
 date: "2026-03-01"
 excerpt: "I once spent three weeks building a custom JWT auth system for our serverless backend. It had refresh token rotation, device tracking, forgot-password flows, and at least four security vulnerabilities I didn't know about until a penetration tester found them. Then someone showed me Cognito. I cried a little."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"cognito\\\"", "\\\"cloud\\\"", "\\\"authentication\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"cognito\"", "\"cloud\"", "\"authentication\""]
 featured: "true"
 ---
 

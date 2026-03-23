@@ -2,7 +2,7 @@
 title: "✈️ Node.js Graceful Shutdown: Stop Killing Requests Mid-Flight"
 date: "2026-02-28"
 excerpt: "Every time you SIGKILL your Node.js server, you're mid-conversation at a restaurant when the lights go out. Here's how to let your server finish what it started before dying with dignity."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"javascript\\\"", "\\\"devops\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"javascript\"", "\"devops\""]
 featured: "true"
 ---
 

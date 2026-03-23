@@ -2,7 +2,7 @@
 title: "Command Injection: When Your App Becomes a Hacker's Personal Shell 💀"
 date: "2026-03-14"
 excerpt: "You called exec() to run a quick ping. The attacker called it to run rm -rf /. Command injection turns your server into an open terminal — here's exactly how it happens and how to stop it."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"command-injection\\\"", "\\\"owasp\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"command-injection\"", "\"owasp\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "DynamoDB: Stop Treating It Like a Relational Database 💸🗄️"
 date: "2026-02-06"
 excerpt: "Your DynamoDB table has 47 indexes, costs $800/month, and queries still take 3 seconds? After architecting production NoSQL systems on AWS, here are the DynamoDB mistakes that'll drain your wallet AND your sanity!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"dynamodb\\\"", "\\\"database\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"dynamodb\"", "\"database\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "⚡ GitHub Actions: Stop Burning CI Minutes Like It's Free Money"
 date: "2026-03-19"
 excerpt: "Your GitHub Actions workflows are slow, wasteful, and probably costing you money. Here's how to fix that with caching, matrix strategies, and a few tricks I learned the hard way."
-tags: ["\\\"devops\\\"", "\\\"github-actions\\\"", "\\\"ci-cd\\\"", "\\\"productivity\\\""]
+tags: ["\"devops\"", "\"github-actions\"", "\"ci-cd\"", "\"productivity\""]
 featured: "true"
 ---
 

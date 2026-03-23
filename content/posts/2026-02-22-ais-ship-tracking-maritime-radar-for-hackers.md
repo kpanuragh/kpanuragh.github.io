@@ -2,7 +2,7 @@
 title: "AIS: I'm Now Tracking Ships Like a Real-Life Maritime Traffic Controller 🚢📡"
 date: "2026-02-22"
 excerpt: "I pointed my RTL-SDR at 162MHz and suddenly became aware of every cargo ship, tanker, ferry, and tugboat within 50 miles. Their names. Their destinations. Their speeds. Their cargo types. Broadcasting in plain air for anyone to receive. I've been living near the sea my whole life and had no idea this was happening."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"maritime\\\"", "\\\"ais\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"maritime\"", "\"ais\""]
 featured: "true"
 ---
 

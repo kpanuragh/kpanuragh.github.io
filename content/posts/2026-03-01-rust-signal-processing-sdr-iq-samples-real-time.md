@@ -2,7 +2,7 @@
 title: "Rust for Signal Processing: When My RTL-SDR Started Dropping Samples and I Ran Out of Excuses 📡🦀"
 date: "2026-03-01"
 excerpt: "I've been decoding radio signals as a hobby for years. PHP wasn't going to cut it. Node.js tried its best. Then I rewrote the hot path in Rust and suddenly my dongle wasn't dropping 40% of its samples anymore. Funny how that works."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"signal-processing\\\"", "\\\"sdr\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"signal-processing\"", "\"sdr\""]
 featured: "true"
 ---
 

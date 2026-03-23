@@ -2,7 +2,7 @@
 title: "AWS Step Functions: Stop Writing Spaghetti Lambda Chains 🗺️⚡"
 date: "2026-02-27"
 excerpt: "I once chained 7 Lambda functions together with async callbacks and SNS triggers. It worked great — until it didn't. Step Functions turned my distributed spaghetti into a debuggable, visual workflow. Here's everything I learned building e-commerce order flows with it."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"step-functions\\\"", "\\\"lambda\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"step-functions\"", "\"lambda\""]
 featured: "true"
 ---
 

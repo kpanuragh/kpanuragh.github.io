@@ -2,7 +2,7 @@
 title: "CDN & Caching: Stop Querying Your Database for Data That Never Changes 🚀💾"
 date: "2026-02-11"
 excerpt: "Your users in Tokyo are waiting 800ms to load a logo that hasn't changed in 3 years. After architecting global e-commerce systems, I learned that caching isn't just 'nice to have' - it's the difference between a site that feels instant and one that feels like molasses!"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"performance\\\"", "\\\"caching\\\"", "\\\"cdn\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"performance\"", "\"caching\"", "\"cdn\""]
 featured: "true"
 ---
 

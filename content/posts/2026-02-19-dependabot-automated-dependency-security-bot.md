@@ -2,7 +2,7 @@
 title: "Dependabot: The Security Bot That Reviews PRs While You Sleep 🤖🔒"
 date: "2026-02-19"
 excerpt: "Every week, your npm/composer packages grow a little more vulnerable while you're busy shipping features. Dependabot is GitHub's answer to that creeping dread — an automated bot that files security PRs so you don't have to manually track every CVE ever published."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"security\\\"", "\\\"developer-tools\\\"", "\\\"automation\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"security\"", "\"developer-tools\"", "\"automation\""]
 featured: "true"
 ---
 

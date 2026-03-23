@@ -2,7 +2,7 @@
 title: "HTTP Parameter Pollution: When Your API Doesn't Know Which Answer to Give 🤷"
 date: "2026-03-20"
 excerpt: "What happens when you send the same parameter twice in a URL? Chaos. Beautiful, exploitable chaos. Let me show you how attackers abuse duplicate parameters to bypass your security checks."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"api-security\\\"", "\\\"owasp\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"api-security\"", "\"owasp\""]
 featured: "false"
 ---
 

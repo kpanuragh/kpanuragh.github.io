@@ -2,7 +2,7 @@
 title: "Rust Smart Pointers: Heap Allocation Done Right 🦀📦"
 date: "2026-01-31"
 excerpt: "Think malloc() and free() are the only way to manage heap memory? Rust's smart pointers just entered the chat with Box, Rc, Arc, and RefCell. Prepare to never leak memory again!"
-tags: ["\\\"rust\\\"", "\\\"smart-pointers\\\"", "\\\"memory-management\\\"", "\\\"systems-programming\\\""]
+tags: ["\"rust\"", "\"smart-pointers\"", "\"memory-management\"", "\"systems-programming\""]
 featured: "true"
 ---
 

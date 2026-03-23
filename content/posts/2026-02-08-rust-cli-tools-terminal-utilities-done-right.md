@@ -2,7 +2,7 @@
 title: "Rust for CLI Tools: Why Your Terminal Utilities Should Be Blazing Fast 🦀⚡"
 date: "2026-02-08"
 excerpt: "Coming from 7 years of writing Node.js and PHP scripts, I thought CLI tools were 'fast enough.' Then I built my first Rust CLI tool - instant startup, zero dependencies, native speed. Here's why Rust is the PERFECT language for command-line utilities!"
-tags: ["\\\"rust\\\"", "\\\"cli\\\"", "\\\"performance\\\"", "\\\"developer-tools\\\""]
+tags: ["\"rust\"", "\"cli\"", "\"performance\"", "\"developer-tools\""]
 featured: "true"
 ---
 

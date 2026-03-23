@@ -2,7 +2,7 @@
 title: "Node.js Cluster Mode: Stop Wasting CPU Cores 🚀"
 date: "2026-02-06"
 excerpt: "Think your Node.js server is using all 8 CPU cores? Think again! By default, Node.js runs on ONE core while the other 7 watch Netflix. Let's fix that with cluster mode - the built-in feature that turns your server into a multi-core beast!"
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"scaling\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"backend\"", "\"performance\"", "\"scaling\""]
 featured: "true"
 ---
 

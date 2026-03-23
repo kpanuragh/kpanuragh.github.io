@@ -2,7 +2,7 @@
 title: "Laravel Pipelines: Stop Writing Spaghetti Code in Your Controllers 🍝"
 date: "2026-02-17"
 excerpt: "Your controller has 200 lines of sequential 'do this, then do that' logic? Laravel Pipelines will save your soul (and your code review)."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"design-patterns\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"design-patterns\""]
 ---
 
 

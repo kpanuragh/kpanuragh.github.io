@@ -2,7 +2,7 @@
 title: "DynamoDB: The NoSQL Database That Will Either Save Your Life or Ruin Your Weekend ⚡🗄️"
 date: "2026-03-12"
 excerpt: "DynamoDB is AWS's magic serverless database - infinitely scalable, zero maintenance, and capable of destroying your architecture if you don't respect it. After building e-commerce backends on it, here's what I wish someone had told me on day one!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"dynamodb\\\"", "\\\"database\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"serverless\"", "\"dynamodb\"", "\"database\""]
 featured: "true"
 ---
 

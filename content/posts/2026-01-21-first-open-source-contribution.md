@@ -2,7 +2,7 @@
 title: "Your First Open Source Contribution Won't Break the Internet 🌍💻"
 date: "2026-01-21"
 excerpt: "Think you need to be a coding wizard to contribute to open source? Wrong! Here's how to make your first contribution without accidentally destroying GitHub."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"beginners\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"beginners\""]
 featured: "true"
 ---
 

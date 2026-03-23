@@ -2,7 +2,7 @@
 title: "GitHub Copilot Is Great, But Have You Tried These Free Alternatives? 🤖💻"
 date: "2026-01-22"
 excerpt: "Paying $10/month for AI code completion? I found some awesome open-source alternatives that won't drain your wallet. Let me show you the good stuff!"
-tags: ["\\\"open-source\\\"", "\\\"ai\\\"", "\\\"developer-tools\\\"", "\\\"productivity\\\""]
+tags: ["\"open-source\"", "\"ai\"", "\"developer-tools\"", "\"productivity\""]
 featured: "true"
 ---
 

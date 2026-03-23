@@ -2,7 +2,7 @@
 title: "Kubernetes Secrets: Stop Storing Sensitive Data in Plain YAML 🔐"
 date: "2026-02-25"
 excerpt: "Discovered a team committing base64-encoded database passwords directly to their Git repo and calling it 'secure'. Kubernetes Secrets are not as safe as you think — here's how to actually protect sensitive data in your cluster."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"security\\\"", "\\\"ci-cd\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"security\"", "\"ci-cd\""]
 featured: "true"
 ---
 

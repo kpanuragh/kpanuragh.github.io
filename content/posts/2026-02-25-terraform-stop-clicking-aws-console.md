@@ -2,7 +2,7 @@
 title: "Terraform: Stop Click-Ops Before Your AWS Console Becomes a Crime Scene 🏗️⚡"
 date: "2026-02-25"
 excerpt: "After years of clicking around the AWS console and forgetting what I built, Terraform saved my sanity. Infrastructure as Code means your production environment is reproducible, auditable, and won't silently diverge while you sleep. Here's what I wish someone had shown me on day one."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"aws\\\"", "\\\"terraform\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"aws\"", "\"terraform\""]
 featured: "true"
 ---
 

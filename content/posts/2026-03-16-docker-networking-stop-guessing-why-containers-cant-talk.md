@@ -2,7 +2,7 @@
 title: "Docker Networking: Stop Guessing Why Your Containers Can't Talk to Each Other 🐳🔌"
 date: "2026-03-16"
 excerpt: "After spending 3 hours debugging why my API container couldn't reach my database container (they were on different networks), I learned Docker networking the hard way. Here's everything you need to know to never waste an afternoon like that again."
-tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"networking\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"docker\"", "\"networking\"", "\"deployment\""]
 featured: "true"
 ---
 

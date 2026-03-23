@@ -2,7 +2,7 @@
 title: "🔌 Node.js Connection Pooling: Stop Opening a New Database Connection for Every Request"
 date: "2026-03-04"
 excerpt: "Every time your Express app opens a fresh database connection per request, a DBA somewhere cries. Learn how connection pooling works, why it matters, and how to configure it properly before your database gives up on you."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"database\\\"", "\\\"performance\\\"", "\\\"postgresql\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"database\"", "\"performance\"", "\"postgresql\""]
 featured: "true"
 ---
 

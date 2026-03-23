@@ -2,7 +2,7 @@
 title: "IDOR: The API Flaw Hiding in Plain Sight 🕵️‍♂️🔓"
 date: "2026-03-13"
 excerpt: "You built a beautiful REST API, authenticated every endpoint, and even wrote tests. But did you check whether user A can read user B's data just by changing a number in the URL? That's IDOR — the vulnerability that's embarrassingly easy to exploit and embarrassingly easy to miss."
-tags: ["\\\"security\\\"", "\\\"api\\\"", "\\\"web-security\\\"", "\\\"owasp\\\""]
+tags: ["\"security\"", "\"api\"", "\"web-security\"", "\"owasp\""]
 featured: "true"
 ---
 

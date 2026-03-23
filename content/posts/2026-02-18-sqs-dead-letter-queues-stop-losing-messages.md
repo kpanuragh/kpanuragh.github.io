@@ -2,7 +2,7 @@
 title: "AWS SQS Dead Letter Queues: Stop Losing Messages in the Void 📬💀"
 date: "2026-02-18"
 excerpt: "Your SQS messages are silently dying and you don't even know it. Dead Letter Queues are the safety net every serverless app needs - and setting them up takes 10 minutes."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sqs\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"sqs\"", "\"cloud\""]
 featured: "true"
 ---
 

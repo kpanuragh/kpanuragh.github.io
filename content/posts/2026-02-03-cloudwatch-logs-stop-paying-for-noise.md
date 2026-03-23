@@ -2,7 +2,7 @@
 title: "CloudWatch Logs: Stop Paying AWS to Store Your Debug Statements 💸📊"
 date: "2026-02-03"
 excerpt: "Your CloudWatch bill is $300/month because you're logging EVERYTHING. After years of production AWS deployments, here's how I cut our logging costs by 85% without losing visibility!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"monitoring\\\"", "\\\"devops\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"monitoring\"", "\"devops\""]
 featured: "true"
 ---
 

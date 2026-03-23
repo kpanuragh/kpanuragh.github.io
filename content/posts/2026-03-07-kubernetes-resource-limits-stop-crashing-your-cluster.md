@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Letting One Pod Crash Your Entire Cluster 🚀💥"
 date: "2026-03-07"
 excerpt: "One greedy pod. No resource limits. A cluster brought to its knees at 2 AM. Sound familiar? Here's everything I learned the hard way about Kubernetes requests and limits — and why skipping them is playing Russian roulette with production."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"docker\"", "\"deployment\""]
 featured: "true"
 ---
 

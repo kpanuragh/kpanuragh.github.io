@@ -2,7 +2,7 @@
 title: "CSRF: The Attack That Turns Your Users Into Unwitting Hackers 🕵️‍♂️💀"
 date: "2026-02-27"
 excerpt: "Your logged-in user visits an innocent-looking page. Suddenly, they've just transferred money, changed their email, or deleted their account — and they have absolutely no idea. Welcome to CSRF, the sneakiest free labor a hacker ever got."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"owasp\\\"", "\\\"csrf\\\"", "\\\"php\\\"", "\\\"laravel\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"owasp\"", "\"csrf\"", "\"php\"", "\"laravel\""]
 featured: "true"
 ---
 

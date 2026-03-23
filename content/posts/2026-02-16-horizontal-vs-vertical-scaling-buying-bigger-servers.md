@@ -2,7 +2,7 @@
 title: "Horizontal vs Vertical Scaling: Stop Buying Bigger Servers When You Need More Servers 🏗️📈"
 date: "2026-02-16"
 excerpt: "Our API was drowning. My first instinct? Upgrade to a bigger server! Turns out I was solving the wrong problem. After 7 years architecting production systems, here's when to scale UP and when to scale OUT!"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"infrastructure\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"infrastructure\""]
 featured: "true"
 ---
 

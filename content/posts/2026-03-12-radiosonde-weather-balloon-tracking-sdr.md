@@ -2,7 +2,7 @@
 title: "Chasing Weather Balloons with a $25 Dongle: Radiosonde Hunting is the Nerdiest Treasure Hunt 🎈"
 date: "2026-03-12"
 excerpt: "Weather services launch balloons twice a day carrying sensors that radio back temperature, humidity, and GPS data. You can decode all of it with RTL-SDR — and some people actually go find the fallen balloons. I became one of those people."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"radiosonde\\\"", "\\\"weather\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"radiosonde\"", "\"weather\""]
 featured: "true"
 ---
 

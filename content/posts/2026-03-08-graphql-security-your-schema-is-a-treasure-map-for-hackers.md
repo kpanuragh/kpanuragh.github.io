@@ -2,7 +2,7 @@
 title: "GraphQL Security: Your Schema Is a Treasure Map for Hackers 🗺️"
 date: "2026-03-08"
 excerpt: "GraphQL is powerful and flexible — which is exactly what makes it terrifying from a security perspective. Introspection, batching attacks, field-level authorization failures... let's talk about it all."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"graphql\\\"", "\\\"api-security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"graphql\"", "\"api-security\""]
 featured: "false"
 ---
 

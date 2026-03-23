@@ -2,7 +2,7 @@
 title: "Conventional Commits: I Stopped Writing 'fixed stuff' and My Changelogs Started Writing Themselves 🤖📝"
 date: "2026-02-22"
 excerpt: "My git log used to read like a crime scene: 'fix', 'update', 'stuff', 'asdfgh'. Then I discovered conventional commits and suddenly my CI was generating perfect changelogs and bumping versions without me touching a thing."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"git\\\"", "\\\"developer-tools\\\"", "\\\"community\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"git\"", "\"developer-tools\"", "\"community\""]
 featured: "true"
 ---
 

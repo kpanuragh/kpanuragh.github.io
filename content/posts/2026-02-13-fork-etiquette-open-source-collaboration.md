@@ -2,7 +2,7 @@
 title: "Fork Etiquette: The Unwritten Rules of Open Source Collaboration 🍴✨"
 date: "2026-02-13"
 excerpt: "Hit 'Fork' on every repo you see? Not sure when to fork vs clone? Let's talk about the social contract of forking, how to contribute without annoying maintainers, and when forking is actually the RIGHT move."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"workflow\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"workflow\""]
 featured: "true"
 ---
 

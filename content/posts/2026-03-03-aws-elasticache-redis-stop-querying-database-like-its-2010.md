@@ -2,7 +2,7 @@
 title: "AWS ElastiCache: Stop Querying Your Database Like It's 2010 💾⚡"
 date: "2026-03-03"
 excerpt: "I watched a $12/month RDS bill turn into $340 in a single flash sale. Same queries. Same code. Just 10x the traffic. ElastiCache saved my career. Here's everything I wish I'd known before Black Friday."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"cloud\\\"", "\\\"redis\\\"", "\\\"performance\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"cloud\"", "\"redis\"", "\"performance\""]
 featured: "true"
 ---
 

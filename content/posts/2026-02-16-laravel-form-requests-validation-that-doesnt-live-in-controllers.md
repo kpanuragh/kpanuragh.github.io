@@ -2,7 +2,7 @@
 title: "Laravel Form Requests: Stop Cluttering Your Controllers with Validation 🧹"
 date: "2026-02-16"
 excerpt: "Still validating everything in your controllers? Form Requests will clean up your code and make you look like a Laravel wizard!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"validation\\\"", "\\\"web-dev\\\"", "\\\"clean-code\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"validation\"", "\"web-dev\"", "\"clean-code\""]
 ---
 
 

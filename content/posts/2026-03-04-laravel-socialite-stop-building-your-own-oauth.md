@@ -2,7 +2,7 @@
 title: "Laravel Socialite: Stop Building Your Own OAuth (Your Users Are Begging You) 🔐"
 date: "2026-03-04"
 excerpt: "Rolling your own OAuth2 is like building your own airplane to go grocery shopping. Laravel Socialite exists. Use it."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"authentication\\\"", "\\\"oauth\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"authentication\"", "\"oauth\""]
 ---
 
 # Laravel Socialite: Stop Building Your Own OAuth (Your Users Are Begging You) 🔐

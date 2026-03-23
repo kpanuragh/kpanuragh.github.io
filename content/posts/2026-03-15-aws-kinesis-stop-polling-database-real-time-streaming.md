@@ -2,7 +2,7 @@
 title: "AWS Kinesis: Stop Polling Your Database Like It's 2012 🌊⚡"
 date: "2026-03-15"
 excerpt: "If you're still using cron jobs or DB polling to handle real-time events, we need to have a serious talk. Kinesis Data Streams changed how I built event-driven backends — here's everything I wish I'd known earlier."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"kinesis\\\"", "\\\"streaming\\\"", "\\\"event-driven\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"kinesis\"", "\"streaming\"", "\"event-driven\""]
 featured: "true"
 ---
 

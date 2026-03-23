@@ -2,7 +2,7 @@
 title: "API Pagination: Stop Using OFFSET or Your Database Is Quietly Crying 📄⚡"
 date: "2026-03-20"
 excerpt: "I built our e-commerce product listing with OFFSET pagination and it worked great — until we hit 500K products and every page-10 query started taking 4 seconds. Here's the pagination strategy that saved our backend."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"api-design\\\"", "\\\"databases\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"api-design\"", "\"databases\""]
 featured: "true"
 ---
 

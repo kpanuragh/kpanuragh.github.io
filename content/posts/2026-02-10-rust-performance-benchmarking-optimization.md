@@ -2,7 +2,7 @@
 title: "Rust Performance: Actually Measuring What 'Blazingly Fast' Means 🦀⚡"
 date: "2026-02-10"
 excerpt: "Coming from 7 years of Laravel/Node.js where 'fast enough' was the mantra, I thought performance optimization meant adding cache layers and hoping. Then Rust forced me to actually measure, benchmark, and prove performance claims. Turns out 'blazingly fast' isn't marketing - it's measurable!"
-tags: ["\\\"rust\\\"", "\\\"performance\\\"", "\\\"optimization\\\"", "\\\"benchmarking\\\"", "\\\"systems-programming\\\""]
+tags: ["\"rust\"", "\"performance\"", "\"optimization\"", "\"benchmarking\"", "\"systems-programming\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "CloudFront: Your Website Is Slow and It's Totally Your Fault ☁️⚡"
 date: "2026-03-04"
 excerpt: "I once served 10,000 users in Tokyo from a single EC2 instance in us-east-1. Every image, every CSS file, every API response — round-tripping 14,000km across the Pacific. My users were not happy. CloudFront fixed it. Let me save you the embarrassment."
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"cloudfront\\\"", "\\\"cdn\\\"", "\\\"performance\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"cloudfront\"", "\"cdn\"", "\"performance\""]
 featured: "true"
 ---
 

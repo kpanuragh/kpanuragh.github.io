@@ -2,7 +2,7 @@
 title: "Open Redirect: Your Login Page Is a Phishing Machine 🎣"
 date: "2026-03-18"
 excerpt: "That innocent ?redirect_to= parameter in your URL? Hackers are using it to send your users straight to malware sites — and your users will never suspect a thing."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"owasp\\\"", "\\\"phishing\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"owasp\"", "\"phishing\""]
 featured: "false"
 ---
 

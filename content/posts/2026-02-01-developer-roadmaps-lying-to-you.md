@@ -2,7 +2,7 @@
 title: "Developer Roadmaps Are Lying to You (And How to Actually Learn) 🗺️💥"
 date: "2026-02-01"
 excerpt: "You opened that beautiful developer roadmap with 87 technologies, felt motivated for 3 seconds, then completely overwhelmed. Those roadmaps are setting you up for failure. Here's how to ACTUALLY learn without burning out."
-tags: ["\\\"open-source\\\"", "\\\"learning\\\"", "\\\"developer-tools\\\"", "\\\"career\\\""]
+tags: ["\"open-source\"", "\"learning\"", "\"developer-tools\"", "\"career\""]
 featured: "true"
 ---
 

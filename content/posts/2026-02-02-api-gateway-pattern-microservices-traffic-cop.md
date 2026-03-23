@@ -2,7 +2,7 @@
 title: "API Gateway Pattern: The Traffic Cop Your Microservices Actually Need 🚦"
 date: "2026-02-02"
 excerpt: "Your microservices are talking to each other like chaos in a parking lot. Let's add an API Gateway to bring order - because nothing says 'I understand architecture' like a single entry point!"
-tags: ["\\\"architecture\\\"", "\\\"microservices\\\"", "\\\"api-design\\\"", "\\\"scalability\\\"", "\\\"system-design\\\""]
+tags: ["\"architecture\"", "\"microservices\"", "\"api-design\"", "\"scalability\"", "\"system-design\""]
 featured: "true"
 ---
 

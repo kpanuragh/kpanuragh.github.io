@@ -2,7 +2,7 @@
 title: "GitHub Releases: Stop Shipping Code Into the Void 🚀"
 date: "2026-02-28"
 excerpt: "You pushed a tag. You called it 'v2.0.0'. Your users have NO idea what changed, what broke, or whether they should upgrade. Learn how to use GitHub Releases to ship code like a professional maintainer instead of a mystery novelist."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\"", "\\\"git\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"developer-tools\"", "\"git\""]
 featured: "true"
 ---
 

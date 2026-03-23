@@ -2,7 +2,7 @@
 title: "Feature Flags: Ship Code to Production Without Shipping Panic to Users 🚩"
 date: "2026-03-03"
 excerpt: "After countless deployments where a half-finished feature somehow made it to production at the worst possible moment, I discovered feature flags — the DevOps superpower that lets you merge code and flip a switch separately. Here's how to stop fearing your own deploy button."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"feature-flags\\\"", "\\\"best-practices\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"feature-flags\"", "\"best-practices\""]
 featured: "true"
 ---
 

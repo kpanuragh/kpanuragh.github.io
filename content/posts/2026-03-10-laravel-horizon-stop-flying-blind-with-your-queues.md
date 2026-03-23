@@ -2,7 +2,7 @@
 title: "Laravel Horizon: Stop Flying Blind With Your Queues 🔭"
 date: "2026-03-10"
 excerpt: "Your queue workers are silently failing in production and you have NO idea. Laravel Horizon is the beautiful dashboard that gives you X-ray vision into your background jobs — and it takes 5 minutes to set up."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"queues\\\"", "\\\"redis\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"queues\"", "\"redis\""]
 ---
 
 # Laravel Horizon: Stop Flying Blind With Your Queues 🔭

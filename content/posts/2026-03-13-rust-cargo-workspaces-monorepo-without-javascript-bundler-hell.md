@@ -2,7 +2,7 @@
 title: "Rust Cargo Workspaces: Monorepo Without the JavaScript Bundler Hell 🦀📦"
 date: "2026-03-13"
 excerpt: "I've spent years configuring Turborepo, Nx, and Lerna just to share one utility function between two Node.js packages. Then I tried Rust's cargo workspaces. It just... worked. No config files. No plugins. No three-hour debugging session. Let me show you why."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"cargo\\\"", "\\\"monorepo\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"cargo\"", "\"monorepo\""]
 featured: "true"
 ---
 

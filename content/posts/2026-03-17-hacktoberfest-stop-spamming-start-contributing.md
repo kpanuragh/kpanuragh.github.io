@@ -2,7 +2,7 @@
 title: "Hacktoberfest: Stop Spamming, Start Contributing (And Actually Get PRs Merged) 🎃"
 date: "2026-03-17"
 excerpt: "Every October, thousands of developers submit PRs that change README punctuation and call it contributing. I spent three Hacktoberfests doing it wrong before I figured out how to ACTUALLY get meaningful PRs merged. Here's your survival guide."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"hacktoberfest\\\"", "\\\"contributing\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"hacktoberfest\"", "\"contributing\""]
 featured: "true"
 ---
 

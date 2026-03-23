@@ -3,7 +3,7 @@ title: "Dependency Confusion: How a Typo Can Hand Attackers Your Production Serv
 date: "2026-03-23"
 excerpt: "In 2021, a security researcher earned $130,000 by uploading fake packages to npm, PyPI, and RubyGems — and they executed code on machines at Apple, Microsoft, and Tesla. Your package manager might be doing the same thing to you right now."
 tags: ["security", "supply-chain", "npm", "python", "dependencies"]
-featured: true
+featured: "true"
 ---
 
 # Dependency Confusion: How a Typo Can Hand Attackers Your Production Server 📦💀

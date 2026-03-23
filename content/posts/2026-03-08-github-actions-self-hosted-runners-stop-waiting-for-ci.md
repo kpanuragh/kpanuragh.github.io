@@ -2,7 +2,7 @@
 title: "GitHub Actions Self-Hosted Runners: Stop Waiting 40 Minutes for a 5-Minute Build 🏃"
 date: "2026-03-08"
 excerpt: "After watching our GitHub-hosted runner bill explode to $800/month and CI jobs queue for 25 minutes during peak hours, I set up self-hosted runners. Build times dropped 80%. Here's everything I learned the hard way."
-tags: ["\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"deployment\\\"", "\\\"automation\\\""]
+tags: ["\"devops\"", "\"ci-cd\"", "\"github-actions\"", "\"deployment\"", "\"automation\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "The OWASP Top 10: Your App's Security Report Card 📊"
 date: "2026-02-13"
 excerpt: "Think your app is secure? The OWASP Top 10 is basically a list of 'How Hackers Will Ruin Your Day.' Here's what you need to know - with zero corporate security jargon."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"owasp\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"owasp\""]
 featured: "true"
 ---
 

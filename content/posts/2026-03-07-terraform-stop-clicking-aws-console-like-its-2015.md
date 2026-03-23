@@ -2,7 +2,7 @@
 title: "Terraform: Stop Clicking Around the AWS Console Like It's 2015 🏗️"
 date: "2026-03-07"
 excerpt: "After countless hours of manually provisioning servers that nobody could reproduce, I finally embraced Infrastructure as Code. Here's why Terraform will save your sanity and your team from 3 AM 'who touched what?' panic calls."
-tags: ["\\\"devops\\\"", "\\\"terraform\\\"", "\\\"infrastructure-as-code\\\"", "\\\"aws\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"terraform\"", "\"infrastructure-as-code\"", "\"aws\"", "\"deployment\""]
 featured: "true"
 ---
 

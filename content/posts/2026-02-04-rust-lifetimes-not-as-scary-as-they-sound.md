@@ -2,7 +2,7 @@
 title: "Rust Lifetimes: Not as Scary as They Sound 🦀⏱️"
 date: "2026-02-04"
 excerpt: "Conquered the borrow checker? Great! Now meet lifetimes - Rust's way of making sure your references don't outlive the data they point to. Coming from 7 years of garbage-collected languages, this concept blew my mind!"
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"lifetimes\\\"", "\\\"memory-safety\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"lifetimes\"", "\"memory-safety\""]
 featured: "true"
 ---
 

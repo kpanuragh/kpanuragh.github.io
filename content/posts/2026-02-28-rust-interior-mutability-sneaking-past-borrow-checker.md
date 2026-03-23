@@ -2,7 +2,7 @@
 title: "Rust Interior Mutability: Sneaking Past the Borrow Checker (Legally) 🦀"
 date: "2026-02-28"
 excerpt: "Coming from PHP where you can mutate literally anything from anywhere at any time with zero consequences — until production — Rust's ownership rules feel like a padlock. Interior mutability is the key. The *legal* key."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"interior-mutability\\\"", "\\\"concurrency\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"interior-mutability\"", "\"concurrency\""]
 featured: "true"
 ---
 

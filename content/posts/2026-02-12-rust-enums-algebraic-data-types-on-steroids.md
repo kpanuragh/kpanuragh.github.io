@@ -2,7 +2,7 @@
 title: "Rust Enums: Why Other Languages Are Jealous 🦀💎"
 date: "2026-02-12"
 excerpt: "Coming from 7 years of PHP and JavaScript, I thought enums were just fancy constants. Then Rust showed me algebraic data types and I realized I'd been living in the stone age. Let me show you why Rust enums are absolute game-changers!"
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"enums\\\"", "\\\"type-safety\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"enums\"", "\"type-safety\""]
 featured: "true"
 ---
 

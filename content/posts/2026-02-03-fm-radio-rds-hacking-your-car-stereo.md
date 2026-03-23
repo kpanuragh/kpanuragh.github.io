@@ -2,7 +2,7 @@
 title: "FM Radio Hacking: How I Made My Car Display 'HACKED BY ME' (Legally!) 📻"
 date: "2026-02-03"
 excerpt: "Ever wonder how your car radio knows the song name and artist? I decoded RDS (Radio Data System) with my SDR and learned how FM radio actually works. Then I built a tiny transmitter and became my own radio station!"
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"fm-radio\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"fm-radio\""]
 featured: "true"
 ---
 

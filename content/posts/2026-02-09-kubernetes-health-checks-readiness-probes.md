@@ -2,7 +2,7 @@
 title: "Kubernetes Health Checks: Stop Routing Traffic to Dead Pods Like It's Amateur Hour 🏥"
 date: "2026-02-09"
 excerpt: "After 7 years of production deployments and countless 3 AM incidents, I learned that health checks aren't optional - they're the difference between 'my app is down' and 'my app auto-heals itself.' Here's how to stop shooting yourself in the foot!"
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"deployment\\\"", "\\\"monitoring\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"deployment\"", "\"monitoring\""]
 featured: "true"
 ---
 

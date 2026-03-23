@@ -2,7 +2,7 @@
 title: "The 433MHz Party: Your Neighbor's Weather Station is Screaming Its Data to Anyone Who'll Listen 🌡️"
 date: "2026-03-07"
 excerpt: "I ran a single command and suddenly my terminal was flooded with temperature readings from every wireless sensor in my apartment building. Turns out the 433MHz ISM band is basically a neighborhood block party where everyone forgot to close the blinds."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"ism-band\\\"", "\\\"rtl433\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"ism-band\"", "\"rtl433\""]
 featured: "true"
 ---
 

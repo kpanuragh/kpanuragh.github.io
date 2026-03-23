@@ -2,7 +2,7 @@
 title: "NoSQL Injection: MongoDB Doesn't Mean 'No Security' 🍃"
 date: "2026-02-25"
 excerpt: "You switched to MongoDB to escape SQL injection. Surprise! Hackers followed you there. Here's how NoSQL injection works and how to stop it before it ruins your weekend."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"mongodb\\\"", "\\\"nodejs\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"mongodb\"", "\"nodejs\""]
 featured: "false"
 ---
 

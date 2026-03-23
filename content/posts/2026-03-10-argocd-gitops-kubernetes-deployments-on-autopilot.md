@@ -2,7 +2,7 @@
 title: "ArgoCD & GitOps: Put Your Kubernetes Deployments on Autopilot 🚀🤖"
 date: "2026-03-10"
 excerpt: "Tired of running kubectl apply and praying nothing explodes? After migrating teams to GitOps, I learned that ArgoCD turns your Git repo into a deployment control plane - here's how to stop deploying manually and start deploying confidently!"
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"gitops\\\"", "\\\"cicd\\\"", "\\\"argocd\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"gitops\"", "\"cicd\"", "\"argocd\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Laravel Notifications: Stop Reinventing the Messaging Wheel 📬"
 date: "2026-01-30"
 excerpt: "Sending emails, SMS, Slack messages, and push notifications with one simple API. Laravel notifications make messaging so easy, you'll wonder why you ever wrote custom mailers!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"notifications\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"notifications\"", "\"web-dev\""]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Laravel Observers: The Silent Watchers 👀"
 date: "2026-02-02"
 excerpt: "Stop cluttering your controllers! Let Laravel Observers watch your models and handle side effects like a ninja. Clean code incoming!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"eloquent\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"eloquent\""]
 ---
 
 

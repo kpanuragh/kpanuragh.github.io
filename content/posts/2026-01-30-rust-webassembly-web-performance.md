@@ -2,7 +2,7 @@
 title: "Rust + WebAssembly: Making JavaScript Sweat 🦀⚡"
 date: "2026-01-30"
 excerpt: "Think JavaScript is the only way to run code in browsers? Rust + WebAssembly just entered the chat and they're running circles around your React app. Time to make the web FAST again!"
-tags: ["\\\"rust\\\"", "\\\"webassembly\\\"", "\\\"wasm\\\"", "\\\"performance\\\"", "\\\"web-development\\\""]
+tags: ["\"rust\"", "\"webassembly\"", "\"wasm\"", "\"performance\"", "\"web-development\""]
 featured: "true"
 ---
 

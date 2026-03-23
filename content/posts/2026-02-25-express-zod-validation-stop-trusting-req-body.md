@@ -2,7 +2,7 @@
 title: "🛡️ Stop Trusting req.body: Runtime Validation in Express with Zod"
 date: "2026-02-25"
 excerpt: "Your Express API trusts whatever JSON the client sends. That's cute. Let's fix it with Zod — the schema validation library that'll save you from yourself."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"typescript\\\"", "\\\"validation\\\"", "\\\"zod\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"typescript\"", "\"validation\"", "\"zod\""]
 featured: "true"
 ---
 

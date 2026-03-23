@@ -2,7 +2,7 @@
 title: "Canary Deployments: Ship to 5% of Users First, Burn Down Production Never 🐤🔥"
 date: "2026-03-09"
 excerpt: "After shipping a buggy release that took down 100% of users at once, I learned canary deployments the hard way. Here's how to roll out features to 5% of traffic first so your disasters only affect 5% of users."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"kubernetes\"", "\"docker\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "XSS Attacks: When Users Inject JavaScript Into Your Site 🎭"
 date: "2026-01-27"
 excerpt: "Cross-Site Scripting is like letting strangers write graffiti on your website... except the graffiti can steal passwords. Let's fix that!"
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"xss\\\"", "\\\"security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"xss\"", "\"security\""]
 featured: "true"
 ---
 

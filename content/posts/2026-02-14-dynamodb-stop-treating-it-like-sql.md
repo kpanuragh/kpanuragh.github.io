@@ -2,7 +2,7 @@
 title: "DynamoDB: Stop Treating It Like a SQL Database 🔥📊"
 date: "2026-02-14"
 excerpt: "You're doing JOINs in application code, scanning entire tables, and wondering why your AWS bill is $500/month? After architecting production DynamoDB systems handling millions of requests, here's how to actually use NoSQL - not SQL in denial!"
-tags: ["\\\"aws\\\"", "\\\"dynamodb\\\"", "\\\"nosql\\\"", "\\\"serverless\\\""]
+tags: ["\"aws\"", "\"dynamodb\"", "\"nosql\"", "\"serverless\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Idempotency Keys: Stop Creating Duplicate Orders When Users Double-Click the Payment Button 🔑💳"
 date: "2026-02-25"
 excerpt: "User clicks 'Pay Now.' Page hangs for 2 seconds. They click again. You charge them twice. Sound familiar? Idempotency keys are the four-line fix that took me an embarrassing amount of time to learn."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"api-design\\\"", "\\\"distributed-systems\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"api-design\"", "\"distributed-systems\""]
 featured: "true"
 ---
 

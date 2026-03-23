@@ -2,7 +2,7 @@
 title: "Laravel Reverb: Real-Time Features Without the WebSocket Nightmares ⚡"
 date: "2026-02-23"
 excerpt: "Real-time notifications, live dashboards, chat - without paying Pusher $50/month or maintaining a Node.js server. Laravel Reverb to the rescue."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"websockets\\\"", "\\\"real-time\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"websockets\"", "\"real-time\""]
 ---
 
 # Laravel Reverb: Real-Time Features Without the WebSocket Nightmares ⚡

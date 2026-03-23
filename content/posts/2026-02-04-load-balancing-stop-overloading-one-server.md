@@ -2,7 +2,7 @@
 title: "Load Balancing: Stop Overloading One Server While Others Sip Coffee ☕⚖️"
 date: "2026-02-04"
 excerpt: "Your app has 5 servers but only one is actually working. After 7 years architecting production systems, here's how I learned that load balancing isn't just 'distributing traffic' - it's the difference between smooth scaling and catastrophic failure!"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"infrastructure\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"infrastructure\""]
 featured: "true"
 ---
 

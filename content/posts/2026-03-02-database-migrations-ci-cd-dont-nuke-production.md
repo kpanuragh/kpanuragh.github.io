@@ -2,7 +2,7 @@
 title: "Database Migrations in CI/CD: Stop Nuking Production With That ALTER TABLE 🗄️💥"
 date: "2026-03-02"
 excerpt: "After countless deployments where 'it works on staging' turned into a production dumpster fire, I learned the hard way: running migrations blindly in CI/CD is how you spend your Saturday on-call. Here's the battle-tested approach that stopped the bleeding."
-tags: ["\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"database\\\"", "\\\"deployment\\\"", "\\\"migrations\\\""]
+tags: ["\"devops\"", "\"ci-cd\"", "\"database\"", "\"deployment\"", "\"migrations\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Git Bisect: The Bug-Hunting Superpower That Found a 2-Year-Old Flaw in 5 Minutes 🕵️"
 date: "2026-02-21"
 excerpt: "I blamed three different team members before using git bisect to discover the regression was mine. From 14 months ago. On a Friday afternoon. This tool is equal parts powerful and humbling."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"git\\\"", "\\\"developer-tools\\\"", "\\\"debugging\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"git\"", "\"developer-tools\"", "\"debugging\""]
 featured: "true"
 ---
 

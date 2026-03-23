@@ -2,7 +2,7 @@
 title: "WiFi Packet Sniffing: I Can See Your Network Traffic (And You Should Too!) 📡🔒"
 date: "2026-02-04"
 excerpt: "Ever wonder what's ACTUALLY happening on your WiFi network? I put my wireless adapter in monitor mode and saw EVERY packet flying through the air. Passwords, cookies, DNS queries... the WiFi spectrum tells all. Here's what I learned about wireless security!"
-tags: ["\\\"rf\\\"", "\\\"wireless\\\"", "\\\"security\\\"", "\\\"networking\\\"", "\\\"wifi\\\""]
+tags: ["\"rf\"", "\"wireless\"", "\"security\"", "\"networking\"", "\"wifi\""]
 featured: "true"
 ---
 

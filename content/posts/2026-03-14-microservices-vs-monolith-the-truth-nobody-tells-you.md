@@ -2,7 +2,7 @@
 title: "Microservices vs Monolith: The Truth Nobody Tells You 🏗️💥"
 date: "2026-03-14"
 excerpt: "I've built both a 'beautiful' microservices architecture AND a boring monolith for e-commerce backends. One nearly destroyed my team. Spoiler: it wasn't the monolith. Here's what 7 years of production systems actually taught me."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"monolith\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"microservices\"", "\"monolith\""]
 featured: "true"
 ---
 

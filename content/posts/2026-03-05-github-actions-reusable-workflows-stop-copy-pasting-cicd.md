@@ -2,7 +2,7 @@
 title: "GitHub Actions Reusable Workflows: Stop Copy-Pasting Your CI/CD Into Every Repo 🔁"
 date: "2026-03-05"
 excerpt: "After setting up the same GitHub Actions pipeline for the 11th microservice in a row — copy, paste, tweak, commit, forget to update the original — I finally snapped. Here's how reusable workflows ended the nightmare and made our CI/CD actually maintainable."
-tags: ["\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"ci-cd\"", "\"github-actions\"", "\"deployment\""]
 featured: "true"
 ---
 

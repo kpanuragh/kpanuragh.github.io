@@ -2,7 +2,7 @@
 title: "Laravel Telescope: Stop Guessing What's Happening in Your App 🔭"
 date: "2026-02-26"
 excerpt: "Flying blind in production? Laravel Telescope gives your app X-ray vision. Here's how I use it to catch bugs before my users even notice them."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"debugging\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"debugging\""]
 ---
 
 # Laravel Telescope: Stop Guessing What's Happening in Your App 🔭

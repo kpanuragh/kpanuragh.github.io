@@ -2,7 +2,7 @@
 title: "Rust Macros: When Your Code Writes Your Code 🦀🪄"
 date: "2026-01-29"
 excerpt: "Think copy-paste is the only way to avoid repetition? Rust macros just entered the chat and they're about to make your code write itself. Prepare for meta-programming magic!"
-tags: ["\\\"rust\\\"", "\\\"macros\\\"", "\\\"metaprogramming\\\"", "\\\"systems-programming\\\""]
+tags: ["\"rust\"", "\"macros\"", "\"metaprogramming\"", "\"systems-programming\""]
 featured: "true"
 ---
 

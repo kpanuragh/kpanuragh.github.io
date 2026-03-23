@@ -2,7 +2,7 @@
 title: "Monolith vs Microservices: When NOT to Split Your App (Yes, Really!) 🏗️💥"
 date: "2026-02-09"
 excerpt: "Everyone's rushing to microservices like it's Black Friday. After 7 years architecting systems from monoliths to distributed nightmares, I learned the hard way: sometimes the best architecture decision is to NOT split your app!"
-tags: ["\\\"architecture\\\"", "\\\"microservices\\\"", "\\\"monolith\\\"", "\\\"scalability\\\"", "\\\"system-design\\\""]
+tags: ["\"architecture\"", "\"microservices\"", "\"monolith\"", "\"scalability\"", "\"system-design\""]
 featured: "true"
 ---
 

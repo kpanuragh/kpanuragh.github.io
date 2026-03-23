@@ -2,7 +2,7 @@
 title: "🔌 WebSockets in Node.js: Stop Polling Like It's 2010"
 date: "2026-03-03"
 excerpt: "Still hammering your server with HTTP requests every second to fake real-time? Let's fix that. Here's how WebSockets work in Node.js and why your users will thank you."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"websockets\\\"", "\\\"backend\\\"", "\\\"real-time\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"websockets\"", "\"backend\"", "\"real-time\""]
 featured: "true"
 ---
 

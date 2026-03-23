@@ -2,7 +2,7 @@
 title: "How I Built This Blog (And You Can Too!)"
 date: "2026-01-21"
 excerpt: "The story of building a blog with a cool terminal boot animation. Spoiler: It was easier than I thought! 🚀"
-tags: ["\\\"nextjs\\\"", "\\\"react\\\"", "\\\"web-dev\\\"", "\\\"tutorial\\\""]
+tags: ["\"nextjs\"", "\"react\"", "\"web-dev\"", "\"tutorial\""]
 featured: "true"
 ---
 

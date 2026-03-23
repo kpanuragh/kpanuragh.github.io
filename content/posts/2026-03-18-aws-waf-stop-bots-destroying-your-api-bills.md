@@ -2,7 +2,7 @@
 title: "AWS WAF: Stop Bots From Torching Your Lambda Bills 🔥🤖"
 date: "2026-03-18"
 excerpt: "Your API is getting hammered by bots and you're paying Lambda's invoice for every single scraper hit. AWS WAF is the bouncer your serverless app desperately needs!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"security\\\"", "\\\"waf\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"serverless\"", "\"security\"", "\"waf\""]
 featured: "true"
 ---
 

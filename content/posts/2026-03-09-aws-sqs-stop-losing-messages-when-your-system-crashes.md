@@ -2,7 +2,7 @@
 title: "AWS SQS: Stop Losing Messages When Your System Crashes 📬💀"
 date: "2026-03-09"
 excerpt: "Your Lambda crashed mid-order. Your server rebooted at 3 AM. Your API timed out. Without SQS, that message is GONE forever. Here's how I stopped losing customer orders in production."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sqs\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"sqs\"", "\"cloud\""]
 featured: "true"
 ---
 

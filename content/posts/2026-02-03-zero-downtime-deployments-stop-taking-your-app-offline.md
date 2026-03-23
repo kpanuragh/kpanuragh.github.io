@@ -2,7 +2,7 @@
 title: "Zero Downtime Deployments: Stop Taking Your App Offline Like It's 2010 🚀"
 date: "2026-02-03"
 excerpt: "Still showing 'Site under maintenance' during deploys? After 7 years of production deployments, here's how I went from scary Friday night releases to confident anytime deploys - without downtime!"
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"kubernetes\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"kubernetes\""]
 featured: "true"
 ---
 

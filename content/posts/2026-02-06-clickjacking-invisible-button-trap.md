@@ -2,7 +2,7 @@
 title: "Clickjacking: When That 'Free iPad' Button Deletes Your Account 🎯🪤"
 date: "2026-02-06"
 excerpt: "You think you're clicking a harmless button. Plot twist: you just deleted your account, transferred money, or enabled your webcam. Welcome to clickjacking - the magic trick of web attacks!"
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"owasp\\\"", "\\\"clickjacking\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"owasp\"", "\"clickjacking\""]
 featured: "true"
 ---
 

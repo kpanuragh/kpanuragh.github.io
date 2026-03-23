@@ -2,7 +2,7 @@
 title: "HTTP Request Smuggling: The Attack That Hides in Plain Sight 🕵️"
 date: "2026-02-07"
 excerpt: "Think your firewall is protecting you? HTTP Request Smuggling is the sneaky attack that slips right past your defenses. Here's how it works (and how I found one)."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"http\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"http\""]
 featured: "true"
 ---
 

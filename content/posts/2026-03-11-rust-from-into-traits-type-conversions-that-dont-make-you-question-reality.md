@@ -2,7 +2,7 @@
 title: "Rust's `From` and `Into` Traits: Type Conversions That Don't Make You Question Reality 🦀🔄"
 date: "2026-03-11"
 excerpt: "PHP told me '1' + 1 = 2 one day and '11' the next. JavaScript told me true + true = 2. Rust's From and Into traits told me exactly what happens, every time, with zero surprises. Coming from 7 years of PHP/Node.js, this felt like finally turning on the lights."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"type-system\\\"", "\\\"beginner-rust\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"type-system\"", "\"beginner-rust\""]
 featured: "true"
 ---
 

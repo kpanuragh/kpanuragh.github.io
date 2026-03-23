@@ -2,7 +2,7 @@
 title: "Blue-Green Deployments: How I Finally Stopped Fearing Production Releases 🔵🟢🚀"
 date: "2026-02-22"
 excerpt: "After years of white-knuckling every production deploy and praying nothing broke, I discovered blue-green deployments. Now my team ships on Fridays. On purpose. Here's how we got there."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"aws\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"ci-cd\"", "\"aws\""]
 featured: "true"
 ---
 

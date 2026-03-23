@@ -2,7 +2,7 @@
 title: "Kubernetes Health Probes: Stop Letting Broken Pods Pretend They're Healthy 🩺🔥"
 date: "2026-02-24"
 excerpt: "Your Kubernetes pod is 'Running' but returning 503s to every user? After debugging countless production incidents, I learned that liveness, readiness, and startup probes are the difference between real health and a zombie pod that just looks alive."
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"docker\"", "\"deployment\""]
 featured: "true"
 ---
 

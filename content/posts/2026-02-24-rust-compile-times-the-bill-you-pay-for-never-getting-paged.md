@@ -2,7 +2,7 @@
 title: "Rust's Compile Times: The Bill You Pay to Never Get Paged at 3am 🦀⏳"
 date: "2026-02-24"
 excerpt: "Coming from PHP where 'compilation' takes zero seconds and Node.js where there's no compilation at all, Rust's compile times feel like a tax. Turns out it's the best tax you'll ever pay."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"developer-experience\\\"", "\\\"tooling\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"developer-experience\"", "\"tooling\""]
 featured: "true"
 ---
 

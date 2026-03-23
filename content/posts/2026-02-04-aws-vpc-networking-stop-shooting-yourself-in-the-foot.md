@@ -2,7 +2,7 @@
 title: "AWS VPC Networking: Stop Shooting Yourself in the Foot 🔫🦶"
 date: "2026-02-04"
 excerpt: "Your AWS resources can't talk to each other, the internet, or you're getting mystery connection errors? After architecting production VPCs, here's how to fix AWS networking without crying into your coffee!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"networking\\\"", "\\\"devops\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"networking\"", "\"devops\""]
 featured: "true"
 ---
 

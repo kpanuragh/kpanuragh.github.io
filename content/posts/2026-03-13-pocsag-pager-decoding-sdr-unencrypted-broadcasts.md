@@ -2,7 +2,7 @@
 title: "Pagers Are Still Beeping in 2026 — And Broadcasting in Plaintext 📟"
 date: "2026-03-13"
 excerpt: "I pointed my RTL-SDR at 152 MHz and discovered hospitals, factories, and businesses are still broadcasting unencrypted pager messages over radio. Here's how I decoded them and what it means for wireless security."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"security\\\"", "\\\"pocsag\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"security\"", "\"pocsag\""]
 featured: "true"
 ---
 

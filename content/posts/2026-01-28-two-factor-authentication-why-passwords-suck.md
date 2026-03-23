@@ -2,7 +2,7 @@
 title: "Two-Factor Authentication: Why Passwords Alone Are a Terrible Idea 🔐"
 date: "2026-01-28"
 excerpt: "Passwords are dead (they just don't know it yet). Here's why 2FA is your account's best friend and how to implement it without making your users hate you."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"authentication\\\"", "\\\"2fa\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"authentication\"", "\"2fa\""]
 featured: "true"
 ---
 

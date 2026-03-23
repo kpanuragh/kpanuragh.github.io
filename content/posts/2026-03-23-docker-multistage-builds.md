@@ -1,9 +1,9 @@
 ---
 title: "🐳 Docker Multi-Stage Builds: Stop Shipping Your Compiler to Production"
-date: 2026-03-23
+date: "2026-03-23"
 excerpt: "Your Docker images are too fat. Like, embarrassingly fat. Let's fix that with multi-stage builds and shrink those containers from gigabytes down to megabytes."
 tags: ["docker", "devops", "containers", "best-practices", "ci-cd"]
-featured: true
+featured: "true"
 ---
 
 # 🐳 Docker Multi-Stage Builds: Stop Shipping Your Compiler to Production

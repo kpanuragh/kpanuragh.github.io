@@ -2,7 +2,7 @@
 title: "Prototype Pollution: The JavaScript Attack That Breaks Everything Without Touching Anything 🧬"
 date: "2026-03-01"
 excerpt: "Imagine an attacker corrupting the DNA of every object in your Node.js app without writing a single exploit payload. That's prototype pollution. It's sneaky, widespread, and your dependencies are probably vulnerable right now."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"javascript\\\"", "\\\"nodejs\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"javascript\"", "\"nodejs\""]
 featured: "false"
 ---
 

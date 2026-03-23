@@ -2,7 +2,7 @@
 title: "🔫 Kubernetes Probes: Stop Accidentally Killing Your Own Pods"
 date: "2026-03-20"
 excerpt: "Liveness and readiness probes are Kubernetes superpowers — until you misconfigure them and watch your app restart itself into oblivion. Here's how to get them right."
-tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"k8s\\\"", "\\\"reliability\\\""]
+tags: ["\"kubernetes\"", "\"devops\"", "\"docker\"", "\"k8s\"", "\"reliability\""]
 featured: "true"
 ---
 

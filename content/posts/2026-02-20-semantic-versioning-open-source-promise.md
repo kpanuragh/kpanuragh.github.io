@@ -2,7 +2,7 @@
 title: "Semantic Versioning: The Promise That Keeps a Million npm Packages From Exploding 💥📦"
 date: "2026-02-20"
 excerpt: "I once upgraded a 'minor' version and my entire Laravel app stopped working. That's when I learned semver isn't just a number — it's a social contract between you and every developer using your code."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"semver\\\"", "\\\"developer-tools\\\"", "\\\"community\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"semver\"", "\"developer-tools\"", "\"community\""]
 featured: "true"
 ---
 

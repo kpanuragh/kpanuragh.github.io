@@ -2,7 +2,7 @@
 title: "Laravel Telescope: Stop Debugging in the Dark 🔭"
 date: "2026-03-16"
 excerpt: "You're dd()-ing everywhere like it's 2012. Laravel Telescope gives you X-ray vision into every query, job, exception, and request — in real time."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"debugging\\\"", "\\\"devtools\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"debugging\"", "\"devtools\""]
 ---
 
 # Laravel Telescope: Stop Debugging in the Dark 🔭

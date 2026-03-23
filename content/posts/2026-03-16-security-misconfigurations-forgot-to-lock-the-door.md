@@ -2,7 +2,7 @@
 title: "Security Misconfigurations: The 'I Forgot to Lock the Door' of Web Security 🔓"
 date: "2026-03-16"
 excerpt: "Your code is perfect. Your architecture is beautiful. But you left debug mode on in production. Again. Let's talk about security misconfigurations — the #1 reason 'secure' apps get pwned."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"devops\\\"", "\\\"cloud-security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"devops\"", "\"cloud-security\""]
 featured: "false"
 ---
 

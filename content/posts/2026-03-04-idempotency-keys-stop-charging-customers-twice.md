@@ -2,7 +2,7 @@
 title: "Idempotency Keys: Stop Charging Your Customers Twice (They Notice) 🔑💸"
 date: "2026-03-04"
 excerpt: "Customer clicks 'Pay Now' once. Your server processes it twice. Card charged twice. Customer is FURIOUS. After 7 years building e-commerce backends and personally causing this exact disaster, I'll show you how Idempotency Keys prevent duplicate operations — the elegantly simple pattern that separates amateurs from engineers who sleep at night."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"api-design\\\"", "\\\"reliability\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"api-design\"", "\"reliability\""]
 featured: "true"
 ---
 

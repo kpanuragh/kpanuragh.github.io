@@ -2,7 +2,7 @@
 title: "Rust SIMD: Eight Calculations for the Price of One 🦀⚡"
 date: "2026-03-15"
 excerpt: "I spent years writing loops that processed one number at a time. Turns out your CPU has been laughing at me this whole time — it can do 8 calculations simultaneously. Rust lets you use that power without losing your mind."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"simd\\\"", "\\\"optimization\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"simd\"", "\"optimization\""]
 featured: "true"
 ---
 

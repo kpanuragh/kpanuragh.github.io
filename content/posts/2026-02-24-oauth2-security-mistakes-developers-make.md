@@ -2,7 +2,7 @@
 title: "OAuth 2.0 Security Mistakes That'll Make You Cringe 😬🔑"
 date: "2026-02-24"
 excerpt: "OAuth 2.0 is supposed to make authentication safer and easier. So why do so many developers implement it in ways that hand hackers the keys to the kingdom? Let's tour the most cringe-worthy OAuth mistakes — and how to fix them."
-tags: ["\\\"security\\\"", "\\\"oauth\\\"", "\\\"authentication\\\"", "\\\"api-security\\\""]
+tags: ["\"security\"", "\"oauth\"", "\"authentication\"", "\"api-security\""]
 featured: "true"
 ---
 

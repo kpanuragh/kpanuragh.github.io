@@ -2,7 +2,7 @@
 title: "Laravel Middleware: Your App's Bouncer 🚪"
 date: "2026-01-21"
 excerpt: "Middleware is like having a bouncer at your app's door. Let's learn how to use it without getting kicked out!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"middleware\\\"", "\\\"web-dev\\\"", "\\\"security\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"middleware\"", "\"web-dev\"", "\"security\""]
 ---
 
 

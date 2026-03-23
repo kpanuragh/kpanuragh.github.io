@@ -2,7 +2,7 @@
 title: "Express Middleware Mistakes That Will Crash Your API 🚨"
 date: "2026-02-02"
 excerpt: "Think middleware is just app.use() and you're done? Cool! Now explain why your Express server randomly hangs. Let's dive into the middleware gotchas that bite every Node.js developer - from memory leaks to silent failures!"
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"javascript\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"javascript\""]
 featured: "true"
 ---
 

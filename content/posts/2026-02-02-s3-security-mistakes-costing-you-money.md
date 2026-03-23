@@ -2,7 +2,7 @@
 title: "S3 Security Mistakes That Are Costing You Money (And Sleep) 💸🔒"
 date: "2026-02-02"
 excerpt: "Your S3 bucket is probably leaking data AND money right now. After years of architecting on AWS, here are the S3 gotchas that bite everyone - from accidentally public buckets to storage costs that spiral out of control!"
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"s3\\\"", "\\\"security\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"s3\"", "\"security\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Laravel Collections: Stop Writing Loops Like It's 1999 🔥"
 date: "2026-01-25"
 excerpt: "Still using foreach everywhere? Laravel Collections will blow your mind and make your code so clean you'll want to frame it!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"collections\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"collections\"", "\"web-dev\""]
 ---
 
 

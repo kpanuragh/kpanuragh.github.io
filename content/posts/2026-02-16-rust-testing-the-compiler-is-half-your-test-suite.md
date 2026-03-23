@@ -2,7 +2,7 @@
 title: "Rust Testing: The Compiler Is Half Your Test Suite 🦀✅"
 date: "2026-02-16"
 excerpt: "Coming from 7 years of Laravel where I'd write 50 tests to catch runtime errors, Rust testing blew my mind - the compiler catches so many bugs that my test suite is SMALLER and MORE confident! Here's why testing in Rust feels like cheating!"
-tags: ["\\\"rust\\\"", "\\\"testing\\\"", "\\\"systems-programming\\\"", "\\\"quality-assurance\\\""]
+tags: ["\"rust\"", "\"testing\"", "\"systems-programming\"", "\"quality-assurance\""]
 featured: "true"
 ---
 

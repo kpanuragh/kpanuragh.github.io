@@ -2,7 +2,7 @@
 title: "Laravel Validation That Doesn't Suck 🎯"
 date: "2026-01-21"
 excerpt: "Stop terrorizing your users with cryptic error messages! Here's how to write Laravel validation that's actually... helpful."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"validation\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"validation\"", "\"web-dev\""]
 ---
 
 

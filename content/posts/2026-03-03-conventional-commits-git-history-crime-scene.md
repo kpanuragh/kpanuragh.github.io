@@ -2,7 +2,7 @@
 title: "Conventional Commits: Your Git History Shouldn't Read Like a Crime Scene 🔍"
 date: "2026-03-03"
 excerpt: "You opened a repo's git log and saw 'fix', 'wip', 'asdfgh', 'FINAL', 'FINAL FINAL', 'ok now it works'. That's not a commit history. That's a cry for help. Here's how Conventional Commits turns your git log from a war crime into a changelog maintainers actually love."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"git\\\"", "\\\"community\\\"", "\\\"developer-tools\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"git\"", "\"community\"", "\"developer-tools\""]
 featured: "true"
 ---
 

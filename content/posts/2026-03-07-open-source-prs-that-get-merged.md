@@ -2,7 +2,7 @@
 title: "The Art of Writing PRs That Maintainers Actually Merge 🎯🚀"
 date: "2026-03-07"
 excerpt: "You spent 3 days writing the perfect feature. You opened a PR. Then... silence. Two weeks later, it gets closed with 'not aligned with project goals'. Here's how to stop that from happening."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"contributing\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"community\"", "\"contributing\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "HTTP Host Header Attacks: The 'Trusted' Header Stealing Your Users' Accounts 🎯"
 date: "2026-03-03"
 excerpt: "Your app blindly trusts the Host header in every request — and attackers love that. Here's how password reset link poisoning works, why it's so sneaky, and how to stop it before a hacker finds it first."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"owasp\\\"", "\\\"bug-bounty\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"owasp\"", "\"bug-bounty\""]
 featured: "false"
 ---
 

@@ -2,7 +2,7 @@
 title: "⚡ Node.js Worker Threads: CPU-Intensive Tasks Without Blocking Your Entire App"
 date: "2026-03-02"
 excerpt: "Node.js is single-threaded — until it isn't. Worker Threads let you run CPU-heavy code in parallel without spinning up new processes. Here's how to use them correctly."
-tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"concurrency\\\"", "\\\"express\\\""]
+tags: ["\"nodejs\"", "\"backend\"", "\"performance\"", "\"concurrency\"", "\"express\""]
 featured: "true"
 ---
 

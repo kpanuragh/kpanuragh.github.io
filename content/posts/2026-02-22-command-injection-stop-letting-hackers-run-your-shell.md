@@ -2,7 +2,7 @@
 title: "Command Injection: Stop Letting Hackers SSH Into Your Soul 💀"
 date: "2026-02-22"
 excerpt: "That innocent shell_exec() call? It's basically handing a stranger your server's keyboard. Let's talk about OS command injection - the vulnerability that turns your app into a personal hacker playground."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"command-injection\\\"", "\\\"owasp\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"command-injection\"", "\"owasp\""]
 featured: "false"
 ---
 

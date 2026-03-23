@@ -2,7 +2,7 @@
 title: "Laravel Factories & Seeders: Your Test Data Is Lying to You 🏭"
 date: "2026-03-21"
 excerpt: "If your test database has 3 users named 'Test User', one product called 'Product 1', and no edge cases — congratulations, you're writing tests for a world that doesn't exist."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"testing\\\"", "\\\"web-dev\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"testing\"", "\"web-dev\""]
 ---
 
 # Laravel Factories & Seeders: Your Test Data Is Lying to You 🏭

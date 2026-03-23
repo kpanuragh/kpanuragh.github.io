@@ -2,7 +2,7 @@
 title: "API Rate Limiting: Or How I Learned to Stop Worrying and Love the 429 🚦"
 date: "2026-01-21"
 excerpt: "Your API got hammered by 10,000 requests per second? Let's talk about rate limiting - the bouncer your API desperately needs but probably doesn't have."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"api-security\\\"", "\\\"rate-limiting\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"api-security\"", "\"rate-limiting\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "ReDoS: Your Innocent Email Validation Regex Can Take Down Your Server 🔥"
 date: "2026-02-28"
 excerpt: "You spent 10 minutes crafting the perfect email validation regex. Congratulations — you just handed an attacker a denial-of-service weapon. Let's talk about ReDoS."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"nodejs\\\"", "\\\"regex\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"nodejs\"", "\"regex\""]
 featured: "false"
 ---
 

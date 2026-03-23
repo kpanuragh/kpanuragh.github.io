@@ -2,7 +2,7 @@
 title: "Signal Hunting with SDR: I Decoded a Mystery 433 MHz Signal (And You Can Too!) 🔍📡"
 date: "2026-02-11"
 excerpt: "Found a weird signal on 433 MHz and thought 'what the heck is that?' Turned out to be my neighbor's wireless thermometer! Here's how I use GNU Radio, Python, and signal analysis to identify unknown RF transmissions. Software meets radio waves!"
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"python\\\"", "\\\"signal-processing\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"python\"", "\"signal-processing\""]
 featured: "true"
 ---
 

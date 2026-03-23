@@ -2,7 +2,7 @@
 title: "Hexagonal Architecture: Stop Letting Your Framework Own Your Business Logic 🏗️🔌"
 date: "2026-03-08"
 excerpt: "I spent 3 months migrating our Laravel e-commerce monolith to Node.js microservices and the hardest part? Our business logic was so tangled with Eloquent it wasn't actually portable. Hexagonal Architecture would have saved me that pain."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"clean-architecture\\\"", "\\\"hexagonal\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"clean-architecture\"", "\"hexagonal\""]
 featured: "true"
 ---
 

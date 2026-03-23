@@ -2,7 +2,7 @@
 title: "🛡️ Express Request Validation with Zod: Stop Trusting User Input"
 date: "2026-03-18"
 excerpt: "Every unvalidated request is a ticking time bomb. Learn how to use Zod to add bulletproof, type-safe validation to your Express APIs — and sleep soundly at night."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"validation\\\"", "\\\"zod\\\"", "\\\"backend\\\"", "\\\"typescript\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"validation\"", "\"zod\"", "\"backend\"", "\"typescript\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Rust Ownership: The Memory Management Revolution You Didn't Know You Needed 🦀🎯"
 date: "2026-02-05"
 excerpt: "Coming from 7 years of JavaScript and PHP, I thought memory management meant 'garbage collector handles it.' Then Rust's ownership model blew my mind - no GC, no manual malloc/free, just pure compile-time genius. Here's why ownership is the most revolutionary programming concept I've learned!"
-tags: ["\\\"rust\\\"", "\\\"ownership\\\"", "\\\"memory-management\\\"", "\\\"systems-programming\\\""]
+tags: ["\"rust\"", "\"ownership\"", "\"memory-management\"", "\"systems-programming\""]
 featured: "true"
 ---
 

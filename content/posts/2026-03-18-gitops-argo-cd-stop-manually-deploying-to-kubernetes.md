@@ -2,7 +2,7 @@
 title: "GitOps & Argo CD: Stop Manually Deploying to Kubernetes Like It's 2015 🚀🔄"
 date: "2026-03-18"
 excerpt: "After years of ssh-ing into servers and running kubectl apply like a caveman, I discovered GitOps and Argo CD. Now my Git repo IS my deployment pipeline, and I haven't manually touched a cluster in months. Here's how it works!"
-tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"gitops\\\"", "\\\"ci-cd\\\"", "\\\"deployment\\\""]
+tags: ["\"devops\"", "\"kubernetes\"", "\"gitops\"", "\"ci-cd\"", "\"deployment\""]
 featured: "true"
 ---
 

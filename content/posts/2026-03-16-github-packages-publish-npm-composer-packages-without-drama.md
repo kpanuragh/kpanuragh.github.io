@@ -2,7 +2,7 @@
 title: "GitHub Packages: Stop Emailing Your Team Zip Files Like It's 2008 📦🎁"
 date: "2026-03-16"
 excerpt: "You've launched your open source project. You've got contributors. Now you need a package registry that doesn't cost $50/month or require you to fight npm's publish process. GitHub Packages is sitting right there, and almost nobody uses it."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"community\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"developer-tools\"", "\"community\""]
 featured: "true"
 ---
 

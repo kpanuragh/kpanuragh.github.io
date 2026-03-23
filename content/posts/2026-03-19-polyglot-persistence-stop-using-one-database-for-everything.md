@@ -2,7 +2,7 @@
 title: "Polyglot Persistence: Stop Using One Database for Everything 🗄️🔀"
 date: "2026-03-19"
 excerpt: "I spent three years cramming search, sessions, blob storage, and real-time feeds into PostgreSQL. Then I discovered polyglot persistence, and my database stopped looking like a hoarder's garage. Here's what I learned the hard way."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"databases\\\"", "\\\"microservices\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"databases\"", "\"microservices\""]
 featured: "true"
 ---
 

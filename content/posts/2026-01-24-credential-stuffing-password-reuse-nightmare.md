@@ -2,7 +2,7 @@
 title: "Credential Stuffing: Why Your 'Password123' Is On Sale for $2 🔑"
 date: "2026-01-24"
 excerpt: "Think your password is safe because you only used it on 'a few sites'? Plot twist: it's already leaked, tested on 10,000 websites, and up for sale. Here's how credential stuffing works and how to stop being an easy target."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"passwords\\\"", "\\\"authentication\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"passwords\"", "\"authentication\""]
 featured: "true"
 ---
 

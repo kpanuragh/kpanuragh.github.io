@@ -2,7 +2,7 @@
 title: "Node.js Testing: Making It Actually Fun (No, Really!) 🧪"
 date: "2026-02-11"
 excerpt: "Think writing tests is boring busywork? Think TDD slows you down? Cool! Now explain why you spent 6 hours debugging a bug that tests would've caught in 30 seconds. Let's make Node.js testing fun and practical - you might even enjoy it!"
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"testing\\\"", "\\\"backend\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"testing\"", "\"backend\""]
 featured: "true"
 ---
 

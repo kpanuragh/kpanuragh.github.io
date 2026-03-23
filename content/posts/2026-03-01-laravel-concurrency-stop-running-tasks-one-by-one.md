@@ -2,7 +2,7 @@
 title: "Laravel Concurrency: Stop Running Slow Tasks One by One (It's 2026!) ⚡"
 date: "2026-03-01"
 excerpt: "Your Laravel app is running tasks sequentially like it's waiting in a McDonald's queue. Laravel 11's Concurrency facade lets you run them all at once. Here's how."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"performance\\\"", "\\\"concurrency\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"performance\"", "\"concurrency\""]
 ---
 
 # Laravel Concurrency: Stop Running Slow Tasks One by One (It's 2026!) ⚡

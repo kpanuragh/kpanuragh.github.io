@@ -2,7 +2,7 @@
 title: "Laravel's Service Container: The Magic Box You've Been Ignoring 📦"
 date: "2026-01-23"
 excerpt: "Think dependency injection is scary? Laravel's Service Container makes it so easy, you'll wonder why you ever used 'new' everywhere!"
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"dependency-injection\\\"", "\\\"web-dev\\\"", "\\\"architecture\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"dependency-injection\"", "\"web-dev\"", "\"architecture\""]
 ---
 
 

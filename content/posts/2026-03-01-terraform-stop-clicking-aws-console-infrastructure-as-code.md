@@ -2,7 +2,7 @@
 title: "Terraform: Stop Clicking Around the AWS Console Before You Delete Production 🏗️"
 date: "2026-03-01"
 excerpt: "I once rebuilt an entire production environment from scratch because a teammate 'just clicked a few things' in the AWS console. That was the day I became a Terraform evangelist. Here's what I wish someone had told me on day one."
-tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"infrastructure\\\"", "\\\"terraform\\\""]
+tags: ["\"devops\"", "\"deployment\"", "\"infrastructure\"", "\"terraform\""]
 featured: "true"
 ---
 

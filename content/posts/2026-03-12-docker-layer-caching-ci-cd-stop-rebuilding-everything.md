@@ -2,7 +2,7 @@
 title: "Docker Layer Caching: Stop Rebuilding Your Entire Image for a One-Line Change 🐳⚡"
 date: "2026-03-12"
 excerpt: "Your CI pipeline takes 12 minutes to build a Docker image. 11 of those minutes are installing the same npm packages you installed yesterday. Let's fix that with Docker layer caching."
-tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"performance\\\""]
+tags: ["\"devops\"", "\"docker\"", "\"ci-cd\"", "\"github-actions\"", "\"performance\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Pull Request Etiquette: How to Get Your PRs Merged (Not Ignored) 🚀✅"
 date: "2026-02-09"
 excerpt: "Opened a PR with 'fixed stuff' as the title and wondering why it's been sitting there for 3 weeks? Learn the unwritten rules of PR etiquette that'll make maintainers WANT to merge your code instead of closing it with 'thanks but no thanks.'"
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"contributing\\\"", "\\\"community\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"contributing\"", "\"community\""]
 featured: "true"
 ---
 

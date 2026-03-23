@@ -2,7 +2,7 @@
 title: "Cargo: The Package Manager That Finally Gets It Right 🦀📦"
 date: "2026-02-06"
 excerpt: "Coming from 7 years of fighting with npm's node_modules black holes and Composer's autoload nightmares, discovering Cargo felt like finding a package manager from the future. Here's why it's the best tool I've never had to debug!"
-tags: ["\\\"rust\\\"", "\\\"cargo\\\"", "\\\"devops\\\"", "\\\"tooling\\\""]
+tags: ["\"rust\"", "\"cargo\"", "\"devops\"", "\"tooling\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "GitHub Advanced Code Search: The Superpower Hiding in the Search Bar 🔍🚀"
 date: "2026-03-12"
 excerpt: "You've been Googling how to implement things when the answer was on GitHub the whole time. Let me show you how to search 200 million repositories like a developer detective."
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"security\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"developer-tools\"", "\"security\""]
 featured: "true"
 ---
 

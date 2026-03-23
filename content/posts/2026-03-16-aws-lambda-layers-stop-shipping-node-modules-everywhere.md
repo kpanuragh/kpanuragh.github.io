@@ -2,7 +2,7 @@
 title: "AWS Lambda Layers: Stop Shipping node_modules Into Every Single Function 📦⚡"
 date: "2026-03-16"
 excerpt: "If you're copy-pasting the same utility code and npm packages across 30 Lambda functions, your deployment zips are a disaster and your sanity is next. Lambda Layers fix this — here's everything I wish I knew earlier."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"cloud\\\"", "\\\"optimization\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"lambda\"", "\"cloud\"", "\"optimization\""]
 featured: "true"
 ---
 

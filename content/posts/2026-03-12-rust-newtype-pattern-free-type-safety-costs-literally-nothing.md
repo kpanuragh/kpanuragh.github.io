@@ -2,7 +2,7 @@
 title: "Rust's Newtype Pattern: Free Type Safety That Costs Literally Nothing 🦀🎯"
 date: "2026-03-12"
 excerpt: "I once passed a userId where a productId was expected. The types were both u64. PHP shrugged. MySQL shrugged. The wrong product got deleted. Rust's newtype pattern would have caught that at compile time, with zero runtime cost. Let me explain."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"type-system\\\"", "\\\"newtype-pattern\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"type-system\"", "\"newtype-pattern\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Distributed Locks: Stop Two Servers Stepping on Each Other's Feet 🔒⚡"
 date: "2026-03-17"
 excerpt: "Our e-commerce backend was charging customers twice because two Lambda functions raced to process the same order simultaneously. Distributed locking saved us - and here's everything I learned the hard way."
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"distributed-systems\\\"", "\\\"redis\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"distributed-systems\"", "\"redis\""]
 featured: "true"
 ---
 

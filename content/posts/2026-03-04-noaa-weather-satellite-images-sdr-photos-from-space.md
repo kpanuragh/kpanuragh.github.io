@@ -2,7 +2,7 @@
 title: "I Received Photos from Space with a $25 USB Stick 🛰️"
 date: "2026-03-04"
 excerpt: "NOAA weather satellites are orbiting Earth RIGHT NOW, screaming their cloud images at 137 MHz for anyone to receive. I built a wire antenna, pointed it at the sky, and pulled down live satellite photos. No telescope. No dish. Just a USB dongle and some wire."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"satellites\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"satellites\""]
 featured: "true"
 ---
 

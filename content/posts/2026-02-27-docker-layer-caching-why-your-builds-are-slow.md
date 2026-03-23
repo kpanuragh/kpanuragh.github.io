@@ -2,7 +2,7 @@
 title: "Docker Layer Caching: Why Your 10-Minute CI Builds Are Your Own Fault 🐳⚡"
 date: "2026-02-27"
 excerpt: "After countless deployments watching CI pipelines crawl, I finally learned what Docker's layer cache actually is — and how one misplaced COPY instruction was costing us 8 minutes on every single push. Here's how to stop throwing money at slow builds."
-tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"ci-cd\\\"", "\\\"deployment\\\"", "\\\"performance\\\""]
+tags: ["\"devops\"", "\"docker\"", "\"ci-cd\"", "\"deployment\"", "\"performance\""]
 featured: "true"
 ---
 

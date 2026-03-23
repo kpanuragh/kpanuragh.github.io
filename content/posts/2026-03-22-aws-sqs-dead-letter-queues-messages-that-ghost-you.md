@@ -2,7 +2,7 @@
 title: "AWS SQS Dead Letter Queues: When Your Messages Ghost You 👻📨"
 date: "2026-03-22"
 excerpt: "Your SQS queue has 47,000 messages stuck in a loop, retrying forever, and you have no idea why. After running serverless e-commerce backends on AWS, here's everything I wish I'd known about SQS, visibility timeouts, and the DLQ that saves your sanity!"
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sqs\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"sqs\"", "\"cloud\""]
 featured: "true"
 ---
 

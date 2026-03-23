@@ -2,7 +2,7 @@
 title: "NOAA Weather Satellites: I'm Downloading Photos Directly from SPACE! 🛰️📡"
 date: "2026-02-20"
 excerpt: "Forget checking the weather app. I now download ACTUAL SATELLITE IMAGES directly from NOAA polar-orbiting satellites using a $20 RTL-SDR dongle, a homemade coat-hanger antenna, and free software. The moment you see your first real cloud cover photo materialize on screen — from a satellite 530 miles above Earth — you will completely lose your mind."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"satellite\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"satellite\""]
 featured: "true"
 ---
 

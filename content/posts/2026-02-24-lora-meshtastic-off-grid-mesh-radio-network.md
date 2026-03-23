@@ -2,7 +2,7 @@
 title: "LoRa & Meshtastic: I Built an Off-Grid Mesh Radio Network for $25 and Now I Can Text My Friends From a Mountaintop 📡"
 date: "2026-02-24"
 excerpt: "What if you could send text messages to people kilometers away with no internet, no cell towers, and no monthly bill — using a $25 ESP32 board running open-source firmware? Welcome to LoRa and Meshtastic, the off-grid mesh radio network that actual hikers, preppers, and RF nerds are quietly building everywhere."
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"lora\\\"", "\\\"meshtastic\\\"", "\\\"iot\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"hobby\"", "\"lora\"", "\"meshtastic\"", "\"iot\""]
 featured: "true"
 ---
 

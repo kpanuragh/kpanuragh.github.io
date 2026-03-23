@@ -2,7 +2,7 @@
 title: "CSRF: The Attack That Makes Your Users Do Things They Didn't Mean To 🎭"
 date: "2026-03-22"
 excerpt: "Imagine clicking a random link and accidentally transferring your bank balance to a hacker. That's CSRF in a nutshell — and your app is probably vulnerable right now. Let's fix that."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"csrf\\\"", "\\\"owasp\\\"", "\\\"security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"csrf\"", "\"owasp\"", "\"security\""]
 featured: "true"
 ---
 

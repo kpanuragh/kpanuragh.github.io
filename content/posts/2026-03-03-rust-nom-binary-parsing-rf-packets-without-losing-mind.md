@@ -2,7 +2,7 @@
 title: "Rust + nom: Parsing Binary Packets Without Losing Your Mind 🦀📡"
 date: "2026-03-03"
 excerpt: "After 7 years of PHP's pack/unpack and Node.js Buffer hacks, I discovered Rust's nom crate. Parsing raw binary RF packets has never felt this safe — or this satisfying."
-tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"sdr\\\"", "\\\"parsing\\\""]
+tags: ["\"rust\"", "\"systems-programming\"", "\"performance\"", "\"sdr\"", "\"parsing\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Node.js Compression: Stop Sending Your Users Bloated Responses 📦"
 date: "2026-03-07"
 excerpt: "Your API is probably sending 5-10x more data than it needs to. Learn how gzip and Brotli compression in Node.js can slash your bandwidth costs and make your app feel snappy — with three lines of code."
-tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"api\\\""]
+tags: ["\"nodejs\"", "\"express\"", "\"backend\"", "\"performance\"", "\"api\""]
 featured: "true"
 ---
 

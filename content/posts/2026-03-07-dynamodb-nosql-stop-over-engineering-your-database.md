@@ -2,7 +2,7 @@
 title: "DynamoDB: The NoSQL Database That Saved My E-Commerce Backend (And My Sanity) ⚡🗄️"
 date: "2026-03-07"
 excerpt: "My PostgreSQL was drowning at 50k requests/minute. DynamoDB laughed at 5 million. After architecting serverless e-commerce backends on AWS, here's everything I wish someone had told me before I spent a week pulling my hair out over partition keys!"
-tags: ["\\\"aws\\\"", "\\\"dynamodb\\\"", "\\\"serverless\\\"", "\\\"nosql\\\""]
+tags: ["\"aws\"", "\"dynamodb\"", "\"serverless\"", "\"nosql\""]
 featured: "true"
 ---
 

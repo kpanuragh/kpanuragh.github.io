@@ -2,7 +2,7 @@
 title: "Prototype Pollution: The JavaScript Vulnerability That Hides in Plain Sight 🧬☠️"
 date: "2026-03-04"
 excerpt: "Your npm package does a harmless-looking deep merge. An attacker sends one crafted JSON payload. Suddenly every object in your Node.js app has extra properties you never added — and your authentication logic starts returning true for everyone. Welcome to Prototype Pollution."
-tags: ["\\\"security\\\"", "\\\"javascript\\\"", "\\\"nodejs\\\"", "\\\"vulnerabilities\\\""]
+tags: ["\"security\"", "\"javascript\"", "\"nodejs\"", "\"vulnerabilities\""]
 featured: "true"
 ---
 

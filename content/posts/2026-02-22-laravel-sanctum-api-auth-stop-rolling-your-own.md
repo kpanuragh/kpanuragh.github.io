@@ -2,7 +2,7 @@
 title: "Laravel Sanctum: Stop Rolling Your Own API Auth Like It's 2012 🔐"
 date: "2026-02-22"
 excerpt: "You're out here writing custom token tables and middleware from scratch while Laravel Sanctum sits in the corner crying. Let's fix that."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"api\\\"", "\\\"authentication\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"api\"", "\"authentication\""]
 ---
 
 # Laravel Sanctum: Stop Rolling Your Own API Auth Like It's 2012 🔐

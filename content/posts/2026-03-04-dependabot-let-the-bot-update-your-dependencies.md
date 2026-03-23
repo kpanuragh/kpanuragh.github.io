@@ -2,7 +2,7 @@
 title: "Dependabot: I Let a Bot Update My Dependencies for a Year (Here's What Happened) 🤖"
 date: "2026-03-04"
 excerpt: "You have 47 outdated npm packages, 12 Composer dependencies from 2022, and at least one library with a known CVE you keep meaning to fix. Dependabot says: what if you just... didn't have to think about any of that?"
-tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"security\\\"", "\\\"community\\\"", "\\\"developer-tools\\\""]
+tags: ["\"open-source\"", "\"github\"", "\"security\"", "\"community\"", "\"developer-tools\""]
 featured: "true"
 ---
 

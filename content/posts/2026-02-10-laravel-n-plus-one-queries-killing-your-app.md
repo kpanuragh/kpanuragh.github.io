@@ -2,7 +2,7 @@
 title: "Laravel N+1 Queries Are Killing Your App (And You Don't Even Know It) 💀"
 date: "2026-02-10"
 excerpt: "That 'fast' local app that takes 10 seconds in production? Spoiler: It's N+1 queries. Here's how I hunted them down and made our API 50x faster."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"performance\\\"", "\\\"eloquent\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"performance\"", "\"eloquent\""]
 ---
 
 

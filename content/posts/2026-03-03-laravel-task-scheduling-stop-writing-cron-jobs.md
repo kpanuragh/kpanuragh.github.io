@@ -2,7 +2,7 @@
 title: "Laravel Task Scheduling: Stop Writing Cron Jobs Like It's 1999 🕰️"
 date: "2026-03-03"
 excerpt: "You shouldn't need a sysadmin to schedule a task. Laravel's built-in scheduler turns 47 cron jobs into clean, version-controlled PHP code — and yes, it can run on serverless too."
-tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"automation\\\"", "\\\"scheduling\\\""]
+tags: ["\"laravel\"", "\"php\"", "\"web-dev\"", "\"automation\"", "\"scheduling\""]
 ---
 
 # Laravel Task Scheduling: Stop Writing Cron Jobs Like It's 1999 🕰️

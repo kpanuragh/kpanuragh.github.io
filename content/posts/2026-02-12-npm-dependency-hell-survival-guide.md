@@ -2,7 +2,7 @@
 title: "NPM Dependency Hell: A Survival Guide 📦"
 date: "2026-02-12"
 excerpt: "Think `npm install` is safe? Great! Now explain why your project has 1,247 dependencies and three different versions of lodash. Let's talk about npm best practices, dependency hell, and how to keep your node_modules folder from becoming sentient."
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"npm\\\"", "\\\"dependencies\\\"", "\\\"backend\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"npm\"", "\"dependencies\"", "\"backend\""]
 featured: "true"
 ---
 

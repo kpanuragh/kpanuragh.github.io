@@ -2,7 +2,7 @@
 title: "GitHub CLI: The Secret Weapon You're Not Using ⚡🚀"
 date: "2026-01-23"
 excerpt: "Still opening GitHub in your browser like it's 2015? The GitHub CLI will change your life. PRs in 3 seconds, issues from your terminal, and you'll look like a hacker in coffee shops."
-tags: ["\\\"github\\\"", "\\\"cli\\\"", "\\\"developer-tools\\\"", "\\\"productivity\\\""]
+tags: ["\"github\"", "\"cli\"", "\"developer-tools\"", "\"productivity\""]
 featured: "true"
 ---
 

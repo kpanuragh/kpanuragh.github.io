@@ -2,7 +2,7 @@
 title: "Rust's Type System: When 'Strongly Typed' Doesn't Mean 'Verbose Hell' 🦀✨"
 date: "2026-02-03"
 excerpt: "Coming from 7 years of JavaScript and PHP, I thought strong typing meant typing your fingers off. Rust proved me wrong. Here's how Rust gives you bulletproof types without the Java-style verbosity!"
-tags: ["\\\"rust\\\"", "\\\"type-system\\\"", "\\\"type-inference\\\"", "\\\"programming\\\""]
+tags: ["\"rust\"", "\"type-system\"", "\"type-inference\"", "\"programming\""]
 featured: "true"
 ---
 

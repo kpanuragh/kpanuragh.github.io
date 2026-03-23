@@ -2,7 +2,7 @@
 title: "Kubernetes Resource Limits: Stop Letting One Pod Crash Your Entire Cluster"
 date: "2026-03-15"
 excerpt: "That one microservice eating all your CPU? Yeah, it's taking down everything else too. Here's how Kubernetes resource limits save your cluster from itself."
-tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"infrastructure\\\"", "\\\"cloud\\\""]
+tags: ["\"kubernetes\"", "\"devops\"", "\"docker\"", "\"infrastructure\"", "\"cloud\""]
 featured: "true"
 ---
 

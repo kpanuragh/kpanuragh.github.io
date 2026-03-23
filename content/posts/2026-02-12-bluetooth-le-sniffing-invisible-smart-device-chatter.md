@@ -2,7 +2,7 @@
 title: "Bluetooth LE Sniffing: I Spied on My Smart Lightbulb (And You Can Too!) 💡🔍"
 date: "2026-02-12"
 excerpt: "I pointed my SDR at 2.4 GHz and discovered my smart home devices are CHATTY. Bluetooth Low Energy packets everywhere! Here's how I decoded BLE traffic, reverse engineered smart device protocols, and learned that wireless security is... interesting. Welcome to the world of BLE sniffing!"
-tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"bluetooth\\\"", "\\\"security\\\""]
+tags: ["\"rf\"", "\"sdr\"", "\"wireless\"", "\"bluetooth\"", "\"security\""]
 featured: "true"
 ---
 

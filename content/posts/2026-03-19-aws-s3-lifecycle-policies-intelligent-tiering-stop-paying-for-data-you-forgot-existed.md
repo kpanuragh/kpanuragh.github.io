@@ -2,7 +2,7 @@
 title: "AWS S3 Lifecycle Policies: Stop Paying for Data You Forgot Existed 💰☁️"
 date: "2026-03-19"
 excerpt: "You're storing 4 years of logs in S3 Standard and paying premium prices for data nobody's touched since the Obama administration. Let me fix that."
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"s3\\\"", "\\\"cost-optimization\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"s3\"", "\"cost-optimization\""]
 featured: "true"
 ---
 

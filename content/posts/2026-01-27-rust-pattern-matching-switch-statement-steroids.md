@@ -2,7 +2,7 @@
 title: "Rust's Pattern Matching: Your Switch Statement on Steroids 🦀⚡"
 date: "2026-01-27"
 excerpt: "Think switch statements are boring? Rust's pattern matching is like if switch statements went to the gym, got a PhD, and learned kung fu. Prepare to have your mind blown!"
-tags: ["\\\"rust\\\"", "\\\"pattern-matching\\\"", "\\\"systems-programming\\\"", "\\\"programming\\\""]
+tags: ["\"rust\"", "\"pattern-matching\"", "\"systems-programming\"", "\"programming\""]
 featured: "true"
 ---
 

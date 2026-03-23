@@ -2,7 +2,7 @@
 title: "CQRS: Stop Reading and Writing from the Same Database Like a Caveman 📖✍️"
 date: "2026-03-07"
 excerpt: "Your dashboard query is locking the table while your checkout is trying to write orders. I've been there. After scaling an e-commerce backend to handle Black Friday chaos, I learned that separating reads from writes isn't premature optimization — it's survival!"
-tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"cqrs\\\"", "\\\"database\\\""]
+tags: ["\"architecture\"", "\"scalability\"", "\"system-design\"", "\"cqrs\"", "\"database\""]
 featured: "true"
 ---
 

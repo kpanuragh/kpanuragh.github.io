@@ -2,7 +2,7 @@
 title: "AWS ECS Fargate: Containers Without the EC2 Babysitting ☁️🐳"
 date: "2026-03-11"
 excerpt: "I used to spend more time patching EC2 instances than writing features. Then I discovered ECS Fargate and never looked back. Here's how I migrated our e-commerce backend to serverless containers — and the gotchas that nearly broke production."
-tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"containers\\\"", "\\\"fargate\\\""]
+tags: ["\"aws\"", "\"cloud\"", "\"serverless\"", "\"containers\"", "\"fargate\""]
 featured: "true"
 ---
 

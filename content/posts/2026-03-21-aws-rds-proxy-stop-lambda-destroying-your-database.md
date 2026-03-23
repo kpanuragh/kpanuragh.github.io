@@ -2,7 +2,7 @@
 title: "AWS RDS Proxy: Stop Letting Lambda Obliterate Your Database With 10,000 Connections 💥"
 date: "2026-03-21"
 excerpt: "You went serverless, deployed Lambda, and then watched your RDS instance die under 10,000 simultaneous connections. I've been there. RDS Proxy saved my backend - here's how!"
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"rds\\\"", "\\\"database\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"lambda\"", "\"rds\"", "\"database\""]
 featured: "true"
 ---
 

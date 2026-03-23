@@ -2,7 +2,7 @@
 title: "Node.js Streams: Stop Loading Everything Into Memory 💧"
 date: "2026-02-05"
 excerpt: "Think reading files with fs.readFile() is fine? Cool! Now explain why your Node.js server crashes when processing a 2GB file. Let's dive into streams - the memory-efficient pattern that saves your server from OOM crashes!"
-tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"performance\\\""]
+tags: ["\"nodejs\"", "\"javascript\"", "\"backend\"", "\"performance\""]
 featured: "true"
 ---
 

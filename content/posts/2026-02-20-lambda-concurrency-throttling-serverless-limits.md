@@ -2,7 +2,7 @@
 title: "AWS Lambda Concurrency: Your 'Infinite Scale' Has a Speed Limit ⚡🚧"
 date: "2026-02-20"
 excerpt: "Everyone sells serverless as infinitely scalable. Nobody mentions the default concurrency limit of 1,000. I found out the hard way. Let me spare you the 3 AM panic."
-tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"cloud\\\""]
+tags: ["\"aws\"", "\"serverless\"", "\"lambda\"", "\"cloud\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "JWTs: The Security Nightmare Nobody Warned You About 🎫"
 date: "2026-01-21"
 excerpt: "Think JWTs are secure by default? Think again! Here's how developers accidentally turn authentication tokens into security disasters - and how to fix them."
-tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"jwt\\\"", "\\\"api-security\\\""]
+tags: ["\"cybersecurity\"", "\"web-security\"", "\"security\"", "\"jwt\"", "\"api-security\""]
 featured: "true"
 ---
 

@@ -2,7 +2,7 @@
 title: "Code Review in Open Source: How to Give Feedback That Doesn't Suck 👀💬"
 date: "2026-02-01"
 excerpt: "Leaving 'LGTM' on every PR? Nitpicking semicolons while missing security bugs? Your code review skills need an upgrade. Learn how to give feedback that actually helps open source projects thrive (and makes maintainers love you)."
-tags: ["\\\"open-source\\\"", "\\\"code-review\\\"", "\\\"github\\\"", "\\\"community\\\""]
+tags: ["\"open-source\"", "\"code-review\"", "\"github\"", "\"community\""]
 featured: "true"
 ---
 

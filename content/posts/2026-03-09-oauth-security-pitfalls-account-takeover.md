@@ -2,7 +2,7 @@
 title: "OAuth 2.0: The 'Login With Google' Button That Can Steal Your Users 🔑"
 date: "2026-03-09"
 excerpt: "OAuth 2.0 feels like magic — one button and users are authenticated. But misconfigure it and you've just handed attackers the keys to every account. Here's what every developer needs to know."
-tags: ["\\\"cybersecurity\\\"", "\\\"oauth\\\"", "\\\"web-security\\\"", "\\\"authentication\\\"", "\\\"api-security\\\""]
+tags: ["\"cybersecurity\"", "\"oauth\"", "\"web-security\"", "\"authentication\"", "\"api-security\""]
 featured: "true"
 ---
 
