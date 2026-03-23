@@ -6,6 +6,9 @@ tags: ["architecture", "api-design", "versioning", "scalability", "system-design
 featured: true
 ---
 
+
+
+
 # API Versioning: Stop Breaking Your Users' Apps Every Time You Deploy 🔢💥
 
 **Real confession:** The first time I deployed a "small API change" to production, I renamed `user_id` to `userId` for consistency. Seemed harmless, right? 30 minutes later my phone exploded with Slack messages. Our mobile app: completely broken. 50,000 active users: confused and angry. Support tickets: 847 and climbing. My boss: not impressed. 😱

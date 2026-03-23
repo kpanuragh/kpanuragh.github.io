@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "performance", "closures", "functional-pro
 featured: true
 ---
 
+
+
+
 # Rust Closures: When JavaScript's `() => {}` Grew Up and Got a PhD 🦀🔒
 
 **Hot take:** JavaScript closures are like a lab puppy. Friendly, forgiving, gets into everything, and occasionally eats something it shouldn't. Rust closures are like a trained K9 unit. Extremely capable, follows rules to the letter, and will absolutely refuse to do something dangerous — even if you really want it to.

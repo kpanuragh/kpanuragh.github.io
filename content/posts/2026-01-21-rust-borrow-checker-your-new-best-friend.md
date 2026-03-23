@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "performance", "memory-safety"]
 featured: true
 ---
 
+
+
+
 # Rust's Borrow Checker Is Your New Best Friend 🦀❤️
 
 **Hot take:** The Rust borrow checker isn't trying to ruin your day. It's trying to save your career from that 3am production bug that crashes your server and wakes up the CEO. 🚨

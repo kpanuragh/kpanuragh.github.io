@@ -5,6 +5,9 @@ excerpt: "Your database is a hot mess because you're not using transactions. Let
 tags: ["laravel", "php", "database", "web-dev"]
 ---
 
+
+
+
 # Laravel Transactions: All or Nothing (No Half-Baked Data) 🛡️
 
 Ever had a user's payment go through but their order didn't save? Or created an account but forgot to send the welcome email record? Yeah, that's what happens when you don't use database transactions!

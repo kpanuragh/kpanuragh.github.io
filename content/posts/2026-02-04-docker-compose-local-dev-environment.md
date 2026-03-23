@@ -6,6 +6,9 @@ tags: ["devops", "docker", "development", "productivity"]
 featured: true
 ---
 
+
+
+
 # Docker Compose: Stop Installing Postgres on Your Laptop Like a Caveman 🐳💻
 
 **Real talk:** My first day at a new job in 2018, they handed me a 47-step setup document. Install Postgres. Install Redis. Install Elasticsearch. Install RabbitMQ. Configure each one. Fix port conflicts. Realize I installed the wrong Postgres version. Uninstall everything. Start over. Three days later, I finally got "Hello World" to work. 😱

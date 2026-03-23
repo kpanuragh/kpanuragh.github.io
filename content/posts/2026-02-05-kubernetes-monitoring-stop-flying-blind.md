@@ -6,6 +6,9 @@ tags: ["devops", "kubernetes", "monitoring", "observability"]
 featured: true
 ---
 
+
+
+
 # Kubernetes Monitoring: Stop Flying Blind in Production 📊🔍
 
 **Real talk:** My first Kubernetes production incident went like this: User reports "site is slow." I SSH into... wait, there's no single server to SSH into. I check pods. Which pods? Where? Are they healthy? What's using all the CPU? Is it even CPU? Memory? Network? After 2 hours of frantic kubectl commands and wild guesses, I found the issue - a single pod was OOMKilled and restart-looping. We could've caught it in 30 seconds with proper monitoring. 😱

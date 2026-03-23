@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "backend", "performance", "profiling"]
 featured: true
 ---
 
+
+
+
 # Node.js Performance Profiling: Stop Guessing What's Slow ⚡
 
 **True story:** I once spent three days "optimizing" a Node.js API by adding Redis caching everywhere, rewriting queries, and tuning database connection pools — only to discover the actual bottleneck was a single `JSON.stringify()` call on a 50MB object inside a loop.

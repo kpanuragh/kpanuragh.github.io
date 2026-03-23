@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "backend", "logging", "devops"]
 featured: true
 ---
 
+
+
+
 # Node.js Structured Logging: Stop console.log()-ing Everything 📋
 
 **Hot take:** `console.log('user data:', userData)` is not a logging strategy. It's a cry for help.

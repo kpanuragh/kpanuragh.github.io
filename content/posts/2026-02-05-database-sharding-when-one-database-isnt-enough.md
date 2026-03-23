@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "database", "system-design", "performance"
 featured: true
 ---
 
+
+
+
 # Database Sharding: When One Database Just Isn't Enough Anymore 🗄️⚡
 
 **Real talk:** The first time our database hit 10 million users, I thought adding more indexes would fix our performance issues. Spoiler alert: It didn't. Queries that took 100ms were now taking 5-8 seconds. My boss asked, "Can we just get a bigger database server?"

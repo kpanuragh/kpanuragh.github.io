@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "api-security", "rate-limiting"]
 featured: true
 ---
 
+
+
+
 # API Rate Limiting: Or How I Learned to Stop Worrying and Love the 429 🚦
 
 So you built an API. Congrats! 🎉 Then someone sent 50,000 requests in 10 seconds and your server burst into flames. Welcome to the club! 🔥

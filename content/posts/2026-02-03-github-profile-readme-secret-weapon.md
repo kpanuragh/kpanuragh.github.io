@@ -6,6 +6,9 @@ tags: ["open-source", "github", "developer-tools", "personal-branding"]
 featured: true
 ---
 
+
+
+
 # GitHub Profile README: Your Secret Weapon for Standing Out 🎯✨
 
 **Real talk:** I used to have the most boring GitHub profile. Just my name, maybe a profile pic, and a bunch of repos. Then I discovered profile READMEs and everything changed. 🚀

@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "database", "rds", "dynamodb"]
 featured: true
 ---
 
+
+
+
 # RDS vs DynamoDB: The Database Choice That'll Keep You Up at Night 🗄️😰
 
 **Real talk:** The first time my CTO asked "Should we use RDS or DynamoDB for this?", I froze. I had no idea. So I did what any developer would do - I Googled "RDS vs DynamoDB" and picked the one that sounded cooler.

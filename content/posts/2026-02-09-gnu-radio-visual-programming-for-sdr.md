@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "gnu-radio"]
 featured: true
 ---
 
+
+
+
 # GNU Radio: I Built My Own SDR Apps by Dragging Blocks Around! 📡🎨
 
 **Real talk:** I thought building radio receivers required years of electrical engineering classes and intimate knowledge of Fourier transforms. Then I discovered GNU Radio Companion (GRC) - a visual programming environment where you build SDR applications by dragging blocks and connecting them with wires.

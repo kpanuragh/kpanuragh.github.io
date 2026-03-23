@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "dynamodb", "database"]
 featured: true
 ---
 
+
+
+
 # DynamoDB: Stop Treating It Like a Relational Database 💸🗄️
 
 **Real talk:** The first time I used DynamoDB, I thought "It's just another database!" I created a table, added 15 global secondary indexes (GSIs), did a bunch of scans, and deployed to production feeling like a genius. 🎉

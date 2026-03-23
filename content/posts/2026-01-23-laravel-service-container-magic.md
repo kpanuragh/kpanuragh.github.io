@@ -5,6 +5,9 @@ excerpt: "Think dependency injection is scary? Laravel's Service Container makes
 tags: ["laravel", "php", "dependency-injection", "web-dev", "architecture"]
 ---
 
+
+
+
 # Laravel's Service Container: The Magic Box You've Been Ignoring 📦
 
 Ever seen code like `app(SomeService::class)` or `resolve(SomeClass::class)` and thought "what kind of wizardry is this?" Welcome to Laravel's Service Container - the secret sauce that makes Laravel feel like magic!

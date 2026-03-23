@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "gnu-radio"]
 featured: true
 ---
 
+
+
+
 # GNU Radio: Visual Programming for RF Hackers (It's Like Scratch for Radio Waves!) 📡💻
 
 **Real talk:** I was trying to decode a digital radio signal with my RTL-SDR. I spent THREE DAYS writing Python code to process the audio, filter noise, demodulate the signal, and extract data. The code was a mess of NumPy arrays, FFT functions, and signal processing math I barely understood.

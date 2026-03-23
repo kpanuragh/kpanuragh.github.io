@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "performance", "concurrency", "channels"]
 featured: true
 ---
 
+
+
+
 # Rust Channels: Stop Sharing State, Start Sharing Messages 🦀📨
 
 **Hot take:** Most concurrency bugs don't come from bad programmers. They come from threads sharing too much brain.

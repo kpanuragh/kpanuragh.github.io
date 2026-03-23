@@ -6,6 +6,9 @@ tags: ["open-source", "github", "security", "developer-tools", "automation"]
 featured: true
 ---
 
+
+
+
 # Dependabot: The Security Bot That Reviews PRs While You Sleep 🤖🔒
 
 **True story:** I once inherited a Laravel monolith at work. First thing I did was run `composer audit`.

@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "backend", "performance"]
 featured: true
 ---
 
+
+
+
 # Node.js Streams: Stop Loading Everything Into Memory 💧
 
 **Real confession:** The first file upload feature I built at Acodez brought down our entire Node.js server. The file? A 500MB CSV. My approach? `fs.readFile()` to load the ENTIRE file into memory. Result? "JavaScript heap out of memory" error. Production down. Boss not impressed! 😱

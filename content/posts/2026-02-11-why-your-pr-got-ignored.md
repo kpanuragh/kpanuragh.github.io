@@ -6,6 +6,9 @@ tags: ["open-source", "github", "contributing", "pull-requests"]
 featured: true
 ---
 
+
+
+
 # Why Your Pull Request Got Ignored (And How to Get It Merged) 🔀✨
 
 **Real talk:** I once submitted a PR that added a feature I spent TWO WEEKS building. Clean code. Tests passing. Documentation updated. I was so proud! And then... nothing. Weeks went by. No comments. No review. Just silence. 😭

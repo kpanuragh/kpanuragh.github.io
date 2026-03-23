@@ -6,6 +6,9 @@ tags: ["nodejs", "backend", "performance", "debugging", "javascript"]
 featured: true
 ---
 
+
+
+
 # Your Node.js Server is Bleeding Memory (And How to Stop It) 🩸
 
 Picture this: it's 3 AM. Your on-call phone buzzes. The server is down. You check the logs and see that the process was using 4GB of RAM before the OS unceremoniously executed it. Everything worked fine *yesterday*. Nothing changed. What happened?

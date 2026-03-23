@@ -6,6 +6,9 @@ tags: ["open-source", "community", "maintainers", "sustainability"]
 featured: true
 ---
 
+
+
+
 # Open Source Maintainer Burnout: The Crisis Nobody Talks About 🔥💔
 
 **Real talk:** The open source maintainer of your favorite library just spent their Saturday fixing a bug you reported. They got zero dollars, three angry comments about why the fix took "so long" (it was 48 hours), and one person asking when they'll add a completely unrelated feature.

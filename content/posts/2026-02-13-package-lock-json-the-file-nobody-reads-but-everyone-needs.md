@@ -6,6 +6,9 @@ tags: ["nodejs", "npm", "javascript", "dependencies"]
 featured: true
 ---
 
+
+
+
 # package-lock.json: The File Nobody Reads But Everyone Needs 🔒
 
 **Real confession:** I once deleted `package-lock.json` because "it was causing merge conflicts and seemed useless." Pushed to production. Everything broke. Different team members had different dependency versions. Three hours of debugging later, I learned a VERY expensive lesson about npm's lockfile! 😱

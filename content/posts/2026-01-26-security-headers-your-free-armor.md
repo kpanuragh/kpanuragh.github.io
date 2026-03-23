@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "http-headers"]
 featured: true
 ---
 
+
+
+
 # Security Headers: The Free Armor You're Not Using 🛡️
 
 Your website is running right now. Without security headers.

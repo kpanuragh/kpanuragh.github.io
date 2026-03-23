@@ -6,6 +6,9 @@ tags: ["rust", "ffi", "systems-programming", "c-interop"]
 featured: true
 ---
 
+
+
+
 # Rust FFI: Calling C Libraries Without Losing Your Mind 🦀🔗
 
 **Hot take:** If you think Rust's ecosystem is small, you're missing the point - Rust can call EVERY C library ever written! That's literally decades of systems programming goodness! 📚

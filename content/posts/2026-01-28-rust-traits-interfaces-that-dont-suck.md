@@ -6,6 +6,9 @@ tags: ["rust", "traits", "systems-programming", "type-system"]
 featured: true
 ---
 
+
+
+
 # Rust's Trait System: Interfaces That Don't Suck 🦀✨
 
 **Real talk:** After using Rust traits, going back to Java interfaces feels like trading a Swiss Army knife for a plastic spork! 🍴

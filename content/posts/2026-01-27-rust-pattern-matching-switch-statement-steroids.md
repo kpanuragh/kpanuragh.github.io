@@ -6,6 +6,9 @@ tags: ["rust", "pattern-matching", "systems-programming", "programming"]
 featured: true
 ---
 
+
+
+
 # Rust's Pattern Matching: Your Switch Statement on Steroids 🦀⚡
 
 **Real talk:** After using Rust's pattern matching, going back to regular switch statements feels like trading a lightsaber for a butter knife! 🔪➡️⚔️

@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "npm", "backend", "productivity"]
 featured: true
 ---
 
+
+
+
 # npm Scripts: Your Secret Task Runner 🎯
 
 **Real confession:** When I started at Acodez, I had a folder called `scripts/` filled with bash files - `start-dev.sh`, `run-tests.sh`, `deploy.sh`, `backup-db.sh`. My senior dev looked at my setup and said: "Why aren't you using npm scripts?" Me: "npm... does more than install packages?" 🤦

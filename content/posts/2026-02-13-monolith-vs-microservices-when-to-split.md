@@ -6,6 +6,9 @@ tags: ["architecture", "microservices", "scalability", "system-design"]
 featured: true
 ---
 
+
+
+
 # Monolith vs Microservices: Stop Splitting Your App Just Because It's Cool 🏢⚡
 
 **Real confession:** In 2019, I convinced my team to split our perfectly working monolith into microservices. Why? Because every tech blog, conference talk, and Twitter thread said "microservices are the future!" Six months later, we had:

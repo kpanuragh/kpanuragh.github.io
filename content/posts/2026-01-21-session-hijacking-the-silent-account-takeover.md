@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "session-management"]
 featured: true
 ---
 
+
+
+
 # Session Hijacking: The Silent Account Takeover Nobody Talks About 🍪
 
 So you logged in, got a session cookie, and went about your day. Seems simple, right?

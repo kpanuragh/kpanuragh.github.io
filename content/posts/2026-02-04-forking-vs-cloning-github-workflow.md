@@ -6,6 +6,9 @@ tags: ["open-source", "github", "git", "workflow"]
 featured: true
 ---
 
+
+
+
 # Fork vs Clone: Stop Confusing These GitHub Basics 🍴📋
 
 **Real talk:** I once cloned a repo, made changes, tried to push, and got a "Permission denied" error. Spent 30 minutes Googling before realizing: I should have FORKED it first! 🤦‍♂️

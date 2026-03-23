@@ -6,6 +6,9 @@ tags: ["rust", "webassembly", "wasm", "performance", "web-development"]
 featured: true
 ---
 
+
+
+
 # Rust + WebAssembly: Making JavaScript Sweat 🦀⚡
 
 **Hot take:** If you're still doing heavy computation in JavaScript when you could be using Rust + WebAssembly, you're basically choosing to drive a Honda Civic when someone's offering you a Ferrari! 🏎️

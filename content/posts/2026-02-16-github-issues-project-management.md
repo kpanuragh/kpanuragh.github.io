@@ -6,6 +6,9 @@ tags: ["open-source", "github", "project-management", "workflow"]
 featured: true
 ---
 
+
+
+
 # GitHub Issues: Stop Using Them Like Email Threads 📋🚫
 
 **Real talk:** I once opened an issue on a Laravel package that said "Feature request: Add caching." The maintainer replied "OK." Then... crickets for 6 months. No progress. No updates. Just a dead issue collecting dust. 😭

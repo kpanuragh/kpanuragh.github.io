@@ -6,6 +6,9 @@ tags: ["rust", "performance", "systems-programming", "optimization"]
 featured: true
 ---
 
+
+
+
 # Rust's Zero-Cost Abstractions: Have Your Cake and Eat It Too 🦀🍰
 
 **Here's the eternal programmer's dilemma:** Write beautiful, readable code that's slow as molasses, OR write fast code that looks like line noise from the 90s.

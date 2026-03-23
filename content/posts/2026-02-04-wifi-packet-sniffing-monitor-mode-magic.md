@@ -6,6 +6,9 @@ tags: ["rf", "wireless", "security", "networking", "wifi"]
 featured: true
 ---
 
+
+
+
 # WiFi Packet Sniffing: I Can See Your Network Traffic (And You Should Too!) 📡🔒
 
 **Real talk:** I was sitting in a coffee shop coding on my laptop when a security researcher friend said, "You know I can see every website you're visiting right now, right?" I laughed nervously. "No you can't, I'm on HTTPS!" He opened Wireshark, showed me my DNS queries, device MAC address, and every non-encrypted packet my laptop was broadcasting. My face went white. 😱

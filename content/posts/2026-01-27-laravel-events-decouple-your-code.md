@@ -5,6 +5,9 @@ excerpt: "Your controllers look like spaghetti? Events and Listeners will save y
 tags: ["laravel", "php", "events", "web-dev"]
 ---
 
+
+
+
 # Laravel Events: Stop Cramming Everything Into One Controller 🎯
 
 You know that moment when a user registers and you need to: send a welcome email, notify admins, log to analytics, update CRM, create a Slack notification, give them welcome points, and probably solve world hunger too?

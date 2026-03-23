@@ -6,6 +6,9 @@ tags: ["open-source", "learning", "developer-tools", "career"]
 featured: true
 ---
 
+
+
+
 # Developer Roadmaps Are Lying to You (And How to Actually Learn) 🗺️💥
 
 **Real talk:** I spent 6 months trying to follow a "Frontend Developer Roadmap" I found on GitHub. It had 87 boxes to check off. I completed 4 of them before giving up and questioning my entire career choice. 😭

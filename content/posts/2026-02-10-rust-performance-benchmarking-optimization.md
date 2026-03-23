@@ -6,6 +6,9 @@ tags: ["rust", "performance", "optimization", "benchmarking", "systems-programmi
 featured: true
 ---
 
+
+
+
 # Rust Performance: Actually Measuring What 'Blazingly Fast' Means 🦀⚡
 
 **Hot take:** Everyone says Rust is "blazingly fast" but most developers (including past me!) have NO IDEA how to actually measure or optimize performance! Let's fix that! 🔥

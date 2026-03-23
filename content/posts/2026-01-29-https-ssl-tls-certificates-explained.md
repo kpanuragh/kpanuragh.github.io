@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "https", "ssl-tls"]
 featured: true
 ---
 
+
+
+
 # HTTPS: The Green Lock That Saves Your Bacon 🔒
 
 You know that little padlock icon in your browser? The one that turns your `http://` into `https://`?

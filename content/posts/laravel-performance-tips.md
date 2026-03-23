@@ -5,6 +5,9 @@ excerpt: "Your Laravel app is slow? Let's fix that! Here are 5 simple tricks tha
 tags: ["laravel", "php", "performance", "web-dev"]
 ---
 
+
+
+
 # 5 Laravel Tricks That'll Make Your App Fly 🚀
 
 Is your Laravel app slower than a sleepy sloth on a Monday morning? Let's fix that!

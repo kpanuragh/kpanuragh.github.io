@@ -5,6 +5,9 @@ excerpt: "Still writing User::findOrFail($id) in every controller? Laravel's rou
 tags: ["laravel", "php", "web-dev", "routing"]
 ---
 
+
+
+
 # Laravel Route Model Binding: Stop Querying Models Manually Like a Caveman 🦖
 
 You know that thing you do in EVERY controller method? The one where you fetch the model from the database?

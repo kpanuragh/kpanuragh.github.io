@@ -5,6 +5,9 @@ excerpt: "Your server's crontab is a cryptic mess nobody understands. Laravel's 
 tags: ["laravel", "php", "web-dev", "automation"]
 ---
 
+
+
+
 # Laravel Task Scheduling: Stop Writing Cron Jobs Like It's 1999 ⏰
 
 There's a special kind of panic that hits when you SSH into a production server, open the crontab, and see 23 lines of `*/15 3 * * 1-5` that nobody wrote down anywhere and nobody remembers why.

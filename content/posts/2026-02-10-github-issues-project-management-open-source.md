@@ -6,6 +6,9 @@ tags: ["open-source", "github", "project-management", "workflow"]
 featured: true
 ---
 
+
+
+
 # GitHub Issues & Project Boards: Stop Managing Your Open Source Project Like It's 1999 📋🎯
 
 **Real talk:** I once managed an open source project with 237 open issues, no labels, no organization, and absolutely no idea what was a bug vs. a feature request. Contributors were confused. I was overwhelmed. The project was dying. 😱

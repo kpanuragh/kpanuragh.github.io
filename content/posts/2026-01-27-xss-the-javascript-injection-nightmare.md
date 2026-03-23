@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "xss", "security"]
 featured: true
 ---
 
+
+
+
 # XSS Attacks: When Users Inject JavaScript Into Your Site 🎭
 
 So I was reviewing code for a friend's website last week, and I found this beauty:

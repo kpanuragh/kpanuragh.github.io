@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "serverless", "eventbridge"]
 featured: true
 ---
 
+
+
+
 # EventBridge: Stop Polling Like It's 1999 📡⚡
 
 **Real talk:** The first time I needed to sync data between services, I did what every developer does - I wrote a cron job that checked for changes every 5 seconds. "It works!" I thought. Then I checked CloudWatch metrics: **17 million Lambda invocations per month** checking if ANYTHING changed. Only 2% found actual changes. 💸

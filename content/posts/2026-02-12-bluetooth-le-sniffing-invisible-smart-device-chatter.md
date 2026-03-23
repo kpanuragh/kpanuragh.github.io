@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "bluetooth", "security"]
 featured: true
 ---
 
+
+
+
 # Bluetooth LE Sniffing: I Spied on My Smart Lightbulb (And You Can Too!) 💡🔍
 
 **Real talk:** I was sitting on my couch when I thought: "My phone connects to my smart lightbulb via Bluetooth. What EXACTLY are they saying to each other?" So I fired up my SDR, tuned to 2.4 GHz, and started capturing Bluetooth Low Energy packets.

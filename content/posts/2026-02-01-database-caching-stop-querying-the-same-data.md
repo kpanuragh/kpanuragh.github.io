@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "database", "caching", "performance"]
 featured: true
 ---
 
+
+
+
 # Database Caching: Stop Querying for the Same Damn Data 🏎️
 
 **Real talk:** The first time I saw our production database at 90% CPU, I panicked. Then I looked at the queries. We were fetching the same user profile... 10,000 times a minute. The SAME profile. The database was basically screaming "I ALREADY TOLD YOU THIS!" 😱

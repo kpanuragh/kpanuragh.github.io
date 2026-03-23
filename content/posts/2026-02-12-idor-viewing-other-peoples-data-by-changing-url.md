@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "idor", "authorization"]
 featured: true
 ---
 
+
+
+
 # IDOR: How Changing ?user_id=1 to ?user_id=2 Exposes Everyone's Data 🔓
 
 Remember when you were a kid and discovered that changing the page number in a book's corner would skip ahead? Well, hackers do the same thing with URLs. Except instead of spoiling the plot, they're stealing your users' credit cards. 😬

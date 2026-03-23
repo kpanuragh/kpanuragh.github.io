@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "distributed-systems", "e
 featured: true
 ---
 
+
+
+
 # The Outbox Pattern: Stop Losing Events When Your Database Commits 📬💥
 
 **Confession time:** In Year 2 of our e-commerce platform, we had a bug so embarrassing I didn't tell my CTO about it for three days.

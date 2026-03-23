@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "ec2", "auto-scaling"]
 featured: true
 ---
 
+
+
+
 # EC2 Auto Scaling: Stop Paying for Servers Sitting Idle at 3 AM 💸⚡
 
 **Real talk:** The first time I deployed a production app on AWS, I did what every nervous developer does - I over-provisioned the hell out of it. "What if we get a traffic spike? Better have 10 servers running 24/7 just in case!"

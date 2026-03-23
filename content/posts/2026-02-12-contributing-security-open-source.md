@@ -6,6 +6,9 @@ tags: ["open-source", "security", "contributing", "community"]
 featured: true
 ---
 
+
+
+
 # Contributing to Security-Focused Open Source: Where Bugs Are Features 🔒🐛
 
 **Real talk:** I used to think security open source was only for elite hackers in hoodies typing furiously in dark rooms. 😎💻

@@ -6,6 +6,9 @@ tags: ["devops", "deployment", "ci-cd", "kubernetes"]
 featured: true
 ---
 
+
+
+
 # Zero Downtime Deployments: Stop Taking Your App Offline Like It's 2010 🚀
 
 **Real talk:** My first production deploy as a junior dev went like this: Send an email at 11 PM - "Site going down for maintenance in 30 minutes." SSH into the server. Stop the app. Deploy new code. Pray it works. Start the app. Watch error logs scroll by. Panic. Rollback. Try again. Finally works at 2 AM. Send "all clear" email. Never sleep again! 😱

@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "csp", "headers"]
 featured: true
 ---
 
+
+
+
 # Content Security Policy: Your Website's Bouncer 🚨
 
 Imagine your website is a nightclub. Would you let random strangers walk in and run whatever code they want? Hell no! That's where Content Security Policy comes in - it's the bouncer at the door checking IDs.

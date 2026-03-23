@@ -6,6 +6,9 @@ tags: ["rust", "cargo", "modules", "project-organization"]
 featured: true
 ---
 
+
+
+
 # Rust's Module System: Organizing Code Without Losing Your Mind 🦀📦
 
 **Hot take:** If you've been organizing Rust projects like it's JavaScript with random files everywhere, you're about to learn why the Rust module system is actually genius (even if it seems weird at first)! 🔥

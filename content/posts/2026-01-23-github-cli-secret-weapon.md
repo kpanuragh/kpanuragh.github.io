@@ -6,6 +6,9 @@ tags: ["github", "cli", "developer-tools", "productivity"]
 featured: true
 ---
 
+
+
+
 # GitHub CLI: The Secret Weapon You're Not Using ⚡🚀
 
 **Real talk:** If you're still clicking through GitHub's web interface to create PRs, you're living in the Stone Age. 🦕

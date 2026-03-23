@@ -5,6 +5,9 @@ excerpt: "Stop terrorizing your users with cryptic error messages! Here's how to
 tags: ["laravel", "php", "validation", "web-dev"]
 ---
 
+
+
+
 # Laravel Validation That Doesn't Suck 🎯
 
 Ever filled out a form, hit submit, and got slapped with "The field is required" for a field you DEFINITELY filled out? Yeah, me too. Let's not be those developers!

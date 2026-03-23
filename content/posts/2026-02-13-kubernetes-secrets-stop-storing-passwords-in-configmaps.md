@@ -6,6 +6,9 @@ tags: ["devops", "kubernetes", "security", "deployment"]
 featured: true
 ---
 
+
+
+
 # Kubernetes Secrets: Stop Storing Passwords in ConfigMaps Like a Rookie 🔐☸️
 
 **Real confession:** In 2019, I deployed my first production app to Kubernetes. Put the database password in a ConfigMap because "it's just configuration, right?" Three weeks later, a junior dev ran `kubectl get configmap -o yaml` and accidentally committed it to a public GitHub repo. Our production database credentials were on the internet for 6 hours before we noticed. 😱

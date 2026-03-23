@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "security", "iam"]
 featured: true
 ---
 
+
+
+
 # AWS IAM: Stop Giving Your Lambda Function God Mode 🔑👑
 
 **Real talk:** The first time I deployed a Lambda function, I got a permissions error. "Access Denied." I Googled for 5 minutes, found a Stack Overflow answer that said "just give it AdministratorAccess," and boom - it worked! 🎉

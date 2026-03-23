@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "database", "high-availab
 featured: true
 ---
 
+
+
+
 # Database Replication: Stop Praying Your Database Doesn't Die 🗄️⚡
 
 **Real confession:** It was 2 AM on a Saturday. My phone exploded with alerts. "Database down! Site unreachable!" I logged in to AWS - our primary database instance had crashed. No replicas. No backups ready to go. Just... nothing. I spent 6 hours restoring from backup while our e-commerce site showed error pages. Lost revenue: $15,000. Lost sleep: All of it. Lost faith in my architecture decisions: 100%. 😱

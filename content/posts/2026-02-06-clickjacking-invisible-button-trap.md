@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "owasp", "clickjacking"]
 featured: true
 ---
 
+
+
+
 # Clickjacking: When That 'Free iPad' Button Deletes Your Account 🎯🪤
 
 So there I was, reviewing a client's web app in my early security research days, when I found something wild: their entire admin panel could be overlaid on a fake "Win a Free iPhone!" page. One click from an admin = instant account takeover. And they had NO idea it was even possible.

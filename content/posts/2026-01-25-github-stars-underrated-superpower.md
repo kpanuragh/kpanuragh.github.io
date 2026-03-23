@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "developer-tools"]
 featured: true
 ---
 
+
+
+
 # GitHub Stars: The Most Underrated Way to Support Open Source ⭐🌟
 
 **Real talk:** I just realized I've used React for 5 years and never starred the repo. 😬

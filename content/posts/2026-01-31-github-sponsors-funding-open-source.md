@@ -6,6 +6,9 @@ tags: ["open-source", "github", "funding", "sponsors"]
 featured: true
 ---
 
+
+
+
 # GitHub Sponsors: How to Actually Get Paid for Open Source Work 💰💚
 
 **Real talk:** I maintained an open source library for 2 years. It had 10,000 downloads per week. Companies used it in production. I made exactly **$0** from it. 😭

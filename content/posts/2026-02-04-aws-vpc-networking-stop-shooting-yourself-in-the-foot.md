@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "networking", "devops"]
 featured: true
 ---
 
+
+
+
 # AWS VPC Networking: Stop Shooting Yourself in the Foot 🔫🦶
 
 **Real talk:** The first time I set up a VPC, I thought "How hard can networking be?" Two hours later, my EC2 instance couldn't reach the internet, my RDS database was unreachable, and I was Googling "what is a subnet" at 2 AM. 😭

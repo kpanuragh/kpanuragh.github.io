@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "developer-tools"]
 featured: true
 ---
 
+
+
+
 # GitHub Discussions: The Community Feature Nobody's Using (But Should!) 💬🚀
 
 **Real talk:** I spent 6 months managing a project's community across Discord, Slack, email, GitHub issues, and a random Reddit thread. Finding old conversations was like archaeological excavation. 🏺

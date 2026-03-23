@@ -6,6 +6,9 @@ tags: ["rust", "cargo", "devops", "tooling"]
 featured: true
 ---
 
+
+
+
 # Cargo: The Package Manager That Finally Gets It Right 🦀📦
 
 **Hot take:** Package managers are usually the worst part of any ecosystem. npm's `node_modules` is a meme. Composer works until it doesn't. pip? Don't get me started. But Cargo? Cargo is what happens when you design a package manager AFTER learning from everyone else's mistakes! 🎯

@@ -5,6 +5,9 @@ excerpt: "Your users are staring at loading spinners while you send emails? Let'
 tags: ["laravel", "php", "web-dev", "queues", "performance"]
 ---
 
+
+
+
 # Laravel Queues: Stop Making Your Users Wait Like It's the DMV 🚦
 
 You know that feeling when you click "Sign Up" and the page just... hangs? Meanwhile, the server is busy sending a welcome email, resizing profile pictures, notifying admins, updating analytics, and probably making coffee too. ☕

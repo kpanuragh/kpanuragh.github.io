@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "bluetooth", "iot"]
 featured: true
 ---
 
+
+
+
 # Bluetooth Sniffing with SDR: I Can See Your Fitbit Talking! 📡💙
 
 **Real talk:** I was sitting at a coffee shop working when I fired up my SDR to scan the 2.4 GHz spectrum. I expected to see WiFi. Instead, I saw HUNDREDS of tiny signals hopping around like digital grasshoppers. Bluetooth Low Energy devices EVERYWHERE! Fitness trackers, smartwatches, headphones, car keys, temperature sensors, even someone's insulin pump. 😱

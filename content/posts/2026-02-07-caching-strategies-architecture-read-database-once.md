@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "caching", "system-design", "performance"]
 featured: true
 ---
 
+
+
+
 # Caching Strategies: Stop Reading the Same Database Row 10,000 Times 🚀💾
 
 **Real confession:** The first time our homepage got featured on TechCrunch, I watched in horror as our database CPU hit 98% and stayed there. Response times went from 200ms to 12 seconds. The site was basically unusable. I frantically checked - we were querying the EXACT SAME product listings 10,000 times per minute. Every single visitor was hammering the database for identical data that changed maybe once per day! 😱

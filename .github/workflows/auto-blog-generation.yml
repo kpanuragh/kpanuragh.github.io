@@ -91,6 +91,8 @@ jobs:
 
             Return ONLY valid markdown with proper frontmatter (title, date as today, excerpt, tags, featured: true).
 
+            IMPORTANT: In the excerpt field, escape any backslashes by doubling them (e.g., GuzzleHttp\Client becomes GuzzleHttp\\Client).
+
             Include:
             - Catchy title with emoji
             - 800-1000 words
@@ -138,6 +140,8 @@ jobs:
             Pick a SPECIFIC DevOps topic that would help developers (e.g., "Docker Best Practices", "GitHub Actions Tips", "Deployment Strategies", "Container Security", etc.)
 
             Return ONLY valid markdown with proper frontmatter (title, date as today, excerpt, tags, featured: true).
+
+            IMPORTANT: In the excerpt field, escape any backslashes by doubling them (e.g., GuzzleHttp\Client becomes GuzzleHttp\\Client).
 
             Include:
             - Catchy title with emoji

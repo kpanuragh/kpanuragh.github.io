@@ -5,6 +5,9 @@ excerpt: "Middleware is like having a bouncer at your app's door. Let's learn ho
 tags: ["laravel", "php", "middleware", "web-dev", "security"]
 ---
 
+
+
+
 # Laravel Middleware: Your App's Bouncer 🚪
 
 Ever walked into a club and had a bouncer check your ID, pat you down, and make sure you're on the list? That's EXACTLY what middleware does for your Laravel app!

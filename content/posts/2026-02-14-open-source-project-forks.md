@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "maintainers"]
 featured: true
 ---
 
+
+
+
 # Forking Open Source Projects: When It's Genius, When It's Chaos 🍴💥
 
 **Real talk:** I once forked a popular library because the maintainer rejected my PR. I was CONVINCED my approach was better. I spent 6 months maintaining my fork.

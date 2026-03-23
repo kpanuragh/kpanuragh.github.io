@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "oauth", "authentication"]
 featured: true
 ---
 
+
+
+
 # OAuth 2.0 Security Pitfalls: When 'Login with Google' Goes Wrong 🔐
 
 Ever wondered why every website wants you to "Sign in with Google" or "Continue with GitHub"? It's OAuth 2.0, baby! But here's the thing nobody tells you: **implementing it wrong is hilariously easy.** 😅

@@ -6,6 +6,9 @@ tags: ["rust", "enums", "type-safety", "error-handling"]
 featured: true
 ---
 
+
+
+
 # Rust Enums: Making Null Pointer Exceptions Obsolete 🦀✨
 
 **Hot take:** Tony Hoare called null references his "billion-dollar mistake." Rust looked at that billion-dollar mistake and said "lol nope, we're using enums instead!" 🚫💰

@@ -6,6 +6,9 @@ tags: ["rust", "macros", "metaprogramming", "systems-programming"]
 featured: true
 ---
 
+
+
+
 # Rust Macros: When Your Code Writes Your Code 🦀🪄
 
 **Hot take:** If you've never used Rust macros, you've been copy-pasting code like a caveman when you could've been wielding the power of meta-programming! 🔥

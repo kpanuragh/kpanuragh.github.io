@@ -6,6 +6,9 @@ tags: ["devops", "deployment", "docker", "containers"]
 featured: true
 ---
 
+
+
+
 # Production-Ready Dockerfiles: Stop Writing FROM ubuntu and Praying 🐳🔥
 
 **Honest confession:** My first production Dockerfile was literally:

@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "npm", "dependencies", "backend"]
 featured: true
 ---
 
+
+
+
 # NPM Dependency Hell: A Survival Guide 📦
 
 **Confession time:** I once added ONE package to a Node.js project at Acodez. ONE! I ran `npm install express-rate-limit` and watched in horror as npm downloaded **237 additional packages**. My node_modules folder went from 150MB to 380MB. The build took 4 minutes instead of 30 seconds. And the best part? Three different versions of lodash. THREE! 🤯

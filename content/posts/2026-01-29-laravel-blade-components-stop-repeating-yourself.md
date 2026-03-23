@@ -5,6 +5,9 @@ excerpt: "Still copying the same HTML in 20 different files? Let me introduce yo
 tags: ["laravel", "php", "blade", "web-dev", "frontend"]
 ---
 
+
+
+
 # Laravel Blade Components: Stop Copy-Pasting HTML Like a Caveman 🎨
 
 Ever copied the same button HTML across 15 different views and then realized you need to change the styling? Yeah, me too. Let's fix that!

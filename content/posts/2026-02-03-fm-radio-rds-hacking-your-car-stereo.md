@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "fm-radio"]
 featured: true
 ---
 
+
+
+
 # FM Radio Hacking: How I Made My Car Display 'HACKED BY ME' (Legally!) 📻
 
 **Real talk:** I was driving to work when my car stereo displayed "NOW PLAYING: Bohemian Rhapsody - Queen" and I thought... wait, how does my 2015 Honda know what song is playing on FM radio? Does the radio station TRANSMIT the song name?

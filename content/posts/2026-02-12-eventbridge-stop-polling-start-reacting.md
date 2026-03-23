@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "serverless", "eventbridge"]
 featured: true
 ---
 
+
+
+
 # EventBridge: Stop Polling and Start Reacting (Your APIs Will Thank You) ⚡🎯
 
 **Real talk:** The first serverless backend I architected was a beautiful mess. Lambda functions polling DynamoDB every 30 seconds. SQS queues being checked by scheduled Lambdas. API calls firing every minute "just in case" something changed. My AWS bill was $380/month for a system with 50 active users. 😅

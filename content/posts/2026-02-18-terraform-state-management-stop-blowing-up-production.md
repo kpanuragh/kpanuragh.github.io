@@ -6,6 +6,9 @@ tags: ["devops", "deployment", "terraform", "infrastructure-as-code"]
 featured: true
 ---
 
+
+
+
 # Terraform State Management: Stop Letting a JSON File Hold Your Infrastructure Hostage 🏗️🔥
 
 **True story:** It was a Friday at 4:45 PM. A well-meaning developer ran `terraform apply` from their laptop, got confused by a merge conflict in `terraform.tfstate`, and did the thing you should never, ever do — deleted the state file to "start fresh."

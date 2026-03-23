@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "cqrs", "performance"]
 featured: true
 ---
 
+
+
+
 # CQRS: Stop Using the Same Model for Reads and Writes 📖✍️
 
 **Real talk:** The first time our product dashboard took 12 seconds to load, I did what every developer does - added indexes. Then I added caching. Then I added more indexes. The problem? Our PostgreSQL database was trying to be good at EVERYTHING - complex analytical queries, real-time dashboards, AND handling thousands of writes per second. 😱

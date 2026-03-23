@@ -6,6 +6,9 @@ tags: ["github", "open-source", "career", "portfolio"]
 featured: true
 ---
 
+
+
+
 # Your GitHub Profile README: The Portfolio That Actually Gets You Hired 💼✨
 
 **Real talk:** I spent years with a GitHub profile that looked like I just discovered the internet yesterday. Profile pic? Default. Bio? Empty. README? What README?

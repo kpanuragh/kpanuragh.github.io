@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "s3", "security"]
 featured: true
 ---
 
+
+
+
 # S3 Security Mistakes That Are Costing You Money (And Sleep) 💸🔒
 
 **Real talk:** The first time I deployed an app with S3, I was so proud. "Look at me, using cloud storage like a pro!" Then three things happened:

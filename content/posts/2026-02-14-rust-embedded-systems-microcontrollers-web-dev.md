@@ -6,6 +6,9 @@ tags: ["rust", "embedded", "systems-programming", "hardware"]
 featured: true
 ---
 
+
+
+
 # Rust on Microcontrollers: From Web Dev to Embedded Systems 🦀🔌
 
 **Hot take:** If you can deploy to AWS, you can deploy to a $3 microcontroller! Rust makes embedded programming accessible to web developers like us - and it's actually FUN! 🎯

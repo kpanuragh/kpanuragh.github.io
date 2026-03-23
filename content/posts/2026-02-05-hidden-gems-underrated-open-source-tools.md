@@ -6,6 +6,9 @@ tags: ["open-source", "developer-tools", "productivity", "cli"]
 featured: true
 ---
 
+
+
+
 # Hidden Gems: Underrated Open Source Tools That'll Change Your Workflow 💎🛠️
 
 **Real talk:** Everyone knows about VSCode, Docker, and Git. They're everywhere. But you know what's NOT everywhere? The incredibly powerful open source tools that make my daily workflow 10x smoother but somehow have <5K GitHub stars! 😱

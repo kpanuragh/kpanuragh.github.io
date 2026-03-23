@@ -6,6 +6,9 @@ tags: ["devops", "kubernetes", "docker", "deployment"]
 featured: true
 ---
 
+
+
+
 # Kubernetes for the Confused Developer: It's Docker on Steroids, Not Rocket Science 🚀☸️
 
 **Real confession:** I avoided Kubernetes for 2 years. Why? Because every tutorial started with "First, understand pods, deployments, services, ingress controllers, persistent volumes, secrets, config maps, namespaces, and the control plane architecture..." My brain would shut down after "pods." 😵

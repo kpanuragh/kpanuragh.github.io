@@ -6,6 +6,9 @@ tags: ["aws", "dynamodb", "nosql", "serverless"]
 featured: true
 ---
 
+
+
+
 # DynamoDB: Stop Treating It Like a SQL Database 🔥📊
 
 **Real talk:** The first time I used DynamoDB, I thought "It's just a database, right? Tables, rows, queries... I got this!" Then I tried to JOIN two tables. No JOIN support. Tried to query by any field. Access Denied. Scanned a table. $87 bill for ONE query. My boss asked if I was mining Bitcoin. 😅

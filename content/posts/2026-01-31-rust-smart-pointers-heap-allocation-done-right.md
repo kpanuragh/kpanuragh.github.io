@@ -6,6 +6,9 @@ tags: ["rust", "smart-pointers", "memory-management", "systems-programming"]
 featured: true
 ---
 
+
+
+
 # Rust Smart Pointers: Heap Allocation Done Right 🦀📦
 
 **Hot take:** If you're still manually managing heap memory like it's 1999, you're basically choosing to drive a manual transmission car in bumper-to-bumper traffic when you could be riding in a Tesla! 🚗⚡

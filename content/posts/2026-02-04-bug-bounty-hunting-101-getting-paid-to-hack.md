@@ -6,6 +6,9 @@ tags: ["cybersecurity", "bug-bounty", "security", "web-security"]
 featured: true
 ---
 
+
+
+
 # Bug Bounty Hunting 101: Getting Paid to Hack (Legally!) 🎯
 
 So you want to break into websites and get paid for it? No ski mask required! 😎

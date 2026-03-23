@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "adsb"]
 featured: true
 ---
 
+
+
+
 # ADS-B: I'm Tracking Real Planes with a $20 USB Stick! ✈️📡
 
 **Real talk:** I was staring at FlightRadar24 watching a plane fly over my house. Then it hit me: "Someone is RECEIVING those signals right now. Could that someone be... me?"

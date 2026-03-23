@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "ci-cd", "github-actions", "devops"]
 featured: true
 ---
 
+
+
+
 # GitHub Actions + AWS Deployment: Stop SSH-ing Into Production Like It's 2012 🚀☁️
 
 **Real talk:** The first time I deployed to AWS, I literally SSH'd into an EC2 instance, ran `git pull`, restarted the server, and crossed my fingers. It worked! I felt like a genius. Then my boss asked, "What if the server crashes during deployment?" Me: "...I'll fix it?" Narrator: I did NOT fix it. 😅

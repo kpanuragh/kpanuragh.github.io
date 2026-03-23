@@ -5,6 +5,9 @@ excerpt: "Your controller has 200 lines of sequential 'do this, then do that' lo
 tags: ["laravel", "php", "web-dev", "design-patterns"]
 ---
 
+
+
+
 # Laravel Pipelines: Stop Writing Spaghetti Code in Your Controllers 🍝
 
 Your checkout controller has 15 sequential steps and is longer than a CVS receipt. I've been there. In fact, I *built* that controller — and then I had to maintain it.

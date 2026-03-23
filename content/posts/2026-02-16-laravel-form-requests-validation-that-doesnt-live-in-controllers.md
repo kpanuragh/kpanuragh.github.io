@@ -5,6 +5,9 @@ excerpt: "Still validating everything in your controllers? Form Requests will cl
 tags: ["laravel", "php", "validation", "web-dev", "clean-code"]
 ---
 
+
+
+
 # Laravel Form Requests: Stop Cluttering Your Controllers with Validation 🧹
 
 Picture this: You open a controller and see 47 lines of validation rules before the actual logic even starts. Your eyes glaze over. You want to cry. Don't worry, I've been there!

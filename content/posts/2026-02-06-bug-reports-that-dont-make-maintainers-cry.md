@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "contributing"]
 featured: true
 ---
 
+
+
+
 # How to Write Bug Reports That Don't Make Maintainers Cry 🐛😭
 
 **Real talk:** I once received a bug report that said "Your library is broken. Fix it." No details. No error messages. No code examples. Just pure rage in text form. 😤

@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "laravel", "api-security"]
 featured: false
 ---
 
+
+
+
 # Mass Assignment: The Bug That Turns Users Into Admins 👑
 
 I want to tell you about the most embarrassing class of vulnerability in web development.

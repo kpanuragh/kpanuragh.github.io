@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "api-security", "rest-api"]
 featured: true
 ---
 
+
+
+
 # API Security: Don't Let Hackers Crash Your Party 🔒
 
 Your API is basically a VIP entrance to your data. And right now? You might be letting anyone walk in with a fake mustache! 🥸

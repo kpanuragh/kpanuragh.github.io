@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "authentication", "2fa"]
 featured: true
 ---
 
+
+
+
 # Two-Factor Authentication: Why Passwords Alone Are a Terrible Idea 🔐
 
 Your password got leaked. Again. 🤦‍♂️

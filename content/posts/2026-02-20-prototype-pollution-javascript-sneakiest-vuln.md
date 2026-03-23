@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "javascript", "nodejs"]
 featured: false
 ---
 
+
+
+
 # Prototype Pollution: The JavaScript Vulnerability Hiding in Your node_modules 🧪
 
 I want to tell you about the day I opened a GitHub Security Advisory for `lodash` — a library sitting in roughly *every* JavaScript project ever written — and saw the words: **"Prototype Pollution leading to Remote Code Execution."**

@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "owasp", "rce"]
 featured: true
 ---
 
+
+
+
 # Deserialization Attacks: How Pickled Data Can Pickle Your App 🥒
 
 You know what's worse than a SQL injection? A vulnerability that lets attackers literally run ANY code they want on your server. Welcome to the wild world of **insecure deserialization**! 🎭

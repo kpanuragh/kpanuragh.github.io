@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "infrastructure"]
 featured: true
 ---
 
+
+
+
 # Horizontal vs Vertical Scaling: Stop Buying Bigger Servers When You Need More Servers 🏗️📈
 
 **Real talk:** The first time our e-commerce API hit peak traffic, response times went from 200ms to 8 seconds. My instinct as a Technical Lead? "Let's upgrade from 8GB RAM to 32GB RAM!" I clicked "Apply Changes" in AWS, waited for the reboot, and... response times were STILL 8 seconds. 😱

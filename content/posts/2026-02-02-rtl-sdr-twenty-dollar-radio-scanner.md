@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "rtl-sdr"]
 featured: true
 ---
 
+
+
+
 # RTL-SDR: The $20 USB Stick That Unlocks the Invisible Radio Universe 📡
 
 **Real talk:** I bought a cheap USB TV tuner on Amazon for $25, plugged it into my laptop, and within 20 minutes I was tracking airplanes flying overhead in real-time, seeing their altitude, speed, and flight numbers. No fancy equipment. Just a dongle that was originally designed to watch TV in Europe.

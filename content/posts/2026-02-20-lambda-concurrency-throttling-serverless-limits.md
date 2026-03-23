@@ -6,6 +6,9 @@ tags: ["aws", "serverless", "lambda", "cloud"]
 featured: true
 ---
 
+
+
+
 # AWS Lambda Concurrency: Your 'Infinite Scale' Has a Speed Limit ⚡🚧
 
 **Here's a thing that happened to me:** Flash sale. Product goes viral on social media. 50,000 users hit our e-commerce site simultaneously. The serverless architecture I'd spent months building was supposed to handle this effortlessly.

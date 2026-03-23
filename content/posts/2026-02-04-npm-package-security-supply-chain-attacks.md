@@ -6,6 +6,9 @@ tags: ["nodejs", "security", "npm", "backend"]
 featured: true
 ---
 
+
+
+
 # NPM Packages Are Trying to Hack You (And You're Letting Them) 🎭🔓
 
 **Confession time:** I once `npm install`ed a package that stole AWS credentials from our CI/CD pipeline and sent them to a server in Belarus. The package had 2 million weekly downloads. It was in our `package.json` for THREE MONTHS. 😱

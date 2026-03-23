@@ -5,6 +5,9 @@ excerpt: "Tired of Vue/React complexity? Livewire lets you build reactive UIs wi
 tags: ["laravel", "livewire", "php", "web-dev"]
 ---
 
+
+
+
 # Laravel Livewire: Build SPAs Without JavaScript Hell 🔥
 
 Remember when building interactive web apps meant diving into React, learning JSX, dealing with state management, configuring Webpack, and questioning all your life choices? Yeah, me too.

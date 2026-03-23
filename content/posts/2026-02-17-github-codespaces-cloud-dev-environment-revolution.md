@@ -6,6 +6,9 @@ tags: ["open-source", "github", "developer-tools", "codespaces", "cloud-dev"]
 featured: true
 ---
 
+
+
+
 # GitHub Codespaces: I Contributed to Open Source from an Airport Bathroom (And It Worked) ☁️🚀
 
 **True story:** I was stuck at a 3-hour layover in Bangalore airport. My laptop battery was at 4%. A critical bug got filed on a project I maintain. I borrowed a charging port, opened GitHub on my phone, switched to Codespaces, and merged a fix before boarding.

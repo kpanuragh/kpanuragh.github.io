@@ -6,6 +6,9 @@ tags: ["rf", "bluetooth", "wireless", "security", "ble"]
 featured: true
 ---
 
+
+
+
 # Bluetooth BLE Sniffing: I Can See Every Smart Device Around Me (And So Can Hackers!) 📱🔵
 
 **Real talk:** I was sitting in a coffee shop with my Bluetooth sniffer when I realized I could see 47 different devices broadcasting around me. Fitbits. Apple AirPods. Smart watches. Wireless keyboards. Someone's insulin pump. Someone's smart lock. All of them SCREAMING their presence into the 2.4 GHz spectrum for anyone to see.

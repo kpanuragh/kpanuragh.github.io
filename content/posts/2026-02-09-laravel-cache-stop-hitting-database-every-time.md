@@ -5,6 +5,9 @@ excerpt: "Your database is crying. Every page load = 47 queries. Let me show you
 tags: ["laravel", "php", "performance", "web-dev"]
 ---
 
+
+
+
 # Laravel Cache: Stop Hitting the Database Every Single Time 🚀💾
 
 Your users just complained that the app is slow. You check New Relic. 47 database queries. PER PAGE LOAD. Your database is sweating harder than me at the gym. 💦

@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "resilience", "microservi
 featured: true
 ---
 
+
+
+
 # Circuit Breakers: Stop Hammering Dead Services Like a Broken Doorbell 🚨🔌
 
 **Real confession:** The first time our payment service went down at 2 AM, I watched in horror as our API kept sending it 10,000 requests per second. The payment service was already dead, but we kept hammering it like a broken doorbell. Then the timeout cascade started - every request waiting 30 seconds for a response that would never come. Response times: 30+ seconds. Queue depth: 50,000. Server memory: 💥

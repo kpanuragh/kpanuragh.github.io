@@ -5,6 +5,9 @@ excerpt: "Stop cluttering your controllers! Let Laravel Observers watch your mod
 tags: ["laravel", "php", "web-dev", "eloquent"]
 ---
 
+
+
+
 # Laravel Observers: The Silent Watchers 👀
 
 Ever felt like your Laravel controllers are doing too much? You're creating a user, sending a welcome email, creating a profile, logging the action, notifying admins, making coffee... okay maybe not the last one, but you get the point!

@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "performance", "strings", "memory-manageme
 featured: true
 ---
 
+
+
+
 # Rust Has TWO String Types and I'm Not Okay 🦀😤
 
 **Rite of passage:** Every developer learning Rust hits the same wall. Not the borrow checker. Not lifetimes. Not `Fn` vs `FnMut`. No, the wall most people crash into first is this compiler error:

@@ -5,6 +5,9 @@ excerpt: "Why permanently delete data when you can just... pretend? Learn how La
 tags: ["laravel", "php", "eloquent", "database"]
 ---
 
+
+
+
 # Laravel Soft Deletes: Delete Without Actually Deleting 🗑️
 
 Ever deleted a user account only to hear "Wait, I didn't mean to delete that!" five minutes later? Yeah, me too. And that's how I learned about soft deletes the hard way.

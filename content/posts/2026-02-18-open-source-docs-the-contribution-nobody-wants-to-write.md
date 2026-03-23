@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "documentation", "developer-tools"]
 featured: true
 ---
 
+
+
+
 # Open Source Docs: The Contribution Nobody Wants to Write (But Everyone Desperately Needs) 📖🔥
 
 **Confession:** I once spent 45 minutes trying to install an open source security tool with 4,000 GitHub stars.

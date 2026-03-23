@@ -6,6 +6,9 @@ tags: ["nextjs", "react", "web-dev", "tutorial"]
 featured: true
 ---
 
+
+
+
 # How I Built This Blog (And You Can Too!)
 
 You know that satisfying feeling when you build something from scratch and it actually works? Yeah, that's what this blog is!

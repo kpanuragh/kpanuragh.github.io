@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "backend", "errors", "debugging"]
 featured: true
 ---
 
+
+
+
 # Node.js Error Handling: Stop Crashing in Production 💥
 
 **Real confession:** The first time my Node.js API crashed in production at Acodez, I had NO IDEA why. Zero logs. Zero errors. Just... silence. Then the server restarted. Then it crashed again. The error? Buried in an unhandled promise rejection that I didn't even know existed! 😱

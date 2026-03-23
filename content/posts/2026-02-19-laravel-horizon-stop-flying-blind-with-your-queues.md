@@ -5,6 +5,9 @@ excerpt: "Your queues are processing jobs in the dark and you have no idea if th
 tags: ["laravel", "php", "web-dev", "queues", "monitoring"]
 ---
 
+
+
+
 # Laravel Horizon: Stop Flying Blind with Your Queues 🔭
 
 Picture this: it's Friday evening, you've deployed a shiny new feature that processes user uploads in the background. The boss is happy. You're happy. You grab a coffee and head home.

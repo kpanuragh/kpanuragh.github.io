@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "file-security"]
 featured: true
 ---
 
+
+
+
 # Path Traversal: The '../../../' Attack You've Never Heard Of 📁
 
 Ever wondered how hackers read files they shouldn't have access to? No SQL injection, no XSS, just... dots and slashes? 🤔

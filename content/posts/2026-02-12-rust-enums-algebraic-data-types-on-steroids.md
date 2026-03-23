@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "enums", "type-safety"]
 featured: true
 ---
 
+
+
+
 # Rust Enums: Why Other Languages Are Jealous 🦀💎
 
 **Hot take:** If you think enums are just numbered constants, you've never met Rust enums. They're like regular enums that went to the gym, got a PhD, and learned kung fu! 🥋

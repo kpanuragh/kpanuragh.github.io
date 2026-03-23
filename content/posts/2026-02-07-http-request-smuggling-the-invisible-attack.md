@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "http"]
 featured: true
 ---
 
+
+
+
 # HTTP Request Smuggling: The Attack That Hides in Plain Sight 🕵️
 
 Remember when I said most security bugs are simple mistakes? Well, today we're talking about the OPPOSITE. HTTP Request Smuggling is like the Ocean's Eleven of web attacks - sophisticated, sneaky, and way cooler than it should be.

@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "antennas"]
 featured: true
 ---
 
+
+
+
 # Antenna Theory for Developers: The Magic Sticks That Catch Invisible Waves 📡
 
 **Real talk:** I spent $200 on fancy SDR equipment, then wondered why I couldn't receive signals beyond my block. Then someone asked, "What antenna are you using?" I looked at the tiny 3-inch rubber duck that came in the box and said "...this one?"

@@ -6,6 +6,9 @@ tags: ["open-source", "github", "semver", "developer-tools", "community"]
 featured: true
 ---
 
+
+
+
 # Semantic Versioning: The Promise That Keeps a Million npm Packages From Exploding 💥📦
 
 **True story:** Three years into my career, I updated a dependency from `2.3.1` to `2.4.0`.

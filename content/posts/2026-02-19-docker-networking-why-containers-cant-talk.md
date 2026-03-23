@@ -6,6 +6,9 @@ tags: ["devops", "docker", "containers", "networking"]
 featured: true
 ---
 
+
+
+
 # Docker Networking: Why Your Containers Can't Talk to Each Other 🐳🌐
 
 **True story:** I once filed a GitHub issue on a database driver repo because I was convinced there was a bug in the connection pooling. The bug was me. I was passing `localhost` as the database host from inside a container. Spent four hours debugging what took thirty seconds to fix once I understood Docker networking.

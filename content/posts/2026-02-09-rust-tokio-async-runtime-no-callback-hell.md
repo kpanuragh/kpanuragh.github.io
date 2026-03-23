@@ -6,6 +6,9 @@ tags: ["rust", "tokio", "async", "performance", "concurrency"]
 featured: true
 ---
 
+
+
+
 # Tokio: Async Runtime That Doesn't Make You Want to Cry 🦀⚡
 
 **Hot take:** Asynchronous programming doesn't have to feel like solving a Rubik's cube while blindfolded! Tokio proves that async can be fast, safe, AND readable all at once! 🎯

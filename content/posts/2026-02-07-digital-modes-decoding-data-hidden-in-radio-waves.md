@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "digital-modes"]
 featured: true
 ---
 
+
+
+
 # Decoding Digital Modes: I Found Hidden Data Streams in Radio Waves! 📡💻
 
 **Real talk:** I was scanning the 20-meter ham radio band with my RTL-SDR when I heard the weirdest sound - not voices, not music, but digital chirps and warbling tones that sounded like a dying modem from 1995. My first thought: "What IS that noise?"

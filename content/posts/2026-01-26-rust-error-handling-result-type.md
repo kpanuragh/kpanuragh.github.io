@@ -6,6 +6,9 @@ tags: ["rust", "error-handling", "systems-programming", "type-safety"]
 featured: true
 ---
 
+
+
+
 # Rust's Error Handling: Where Exceptions Go to Die 🦀💥
 
 **Hot take:** If you've never written Rust error handling, you've been doing errors wrong your entire career! 🔥

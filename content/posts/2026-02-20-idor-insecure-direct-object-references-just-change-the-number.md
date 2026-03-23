@@ -6,6 +6,9 @@ tags: ["security", "owasp", "api-security", "broken-access-control"]
 featured: true
 ---
 
+
+
+
 # IDOR: The "Just Change the Number" Hack That's Ruining Apps 🔢💀
 
 Let me paint you a picture.

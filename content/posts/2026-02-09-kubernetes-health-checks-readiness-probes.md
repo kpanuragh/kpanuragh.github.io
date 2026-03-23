@@ -6,6 +6,9 @@ tags: ["devops", "kubernetes", "deployment", "monitoring"]
 featured: true
 ---
 
+
+
+
 # Kubernetes Health Checks: Stop Routing Traffic to Dead Pods Like It's Amateur Hour 🏥
 
 **Real confession:** My first production Kubernetes deployment went like this: Deploy 3 pods. All show "Running" in kubectl. Traffic hits the service. Users get 502 errors. I frantically check logs. Pods are running but... not ready. Database connection pool initialization takes 30 seconds, but Kubernetes started routing traffic immediately. **Result:** 5 minutes of downtime during "successful" deployment! 😱

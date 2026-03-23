@@ -6,6 +6,9 @@ tags: ["github", "ci-cd", "automation", "developer-tools"]
 featured: true
 ---
 
+
+
+
 # GitHub Actions: The CI/CD You Can Actually Understand 🤖⚡
 
 **Real talk:** I used to manually deploy my apps like a caveman. Build locally, SSH into the server, pray nothing breaks, refresh frantically, cry when it does. 😭

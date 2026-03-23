@@ -5,6 +5,9 @@ excerpt: "If you're copy-pasting the same WHERE clauses everywhere, Laravel scop
 tags: ["laravel", "php", "eloquent", "web-dev"]
 ---
 
+
+
+
 # Laravel Scopes: Stop Writing the Same Query Over and Over 🔍
 
 Have you ever found yourself writing `where('status', 'active')` for the 47th time this week? Yeah, me too. Let's fix that!

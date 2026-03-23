@@ -6,17 +6,20 @@ tags: ["cybersecurity", "web-security", "security", "ssti", "template-injection"
 featured: false
 ---
 
+
+
+
 # Server-Side Template Injection: When Your Template Engine Goes Rogue 🔥
 
 Let me tell you about the vulnerability that made my jaw drop the first time I encountered it in a responsible disclosure write-up.
 
-A developer built a "personalized welcome email" feature. Users could type their own greeting template. Something like `Hello {{name}}, welcome to our platform!` — sweet, right? Customizable, personal. Marketing loved it.
+A developer built a "personalized welcome email" feature. Users could type their own greeting template. Something like `Hello {% raw %}{{name}}{% endraw %}, welcome to our platform!` — sweet, right? Customizable, personal. Marketing loved it.
 
-Then someone typed `{{7*7}}` into the template field.
+Then someone typed `{% raw %}{{7*7}}{% endraw %}` into the template field.
 
 The email they received said: *"Hello 49, welcome to our platform!"*
 
-That's Server-Side Template Injection. And that researcher went from `{{7*7}}` to reading `/etc/passwd` in about 20 minutes. 💀
+That's Server-Side Template Injection. And that researcher went from `{% raw %}{{7*7}}{% endraw %}` to reading `/etc/passwd` in about 20 minutes. 💀
 
 ## What Is SSTI, Actually? 🤔
 

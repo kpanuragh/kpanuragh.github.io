@@ -6,6 +6,9 @@ tags: ["open-source", "github", "contributing", "community"]
 featured: true
 ---
 
+
+
+
 # Pull Request Etiquette: How to Get Your PRs Merged (Not Ignored) 🚀✅
 
 **Real talk:** I once opened a PR to fix a typo. Just ONE character. The diff was literally `-` and `+` one letter. Easy merge, right? 😊

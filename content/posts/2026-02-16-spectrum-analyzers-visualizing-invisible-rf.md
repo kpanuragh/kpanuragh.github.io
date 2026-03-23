@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "test-equipment"]
 featured: true
 ---
 
+
+
+
 # Spectrum Analyzers: I Can Now SEE the Invisible Radio Waves! 📊📡
 
 **Real talk:** I was troubleshooting my homemade dipole antenna when my ham radio friend asked, "What does your spectrum analyzer show?" I laughed nervously. "Spectrum analyzer? Those cost like $10,000! I'm just a hobbyist with an RTL-SDR!"

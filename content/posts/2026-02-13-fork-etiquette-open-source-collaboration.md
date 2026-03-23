@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "workflow"]
 featured: true
 ---
 
+
+
+
 # Fork Etiquette: The Unwritten Rules of Open Source Collaboration 🍴✨
 
 **Real talk:** I once forked a repo, made changes, and proudly announced "I made your project better!" on Twitter. The maintainer's response? "You could have just opened a PR instead of fragmenting the community." 😬

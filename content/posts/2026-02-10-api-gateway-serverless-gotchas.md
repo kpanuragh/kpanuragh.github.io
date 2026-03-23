@@ -6,6 +6,9 @@ tags: ["aws", "serverless", "api-gateway", "cloud"]
 featured: true
 ---
 
+
+
+
 # API Gateway: The $$$$ Serverless Gotcha Nobody Warns You About 🚪💸
 
 **Real talk:** When I first built a serverless API on AWS, I thought I was being clever. "Lambda is dirt cheap! $0.20 per million requests! This will cost pennies!"

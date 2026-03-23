@@ -6,6 +6,9 @@ tags: ["architecture", "microservices", "monolith", "scalability", "system-desig
 featured: true
 ---
 
+
+
+
 # Monolith vs Microservices: When NOT to Split Your App (Yes, Really!) 🏗️💥
 
 **Real confession:** In 2018, I convinced my team to split our perfectly fine monolith into 12 microservices. Why? Because that's what all the cool tech companies were doing! Netflix did it. Uber did it. We should too, right?

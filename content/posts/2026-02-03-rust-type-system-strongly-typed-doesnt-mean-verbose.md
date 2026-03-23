@@ -6,6 +6,9 @@ tags: ["rust", "type-system", "type-inference", "programming"]
 featured: true
 ---
 
+
+
+
 # Rust's Type System: When 'Strongly Typed' Doesn't Mean 'Verbose Hell' 🦀✨
 
 **Hot take:** If your experience with static typing comes from Java, you don't actually know what good static typing feels like! 🔥

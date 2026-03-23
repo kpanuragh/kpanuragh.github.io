@@ -6,6 +6,9 @@ tags: ["devops", "database", "deployment", "performance"]
 featured: true
 ---
 
+
+
+
 # Database Connection Pooling: Stop Crashing Production with 10,000 Connections 🏊‍♂️💥
 
 **Real confession:** My first production outage as a tech lead happened at 2:47 AM on a Saturday. The on-call alert woke me up: "Database connection limit exceeded." I logged in to find 8,472 active database connections. Our Postgres max was 100. The math didn't math. Users couldn't log in. The API was returning 500 errors. I had no idea what connection pooling was. That was about to change. 😱

@@ -5,6 +5,9 @@ excerpt: "Your database stores 'john_doe' but you need 'John Doe'? Let Laravel d
 tags: ["laravel", "php", "eloquent", "web-dev"]
 ---
 
+
+
+
 # Laravel Accessors & Mutators: Stop Fighting with Your Data 🎩✨
 
 Ever found yourself writing the same data transformation logic everywhere? Converting dates, formatting names, encrypting passwords? Yeah, me too. Until I discovered that Eloquent has been doing my job better than me all along!

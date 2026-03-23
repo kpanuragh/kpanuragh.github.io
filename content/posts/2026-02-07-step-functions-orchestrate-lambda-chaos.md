@@ -6,6 +6,9 @@ tags: ["aws", "serverless", "lambda", "step-functions"]
 featured: true
 ---
 
+
+
+
 # AWS Step Functions: Stop Coding Lambda Spaghetti Workflows 🍝⚡
 
 **Real talk:** The first time I built a multi-step workflow with Lambda functions, I felt like a serverless genius. "Look at me, chaining Lambdas together!" Then I had to add error handling. And retries. And timeouts. And parallel execution. And... my code turned into callback hell from the 9th circle of developer pain. 😭

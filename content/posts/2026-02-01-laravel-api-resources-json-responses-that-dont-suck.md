@@ -5,6 +5,9 @@ excerpt: "Stop returning raw Eloquent models in your API! Learn how Laravel API 
 tags: ["laravel", "php", "api", "web-dev"]
 ---
 
+
+
+
 # Laravel API Resources: JSON Responses That Don't Suck 🎨
 
 You know what's embarrassing? Returning raw Eloquent models in your API and accidentally exposing password hashes, internal IDs, and timestamps nobody asked for.

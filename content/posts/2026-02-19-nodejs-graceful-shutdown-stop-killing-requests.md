@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "backend", "express", "devops"]
 featured: true
 ---
 
+
+
+
 # Node.js Graceful Shutdown: Stop Murdering Your Users' Requests 🛑
 
 **Confession:** The first time I deployed a Node.js app at Acodez, I restarted it with `kill -9` like an absolute barbarian.

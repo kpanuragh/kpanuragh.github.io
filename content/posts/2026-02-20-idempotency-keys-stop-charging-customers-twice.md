@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "api-design", "distribute
 featured: true
 ---
 
+
+
+
 # Idempotency Keys: Stop Accidentally Charging Customers Twice 💳🔑
 
 **The most expensive mistake I've made as a Technical Lead** didn't come from a security breach or a bad deploy. It came from code doing exactly what it was designed to do.

@@ -5,6 +5,9 @@ excerpt: "Think you know Eloquent relationships? These advanced tricks will chan
 tags: ["laravel", "php", "eloquent", "web-dev", "database"]
 ---
 
+
+
+
 # Laravel Eloquent Relationships: Beyond hasMany and belongsTo 🔗
 
 You know `hasMany` and `belongsTo`. Cool! But Eloquent has some WILD relationship tricks that'll make your queries faster and your code cleaner. Let's dig into the good stuff most tutorials skip!

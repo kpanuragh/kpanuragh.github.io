@@ -6,6 +6,9 @@ tags: ["devops", "kubernetes", "deployment", "helm", "containers"]
 featured: true
 ---
 
+
+
+
 # Helm Charts: Stop Copy-Pasting Kubernetes YAML Across Environments 🎩⚓
 
 **Honest confession:** For a shamefully long time, my "multi-environment Kubernetes strategy" was a `k8s/` folder with three subfolders — `dev/`, `staging/`, `prod/` — each containing the same six YAML files. Different by exactly the image tag, replica count, and resource limits. That's it.

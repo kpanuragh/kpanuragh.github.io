@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "authentication", "bots"]
 featured: true
 ---
 
+
+
+
 # CAPTCHA: The Security Theater Nobody Talks About 🤖
 
 You know what's funny? We've been training AI models for free for 15+ years by clicking on fire hydrants and crosswalks. And somehow, the bots still get through. 🚦

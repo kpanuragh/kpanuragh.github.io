@@ -5,6 +5,9 @@ excerpt: "That 'fast' local app that takes 10 seconds in production? Spoiler: It
 tags: ["laravel", "php", "performance", "eloquent"]
 ---
 
+
+
+
 # Laravel N+1 Queries Are Killing Your App (And You Don't Even Know It) 💀
 
 Your app runs like a dream on your laptop. Then you deploy to production and suddenly everything's moving like it's stuck in molasses. Users are complaining, your boss is asking questions, and your monitoring dashboard looks like a horror movie.

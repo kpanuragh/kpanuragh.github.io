@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "sql-injection", "owasp"]
 featured: true
 ---
 
+
+
+
 # SQL Injection: How a Single Quote Can Steal Your Entire Database 💉
 
 So you're building a login form. You Google "how to check username and password" and copy-paste some code. Deploy it. Done!

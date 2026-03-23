@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "python", "signal-processing"]
 featured: true
 ---
 
+
+
+
 # Signal Hunting with SDR: I Decoded a Mystery 433 MHz Signal (And You Can Too!) 🔍📡
 
 **Real talk:** I was scanning the 433 MHz band with my RTL-SDR when I saw a weird signal popping up every 30 seconds. Short bursts. Digital-looking pattern. No idea what it was. My developer brain went: "That's a MYSTERY. I must SOLVE IT!"

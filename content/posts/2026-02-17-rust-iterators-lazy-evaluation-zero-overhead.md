@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "performance", "iterators", "functional-pr
 featured: true
 ---
 
+
+
+
 # Rust Iterators: Lazy, Fast, and Making PHP Developers Cry 🦀🔄
 
 **Confession:** When I first saw Rust iterators, I thought "cool, it's just like Laravel Collections." I was wrong. So, so wrong. It's Laravel Collections if Laravel Collections were on a strict diet, had a PhD in performance optimization, and could bench-press your entire server rack. 💪

@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "infrastructure"]
 featured: true
 ---
 
+
+
+
 # Load Balancing: Stop Overloading One Server While Others Sip Coffee ☕⚖️
 
 **Real talk:** The first time our e-commerce backend got featured on Product Hunt, we had 5 EC2 instances ready to handle the traffic. I watched the dashboard with confidence. Then I saw it: Server 1 at 98% CPU, melting down. Servers 2-5? Chilling at 5% CPU, basically watching Netflix. 😱

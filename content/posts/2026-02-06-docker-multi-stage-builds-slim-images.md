@@ -6,6 +6,9 @@ tags: ["devops", "docker", "deployment", "optimization"]
 featured: true
 ---
 
+
+
+
 # Docker Multi-Stage Builds: Stop Shipping Your Entire Dev Environment to Production 🐳✂️
 
 **Real confession:** The first Docker image I pushed to production was 1.8GB. It included node_modules, build tools, test files, source maps, and probably my SSH keys (yikes!). Deploy time? **12 minutes**. My manager watched the progress bar and asked if we were downloading the entire internet. 😅

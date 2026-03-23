@@ -6,6 +6,9 @@ tags: ["git", "developer-tools", "automation", "productivity"]
 featured: true
 ---
 
+
+
+
 # Git Hooks: The Secret Automation Living in Your `.git` Folder ⚡🪝
 
 **Real talk:** I once pushed code to production with `console.log("TODO: remove this")` and `debugger` statements everywhere. My team was... not thrilled. 😅

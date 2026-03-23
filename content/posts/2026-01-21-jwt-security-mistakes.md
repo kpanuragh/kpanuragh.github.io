@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "jwt", "api-security"]
 featured: true
 ---
 
+
+
+
 # JWTs: The Security Nightmare Nobody Warned You About 🎫
 
 So you learned about JWTs and thought "Cool, stateless authentication!" Then you Googled "JWT tutorial" and copy-pasted some code. Congratulations - you might have just created a security hole! 🕳️

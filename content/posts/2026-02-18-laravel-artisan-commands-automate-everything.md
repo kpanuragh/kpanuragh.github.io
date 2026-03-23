@@ -5,6 +5,9 @@ excerpt: "You're a developer, not a Ctrl+C Ctrl+V machine. Let Artisan handle th
 tags: ["laravel", "php", "web-dev", "artisan", "automation"]
 ---
 
+
+
+
 # Laravel Artisan Commands: Stop Doing Repetitive Tasks Like a Robot 🤖
 
 Here's a confession: I spent the first six months of my Laravel career manually running database operations, copy-pasting scripts into tinker, and writing the same setup steps in a Notion doc that nobody ever read.

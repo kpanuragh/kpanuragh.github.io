@@ -6,6 +6,9 @@ tags: ["rust", "async", "concurrency", "performance"]
 featured: true
 ---
 
+
+
+
 # Rust's Async: When Your Code Does 10,000 Things at Once (Without Losing Its Mind) 🦀⚡
 
 **Hot take:** If you've only written async code in JavaScript or Python, you haven't actually seen what async can REALLY do. 🔥

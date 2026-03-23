@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "beginners"]
 featured: true
 ---
 
+
+
+
 # Your First Open Source Contribution: A Survival Guide 🌍💻
 
 **Confession time:** I stared at the "Fork" button on my first open source project for THREE WEEKS before clicking it. 😅

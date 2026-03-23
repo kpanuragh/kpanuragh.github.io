@@ -5,6 +5,9 @@ excerpt: "Stop manually converting JSON strings and dates! Laravel's model casts
 tags: ["laravel", "php", "eloquent", "web-dev"]
 ---
 
+
+
+
 # Laravel Model Casts: Making Data Types Not Suck 🎯
 
 Picture this: You pull a model from the database, and instead of getting `"true"` as a string, you get an actual boolean. Instead of `"2026-02-12"` as text, you get a Carbon instance ready to format. Instead of a JSON blob, you get a real PHP array.

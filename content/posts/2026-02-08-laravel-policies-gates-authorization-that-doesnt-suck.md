@@ -5,6 +5,9 @@ excerpt: "Stop putting authorization logic everywhere! Let's use Laravel Policie
 tags: ["laravel", "php", "authorization", "security", "web-dev"]
 ---
 
+
+
+
 # Laravel Policies & Gates: Authorization That Doesn't Suck 🔐
 
 You know what's worse than having no authorization? Having authorization scattered across your entire codebase like confetti at a wedding! 🎊

@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "database", "performance"]
 featured: true
 ---
 
+
+
+
 # Database Connection Pooling: Stop Opening 10,000 Connections Like a Maniac 🏊‍♂️💀
 
 **Real confession:** The first time our production database crashed at 3am, I woke up to 47 Slack notifications and a CEO asking "WHY IS EVERYTHING DOWN?!" I logged into the database server and saw this nightmare:

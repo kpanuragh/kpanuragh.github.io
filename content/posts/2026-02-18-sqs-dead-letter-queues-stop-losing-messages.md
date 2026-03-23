@@ -6,6 +6,9 @@ tags: ["aws", "serverless", "sqs", "cloud"]
 featured: true
 ---
 
+
+
+
 # AWS SQS Dead Letter Queues: Stop Losing Messages in the Void 📬💀
 
 **Honest confession:** For the first 6 months of running our serverless e-commerce backend on AWS, I had absolutely no idea that messages were failing silently in SQS. Orders were occasionally "disappearing." Payments processed but confirmation emails never sent. Inventory updates just... vanished.

@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "microservices", "distrib
 featured: true
 ---
 
+
+
+
 # The Saga Pattern: Because Distributed Transactions Are a Lie 🎭💥
 
 **Real confession:** When I first split our e-commerce monolith into microservices, I felt like a genius. Each service had its own database. Decoupled! Independent! Scalable! Beautiful!

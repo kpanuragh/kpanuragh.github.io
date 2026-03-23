@@ -6,6 +6,9 @@ tags: ["open-source", "code-review", "github", "community"]
 featured: true
 ---
 
+
+
+
 # Code Review in Open Source: How to Give Feedback That Doesn't Suck 👀💬
 
 **Real talk:** I once left a code review comment that made a contributor abandon their PR and never come back to the project. My comment? "This isn't how we do things here." 😬

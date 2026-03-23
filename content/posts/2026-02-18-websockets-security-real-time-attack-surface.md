@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "websockets", "real-time"]
 featured: false
 ---
 
+
+
+
 # WebSockets Security: Your Real-Time App Has a Real-Time Attack Surface 🔌
 
 I'll be honest with you: the first time I shipped a WebSocket-powered feature in production, I basically duct-taped an HTTP API mindset onto a completely different protocol and called it a day. 😬

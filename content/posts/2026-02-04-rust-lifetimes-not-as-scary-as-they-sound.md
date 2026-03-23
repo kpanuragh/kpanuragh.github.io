@@ -6,6 +6,9 @@ tags: ["rust", "systems-programming", "lifetimes", "memory-safety"]
 featured: true
 ---
 
+
+
+
 # Rust Lifetimes: Not as Scary as They Sound 🦀⏱️
 
 **Hot take:** If the borrow checker is Rust's overprotective parent, lifetimes are like that parent keeping track of when everyone needs to be home. Annoying at first? Sure. Saving you from disaster? Absolutely! 🏠

@@ -18,7 +18,8 @@
     "auto-blog:batch": "node scripts/batch-generate-blog.js && npm run build",
     "generate-og": "tsx scripts/generate-og-images.ts",
     "generate-icons": "tsx scripts/generate-icons.ts",
-    "prebuild": "npm run generate-og"
+    "fix-yaml": "tsx scripts/fix-yaml-escaping.ts",
+    "prebuild": "npm run fix-yaml && npm run generate-og"
   },
   "repository": {
     "type": "git",

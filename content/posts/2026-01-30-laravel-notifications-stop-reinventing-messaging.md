@@ -5,6 +5,9 @@ excerpt: "Sending emails, SMS, Slack messages, and push notifications with one s
 tags: ["laravel", "php", "notifications", "web-dev"]
 ---
 
+
+
+
 # Laravel Notifications: Stop Reinventing the Messaging Wheel 📬
 
 You know that moment when your boss asks "Can we also send this as a Slack message?" and you realize you've hardcoded email logic everywhere? Yeah, Laravel Notifications are here to save your sanity!

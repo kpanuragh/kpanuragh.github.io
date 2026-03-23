@@ -6,6 +6,9 @@ tags: ["open-source", "github", "community", "beginners"]
 featured: true
 ---
 
+
+
+
 # Your First Open Source Contribution Won't Break the Internet 🌍💻
 
 **Real talk:** The scariest part of open source isn't the code. It's the fear that you'll somehow break everything and 10,000 angry developers will show up at your door. 😱

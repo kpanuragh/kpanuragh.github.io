@@ -6,6 +6,9 @@ tags: ["open-source", "cli", "developer-tools", "rust"]
 featured: true
 ---
 
+
+
+
 # Building CLI Tools Done Right: The Open Source Way 🛠️⚡
 
 **Real talk:** I once built what I thought was the COOLEST CLI tool. Perfect features. Beautiful code. Zero users. 😭

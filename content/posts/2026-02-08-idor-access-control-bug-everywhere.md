@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "owasp", "api-security"]
 featured: true
 ---
 
+
+
+
 # IDOR: The Sneaky Bug That Let Me See Everyone's Orders 🔓
 
 Ever change a number in a URL and suddenly see someone else's data? Congrats, you found an IDOR! 🎉 (Please don't exploit it though.)

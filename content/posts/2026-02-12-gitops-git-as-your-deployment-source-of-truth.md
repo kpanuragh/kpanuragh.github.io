@@ -6,6 +6,9 @@ tags: ["devops", "gitops", "kubernetes", "deployment", "ci-cd"]
 featured: true
 ---
 
+
+
+
 # GitOps: When Git Becomes Your Entire Infrastructure (And Why That's Genius) 🚀📦
 
 **Real confession:** Three years into my career as a Technical Lead, I got the dreaded 3 AM call. "Production is down!" I SSH'd into the server, found a config that didn't match our repo, and realized someone had "quickly fixed" something directly in prod without committing it. Two weeks earlier. The fix got overwritten during our last deploy. Users were locked out. No one knew what the old config was. 😱

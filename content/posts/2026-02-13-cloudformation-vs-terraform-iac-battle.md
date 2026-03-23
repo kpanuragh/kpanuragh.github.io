@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "terraform", "devops", "iac"]
 featured: true
 ---
 
+
+
+
 # CloudFormation vs Terraform: The IaC Battle I Wish Someone Explained to Me ☁️⚔️
 
 **Real talk:** The first time I deployed infrastructure on AWS, I was a console cowboy. Click, click, create VPC, click, launch EC2, click, configure security group... 47 clicks later, I had a working environment! 🎉

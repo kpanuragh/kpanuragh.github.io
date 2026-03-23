@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "owasp"]
 featured: true
 ---
 
+
+
+
 # The OWASP Top 10: Your App's Security Report Card 📊
 
 So you built an app. Congrats! Now let me tell you how hackers are going to break it. 🎉

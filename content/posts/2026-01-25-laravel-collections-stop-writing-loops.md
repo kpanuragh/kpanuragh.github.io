@@ -5,6 +5,9 @@ excerpt: "Still using foreach everywhere? Laravel Collections will blow your min
 tags: ["laravel", "php", "collections", "web-dev"]
 ---
 
+
+
+
 # Laravel Collections: Stop Writing Loops Like It's 1999 🔥
 
 Ever written a loop inside a loop inside another loop and felt your soul leave your body? Yeah, me too. But here's the secret Laravel developers don't talk about enough: **Collections are your ticket to writing code that actually looks elegant!**

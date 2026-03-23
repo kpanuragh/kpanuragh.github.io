@@ -5,6 +5,9 @@ excerpt: "Stop manually creating test data like a caveman! Learn how I use Model
 tags: ["laravel", "php", "web-dev", "testing"]
 ---
 
+
+
+
 # Laravel Factories & Seeders: Fake Data That Looks Real 🎭
 
 Ever spent 2 hours manually clicking through your app to create test data? Yeah, I've been there. Then you reset the database and have to do it all over again. Fun times! 😅

@@ -6,6 +6,9 @@ tags: ["architecture", "scalability", "system-design", "event-driven", "microser
 featured: true
 ---
 
+
+
+
 # Event-Driven Architecture: Stop Waiting for Things to Happen 🎭⚡
 
 **Real talk:** The first time a customer complained that our checkout took 12 seconds, I thought our database was dying. Nope - the API was just sitting there WAITING for:

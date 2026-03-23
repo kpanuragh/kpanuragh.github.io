@@ -6,6 +6,9 @@ tags: ["open-source", "github", "security", "ci-cd"]
 featured: true
 ---
 
+
+
+
 # GitHub Actions Security: Don't Let Your CI/CD Pipeline Become a Hacker's Playground 🔐⚙️
 
 **Real talk:** I once reviewed an open source project that had their entire AWS infrastructure compromised through a malicious pull request to their GitHub Actions workflow. The attacker got root access to production, exfiltrated the database, and the maintainer only noticed when the AWS bill hit $47,000. 😱

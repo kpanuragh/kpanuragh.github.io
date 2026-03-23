@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "monitoring", "devops"]
 featured: true
 ---
 
+
+
+
 # CloudWatch Logs: Stop Paying AWS to Store Your Debug Statements 💸📊
 
 **Real talk:** The first time I checked our AWS bill, I nearly spit out my coffee. "Why is CloudWatch costing us $287/month?!" Our Lambda functions were tiny. Our traffic was moderate. What the hell was going on?

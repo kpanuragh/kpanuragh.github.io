@@ -5,6 +5,9 @@ excerpt: "Want to add custom methods to Laravel's core classes without touching 
 tags: ["laravel", "php", "web-dev", "tips"]
 ---
 
+
+
+
 # Laravel Macros: Extend the Framework Without Forking It 🎩✨
 
 Ever wished Laravel's `Collection` class had that ONE method you keep writing over and over? Or wanted to add a custom method to the Response class without forking the entire framework?

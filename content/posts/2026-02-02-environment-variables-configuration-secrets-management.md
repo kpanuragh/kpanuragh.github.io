@@ -6,6 +6,9 @@ tags: ["devops", "security", "deployment", "configuration"]
 featured: true
 ---
 
+
+
+
 # Environment Variables: Stop Hardcoding Secrets Like It's 1995 🔐
 
 **Real talk:** Early in my career, I deployed a Node.js app to production with the database password hardcoded in the source. Everything worked great! Then a junior dev accidentally pushed the entire codebase to a public GitHub repo. Within 3 hours, our database was wiped clean and replaced with a ransom note. 😱

@@ -6,6 +6,9 @@ tags: ["laravel", "security", "sql-injection", "responsible-disclosure", "cybers
 featured: true
 ---
 
+
+
+
 # I Accidentally Found SQL Injection in Laravel (While Procrastinating) 😅
 
 **TL;DR:** I was supposed to be building a "revolutionary" framework with DDD, TDD, Clean Architecture, and all the fancy buzzwords. Instead, I found SQL injection bugs in Laravel and somehow got my fix merged. My mom still doesn't understand what I do for a living.

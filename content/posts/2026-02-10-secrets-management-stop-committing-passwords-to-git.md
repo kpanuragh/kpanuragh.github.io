@@ -6,6 +6,9 @@ tags: ["devops", "security", "kubernetes", "deployment"]
 featured: true
 ---
 
+
+
+
 # Secrets Management: Stop Committing Your API Keys to Git (We've All Done It) 🔐🙈
 
 **Real confession:** In 2019, I pushed code to a public GitHub repo with AWS credentials hardcoded in a config file. Within 14 minutes (yes, I timed it later), bots found it and spun up 47 EC2 instances mining cryptocurrency. My phone exploded with AWS billing alerts at 3 AM. Final damage: $3,127.43 before I shut everything down. 😱

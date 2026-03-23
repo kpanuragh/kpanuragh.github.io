@@ -6,6 +6,9 @@ tags: ["devops", "kubernetes", "docker", "deployment"]
 featured: true
 ---
 
+
+
+
 # Kubernetes Resource Limits: Stop Letting OOMKills Ruin Your Friday Night 💀🔪
 
 **True story:** I once had a Node.js service that worked perfectly for months. Then one random Tuesday at 2:47 AM, PagerDuty went off. Pod dead. Restarted. Dead again. I stared at the logs bleary-eyed and saw:

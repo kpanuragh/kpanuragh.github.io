@@ -6,6 +6,9 @@ tags: ["rf", "sdr", "wireless", "hobby", "satellite"]
 featured: true
 ---
 
+
+
+
 # NOAA Weather Satellites: I'm Downloading Photos Directly from SPACE! 🛰️📡
 
 **Real talk:** My friend asked me what the weather looked like. I said "hang on" and pointed a homemade wire antenna at the sky for 12 minutes.

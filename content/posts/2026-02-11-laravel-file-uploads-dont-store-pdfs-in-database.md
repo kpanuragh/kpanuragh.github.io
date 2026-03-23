@@ -5,6 +5,9 @@ excerpt: "Your database isn't a file cabinet! Learn how to handle file uploads l
 tags: ["laravel", "php", "file-uploads", "aws", "s3"]
 ---
 
+
+
+
 # Laravel File Uploads: Stop Storing PDFs in Your Database! 📁
 
 Real talk: The first time I had to handle file uploads in Laravel, I almost stored the entire file content as a BLOB in the database. Thank god for code reviews! 😅

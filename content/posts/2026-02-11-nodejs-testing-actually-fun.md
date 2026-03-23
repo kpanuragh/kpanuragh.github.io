@@ -6,6 +6,9 @@ tags: ["nodejs", "javascript", "testing", "backend"]
 featured: true
 ---
 
+
+
+
 # Node.js Testing: Making It Actually Fun (No, Really!) 🧪
 
 **Real confession:** For the first year building Node.js APIs at Acodez, I wrote ZERO tests. "Tests are for enterprises with infinite time," I thought. "I'll just manually test in Postman!" Then one day, a "tiny bug fix" broke 3 features I didn't even know were connected. Spent 6 hours hunting the bug. The worst part? A simple test would've caught it in 10 seconds! 😱

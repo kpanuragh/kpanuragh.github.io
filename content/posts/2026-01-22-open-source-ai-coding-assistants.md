@@ -6,6 +6,9 @@ tags: ["open-source", "ai", "developer-tools", "productivity"]
 featured: true
 ---
 
+
+
+
 # GitHub Copilot Is Great, But Have You Tried These Free Alternatives? 🤖💻
 
 **Real talk:** I love GitHub Copilot. It's amazing. But when I saw that $10/month subscription fee, my inner developer screamed "THERE MUST BE AN OPEN SOURCE WAY!" 💸

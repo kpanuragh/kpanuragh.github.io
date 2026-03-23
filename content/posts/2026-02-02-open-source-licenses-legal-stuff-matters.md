@@ -6,6 +6,9 @@ tags: ["open-source", "github", "legal", "licenses"]
 featured: true
 ---
 
+
+
+
 # Open Source Licenses: The Legal Stuff That Actually Matters 📜⚖️
 
 **Real talk:** I once spent 3 days building a feature using an awesome library, only to discover it had a GPL license that would force my entire company's codebase to be open-sourced. 😱

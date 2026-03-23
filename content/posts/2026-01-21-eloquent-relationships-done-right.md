@@ -5,6 +5,9 @@ excerpt: "Stop fighting with your database relationships! Here's how to use Eloq
 tags: ["laravel", "php", "eloquent", "database", "web-dev"]
 ---
 
+
+
+
 # Eloquent Relationships That Don't Make You Cry 😭
 
 Remember when you tried to explain to your non-tech friend how databases work? "So this table talks to that table through this ID thingy..." Yeah, Eloquent relationships can feel like that times 100!

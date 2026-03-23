@@ -6,6 +6,9 @@ tags: ["cybersecurity", "web-security", "security", "owasp"]
 featured: true
 ---
 
+
+
+
 # Insecure Deserialization: The Backdoor Nobody Talks About 🎭
 
 So you're serializing objects to save session data, cache stuff, or pass data around? Cool, cool. But do you know what happens when you *deserialize* that data?

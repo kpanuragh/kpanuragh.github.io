@@ -6,6 +6,9 @@ tags: ["rf", "ham-radio", "wireless", "hobby", "amateur-radio"]
 featured: true
 ---
 
+
+
+
 # Ham Radio for Developers: Why I Got My Amateur Radio License (And You Should Too!) 📻⚡
 
 **Real talk:** After months of playing with my RTL-SDR and only RECEIVING signals, I started feeling like a kid with their nose pressed against the candy store window. I could see the whole radio spectrum, but I couldn't TALK BACK. Then my ham radio friend said, "Why don't you just get licensed? The test isn't that hard."

@@ -6,6 +6,9 @@ tags: ["rust", "testing", "systems-programming", "quality-assurance"]
 featured: true
 ---
 
+
+
+
 # Rust Testing: The Compiler Is Half Your Test Suite 🦀✅
 
 **Hot take:** In Rust, if it compiles, there's a solid chance it actually works! Coming from JavaScript/PHP where "it compiles" means "syntax is valid," this was MIND-BLOWING! 🤯

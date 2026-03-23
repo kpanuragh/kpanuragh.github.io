@@ -6,6 +6,9 @@ tags: ["aws", "cloud", "serverless", "cloudfront", "cdn"]
 featured: true
 ---
 
+
+
+
 # AWS CloudFront: The CDN That Can Save You Thousands (Or Cost You Thousands) ☁️⚡
 
 **Picture this:** It's Black Friday. Your e-commerce site goes viral. Every product image, every API call, every checkout page is hammering your origin servers. Your EC2 instances are crying. Your RDS is begging for mercy. Your AWS bill is heading somewhere you don't want to look.
