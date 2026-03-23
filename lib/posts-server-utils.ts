@@ -1,4 +1,5 @@
-import 'server-only';
+// This file is for scripts that need to use server-side post functions
+// It does NOT import 'server-only' because it needs to work in scripts
 
 import fs from 'fs';
 import path from 'path';
@@ -6,13 +7,9 @@ import matter from 'gray-matter';
 import readingTime from 'reading-time';
 import type { Post, PostMetadata } from '@/lib/posts-utils';
 
-// Re-export types and utilities
-export type { Post, PostMetadata };
-export { formatDate } from '@/lib/posts-utils';
-
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
-export function getAllPostSlugs(): string[] {
+function getAllPostSlugs(): string[] {
   try {
     if (!fs.existsSync(postsDirectory)) {
       return [];
@@ -27,7 +24,7 @@ export function getAllPostSlugs(): string[] {
   }
 }
 
-export function getPostBySlug(slug: string): Post {
+function getPostBySlug(slug: string): Post {
   const fullPath = path.join(postsDirectory, `${slug}.md`);
   let fileContents: string;
 
@@ -69,22 +66,3 @@ export function getAllPosts(): PostMetadata[] {
 
   return posts;
 }
-
-export function getPostsByTag(tag: string): PostMetadata[] {
-  const allPosts = getAllPosts();
-  return allPosts.filter(post =>
-    post.tags.some(t => t.toLowerCase() === tag.toLowerCase())
-  );
-}
-
-export function getAllTags(): string[] {
-  const posts = getAllPosts();
-  const tagsSet = new Set<string>();
-
-  posts.forEach(post => {
-    post.tags.forEach(tag => tagsSet.add(tag));
-  });
-
-  return Array.from(tagsSet).sort();
-}
-

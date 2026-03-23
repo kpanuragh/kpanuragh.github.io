@@ -1,5 +1,5 @@
 import { ImageResponse } from '@vercel/og';
-import { getAllPosts } from '../lib/posts';
+import { getAllPosts } from '../lib/posts-server-utils';
 import fs from 'fs';
 import path from 'path';
 import React from 'react';
