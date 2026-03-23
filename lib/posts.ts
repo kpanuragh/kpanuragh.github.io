@@ -1,15 +1,22 @@
-import 'server-only';
-
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import readingTime from 'reading-time';
 
-// Export types from client-safe module
-export type { PostMetadata, Post } from '@/lib/posts-types';
-export { formatDate } from '@/lib/posts-types';
+export interface PostMetadata {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  tags: string[];
+  featured?: boolean;
+  coverImage?: string;
+  readingTime: string;
+}
 
-import type { Post, PostMetadata } from '@/lib/posts-types';
+export interface Post extends PostMetadata {
+  content: string;
+}
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 

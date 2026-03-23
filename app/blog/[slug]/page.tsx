@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { getAllPostSlugs, getPostBySlug, formatDate } from '@/lib/posts';
+import { getAllPostSlugs, getPostBySlug, } from '@/lib/posts';
+import { formatDate } from '@/lib/date-utils';
 import { markdownToHtml } from '@/lib/markdown';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';

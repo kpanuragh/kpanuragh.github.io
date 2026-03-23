@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
-import type { PostMetadata } from '@/lib/posts-types';
+import type { PostMetadata } from '@/lib/posts';
 import BlogCard from '@/components/BlogCard';
 
 interface BlogListClientProps {
@@ -17,23 +16,6 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
 
   return (
     <>
-      {allTags.length > 0 && (
-        <div className="terminal-card mb-8">
-          <h2 className="text-xl terminal-heading mb-4">Topics</h2>
-          <div className="flex flex-wrap gap-2">
-            {allTags.map(tag => (
-              <Link
-                key={tag}
-                href={`/blog/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}
-                className="bg-terminal-bg text-terminal-success px-3 py-1 rounded text-sm hover:bg-terminal-accent hover:text-white transition-colors"
-              >
-                {tag}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
-
       {posts.length === 0 ? (
         <div className="terminal-card text-center py-12">
           <p className="text-terminal-text text-lg mb-4">No blog posts yet.</p>
