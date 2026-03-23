@@ -2,8 +2,8 @@
 title: "Rust's `build.rs`: The Secret Script That Runs Before Your Code Does 🔨🦀"
 date: "2026-03-20"
 excerpt: "In Laravel, Composer runs before your app. In Node.js, npm scripts run before your server. In Rust, there's a `build.rs` — a full Rust program that runs at compile time to link C libraries, generate code, and do things your runtime never even sees. Coming from web dev, this blew my mind."
-tags: ["rust", "systems-programming", "performance", "build-scripts", "ffi"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"build-scripts\\\"", "\\\"ffi\\\""]
+featured: "true"
 ---
 
 # Rust's `build.rs`: The Secret Script That Runs Before Your Code Does 🔨🦀

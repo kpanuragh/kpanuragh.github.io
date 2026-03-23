@@ -2,8 +2,8 @@
 title: "Semantic Versioning: Stop Shipping Version 1.0.0 Forever 🔢"
 date: "2026-03-08"
 excerpt: "You've been maintaining that open source library for 18 months and it's still on v1.0.0 because you're terrified of what comes next. Let's fix that — and your entire release strategy — today."
-tags: ["open-source", "github", "community", "developer-tools", "semver"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\"", "\\\"semver\\\""]
+featured: "true"
 ---
 
 # Semantic Versioning: Stop Shipping Version 1.0.0 Forever 🔢

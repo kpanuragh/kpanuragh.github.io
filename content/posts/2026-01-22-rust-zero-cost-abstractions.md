@@ -2,8 +2,8 @@
 title: "Rust's Zero-Cost Abstractions: Have Your Cake and Eat It Too 🦀🍰"
 date: "2026-01-22"
 excerpt: "Write code like Python, get performance like C. Sounds too good to be true? Welcome to Rust's zero-cost abstractions - where elegance meets speed!"
-tags: ["rust", "performance", "systems-programming", "optimization"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"performance\\\"", "\\\"systems-programming\\\"", "\\\"optimization\\\""]
+featured: "true"
 ---
 
 

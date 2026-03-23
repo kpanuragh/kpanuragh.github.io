@@ -2,8 +2,8 @@
 title: "Rust's Trait System: Interfaces That Don't Suck 🦀✨"
 date: "2026-01-28"
 excerpt: "Think interfaces in Java/C# are the best we can do? Rust's trait system just entered the chat with operator overloading, default implementations, and zero runtime cost. Prepare to rethink everything!"
-tags: ["rust", "traits", "systems-programming", "type-system"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"traits\\\"", "\\\"systems-programming\\\"", "\\\"type-system\\\""]
+featured: "true"
 ---
 
 

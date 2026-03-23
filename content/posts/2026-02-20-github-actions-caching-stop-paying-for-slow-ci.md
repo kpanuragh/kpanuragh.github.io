@@ -2,8 +2,8 @@
 title: "GitHub Actions Caching: Stop Paying to Download the Same 500MB Every Single Build 🏎️"
 date: "2026-02-20"
 excerpt: "Your CI pipeline downloads node_modules from scratch on every push and you're wondering why builds take 12 minutes. After burning through GitHub Actions minutes on avoidable downloads, here's the caching setup that cut our build times by 70%."
-tags: ["devops", "github-actions", "ci-cd", "performance"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"github-actions\\\"", "\\\"ci-cd\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # GitHub Actions Caching: Stop Paying to Download the Same 500MB Every Single Build 🏎️

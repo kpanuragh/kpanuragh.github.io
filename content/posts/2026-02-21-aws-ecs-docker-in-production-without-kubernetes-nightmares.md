@@ -2,8 +2,8 @@
 title: "AWS ECS: Docker in Production Without the Kubernetes Therapy Bills 🐳"
 date: "2026-02-21"
 excerpt: "After drowning in Kubernetes YAML for months, I discovered ECS — Amazon's managed container service that lets you run Docker in production without needing a PhD in distributed systems. Here's everything I learned the hard way!"
-tags: ["devops", "deployment", "docker", "aws", "ecs"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"docker\\\"", "\\\"aws\\\"", "\\\"ecs\\\""]
+featured: "true"
 ---
 
 # AWS ECS: Docker in Production Without the Kubernetes Therapy Bills 🐳

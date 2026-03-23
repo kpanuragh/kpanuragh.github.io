@@ -2,8 +2,8 @@
 title: "Prototype Pollution: The JavaScript Vulnerability Hiding in Plain Sight 🧪☠️"
 date: "2026-03-15"
 excerpt: "You're carefully validating user input, escaping output, using parameterized queries — and then a hacker manipulates Object.prototype and turns your entire app inside out. Prototype pollution is the JavaScript vulnerability most devs have never heard of, but attackers absolutely have."
-tags: ["security", "javascript", "nodejs", "web-security"]
-featured: true
+tags: ["\\\"security\\\"", "\\\"javascript\\\"", "\\\"nodejs\\\"", "\\\"web-security\\\""]
+featured: "true"
 ---
 
 # Prototype Pollution: The JavaScript Vulnerability Hiding in Plain Sight 🧪☠️

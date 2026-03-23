@@ -2,8 +2,8 @@
 title: "GitHub Actions: The CI/CD You Can Actually Understand 🤖⚡"
 date: "2026-01-26"
 excerpt: "Tired of CI/CD configs that look like ancient hieroglyphics? GitHub Actions makes automation so easy, you'll actually USE it. Let me show you how to stop manually deploying like it's 1999!"
-tags: ["github", "ci-cd", "automation", "developer-tools"]
-featured: true
+tags: ["\\\"github\\\"", "\\\"ci-cd\\\"", "\\\"automation\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 

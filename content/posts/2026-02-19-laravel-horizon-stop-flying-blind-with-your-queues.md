@@ -2,7 +2,7 @@
 title: "Laravel Horizon: Stop Flying Blind with Your Queues 🔭"
 date: "2026-02-19"
 excerpt: "Your queues are processing jobs in the dark and you have no idea if they're failing. Laravel Horizon is the control tower your background workers desperately need."
-tags: ["laravel", "php", "web-dev", "queues", "monitoring"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"queues\\\"", "\\\"monitoring\\\""]
 ---
 
 

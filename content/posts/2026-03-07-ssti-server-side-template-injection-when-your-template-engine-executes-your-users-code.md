@@ -2,8 +2,8 @@
 title: "SSTI: When Your Template Engine Executes Your Users' Code 😱"
 date: "2026-03-07"
 excerpt: "Server-Side Template Injection is what happens when you let users write inside your templates. Spoiler: they won't write 'Hello World'."
-tags: ["cybersecurity", "web-security", "security", "ssti", "template-injection"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"ssti\\\"", "\\\"template-injection\\\""]
+featured: "false"
 ---
 
 # SSTI: When Your Template Engine Executes Your Users' Code 😱

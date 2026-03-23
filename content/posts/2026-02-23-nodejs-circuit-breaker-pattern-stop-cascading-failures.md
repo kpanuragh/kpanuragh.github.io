@@ -2,8 +2,8 @@
 title: "🔌 Circuit Breakers in Node.js: Stop Letting One Bad Service Crash Your Entire App"
 date: "2026-02-23"
 excerpt: "One flaky microservice shouldn't bring down your whole platform. The circuit breaker pattern is your safety net — here's how to implement it in Node.js and finally build resilient APIs."
-tags: ["nodejs", "backend", "microservices", "resilience", "patterns", "express"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"microservices\\\"", "\\\"resilience\\\"", "\\\"patterns\\\"", "\\\"express\\\""]
+featured: "true"
 ---
 
 # 🔌 Circuit Breakers in Node.js: Stop Letting One Bad Service Crash Your Entire App

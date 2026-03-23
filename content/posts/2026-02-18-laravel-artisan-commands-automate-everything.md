@@ -2,7 +2,7 @@
 title: "Laravel Artisan Commands: Stop Doing Repetitive Tasks Like a Robot 🤖"
 date: "2026-02-18"
 excerpt: "You're a developer, not a Ctrl+C Ctrl+V machine. Let Artisan handle the boring stuff while you sip coffee and look productive."
-tags: ["laravel", "php", "web-dev", "artisan", "automation"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"artisan\\\"", "\\\"automation\\\""]
 ---
 
 

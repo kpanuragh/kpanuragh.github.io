@@ -2,8 +2,8 @@
 title: "Content Security Policy: Your Website's Bouncer 🚨"
 date: "2026-02-02"
 excerpt: "CSP is like hiring a bouncer for your website - it decides what scripts can run and what gets kicked out. Let's make security headers fun!"
-tags: ["cybersecurity", "web-security", "security", "csp", "headers"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"csp\\\"", "\\\"headers\\\""]
+featured: "true"
 ---
 
 

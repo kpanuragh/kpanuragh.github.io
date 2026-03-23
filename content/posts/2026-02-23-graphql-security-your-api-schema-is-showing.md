@@ -2,8 +2,8 @@
 title: "GraphQL Security: Your Entire API Schema Is Showing 🔍"
 date: "2026-02-23"
 excerpt: "GraphQL is powerful, flexible, and absolutely riddled with security foot-guns nobody tells you about. Let me ruin your day and then fix it."
-tags: ["cybersecurity", "web-security", "security", "graphql", "api-security"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"graphql\\\"", "\\\"api-security\\\""]
+featured: "false"
 ---
 
 # GraphQL Security: Your Entire API Schema Is Showing 🔍

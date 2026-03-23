@@ -2,8 +2,8 @@
 title: "Welcome to My Blog"
 date: "2026-01-21"
 excerpt: "Hey there! Come see what this blog is all about - spoiler: code, security, and maybe some radio waves! 📡"
-tags: ["general", "introduction"]
-featured: true
+tags: ["\\\"general\\\"", "\\\"introduction\\\""]
+featured: "true"
 ---
 
 

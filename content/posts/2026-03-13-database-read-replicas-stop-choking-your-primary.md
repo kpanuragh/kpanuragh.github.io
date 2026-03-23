@@ -2,8 +2,8 @@
 title: "Database Read Replicas: Stop Choking Your Primary Database at 11 PM 📖🗄️"
 date: "2026-03-13"
 excerpt: "Your primary database is running at 95% CPU, your analytics team is running massive reports, and your checkout page is timing out. After scaling an e-commerce backend to handle millions of orders, I learned: read replicas aren't a nice-to-have - they're the difference between a platform that scales and one that dies under load."
-tags: ["architecture", "scalability", "system-design", "database", "aws"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"database\\\"", "\\\"aws\\\""]
+featured: "true"
 ---
 
 # Database Read Replicas: Stop Choking Your Primary Database at 11 PM 📖🗄️

@@ -2,7 +2,7 @@
 title: "Laravel Pennant: Ship Features Without the 3am Panic Attack 🚩"
 date: "2026-02-24"
 excerpt: "Stop deploying and praying. Feature flags let you ship code without turning it on — and Laravel Pennant makes it embarrassingly easy."
-tags: ["laravel", "php", "web-dev", "feature-flags"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"feature-flags\\\""]
 ---
 
 # Laravel Pennant: Ship Features Without the 3am Panic Attack 🚩

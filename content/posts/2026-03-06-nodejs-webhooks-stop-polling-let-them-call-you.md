@@ -1,9 +1,9 @@
 ---
 title: "🪝 Node.js Webhooks: Stop Polling, Let Them Call You"
-date: 2026-03-06
+date: "2026-03-06"
 excerpt: "Webhooks are the backbone of modern integrations — but most devs get them wrong. Learn how to receive, verify, and process webhooks in Node.js without losing your mind (or your data)."
-tags: ["nodejs", "express", "backend", "webhooks", "api"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"webhooks\\\"", "\\\"api\\\""]
+featured: "true"
 ---
 
 # 🪝 Node.js Webhooks: Stop Polling, Let Them Call You

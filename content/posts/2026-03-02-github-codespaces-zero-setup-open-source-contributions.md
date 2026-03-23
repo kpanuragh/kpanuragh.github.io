@@ -2,8 +2,8 @@
 title: "GitHub Codespaces: Stop Letting Setup Hell Kill Your Open Source Contributions ☁️"
 date: "2026-03-02"
 excerpt: "You found the perfect open source issue. You're excited. Then you spend 3 hours installing Ruby 3.1.4, fighting Node version conflicts, and wondering why nothing compiles. Codespaces says: what if you just... didn't do that?"
-tags: ["open-source", "github", "developer-tools", "community", "devcontainers"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"community\\\"", "\\\"devcontainers\\\""]
+featured: "true"
 ---
 
 # GitHub Codespaces: Stop Letting Setup Hell Kill Your Open Source Contributions ☁️

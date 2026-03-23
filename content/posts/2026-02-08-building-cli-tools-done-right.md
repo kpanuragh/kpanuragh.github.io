@@ -2,8 +2,8 @@
 title: "Building CLI Tools Done Right: The Open Source Way 🛠️⚡"
 date: "2026-02-08"
 excerpt: "Built a CLI tool that nobody uses? Wondering why your 'amazing' command-line app has 12 stars? Let me show you how to build CLI tools that developers actually love, install, and contribute to - learned from shipping tools in Rust, Node, and Go."
-tags: ["open-source", "cli", "developer-tools", "rust"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"cli\\\"", "\\\"developer-tools\\\"", "\\\"rust\\\""]
+featured: "true"
 ---
 
 

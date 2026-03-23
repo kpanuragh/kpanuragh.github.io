@@ -2,8 +2,8 @@
 title: "Multi-Tenancy Architecture: One Database or Many? The Decision That Will Haunt You 🏗️🏢"
 date: "2026-03-10"
 excerpt: "We built a SaaS e-commerce backend for hundreds of merchants and made our tenancy decision in week 1. Three years later, we were still paying for it. Here's what I wish I knew before touching the database schema."
-tags: ["architecture", "scalability", "system-design", "multi-tenancy", "saas"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"multi-tenancy\\\"", "\\\"saas\\\""]
+featured: "true"
 ---
 
 # Multi-Tenancy Architecture: One Database or Many? The Decision That Will Haunt You 🏗️🏢

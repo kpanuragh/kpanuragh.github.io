@@ -2,7 +2,7 @@
 title: "Laravel Scopes: Stop Writing the Same Query Over and Over 🔍"
 date: "2026-02-04"
 excerpt: "If you're copy-pasting the same WHERE clauses everywhere, Laravel scopes are about to change your life. Clean, reusable query filters that actually make sense!"
-tags: ["laravel", "php", "eloquent", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"eloquent\\\"", "\\\"web-dev\\\""]
 ---
 
 

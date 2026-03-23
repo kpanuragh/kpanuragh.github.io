@@ -2,8 +2,8 @@
 title: "Decoding Digital Modes: I Found Hidden Data Streams in Radio Waves! 📡💻"
 date: "2026-02-07"
 excerpt: "I thought radio was just voices and music. Then I discovered digital modes - computers talking to each other through electromagnetic waves! PSK31, FT8, RTTY... it's like finding encrypted network packets in the air. Here's how I decoded my first digital signal and fell into the rabbit hole!"
-tags: ["rf", "sdr", "wireless", "hobby", "digital-modes"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"digital-modes\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "From Side Script to 100 Stars: How to Launch Your Own Open Source Project 🌍🚀"
 date: "2026-03-14"
 excerpt: "Everyone talks about contributing to open source. But nobody tells you what happens when YOU are the one shipping the project. Here's my unfiltered playbook for going from 'private repo nobody sees' to 'people are actually using this thing'."
-tags: ["open-source", "github", "community", "developer-tools"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 # From Side Script to 100 Stars: How to Launch Your Own Open Source Project 🌍🚀

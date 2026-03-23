@@ -2,8 +2,8 @@
 title: "GNU Radio: Visual Programming for RF Hackers (It's Like Scratch for Radio Waves!) 📡💻"
 date: "2026-02-08"
 excerpt: "I thought programming radio signals required years of signal processing knowledge and complex C++ code. Then I discovered GNU Radio Companion - a visual drag-and-drop tool where you build signal processing pipelines like LEGO blocks. I decoded FM radio in 5 minutes without writing a single line of code!"
-tags: ["rf", "sdr", "wireless", "hobby", "gnu-radio"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"gnu-radio\\\""]
+featured: "true"
 ---
 
 

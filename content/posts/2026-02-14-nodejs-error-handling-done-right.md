@@ -2,8 +2,8 @@
 title: "Node.js Error Handling: Stop Crashing Your Production Server 💥"
 date: "2026-02-14"
 excerpt: "Think try/catch is enough for error handling? Cool! Now explain why your Node.js server randomly crashes with 'unhandled promise rejection'. Let's dive into error handling patterns that actually work in production - from custom error classes to monitoring!"
-tags: ["nodejs", "javascript", "backend", "best-practices"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"best-practices\\\""]
+featured: "true"
 ---
 
 

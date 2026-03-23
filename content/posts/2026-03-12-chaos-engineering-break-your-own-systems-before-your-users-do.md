@@ -2,8 +2,8 @@
 title: "Chaos Engineering: Break Your Own Systems Before Your Users Do 🔥🐵"
 date: "2026-03-12"
 excerpt: "I deliberately killed database connections in production and my team almost fired me. Then our system survived a REAL outage without anyone noticing. Here's why controlled chaos is the most underrated scalability practice."
-tags: ["architecture", "scalability", "system-design", "chaos-engineering", "resilience"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"chaos-engineering\\\"", "\\\"resilience\\\""]
+featured: "true"
 ---
 
 # Chaos Engineering: Break Your Own Systems Before Your Users Do 🔥🐵

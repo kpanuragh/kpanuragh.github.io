@@ -2,8 +2,8 @@
 title: "GitHub Stars: The Most Underrated Way to Support Open Source ⭐🌟"
 date: "2026-01-25"
 excerpt: "You use that library every day but never starred it? Let me tell you why that little star button is more powerful than you think, and why maintainers check their star count more than their bank account."
-tags: ["open-source", "github", "community", "developer-tools"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Insecure Deserialization: The Backdoor Nobody Talks About 🎭"
 date: "2026-02-11"
 excerpt: "You're serializing objects without a second thought? Yeah, about that... Let me tell you how attackers turn your innocent data into remote code execution nightmares."
-tags: ["cybersecurity", "web-security", "security", "owasp"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"owasp\\\""]
+featured: "true"
 ---
 
 

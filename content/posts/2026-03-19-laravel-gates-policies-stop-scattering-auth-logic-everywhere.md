@@ -2,7 +2,7 @@
 title: "Laravel Gates & Policies: Stop Scattering Auth Logic Everywhere 🔐"
 date: "2026-03-19"
 excerpt: "You know that `if ($user->role === 'admin')` check you copied into 12 different controllers? Yeah, that's gotta go. Laravel Gates and Policies are here to save your sanity."
-tags: ["laravel", "php", "web-dev", "authorization", "security"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"authorization\\\"", "\\\"security\\\""]
 ---
 
 # Laravel Gates & Policies: Stop Scattering Auth Logic Everywhere 🔐

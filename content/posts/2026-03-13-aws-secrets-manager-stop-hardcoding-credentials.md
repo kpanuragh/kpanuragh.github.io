@@ -2,8 +2,8 @@
 title: "AWS Secrets Manager: Stop Hardcoding Credentials Like It's 2012 ☁️🔐"
 date: "2026-03-13"
 excerpt: "I once pushed an AWS access key to a public GitHub repo at 2 AM. Within four minutes, a bot had spun up 47 crypto-mining EC2 instances in regions I'd never heard of. This post is my penance. Here's how to use AWS Secrets Manager properly — and never have that particular existential crisis again."
-tags: ["aws", "cloud", "serverless", "security", "secrets-management"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"security\\\"", "\\\"secrets-management\\\""]
+featured: "true"
 ---
 
 # AWS Secrets Manager: Stop Hardcoding Credentials Like It's 2012 ☁️🔐

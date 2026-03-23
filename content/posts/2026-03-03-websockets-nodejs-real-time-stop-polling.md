@@ -1,9 +1,9 @@
 ---
 title: "🔌 WebSockets in Node.js: Stop Polling Like It's 2010"
-date: 2026-03-03
+date: "2026-03-03"
 excerpt: "Still hammering your server with HTTP requests every second to fake real-time? Let's fix that. Here's how WebSockets work in Node.js and why your users will thank you."
-tags: ["nodejs", "express", "websockets", "backend", "real-time"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"websockets\\\"", "\\\"backend\\\"", "\\\"real-time\\\""]
+featured: "true"
 ---
 
 Imagine you're waiting for a package. You could call the courier every 5 seconds asking "is it here yet?"... or you could just ask them to ring your doorbell when it arrives. One approach is annoying and wasteful. The other is exactly how WebSockets work.

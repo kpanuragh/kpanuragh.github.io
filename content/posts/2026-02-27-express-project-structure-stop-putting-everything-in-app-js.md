@@ -1,9 +1,9 @@
 ---
 title: "🏗️ Stop Putting Everything in app.js: Structure Your Express App Before It Eats You Alive"
-date: 2026-02-27
+date: "2026-02-27"
 excerpt: "Express gives you a blank canvas and infinite rope to hang yourself with. Coming from Laravel, I learned this the hard way when my 'quick' Node.js API turned into a 900-line app.js monster. Here's the structure I wish someone had shown me."
-tags: ["nodejs", "express", "javascript", "backend", "architecture"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"architecture\\\""]
+featured: "true"
 ---
 
 Here's how most Express apps start: you follow a tutorial, you write 30 lines in `app.js`, it works, and you think "this is so much simpler than Laravel." Six months later, `app.js` is 900 lines long, your routes reference your database directly, your validation lives next to your auth logic, and a new teammate opens the file and immediately submits their resignation letter.

@@ -2,8 +2,8 @@
 title: "PHP Type Juggling: When == Loses Its Mind and Breaks Your Auth 🤯"
 date: "2026-03-22"
 excerpt: "PHP's loose comparison operator has some... creative opinions about what equals what. Let's talk about the security nightmare hiding in a single = sign."
-tags: ["cybersecurity", "web-security", "security", "php", "laravel"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"php\\\"", "\\\"laravel\\\""]
+featured: "false"
 ---
 
 # PHP Type Juggling: When == Loses Its Mind and Breaks Your Auth 🤯

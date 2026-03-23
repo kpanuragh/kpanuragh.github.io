@@ -2,7 +2,7 @@
 title: "Laravel Signed URLs: Stop Sending Naked Links 🔐"
 date: "2026-02-21"
 excerpt: "You're generating download links anyone can share, bookmark, and abuse forever. Signed URLs fix that — and they're embarrassingly easy to implement."
-tags: ["laravel", "php", "web-dev", "security", "api"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"security\\\"", "\\\"api\\\""]
 ---
 
 # Laravel Signed URLs: Stop Sending Naked Links 🔐

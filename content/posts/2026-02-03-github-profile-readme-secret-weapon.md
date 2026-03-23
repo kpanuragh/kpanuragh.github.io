@@ -2,8 +2,8 @@
 title: "GitHub Profile README: Your Secret Weapon for Standing Out 🎯✨"
 date: "2026-02-03"
 excerpt: "Still have that default GitHub profile? Your README is prime real estate being wasted! Here's how to turn your GitHub profile into a magnet for collaborators, recruiters, and fellow developers who actually want to work with you."
-tags: ["open-source", "github", "developer-tools", "personal-branding"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"personal-branding\\\""]
+featured: "true"
 ---
 
 

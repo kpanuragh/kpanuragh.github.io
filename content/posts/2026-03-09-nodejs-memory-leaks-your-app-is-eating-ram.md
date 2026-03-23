@@ -1,9 +1,9 @@
 ---
 title: "🕵️ Node.js Memory Leaks: Your App is Eating RAM and You Don't Even Know It"
-date: 2026-03-09
+date: "2026-03-09"
 excerpt: "Your Node.js process started at 80MB and now it's sitting at 1.2GB after three days. No, it's not haunted — you have a memory leak. Let's find it and kill it."
-tags: ["nodejs", "backend", "performance", "debugging", "javascript"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"debugging\\\"", "\\\"javascript\\\""]
+featured: "true"
 ---
 
 Your Node.js server has been running for four days. Response times are getting sluggish. The ops team is paging you at 2am because the process hit 2GB of RAM and the container got OOM-killed. You restart it, go back to sleep, and wake up to the same thing three days later.

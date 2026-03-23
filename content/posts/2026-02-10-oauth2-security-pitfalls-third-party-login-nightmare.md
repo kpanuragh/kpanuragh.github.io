@@ -2,8 +2,8 @@
 title: "OAuth 2.0 Security Pitfalls: When 'Login with Google' Goes Wrong 🔐"
 date: "2026-02-10"
 excerpt: "That innocent 'Login with Google' button? It could be your security nightmare. Here's how to implement OAuth 2.0 without shooting yourself in the foot!"
-tags: ["cybersecurity", "web-security", "oauth", "authentication"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"oauth\\\"", "\\\"authentication\\\""]
+featured: "true"
 ---
 
 

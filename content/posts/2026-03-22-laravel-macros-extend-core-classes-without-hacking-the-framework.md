@@ -2,7 +2,7 @@
 title: "Laravel Macros: Stop Monkey-Patching and Start Extending Like a Pro 🐒"
 date: "2026-03-22"
 excerpt: "Did you know you can add custom methods to Laravel's Collection, Builder, Request, and Response classes without touching a single vendor file? Laravel Macros are the superpower hiding in plain sight."
-tags: ["laravel", "php", "web-dev", "architecture"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"architecture\\\""]
 ---
 
 # Laravel Macros: Stop Monkey-Patching and Start Extending Like a Pro 🐒

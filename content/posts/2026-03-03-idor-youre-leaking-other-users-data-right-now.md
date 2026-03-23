@@ -2,8 +2,8 @@
 title: "IDOR: You're Probably Leaking Other Users' Data Right Now 🕵️🔓"
 date: "2026-03-03"
 excerpt: "Insecure Direct Object References — the bug so simple it's embarrassing, yet so common it's in the OWASP Top 10. I once found my own app serving every user's private invoices to anyone who guessed a URL. Let me save you that call with your CEO."
-tags: ["security", "api", "owasp", "backend"]
-featured: true
+tags: ["\\\"security\\\"", "\\\"api\\\"", "\\\"owasp\\\"", "\\\"backend\\\""]
+featured: "true"
 ---
 
 # IDOR: You're Probably Leaking Other Users' Data Right Now 🕵️🔓

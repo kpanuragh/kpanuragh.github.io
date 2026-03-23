@@ -2,8 +2,8 @@
 title: "Kubernetes Resource Limits: Stop Letting OOMKills Ruin Your Friday Night 💀🔪"
 date: "2026-02-20"
 excerpt: "Your pod randomly dies at 2 AM and you have no idea why? After getting paged at 3 AM more times than I care to admit, I finally learned how Kubernetes resource requests and limits work - and why getting them wrong will destroy your cluster (and your sleep)."
-tags: ["devops", "kubernetes", "docker", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "API Gateway: The $$$$ Serverless Gotcha Nobody Warns You About 🚪💸"
 date: "2026-02-10"
 excerpt: "Your Lambda functions are cheap, but API Gateway is silently draining your wallet. After 7+ years architecting serverless backends, here are the API Gateway mistakes that cost me thousands!"
-tags: ["aws", "serverless", "api-gateway", "cloud"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"api-gateway\\\"", "\\\"cloud\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "GitHub Actions Security: Don't Let Your CI/CD Pipeline Become a Hacker's Playground 🔐⚙️"
 date: "2026-02-07"
 excerpt: "Using GitHub Actions to deploy your open source project? Cool! Accidentally giving hackers access to your AWS keys, npm tokens, and production secrets? Not cool! Learn how to secure your CI/CD pipeline before you become a cautionary tale on Twitter."
-tags: ["open-source", "github", "security", "ci-cd"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"security\\\"", "\\\"ci-cd\\\""]
+featured: "true"
 ---
 
 

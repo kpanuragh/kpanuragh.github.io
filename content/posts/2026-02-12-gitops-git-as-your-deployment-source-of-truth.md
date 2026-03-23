@@ -2,8 +2,8 @@
 title: "GitOps: When Git Becomes Your Entire Infrastructure (And Why That's Genius) 🚀📦"
 date: "2026-02-12"
 excerpt: "After countless deployments where I wondered 'wait, which version is running in prod?', I discovered GitOps - where Git isn't just your code repository, it's your deployment control center. Here's why treating Git as your single source of truth changed everything!"
-tags: ["devops", "gitops", "kubernetes", "deployment", "ci-cd"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"gitops\\\"", "\\\"kubernetes\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\""]
+featured: "true"
 ---
 
 

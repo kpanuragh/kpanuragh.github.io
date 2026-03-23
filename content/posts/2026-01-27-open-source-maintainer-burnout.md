@@ -2,8 +2,8 @@
 title: "Open Source Maintainer Burnout: The Crisis Nobody Talks About 🔥💔"
 date: "2026-01-27"
 excerpt: "That library you use every day? It's maintained by someone who's probably exhausted, unpaid, and one mean GitHub comment away from archiving the repo. Let's talk about what's actually happening and how YOU can help."
-tags: ["open-source", "community", "maintainers", "sustainability"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"community\\\"", "\\\"maintainers\\\"", "\\\"sustainability\\\""]
+featured: "true"
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: "CRLF Injection: The Two Characters That Can Hijack Your HTTP Responses 🔪"
 date: "2026-03-14"
-excerpt: "Meet \\r\\n — the two most underrated troublemakers in web security. CRLF injection can split your HTTP responses, inject fake headers, and even pull off XSS. Spoiler: your framework probably saves you, but only if you know when to let it."
-tags: ["cybersecurity", "web-security", "security", "http", "owasp"]
-featured: false
+excerpt: "Meet \\\\\\r\\\\\\n — the two most underrated troublemakers in web security. CRLF injection can split your HTTP responses, inject fake headers, and even pull off XSS. Spoiler: your framework probably saves you, but only if you know when to let it."
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"http\\\"", "\\\"owasp\\\""]
+featured: "false"
 ---
 
 # CRLF Injection: The Two Characters That Can Hijack Your HTTP Responses 🔪

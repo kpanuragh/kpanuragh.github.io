@@ -2,8 +2,8 @@
 title: "The Saga Pattern: Distributed Transactions Without Losing Your Mind (or Your Money) 🔄💸"
 date: "2026-03-01"
 excerpt: "Customer places an order. Payment succeeds. Inventory update fails. Now you've charged the card but have no stock. Congrats, you just invented chaos! After 7 years building e-commerce backends, I'll show you the Saga Pattern - the only sane way to handle distributed transactions."
-tags: ["architecture", "scalability", "system-design", "microservices", "distributed-systems"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"distributed-systems\\\""]
+featured: "true"
 ---
 
 # The Saga Pattern: Distributed Transactions Without Losing Your Mind (or Your Money) 🔄💸

@@ -2,8 +2,8 @@
 title: "The Saga Pattern: Because Distributed Transactions Are a Lie 🎭💥"
 date: "2026-02-17"
 excerpt: "You split your monolith into microservices. Everything was beautiful. Then a user's order went through, payment failed halfway, inventory was already decremented, and the shipping service already booked a courier. Welcome to distributed transaction hell. After 7 years of living in this nightmare, here's how the Saga Pattern saved my sanity!"
-tags: ["architecture", "scalability", "system-design", "microservices", "distributed-systems"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"distributed-systems\\\""]
+featured: "true"
 ---
 
 

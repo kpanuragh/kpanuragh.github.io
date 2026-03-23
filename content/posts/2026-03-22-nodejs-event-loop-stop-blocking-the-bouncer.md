@@ -2,8 +2,8 @@
 title: "🎡 The Node.js Event Loop: Stop Blocking the Bouncer"
 date: "2026-03-22"
 excerpt: "The event loop is Node.js's secret weapon — until you accidentally strangle it with synchronous code. Learn how it works and how to keep it spinning."
-tags: ["nodejs", "backend", "javascript", "performance", "event-loop"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"javascript\\\"", "\\\"performance\\\"", "\\\"event-loop\\\""]
+featured: "true"
 ---
 
 # 🎡 The Node.js Event Loop: Stop Blocking the Bouncer

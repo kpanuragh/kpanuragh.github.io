@@ -2,8 +2,8 @@
 title: "Consistent Hashing: Stop Breaking Your Entire Cache Every Time You Add a Server 🎡"
 date: "2026-03-11"
 excerpt: "You add one new cache server to handle the load spike. Suddenly 90% of your cache keys are invalid, your database gets hammered with a million queries in 30 seconds, and your on-call phone starts vibrating so hard it falls off the desk. Welcome to naive hashing. There's a better way."
-tags: ["architecture", "scalability", "system-design", "distributed-systems", "caching"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"distributed-systems\\\"", "\\\"caching\\\""]
+featured: "true"
 ---
 
 # Consistent Hashing: Stop Breaking Your Entire Cache Every Time You Add a Server 🎡

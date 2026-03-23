@@ -2,8 +2,8 @@
 title: "Prototype Pollution: The JavaScript Vulnerability Hiding in Your node_modules 🧪"
 date: "2026-02-20"
 excerpt: "A single line like `obj[key] = value` can corrupt every object in your Node.js app. Prototype pollution is responsible for dozens of critical CVEs in libraries you're probably using right now — and most developers have never heard of it."
-tags: ["cybersecurity", "web-security", "security", "javascript", "nodejs"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"javascript\\\"", "\\\"nodejs\\\""]
+featured: "false"
 ---
 
 

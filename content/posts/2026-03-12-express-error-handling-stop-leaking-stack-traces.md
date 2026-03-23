@@ -2,8 +2,8 @@
 title: "Express.js Error Handling: Stop Leaking Stack Traces to Hackers 🛡️"
 date: "2026-03-12"
 excerpt: "Your Express API crashes, your users see a wall of Node.js internals, and somewhere a hacker is taking notes. Let's fix error handling once and for all with centralized middleware, typed errors, and zero information leakage."
-tags: ["nodejs", "express", "backend", "javascript", "api"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"javascript\\\"", "\\\"api\\\""]
+featured: "true"
 ---
 
 # Express.js Error Handling: Stop Leaking Stack Traces to Hackers 🛡️

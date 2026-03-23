@@ -2,8 +2,8 @@
 title: "Kubernetes Resource Limits: Stop Letting Your Pods Eat All the RAM 🐳💀"
 date: "2026-03-09"
 excerpt: "Your cluster looked fine at 9 AM, then at 2 PM everything went down. No code changes. No deploys. Just one rogue pod that ate all the memory and took everything else with it. Here's how to set resource limits and never experience that panic again."
-tags: ["kubernetes", "devops", "docker", "deployment", "performance"]
-featured: true
+tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # Kubernetes Resource Limits: Stop Letting Your Pods Eat All the RAM 🐳💀

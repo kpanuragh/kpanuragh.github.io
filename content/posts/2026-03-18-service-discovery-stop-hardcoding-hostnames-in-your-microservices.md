@@ -2,8 +2,8 @@
 title: "Service Discovery: Stop Hardcoding Hostnames in Your Microservices 🕵️‍♂️🗺️"
 date: "2026-03-18"
 excerpt: "I once hardcoded 23 IP addresses across 11 microservices in a staging config file. Then we scaled up. Then AWS recycled the IPs. Then everything exploded. This is the story of service discovery - and why it's the unsexy piece of distributed systems that keeps everything from catching fire."
-tags: ["architecture", "scalability", "system-design", "microservices", "service-discovery"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"service-discovery\\\""]
+featured: "true"
 ---
 
 # Service Discovery: Stop Hardcoding Hostnames in Your Microservices 🕵️‍♂️🗺️

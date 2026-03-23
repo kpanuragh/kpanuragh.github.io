@@ -2,8 +2,8 @@
 title: "Rust Serde: I Used json_encode() for 7 Years and Didn't Know What I Was Missing 🦀🔥"
 date: "2026-02-23"
 excerpt: "Coming from Laravel where json_encode() is a two-second thought, Serde felt like the first time someone actually took serialization seriously. Your data shape is enforced. Typos in field names don't silently corrupt your API. It's almost unfair."
-tags: ["rust", "systems-programming", "performance", "serde", "serialization"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"serde\\\"", "\\\"serialization\\\""]
+featured: "true"
 ---
 
 # Rust Serde: I Used json_encode() for 7 Years and Didn't Know What I Was Missing 🦀🔥

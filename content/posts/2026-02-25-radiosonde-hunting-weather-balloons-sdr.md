@@ -2,8 +2,8 @@
 title: "Radiosonde Hunting: Chasing Weather Balloons Falling from the Edge of Space 🎈📡"
 date: "2026-02-25"
 excerpt: "Twice a day, weather services launch balloons to the edge of space, each carrying a transmitter broadcasting GPS, temperature, and pressure data in the clear. With a $20 RTL-SDR, you can decode the signal, predict where the hardware lands, and go pick it up. It's geocaching if geocaching involved actual space hardware falling out of the sky."
-tags: ["rf", "sdr", "wireless", "hobby", "radiosonde", "weather"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"radiosonde\\\"", "\\\"weather\\\""]
+featured: "true"
 ---
 
 # Radiosonde Hunting: Chasing Weather Balloons Falling from the Edge of Space 🎈📡

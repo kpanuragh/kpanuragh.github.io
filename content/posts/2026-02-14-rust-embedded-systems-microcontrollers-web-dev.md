@@ -2,8 +2,8 @@
 title: "Rust on Microcontrollers: From Web Dev to Embedded Systems 🦀🔌"
 date: "2026-02-14"
 excerpt: "Coming from 7 years of Laravel/Node.js, I thought embedded programming meant fighting with C and debugging pointer nightmares. Then I discovered Rust runs on microcontrollers with memory safety intact. My RF hobby just got a LOT safer!"
-tags: ["rust", "embedded", "systems-programming", "hardware"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"embedded\\\"", "\\\"systems-programming\\\"", "\\\"hardware\\\""]
+featured: "true"
 ---
 
 

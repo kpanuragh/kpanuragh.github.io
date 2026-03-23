@@ -2,8 +2,8 @@
 title: "Bluetooth BLE Sniffing: I Can See Every Smart Device Around Me (And So Can Hackers!) 📱🔵"
 date: "2026-02-13"
 excerpt: "I plugged in a $20 USB Bluetooth sniffer and suddenly could see EVERY fitness tracker, smart lock, wireless earbud, and IoT device broadcasting their presence. Your Fitbit is screaming its identity to the world right now. Here's what I learned about Bluetooth Low Energy security!"
-tags: ["rf", "bluetooth", "wireless", "security", "ble"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"bluetooth\\\"", "\\\"wireless\\\"", "\\\"security\\\"", "\\\"ble\\\""]
+featured: "true"
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Laravel Vapor: Stop Managing Servers and Start Shipping 🚀"
 date: "2026-03-17"
 excerpt: "Your ops team is tired of 3am 'the server is on fire' calls. Laravel Vapor deploys your app to AWS Lambda and lets you sleep like a baby. Here's everything I learned building serverless e-commerce on it."
-tags: ["laravel", "php", "aws", "serverless"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"aws\\\"", "\\\"serverless\\\""]
 ---
 
 # Laravel Vapor: Stop Managing Servers and Start Shipping 🚀

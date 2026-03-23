@@ -1,9 +1,9 @@
 ---
 title: "🧵 Node.js Worker Threads: Stop Choking Your Event Loop with CPU Work"
-date: 2026-02-20
+date: "2026-02-20"
 excerpt: "Node.js is single-threaded — until it isn't. Worker threads let you run CPU-heavy code in parallel without killing your server's responsiveness. Here's how to actually use them."
-tags: ["nodejs", "backend", "performance", "worker-threads", "javascript"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"worker-threads\\\"", "\\\"javascript\\\""]
+featured: "true"
 ---
 
 # 🧵 Node.js Worker Threads: Stop Choking Your Event Loop with CPU Work

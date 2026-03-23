@@ -1,9 +1,9 @@
 ---
 title: "✈️ Node.js Graceful Shutdown: Stop Killing Requests Mid-Flight"
-date: 2026-02-28
+date: "2026-02-28"
 excerpt: "Every time you SIGKILL your Node.js server, you're mid-conversation at a restaurant when the lights go out. Here's how to let your server finish what it started before dying with dignity."
-tags: ["nodejs", "express", "backend", "javascript", "devops"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"javascript\\\"", "\\\"devops\\\""]
+featured: "true"
 ---
 
 Picture this: a user clicks "Place Order." Your Express server receives the request, begins charging the card, writes to the database, and then — right in the middle of all that — your deployment pipeline restarts the process. The charge went through. The database write didn't. The user's order is money gone and food un-ordered. They're going to file a chargeback and leave a one-star review.

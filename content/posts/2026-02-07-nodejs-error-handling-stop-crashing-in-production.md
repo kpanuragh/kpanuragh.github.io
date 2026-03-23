@@ -2,8 +2,8 @@
 title: "Node.js Error Handling: Stop Crashing in Production 💥"
 date: "2026-02-07"
 excerpt: "Think console.log() is logging? Think try/catch fixes everything? Cool! Now explain why your Node.js server silently crashes at 3 AM with zero logs. Let's dive into error handling and logging that actually works in production!"
-tags: ["nodejs", "javascript", "backend", "errors", "debugging"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"errors\\\"", "\\\"debugging\\\""]
+featured: "true"
 ---
 
 

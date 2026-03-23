@@ -2,8 +2,8 @@
 title: "GitHub Actions Reusable Workflows: Stop Copy-Pasting CI Configs Across 20 Repos 🔁"
 date: "2026-03-01"
 excerpt: "Maintaining the same GitHub Actions workflow across 15 microservices? One bug fix means 15 PRs. After the pain of keeping CI configs in sync the hard way, here's how reusable workflows changed everything."
-tags: ["devops", "ci-cd", "github-actions", "automation"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"automation\\\""]
+featured: "true"
 ---
 
 # GitHub Actions Reusable Workflows: Stop Copy-Pasting CI Configs Across 20 Repos 🔁

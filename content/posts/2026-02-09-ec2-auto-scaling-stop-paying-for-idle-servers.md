@@ -2,8 +2,8 @@
 title: "EC2 Auto Scaling: Stop Paying for Servers Sitting Idle at 3 AM 💸⚡"
 date: "2026-02-09"
 excerpt: "Your EC2 bill is probably 3× higher than it needs to be. After years of architecting on AWS, here's how Auto Scaling saved me $2,400/month and taught me to stop babysitting servers!"
-tags: ["aws", "cloud", "ec2", "auto-scaling"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"ec2\\\"", "\\\"auto-scaling\\\""]
+featured: "true"
 ---
 
 

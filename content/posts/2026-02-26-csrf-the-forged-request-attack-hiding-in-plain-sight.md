@@ -2,8 +2,8 @@
 title: "CSRF: The Forged Request Attack That Makes Your Users Do Things They Didn't Ask For 🎭🕵️"
 date: "2026-02-26"
 excerpt: "Imagine someone tricking you into wiring money just by getting you to visit a website. That's CSRF - and it's been silently attacking users for decades. Let's break it down."
-tags: ["cybersecurity", "web-security", "owasp", "csrf", "authentication"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"owasp\\\"", "\\\"csrf\\\"", "\\\"authentication\\\""]
+featured: "true"
 ---
 
 # CSRF: The Forged Request Attack That Makes Your Users Do Things They Didn't Ask For 🎭🕵️

@@ -2,8 +2,8 @@
 title: "Container Registries: Stop Paying Docker Hub's Rate Limit Ransom 🐳💸"
 date: "2026-02-11"
 excerpt: "After 7 years of production deployments, I've been rate-limited by Docker Hub during critical deploys way too many times. Here's how I escaped Docker Hub jail and cut our registry costs by 80%!"
-tags: ["devops", "docker", "deployment", "ci-cd"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\""]
+featured: "true"
 ---
 
 

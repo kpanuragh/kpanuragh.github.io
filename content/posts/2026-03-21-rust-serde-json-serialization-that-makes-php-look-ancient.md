@@ -2,8 +2,8 @@
 title: "Rust Serde: JSON Serialization So Fast Your PHP Will File a Complaint 🦀📦"
 date: "2026-03-21"
 excerpt: "Coming from 7 years of Laravel APIs, I assumed JSON serialization was a solved, boring problem. Then I found Serde — Rust's serialization framework that validates your JSON structure at compile time, runs at zero runtime overhead, and makes json_encode() look like a horse and buggy."
-tags: ["rust", "systems-programming", "performance", "json", "web-development"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"json\\\"", "\\\"web-development\\\""]
+featured: "true"
 ---
 
 # Rust Serde: JSON Serialization So Fast Your PHP Will File a Complaint 🦀📦

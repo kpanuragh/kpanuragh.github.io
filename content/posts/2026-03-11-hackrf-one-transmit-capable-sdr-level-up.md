@@ -2,8 +2,8 @@
 title: "HackRF One: The SDR That Can Talk Back (And Why That Changes Everything) 📡"
 date: "2026-03-11"
 excerpt: "I spent months just listening to radio signals with my RTL-SDR. Then I plugged in a HackRF One and suddenly I could TRANSMIT too. It felt like going from a walkie-talkie with dead batteries to having a full radio station in my USB port. Here's what I learned."
-tags: ["rf", "sdr", "wireless", "hobby", "hackrf", "signal-analysis"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"hackrf\\\"", "\\\"signal-analysis\\\""]
+featured: "true"
 ---
 
 # HackRF One: The SDR That Can Talk Back (And Why That Changes Everything) 📡

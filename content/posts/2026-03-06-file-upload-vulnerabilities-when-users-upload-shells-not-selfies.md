@@ -2,8 +2,8 @@
 title: "File Upload Vulnerabilities: When Users Upload Shells, Not Selfies 📁💀"
 date: "2026-03-06"
 excerpt: "You built a cute profile picture uploader. A hacker uploaded a PHP shell and now owns your server. Let's make sure that never happens to you."
-tags: ["cybersecurity", "web-security", "security", "file-upload", "owasp"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"file-upload\\\"", "\\\"owasp\\\""]
+featured: "false"
 ---
 
 # File Upload Vulnerabilities: When Users Upload Shells, Not Selfies 📁💀

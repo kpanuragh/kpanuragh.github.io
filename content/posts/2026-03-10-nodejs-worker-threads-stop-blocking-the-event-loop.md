@@ -1,9 +1,9 @@
 ---
 title: "🧵 Node.js Worker Threads: Stop Letting CPU Work Murder Your API"
-date: 2026-03-10
+date: "2026-03-10"
 excerpt: "The event loop is single-threaded — and that's great, until you try to crunch numbers in it. Worker threads are Node's secret weapon for CPU-heavy tasks without tanking your server."
-tags: ["nodejs", "backend", "performance", "javascript", "worker-threads"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"javascript\\\"", "\\\"worker-threads\\\""]
+featured: "true"
 ---
 
 Picture this: your Node.js API is humming along, handling hundreds of requests per second. Then someone uploads a 50MB CSV file and asks you to parse and transform every row. Suddenly, response times shoot from 20ms to 4 seconds for *everyone*. Your beautiful async server just got taken hostage by a CPU-hungry task.

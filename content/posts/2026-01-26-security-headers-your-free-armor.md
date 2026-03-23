@@ -2,8 +2,8 @@
 title: "Security Headers: The Free Armor You're Not Using 🛡️"
 date: "2026-01-26"
 excerpt: "Your website is walking around naked in a dangerous neighborhood. Security headers are like free body armor - and you're probably not using them. Here's how 5 lines of config can stop most attacks cold."
-tags: ["cybersecurity", "web-security", "security", "http-headers"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"http-headers\\\""]
+featured: "true"
 ---
 
 

@@ -2,7 +2,7 @@
 title: "Laravel Soft Deletes: Delete Without Actually Deleting 🗑️"
 date: "2026-02-14"
 excerpt: "Why permanently delete data when you can just... pretend? Learn how Laravel's soft deletes saved my butt (and can save yours too)."
-tags: ["laravel", "php", "eloquent", "database"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"eloquent\\\"", "\\\"database\\\""]
 ---
 
 

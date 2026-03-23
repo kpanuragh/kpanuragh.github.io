@@ -2,8 +2,8 @@
 title: "Deserialization Attacks: How Pickled Data Can Pickle Your App 🥒"
 date: "2026-02-09"
 excerpt: "Think accepting serialized data is safe? Think again! Learn how deserialization attacks turn innocent-looking data into remote code execution nightmares."
-tags: ["cybersecurity", "web-security", "security", "owasp", "rce"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"owasp\\\"", "\\\"rce\\\""]
+featured: "true"
 ---
 
 

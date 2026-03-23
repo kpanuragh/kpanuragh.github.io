@@ -2,8 +2,8 @@
 title: "GitHub Issue Templates: The 5-Minute Setup That Stops 'it doesn't work' Bug Reports 🎭"
 date: "2026-02-24"
 excerpt: "Every open source maintainer has received a bug report that says nothing. Issue templates are the polite, automated way to stop that — and as a contributor, they make you look 10x more professional."
-tags: ["open-source", "github", "developer-tools", "community", "maintainer"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"community\\\"", "\\\"maintainer\\\""]
+featured: "true"
 ---
 
 # GitHub Issue Templates: The 5-Minute Setup That Stops 'it doesn't work' Bug Reports 🎭

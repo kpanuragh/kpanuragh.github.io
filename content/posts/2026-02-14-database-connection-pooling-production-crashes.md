@@ -2,8 +2,8 @@
 title: "Database Connection Pooling: Stop Crashing Production with 10,000 Connections 🏊‍♂️💥"
 date: "2026-02-14"
 excerpt: "After countless 3 AM pages from production going down, I learned the hard way: your database doesn't have infinite connections. Here's how connection pooling saved my career and my sleep schedule!"
-tags: ["devops", "database", "deployment", "performance"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"database\\\"", "\\\"deployment\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Timing Attacks: Your String Comparison Is Leaking Secrets One Nanosecond at a Time ⏱️"
 date: "2026-03-19"
 excerpt: "You spent weeks building a secure authentication system. Your tokens are hashed, your secrets are in .env... and a hacker is stealing them by measuring how fast your server says 'no'."
-tags: ["cybersecurity", "web-security", "security", "authentication", "side-channel"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"authentication\\\"", "\\\"side-channel\\\""]
+featured: "false"
 ---
 
 # Timing Attacks: Your String Comparison Is Leaking Secrets One Nanosecond at a Time ⏱️

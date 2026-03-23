@@ -2,8 +2,8 @@
 title: "The Saga Pattern: Distributed Transactions Without Crying Yourself to Sleep 🎭😭"
 date: "2026-02-26"
 excerpt: "Your order checkout spans 5 microservices. Payment succeeds. Inventory fails. Now the customer paid for a ghost order. After surviving exactly this nightmare in production, here's how the Saga Pattern saves your sanity and your customers' money!"
-tags: ["architecture", "scalability", "system-design", "microservices", "distributed-systems"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"distributed-systems\\\""]
+featured: "true"
 ---
 
 # The Saga Pattern: Distributed Transactions Without Crying Yourself to Sleep 🎭😭

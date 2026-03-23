@@ -2,8 +2,8 @@
 title: "Rust Strings: When 'Hello World' Made Me Question My Entire Career 🦀🔤"
 date: "2026-03-17"
 excerpt: "I've been writing PHP and JavaScript for 7 years. Strings were never a problem. Then I tried to write 'Hello, World!' in Rust and suddenly there were TWO string types, neither of them was what I expected, and the compiler was yelling at me. Welcome to Rust strings."
-tags: ["rust", "systems-programming", "performance", "beginners", "memory"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"beginners\\\"", "\\\"memory\\\""]
+featured: "true"
 ---
 
 # Rust Strings: When "Hello World" Made Me Question My Entire Career 🦀🔤

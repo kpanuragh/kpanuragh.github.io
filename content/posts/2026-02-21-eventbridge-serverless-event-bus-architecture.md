@@ -2,8 +2,8 @@
 title: "AWS EventBridge: The Serverless Event Bus That Untangles Your Spaghetti Architecture 🌐⚡"
 date: "2026-02-21"
 excerpt: "For 18 months I wired Lambda directly to Lambda and called it 'microservices.' Then I discovered EventBridge and realized I'd been building distributed monoliths. Here's what changed."
-tags: ["aws", "serverless", "eventbridge", "cloud", "event-driven"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"eventbridge\\\"", "\\\"cloud\\\"", "\\\"event-driven\\\""]
+featured: "true"
 ---
 
 # AWS EventBridge: The Serverless Event Bus That Untangles Your Spaghetti Architecture 🌐⚡

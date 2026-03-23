@@ -2,7 +2,7 @@
 title: "Laravel Cache: Stop Hitting the Database Every Single Time 🚀💾"
 date: "2026-02-09"
 excerpt: "Your database is crying. Every page load = 47 queries. Let me show you how caching saved our production API from melting down and cut response times by 80%."
-tags: ["laravel", "php", "performance", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"performance\\\"", "\\\"web-dev\\\""]
 ---
 
 

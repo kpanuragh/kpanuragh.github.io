@@ -1,9 +1,9 @@
 ---
 title: "🪝 Webhook Signature Verification: Stop Processing Fake Events"
-date: 2026-02-27
+date: "2026-02-27"
 excerpt: "Your webhook endpoint is wide open and anyone can POST fake events to it. Here's how to verify signatures in Node.js/Express so only legitimate providers can trigger your code."
-tags: ["nodejs", "express", "backend", "security", "webhooks", "api"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"security\\\"", "\\\"webhooks\\\"", "\\\"api\\\""]
+featured: "true"
 ---
 
 # 🪝 Webhook Signature Verification: Stop Processing Fake Events

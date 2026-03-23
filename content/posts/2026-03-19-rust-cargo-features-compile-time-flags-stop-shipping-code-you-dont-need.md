@@ -2,8 +2,8 @@
 title: "Rust Cargo Features: The Feature Flags That Actually Delete Code 🦀🎛️"
 date: "2026-03-19"
 excerpt: "In Laravel I toggled features with .env files at runtime. In Rust, you toggle features at compile time — and the disabled code literally doesn't exist in your binary. Coming from web dev, this broke my brain in the best possible way."
-tags: ["rust", "systems-programming", "performance", "cargo", "optimization"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"cargo\\\"", "\\\"optimization\\\""]
+featured: "true"
 ---
 
 # Rust Cargo Features: The Feature Flags That Actually Delete Code 🦀🎛️

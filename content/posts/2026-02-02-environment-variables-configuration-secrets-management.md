@@ -2,8 +2,8 @@
 title: "Environment Variables: Stop Hardcoding Secrets Like It's 1995 🔐"
 date: "2026-02-02"
 excerpt: "Committing API keys to Git? Hardcoding database passwords? Let's talk about managing configs and secrets the RIGHT way - because 'It works on my machine' isn't a deployment strategy!"
-tags: ["devops", "security", "deployment", "configuration"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"security\\\"", "\\\"deployment\\\"", "\\\"configuration\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Open Source Docs: The Contribution Nobody Wants to Write (But Everyone Desperately Needs) 📖🔥"
 date: "2026-02-18"
 excerpt: "Contributing code to open source is fun. Writing docs is apparently not. But here's the dirty secret: your README is killing your project, and writing docs is the single highest-impact contribution you're overlooking."
-tags: ["open-source", "github", "community", "documentation", "developer-tools"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"documentation\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 

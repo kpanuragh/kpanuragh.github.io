@@ -2,8 +2,8 @@
 title: "Production-Ready Dockerfiles: Stop Writing FROM ubuntu and Praying 🐳🔥"
 date: "2026-02-17"
 excerpt: "After countless deployments where my 'perfectly fine' Docker containers crashed in production, I finally learned what separates a dev Dockerfile from a production-hardened one. Spoiler: it's not just adding HEALTHCHECK at the end."
-tags: ["devops", "deployment", "docker", "containers"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"docker\\\"", "\\\"containers\\\""]
+featured: "true"
 ---
 
 

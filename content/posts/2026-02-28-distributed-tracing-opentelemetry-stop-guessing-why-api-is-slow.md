@@ -2,8 +2,8 @@
 title: "Distributed Tracing: Stop Guessing Why Your API Takes 4 Seconds 🔍⏱️"
 date: "2026-02-28"
 excerpt: "Your checkout API takes 4 seconds. CloudWatch says it's fine. Your logs say nothing. Your users are leaving. After spending 6 hours doing the distributed systems equivalent of 'have you tried turning it off and on again', I finally added OpenTelemetry. The culprit? One innocent-looking N+1 query buried inside a third microservice. Here's how distributed tracing saves your sanity."
-tags: ["architecture", "scalability", "system-design", "observability", "opentelemetry"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"observability\\\"", "\\\"opentelemetry\\\""]
+featured: "true"
 ---
 
 # Distributed Tracing: Stop Guessing Why Your API Takes 4 Seconds 🔍⏱️

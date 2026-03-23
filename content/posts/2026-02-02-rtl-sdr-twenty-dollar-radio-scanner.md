@@ -2,8 +2,8 @@
 title: "RTL-SDR: The $20 USB Stick That Unlocks the Invisible Radio Universe 📡"
 date: "2026-02-02"
 excerpt: "I plugged a $20 USB dongle into my laptop and suddenly could see aircraft positions, decode weather satellites, listen to police scanners, and explore the entire radio spectrum. Welcome to Software Defined Radio - where hardware becomes code!"
-tags: ["rf", "sdr", "wireless", "hobby", "rtl-sdr"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"rtl-sdr\\\""]
+featured: "true"
 ---
 
 

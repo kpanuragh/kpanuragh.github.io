@@ -2,8 +2,8 @@
 title: "Kubernetes Resource Limits: Stop Your Pods from Eating the Whole Buffet 🍽️💥"
 date: "2026-03-11"
 excerpt: "Your app is mysteriously crashing in production, random pods are getting killed, and nobody knows why. After surviving several Kubernetes cluster meltdowns, I learned that forgetting resource limits is like inviting a black hole to your birthday party."
-tags: ["kubernetes", "devops", "docker", "deployment"]
-featured: true
+tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # Kubernetes Resource Limits: Stop Your Pods from Eating the Whole Buffet 🍽️💥

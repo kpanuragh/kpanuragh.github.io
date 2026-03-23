@@ -2,8 +2,8 @@
 title: "Business Logic Vulnerabilities: Your App Works As Designed (For Hackers) 🧠"
 date: "2026-02-27"
 excerpt: "What if the scariest hack isn't SQL injection or XSS — but someone using your own app exactly as intended? Business logic vulnerabilities are the sneakiest bugs you'll ever write, and I learned this the very hard way building e-commerce systems."
-tags: ["cybersecurity", "web-security", "security", "business-logic", "appsec"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"business-logic\\\"", "\\\"appsec\\\""]
+featured: "false"
 ---
 
 # Business Logic Vulnerabilities: Your App Works As Designed (For Hackers) 🧠

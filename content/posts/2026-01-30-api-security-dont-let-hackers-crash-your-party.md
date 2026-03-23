@@ -2,8 +2,8 @@
 title: "API Security: Don't Let Hackers Crash Your Party 🔒"
 date: "2026-01-30"
 excerpt: "Your API is like a VIP club entrance - you need a bouncer! Learn how to protect your REST APIs from common attacks without reading a 500-page security manual."
-tags: ["cybersecurity", "web-security", "api-security", "rest-api"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"api-security\\\"", "\\\"rest-api\\\""]
+featured: "true"
 ---
 
 

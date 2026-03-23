@@ -2,8 +2,8 @@
 title: "Prototype Pollution: The JavaScript Vulnerability That Hides in Plain Sight 🧬"
 date: "2026-03-16"
 excerpt: "You've heard of SQL injection and XSS, but prototype pollution is the sneaky JavaScript vulnerability that can turn a harmless object merge into a full app takeover. Let's break it down."
-tags: ["cybersecurity", "javascript", "nodejs", "web-security", "security"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"javascript\\\"", "\\\"nodejs\\\"", "\\\"web-security\\\"", "\\\"security\\\""]
+featured: "true"
 ---
 
 # Prototype Pollution: The JavaScript Vulnerability That Hides in Plain Sight 🧬

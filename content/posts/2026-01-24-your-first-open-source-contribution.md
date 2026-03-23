@@ -2,8 +2,8 @@
 title: "Your First Open Source Contribution: A Survival Guide 🌍💻"
 date: "2026-01-24"
 excerpt: "Scared to make your first PR to an open source project? I was too! Here's how I went from terrified lurker to confident contributor (and you can too)."
-tags: ["open-source", "github", "community", "beginners"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"beginners\\\""]
+featured: "true"
 ---
 
 

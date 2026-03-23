@@ -2,8 +2,8 @@
 title: "Docker Compose: Stop Installing Postgres on Your Laptop Like a Caveman 🐳💻"
 date: "2026-02-04"
 excerpt: "After 7 years of production deployments, I finally learned: Docker Compose isn't just for deployment - it's the secret weapon for local dev environments that don't suck!"
-tags: ["devops", "docker", "development", "productivity"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"development\\\"", "\\\"productivity\\\""]
+featured: "true"
 ---
 
 

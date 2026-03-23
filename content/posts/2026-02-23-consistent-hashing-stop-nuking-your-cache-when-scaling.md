@@ -2,8 +2,8 @@
 title: "Consistent Hashing: The Algorithm That Stopped Me From Nuking My Entire Cache 🔄💾"
 date: "2026-02-23"
 excerpt: "I added one cache node to our Redis cluster and lost 85% of all cached data in under 30 seconds. The database melted. Customers saw errors. My manager called. Consistent hashing is why that never happens to well-designed systems — and why it took me a full production incident to finally understand it."
-tags: ["architecture", "scalability", "system-design", "caching", "distributed-systems"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"caching\\\"", "\\\"distributed-systems\\\""]
+featured: "true"
 ---
 
 # Consistent Hashing: The Algorithm That Stopped Me From Nuking My Entire Cache 🔄💾

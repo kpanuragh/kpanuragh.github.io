@@ -2,8 +2,8 @@
 title: "Kubernetes HPA: Stop Manually Scaling Your Pods (Let the Robot Do It) 🤖📈"
 date: "2026-03-04"
 excerpt: "Still SSHing into your cluster at 2 AM to scale up pods during traffic spikes? After getting paged one too many times, I set up Kubernetes Horizontal Pod Autoscaling — and now my cluster handles Black Friday traffic while I sleep like a baby."
-tags: ["devops", "kubernetes", "scaling", "infrastructure"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"scaling\\\"", "\\\"infrastructure\\\""]
+featured: "true"
 ---
 
 # Kubernetes HPA: Stop Manually Scaling Your Pods (Let the Robot Do It) 🤖📈

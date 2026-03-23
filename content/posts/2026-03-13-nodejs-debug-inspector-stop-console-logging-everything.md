@@ -1,9 +1,9 @@
 ---
 title: "🔍 Stop console.log Debugging Your Node.js App (The Inspector Is Free)"
-date: 2026-03-13
+date: "2026-03-13"
 excerpt: "You've been sprinkling console.log like parmesan on every bug. There's a built-in debugger in Node.js that's been sitting there this whole time, judging you."
-tags: ["nodejs", "debugging", "backend", "express", "developer-tools"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"debugging\\\"", "\\\"backend\\\"", "\\\"express\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 # 🔍 Stop console.log Debugging Your Node.js App (The Inspector Is Free)

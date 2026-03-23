@@ -2,8 +2,8 @@
 title: "I Accidentally Found SQL Injection in Laravel (While Procrastinating) 😅"
 date: "2026-01-30"
 excerpt: "Was building my 'perfect' framework with DDD, TDD, and Clean Architecture. Ended up finding security bugs in Laravel instead. Classic developer move."
-tags: ["laravel", "security", "sql-injection", "responsible-disclosure", "cybersecurity"]
-featured: true
+tags: ["\\\"laravel\\\"", "\\\"security\\\"", "\\\"sql-injection\\\"", "\\\"responsible-disclosure\\\"", "\\\"cybersecurity\\\""]
+featured: "true"
 ---
 
 

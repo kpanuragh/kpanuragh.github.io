@@ -2,8 +2,8 @@
 title: "Node.js API Versioning: Don't Break Your Users 🚀"
 date: "2026-02-16"
 excerpt: "Think you can just change your API endpoints whenever you want? Cool! Now explain to 10,000 mobile app users why their apps suddenly stopped working. Let's dive into API versioning strategies that keep everyone happy - old apps, new features, and your sanity!"
-tags: ["nodejs", "javascript", "backend", "api-design"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"api-design\\\""]
+featured: "true"
 ---
 
 

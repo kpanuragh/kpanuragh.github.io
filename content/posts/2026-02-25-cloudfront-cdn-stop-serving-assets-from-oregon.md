@@ -2,8 +2,8 @@
 title: "CloudFront CDN: Stop Making Your Users in Mumbai Download From Oregon ☁️🚀"
 date: "2026-02-25"
 excerpt: "Your images are fast. In Virginia. Users in Singapore are crying. Let me tell you how CloudFront fixed our e-commerce app and why cache invalidation is still the hardest problem in computer science."
-tags: ["aws", "cloud", "cloudfront", "cdn", "performance"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"cloudfront\\\"", "\\\"cdn\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # CloudFront CDN: Stop Making Your Users in Mumbai Download From Oregon ☁️🚀

@@ -2,8 +2,8 @@
 title: "Rust Iterators: I Stopped Writing For-Loops and Never Looked Back 🦀🔄"
 date: "2026-03-04"
 excerpt: "After 7 years of PHP foreach and JavaScript for...of, I discovered Rust's iterator system. Lazy evaluation, zero-cost abstractions, and pipelines that would make Laravel Collections jealous."
-tags: ["rust", "systems-programming", "performance", "iterators", "functional-programming"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"iterators\\\"", "\\\"functional-programming\\\""]
+featured: "true"
 ---
 
 # Rust Iterators: I Stopped Writing For-Loops and Never Looked Back 🦀🔄

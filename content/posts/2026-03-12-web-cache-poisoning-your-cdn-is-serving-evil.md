@@ -2,8 +2,8 @@
 title: "Web Cache Poisoning: When Your CDN Becomes the Villain 🎭"
 date: "2026-03-12"
 excerpt: "You set up a CDN to make your app faster. Congratulations — you may have also set up a global attack delivery network. Let's talk about web cache poisoning before a security researcher does it for you."
-tags: ["cybersecurity", "web-security", "security", "cdn", "cache-poisoning"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"cdn\\\"", "\\\"cache-poisoning\\\""]
+featured: "false"
 ---
 
 # Web Cache Poisoning: When Your CDN Becomes the Villain 🎭

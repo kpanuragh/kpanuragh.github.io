@@ -2,7 +2,7 @@
 title: "Laravel Precognition: See Validation Errors Before Users Even Click Submit 🔮"
 date: "2026-03-15"
 excerpt: "Your users are rage-quitting your forms because they only find out about errors AFTER submitting. Laravel Precognition fixes that — and it's embarrassingly easy to add."
-tags: ["laravel", "php", "web-dev", "ux", "forms"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"ux\\\"", "\\\"forms\\\""]
 ---
 
 # Laravel Precognition: See Validation Errors Before Users Even Click Submit 🔮

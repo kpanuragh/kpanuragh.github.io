@@ -2,8 +2,8 @@
 title: "Rust Enums: Making Null Pointer Exceptions Obsolete 🦀✨"
 date: "2026-02-07"
 excerpt: "Coming from 7 years of JavaScript and PHP where 'Cannot read property of undefined' haunts my dreams, discovering Rust's enum-based approach to handling missing values blew my mind. No more null checks everywhere. No more undefined crashes. Just compiler-enforced safety!"
-tags: ["rust", "enums", "type-safety", "error-handling"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"enums\\\"", "\\\"type-safety\\\"", "\\\"error-handling\\\""]
+featured: "true"
 ---
 
 

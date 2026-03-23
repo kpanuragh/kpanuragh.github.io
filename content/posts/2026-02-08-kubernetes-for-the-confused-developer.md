@@ -2,8 +2,8 @@
 title: "Kubernetes for the Confused Developer: It's Docker on Steroids, Not Rocket Science 🚀☸️"
 date: "2026-02-08"
 excerpt: "After 7 years deploying production apps, I finally bit the bullet and learned Kubernetes. Turns out it's not as scary as the YAML makes it look. Here's what I wish someone had told me before I spent 3 days debugging a typo in my deployment config!"
-tags: ["devops", "kubernetes", "docker", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 

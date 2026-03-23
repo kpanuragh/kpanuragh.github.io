@@ -2,8 +2,8 @@
 title: "🌊 Node.js Streams: The Pipe Dream That Actually Works"
 date: "2026-02-22"
 excerpt: "Most developers treat streams like that one gym membership — they know it exists, they know it's good for them, but they never actually use it. Let's change that."
-tags: ["nodejs", "streams", "backend", "performance", "javascript"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"streams\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"javascript\\\""]
+featured: "true"
 ---
 
 # 🌊 Node.js Streams: The Pipe Dream That Actually Works

@@ -2,8 +2,8 @@
 title: "Node.js Compression: Stop Sending Your Users Bloated Responses 📦"
 date: "2026-03-07"
 excerpt: "Your API is probably sending 5-10x more data than it needs to. Learn how gzip and Brotli compression in Node.js can slash your bandwidth costs and make your app feel snappy — with three lines of code."
-tags: ["nodejs", "express", "backend", "performance", "api"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"api\\\""]
+featured: "true"
 ---
 
 Here's a fun game: open your browser DevTools, go to the Network tab, and look at how big your API responses are. If you're not seeing a `Content-Encoding: gzip` or `Content-Encoding: br` header, congratulations — you're paying your cloud provider to send full, uncompressed JSON to every single client, every single request.

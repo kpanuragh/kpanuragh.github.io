@@ -2,7 +2,7 @@
 title: "Laravel Factories & Seeders: Fake Data That Looks Real 🎭"
 date: "2026-02-07"
 excerpt: "Stop manually creating test data like a caveman! Learn how I use Model Factories and Seeders to spin up realistic databases in seconds - the same patterns we use in production at Cubet."
-tags: ["laravel", "php", "web-dev", "testing"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"testing\\\""]
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Git Worktrees: Stop Stashing Your Life Away Every Time You Context-Switch 🌳💻"
 date: "2026-02-25"
 excerpt: "You're deep in a feature branch, three files open, half a refactor done — and your phone buzzes: 'urgent hotfix needed.' Enter git worktrees: the feature that lets you have multiple branches checked out simultaneously without the stash-and-pray ritual."
-tags: ["open-source", "github", "git", "developer-tools", "community"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"git\\\"", "\\\"developer-tools\\\"", "\\\"community\\\""]
+featured: "true"
 ---
 
 # Git Worktrees: Stop Stashing Your Life Away Every Time You Context-Switch 🌳💻

@@ -2,8 +2,8 @@
 title: "NPM Packages Are Trying to Hack You (And You're Letting Them) 🎭🔓"
 date: "2026-02-04"
 excerpt: "You just npm installed a package and gave a stranger root access to your machine. Congrats! After building Node.js apps in production, here's why your node_modules folder is scarier than any horror movie!"
-tags: ["nodejs", "security", "npm", "backend"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"security\\\"", "\\\"npm\\\"", "\\\"backend\\\""]
+featured: "true"
 ---
 
 

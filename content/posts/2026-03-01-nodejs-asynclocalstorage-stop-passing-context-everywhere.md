@@ -1,9 +1,9 @@
 ---
 title: "🧵 Node.js AsyncLocalStorage: Stop Passing Request IDs Through 12 Function Calls"
-date: 2026-03-01
+date: "2026-03-01"
 excerpt: "You've seen the pattern: requestId threads through every function signature like a bad cold that just won't quit. AsyncLocalStorage fixes this elegantly — here's how."
-tags: ["nodejs", "express", "backend", "async", "observability"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"async\\\"", "\\\"observability\\\""]
+featured: "true"
 ---
 
 # 🧵 Node.js AsyncLocalStorage: Stop Passing Request IDs Through 12 Function Calls

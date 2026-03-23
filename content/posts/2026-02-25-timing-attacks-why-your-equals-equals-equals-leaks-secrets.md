@@ -2,8 +2,8 @@
 title: "Timing Attacks: Why Your === Is Leaking Secrets ⏱️"
 date: "2026-02-25"
 excerpt: "Your string comparison looks innocent. It's actually a side-channel that lets attackers guess secrets one character at a time. Here's why constant-time comparison is non-negotiable."
-tags: ["cybersecurity", "security", "web-security", "cryptography", "backend"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"security\\\"", "\\\"web-security\\\"", "\\\"cryptography\\\"", "\\\"backend\\\""]
+featured: "true"
 ---
 
 # Timing Attacks: Why Your === Is Leaking Secrets ⏱️

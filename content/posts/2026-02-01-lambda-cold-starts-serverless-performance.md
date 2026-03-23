@@ -2,8 +2,8 @@
 title: "Lambda Cold Starts: When Your Serverless Function Wakes Up Like a Teenager ☁️⏰"
 date: "2026-02-01"
 excerpt: "Your Lambda function is fast... except when it's not. Cold starts are the dirty secret of serverless - but I've got battle-tested tricks to make them way less painful!"
-tags: ["aws", "serverless", "lambda", "performance"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "OAuth 2.0 Security Pitfalls: When 'Login with Google' Becomes 'Login as Anyone' 🔑💥"
 date: "2026-03-11"
 excerpt: "You added 'Login with Google' to your app and thought you were done with auth. Spoiler: you just opened 5 new attack vectors. Here's how OAuth 2.0 goes catastrophically wrong in production."
-tags: ["security", "oauth", "authentication", "api", "backend"]
-featured: true
+tags: ["\\\"security\\\"", "\\\"oauth\\\"", "\\\"authentication\\\"", "\\\"api\\\"", "\\\"backend\\\""]
+featured: "true"
 ---
 
 # OAuth 2.0 Security Pitfalls: When 'Login with Google' Becomes 'Login as Anyone' 🔑💥

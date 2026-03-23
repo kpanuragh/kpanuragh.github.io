@@ -2,8 +2,8 @@
 title: "5 Ways Your Website Can Get Hacked (And How to Stop It)"
 date: "2026-01-19"
 excerpt: "Don't let hackers ruin your day! Here's how to protect your website from the most common attacks - explained like you're a human, not a security textbook."
-tags: ["cybersecurity", "web-security", "owasp"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"owasp\\\""]
+featured: "true"
 ---
 
 

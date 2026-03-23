@@ -2,7 +2,7 @@
 title: "Laravel Multi-Auth Guards: Stop Building One-Size-Fits-All Authentication 🔐"
 date: "2026-03-18"
 excerpt: "Your admin and your customer shouldn't share the same front door. Here's how to build proper multi-authentication guards in Laravel — and why I learned this the hard way in production."
-tags: ["laravel", "php", "web-dev", "security", "authentication"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"security\\\"", "\\\"authentication\\\""]
 ---
 
 # Laravel Multi-Auth Guards: Stop Building One-Size-Fits-All Authentication 🔐

@@ -2,8 +2,8 @@
 title: "Rust Axum: I Built a REST API Without Losing My Mind (Much) 🦀🌐"
 date: "2026-02-21"
 excerpt: "Coming from 7 years of Laravel where `Route::get()` is two words and a prayer, I discovered Axum — Rust's web framework that's shockingly familiar and absolutely terrifyingly fast."
-tags: ["rust", "systems-programming", "performance", "axum", "web-development"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"axum\\\"", "\\\"web-development\\\""]
+featured: "true"
 ---
 
 # Rust Axum: I Built a REST API Without Losing My Mind (Much) 🦀🌐

@@ -2,8 +2,8 @@
 title: "IDOR: The Bug That Lets Anyone Read Your Private Data (And It's Everywhere) 🔓🕵️"
 date: "2026-02-23"
 excerpt: "Change one number in a URL and suddenly you're reading someone else's medical records. IDOR is embarrassingly simple, devastatingly common, and pays out big on bug bounties. Let's break it down."
-tags: ["cybersecurity", "owasp", "api-security", "idor", "bug-bounty"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"owasp\\\"", "\\\"api-security\\\"", "\\\"idor\\\"", "\\\"bug-bounty\\\""]
+featured: "true"
 ---
 
 # IDOR: The Bug That Lets Anyone Read Your Private Data (And It's Everywhere) 🔓🕵️

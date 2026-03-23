@@ -2,7 +2,7 @@
 title: "Laravel Model Casts: Making Data Types Not Suck 🎯"
 date: "2026-02-12"
 excerpt: "Stop manually converting JSON strings and dates! Laravel's model casts handle data transformation automatically. Let me show you the magic I wish I knew 5 years ago."
-tags: ["laravel", "php", "eloquent", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"eloquent\\\"", "\\\"web-dev\\\""]
 ---
 
 

@@ -2,8 +2,8 @@
 title: "How to Write Bug Reports That Don't Make Maintainers Cry 🐛😭"
 date: "2026-02-06"
 excerpt: "Opened an issue saying 'it doesn't work' and wondering why nobody's fixing your bug? Learn how to write bug reports that actually get fixed instead of ignored, closed, or causing maintainers to question their life choices."
-tags: ["open-source", "github", "community", "contributing"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"contributing\\\""]
+featured: "true"
 ---
 
 

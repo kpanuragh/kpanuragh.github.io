@@ -2,7 +2,7 @@
 title: "Laravel Blade Components: Stop Copy-Pasting HTML Like a Caveman 🎨"
 date: "2026-01-29"
 excerpt: "Still copying the same HTML in 20 different files? Let me introduce you to Blade Components - Laravel's secret weapon for clean, reusable UI code!"
-tags: ["laravel", "php", "blade", "web-dev", "frontend"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"blade\\\"", "\\\"web-dev\\\"", "\\\"frontend\\\""]
 ---
 
 

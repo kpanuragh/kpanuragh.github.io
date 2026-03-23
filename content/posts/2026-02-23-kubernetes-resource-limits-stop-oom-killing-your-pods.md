@@ -2,8 +2,8 @@
 title: "Kubernetes Resource Limits: Stop Your Pods from Getting OOM-Killed at 3 AM ☸️💀"
 date: "2026-02-23"
 excerpt: "Your pod is running fine in staging, then dies mysteriously in production. No logs, no warning, just 'OOMKilled'. After getting paged at 3 AM one too many times, here's everything you need to know about Kubernetes resource limits and requests."
-tags: ["kubernetes", "devops", "docker", "deployment"]
-featured: true
+tags: ["\\\"kubernetes\\\"", "\\\"devops\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # Kubernetes Resource Limits: Stop Your Pods from Getting OOM-Killed at 3 AM ☸️💀

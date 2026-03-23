@@ -2,7 +2,7 @@
 title: "Laravel Artisan Commands: Stop Copy-Pasting Scripts Like a Caveman 🦴"
 date: "2026-03-06"
 excerpt: "You're manually running PHP scripts from a sticky note? Bro. Laravel has a whole CLI framework built in. Let's fix that."
-tags: ["laravel", "php", "web-dev", "artisan", "automation"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"artisan\\\"", "\\\"automation\\\""]
 ---
 
 # Laravel Artisan Commands: Stop Copy-Pasting Scripts Like a Caveman 🦴

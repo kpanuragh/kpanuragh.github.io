@@ -2,8 +2,8 @@
 title: "Dependabot: The Open Source Contributor That Works 24/7 and Never Asks for Credit 🤖🔒"
 date: "2026-03-11"
 excerpt: "Your dependencies are quietly rotting. CVEs are piling up. npm audit is screaming. And you haven't updated a single package since you deployed to production six months ago. Meet Dependabot — the robot teammate that actually keeps up."
-tags: ["open-source", "github", "security", "developer-tools"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"security\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 # Dependabot: The Open Source Contributor That Works 24/7 and Never Asks for Credit 🤖🔒

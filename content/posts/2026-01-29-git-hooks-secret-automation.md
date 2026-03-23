@@ -2,8 +2,8 @@
 title: "Git Hooks: The Secret Automation Living in Your `.git` Folder ⚡🪝"
 date: "2026-01-29"
 excerpt: "You commit broken code, push to main, and realize you forgot to run tests... again. Git hooks are sitting in your .git folder laughing at you. Let me show you how to automate ALL the things you keep forgetting!"
-tags: ["git", "developer-tools", "automation", "productivity"]
-featured: true
+tags: ["\\\"git\\\"", "\\\"developer-tools\\\"", "\\\"automation\\\"", "\\\"productivity\\\""]
+featured: "true"
 ---
 
 

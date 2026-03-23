@@ -2,8 +2,8 @@
 title: "CSRF: The Attack That Makes Your Users Do Things They Didn't Mean To 🎭"
 date: "2026-03-17"
 excerpt: "Your users are logged in, authenticated, and trusting your app with their data. Now imagine a malicious website quietly making requests on their behalf — transferring money, changing passwords, deleting accounts — without them ever clicking anything suspicious. Welcome to CSRF, the sneaky impersonation attack that's been around forever and still bites developers daily."
-tags: ["security", "csrf", "web-security", "authentication", "owasp"]
-featured: true
+tags: ["\\\"security\\\"", "\\\"csrf\\\"", "\\\"web-security\\\"", "\\\"authentication\\\"", "\\\"owasp\\\""]
+featured: "true"
 ---
 
 # CSRF: The Attack That Makes Your Users Do Things They Didn't Mean To 🎭

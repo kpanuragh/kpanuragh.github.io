@@ -2,8 +2,8 @@
 title: "433 MHz: The Chaotic Radio Party Happening Inside Your Walls Right Now 🎉📡"
 date: "2026-03-15"
 excerpt: "Your garage door, weather station, wireless thermometer, and car tire sensors are all screaming data into the air 24/7. I started listening. What I heard changed how I see the world — and my neighbor's yard."
-tags: ["rf", "sdr", "wireless", "hobby", "iot", "433mhz"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"iot\\\"", "\\\"433mhz\\\""]
+featured: "true"
 ---
 
 # 433 MHz: The Chaotic Radio Party Happening Inside Your Walls Right Now 🎉📡

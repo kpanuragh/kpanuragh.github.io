@@ -2,8 +2,8 @@
 title: "Terraform State Management: Stop Letting a JSON File Hold Your Infrastructure Hostage 🏗️🔥"
 date: "2026-02-18"
 excerpt: "After watching a junior dev delete the Terraform state file on a Friday afternoon and take down our entire staging environment, I became mildly obsessed with state management. Here's everything you need to know to not have that same Friday."
-tags: ["devops", "deployment", "terraform", "infrastructure-as-code"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"terraform\\\"", "\\\"infrastructure-as-code\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "GitHub Actions Caching: Cut Your CI Time in Half (Seriously) ⚡🗂️"
 date: "2026-03-18"
 excerpt: "Your CI pipeline takes 15 minutes to run but only does 30 seconds of real work? After watching too many progress bars spin on dependency installs, I learned how to cache everything in GitHub Actions — and you should too."
-tags: ["devops", "github-actions", "ci-cd", "optimization"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"github-actions\\\"", "\\\"ci-cd\\\"", "\\\"optimization\\\""]
+featured: "true"
 ---
 
 # GitHub Actions Caching: Cut Your CI Time in Half (Seriously) ⚡🗂️

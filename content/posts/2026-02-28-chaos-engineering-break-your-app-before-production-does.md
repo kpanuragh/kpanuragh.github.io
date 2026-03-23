@@ -2,8 +2,8 @@
 title: "Chaos Engineering: Break Your App on Purpose Before Production Does It for You 🐒🔥"
 date: "2026-02-28"
 excerpt: "After years of being paged at 3 AM by outages nobody saw coming, I discovered the secret Netflix uses to sleep at night: deliberately blowing things up on their own terms. Chaos engineering isn't crazy — running production systems you've never stress-tested IS."
-tags: ["devops", "deployment", "chaos-engineering", "resilience", "aws"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"chaos-engineering\\\"", "\\\"resilience\\\"", "\\\"aws\\\""]
+featured: "true"
 ---
 
 # Chaos Engineering: Break Your App on Purpose Before Production Does It for You 🐒🔥

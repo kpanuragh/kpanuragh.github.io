@@ -2,8 +2,8 @@
 title: "CQRS: Stop Using the Same Model for Reads and Writes 📖✍️"
 date: "2026-02-12"
 excerpt: "Your app spends 95% of time reading data but your database is optimized for writes. Smart! After 7 years architecting systems that actually scale, I learned that CQRS isn't about being fancy - it's about accepting that reads and writes have completely different needs!"
-tags: ["architecture", "scalability", "system-design", "cqrs", "performance"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"cqrs\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

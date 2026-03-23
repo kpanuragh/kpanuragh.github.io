@@ -2,8 +2,8 @@
 title: "Rust's Module System: Organizing Code Without Losing Your Mind 🦀📦"
 date: "2026-02-01"
 excerpt: "Think you know how to organize code? Rust's module system and Cargo just entered the chat with workspaces, visibility rules, and zero-config builds. Say goodbye to build script nightmares!"
-tags: ["rust", "cargo", "modules", "project-organization"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"cargo\\\"", "\\\"modules\\\"", "\\\"project-organization\\\""]
+featured: "true"
 ---
 
 

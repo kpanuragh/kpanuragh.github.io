@@ -2,8 +2,8 @@
 title: "Dotfiles on GitHub: Stop Losing Your Perfect Dev Setup Every Time You Get a New Machine 🗂️"
 date: "2026-03-06"
 excerpt: "Spent 2 weeks perfecting your terminal setup only to get a new laptop and lose everything? I've done this 4 times before I discovered dotfiles on GitHub. Here's how to never start from scratch again."
-tags: ["open-source", "github", "developer-tools", "productivity", "dotfiles"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"productivity\\\"", "\\\"dotfiles\\\""]
+featured: "true"
 ---
 
 # Dotfiles on GitHub: Stop Losing Your Perfect Dev Setup Every Time You Get a New Machine 🗂️

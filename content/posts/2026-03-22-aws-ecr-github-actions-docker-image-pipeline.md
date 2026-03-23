@@ -2,8 +2,8 @@
 title: "AWS ECR + GitHub Actions: The Docker Image Pipeline That Runs Itself 🐳🚀"
 date: "2026-03-22"
 excerpt: "After years of 'just push the image manually', I finally wired up a proper AWS ECR pipeline with GitHub Actions. Build, scan, tag, push, deploy - all automated. Here's the setup I wish I had from day one."
-tags: ["devops", "docker", "ci-cd", "aws", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"ci-cd\\\"", "\\\"aws\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # AWS ECR + GitHub Actions: The Docker Image Pipeline That Runs Itself 🐳🚀

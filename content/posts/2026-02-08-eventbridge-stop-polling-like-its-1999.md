@@ -2,8 +2,8 @@
 title: "EventBridge: Stop Polling Like It's 1999 📡⚡"
 date: "2026-02-08"
 excerpt: "Your Lambda is checking the database every 5 seconds 'just in case' something happened? After years of architecting event-driven systems on AWS, here's how EventBridge saved me from polling hell and cut our costs by 90%!"
-tags: ["aws", "cloud", "serverless", "eventbridge"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"eventbridge\\\""]
+featured: "true"
 ---
 
 

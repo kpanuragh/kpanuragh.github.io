@@ -2,8 +2,8 @@
 title: "IDOR: The API Bug That's Hiding in Plain Sight 🔓👀"
 date: "2026-02-20"
 excerpt: "You built an API. You added authentication. You feel safe. But one tiny URL like /api/orders/1337 could hand all your users' data to a random stranger. Welcome to IDOR - the embarrassingly simple bug that breaks into Fortune 500 companies daily."
-tags: ["cybersecurity", "api-security", "owasp", "idor", "web-security"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"api-security\\\"", "\\\"owasp\\\"", "\\\"idor\\\"", "\\\"web-security\\\""]
+featured: "true"
 ---
 
 # IDOR: The API Bug That's Hiding in Plain Sight 🔓👀

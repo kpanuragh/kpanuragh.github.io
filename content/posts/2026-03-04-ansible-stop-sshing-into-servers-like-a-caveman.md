@@ -2,8 +2,8 @@
 title: "Ansible: Stop SSH-ing Into 50 Servers Like a Caveman 🤖⚙️"
 date: "2026-03-04"
 excerpt: "I used to 'ssh prod-server-01' and manually run commands on 40 servers. After countless deployments burned by 3 AM hotfixes, Ansible taught me that configuration management isn't optional - it's survival."
-tags: ["devops", "deployment", "ci-cd", "ansible", "automation"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"ansible\\\"", "\\\"automation\\\""]
+featured: "true"
 ---
 
 # Ansible: Stop SSH-ing Into 50 Servers Like a Caveman 🤖⚙️

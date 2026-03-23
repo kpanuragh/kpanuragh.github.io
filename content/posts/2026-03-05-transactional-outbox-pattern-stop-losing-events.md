@@ -2,8 +2,8 @@
 title: "The Transactional Outbox Pattern: Stop Losing Events Between Your DB and Queue 📬⚡"
 date: "2026-03-05"
 excerpt: "You save an order to your database. You publish an event to your message queue. Network hiccups. DB commits. Queue never receives it. Order exists. Customer notification never fires. Customer is confused. After losing hundreds of events in production, I discovered the Transactional Outbox Pattern — the elegant trick that makes your database and message queue finally stop betraying each other."
-tags: ["architecture", "scalability", "system-design", "distributed-systems", "event-driven"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"distributed-systems\\\"", "\\\"event-driven\\\""]
+featured: "true"
 ---
 
 # The Transactional Outbox Pattern: Stop Losing Events Between Your DB and Queue 📬⚡

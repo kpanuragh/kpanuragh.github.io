@@ -2,8 +2,8 @@
 title: "Open Redirect: Congrats, Your Website Is a Phishing Tool Now 🎣"
 date: "2026-02-21"
 excerpt: "You didn't build a phishing page. But an attacker is using your trusted domain to redirect victims to one. Open redirect — the vulnerability that makes your good reputation work against you."
-tags: ["cybersecurity", "web-security", "security", "phishing", "owasp"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"phishing\\\"", "\\\"owasp\\\""]
+featured: "false"
 ---
 
 # Open Redirect: Congrats, Your Website Is a Phishing Tool Now 🎣

@@ -2,7 +2,7 @@
 title: "Laravel API Resources: JSON Responses That Don't Suck 🎨"
 date: "2026-02-01"
 excerpt: "Stop returning raw Eloquent models in your API! Learn how Laravel API Resources make your JSON responses clean, consistent, and actually maintainable."
-tags: ["laravel", "php", "api", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"api\\\"", "\\\"web-dev\\\""]
 ---
 
 

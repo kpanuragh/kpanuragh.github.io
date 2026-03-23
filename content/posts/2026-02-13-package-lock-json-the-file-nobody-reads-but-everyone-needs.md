@@ -2,8 +2,8 @@
 title: "package-lock.json: The File Nobody Reads But Everyone Needs 🔒"
 date: "2026-02-13"
 excerpt: "Think package-lock.json is just noise? Cool! Now explain why your app works locally but crashes in production. Let's dive into npm's lockfile, semantic versioning gotchas, and the dependency chaos you didn't know you had!"
-tags: ["nodejs", "npm", "javascript", "dependencies"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"npm\\\"", "\\\"javascript\\\"", "\\\"dependencies\\\""]
+featured: "true"
 ---
 
 

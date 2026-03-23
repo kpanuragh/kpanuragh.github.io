@@ -1,9 +1,9 @@
 ---
 title: "BullMQ: Stop Making Your Users Wait for Things That Can Happen Later 🐂"
-date: 2026-03-21
+date: "2026-03-21"
 excerpt: "Your users shouldn't stare at a spinner while you send a welcome email. Learn how to offload slow work to background jobs with BullMQ and Redis."
-tags: ["nodejs", "express", "bullmq", "redis", "backend", "performance", "queues"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"bullmq\\\"", "\\\"redis\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"queues\\\""]
+featured: "true"
 ---
 
 # BullMQ: Stop Making Your Users Wait for Things That Can Happen Later 🐂

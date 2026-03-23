@@ -2,8 +2,8 @@
 title: "OSS Archaeology: Navigate a Codebase You've Never Seen and Ship a Fix in Under an Hour ⛏️"
 date: "2026-03-22"
 excerpt: "Staring at 200,000 lines of code you've never seen before, wondering where to even start? I've been there — approximately 47 times. Here's the exact excavation strategy I use to go from 'I've never touched this repo' to 'PR submitted' in under an hour."
-tags: ["open-source", "github", "contributing", "developer-tools", "productivity"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"contributing\\\"", "\\\"developer-tools\\\"", "\\\"productivity\\\""]
+featured: "true"
 ---
 
 # OSS Archaeology: Navigate a Codebase You've Never Seen and Ship a Fix in Under an Hour ⛏️

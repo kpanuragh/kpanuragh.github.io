@@ -2,8 +2,8 @@
 title: "Rust SQLx: Your Database Queries Get a Code Review From the Compiler 🦀🗄️"
 date: "2026-03-06"
 excerpt: "Coming from Laravel's Eloquent where your SQL errors hide until a user hits that route at 3am, discovering that Rust's SQLx can verify your SQL queries at compile time felt like being handed a superpower I didn't know I needed."
-tags: ["rust", "systems-programming", "sqlx", "databases", "performance"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"sqlx\\\"", "\\\"databases\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # Rust SQLx: Your Database Queries Get a Code Review From the Compiler 🦀🗄️

@@ -2,7 +2,7 @@
 title: "Laravel File Uploads: Stop Storing PDFs in Your Database! 📁"
 date: "2026-02-11"
 excerpt: "Your database isn't a file cabinet! Learn how to handle file uploads like a pro, from local storage to S3, without blowing up your server."
-tags: ["laravel", "php", "file-uploads", "aws", "s3"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"file-uploads\\\"", "\\\"aws\\\"", "\\\"s3\\\""]
 ---
 
 

@@ -2,8 +2,8 @@
 title: "GitHub Codespaces: I Contributed to Open Source from an Airport Bathroom (And It Worked) ☁️🚀"
 date: "2026-02-17"
 excerpt: "What if your entire dev environment lived in the cloud and you could contribute to open source from literally any device, anywhere? GitHub Codespaces made this real, and it changed how I contribute forever."
-tags: ["open-source", "github", "developer-tools", "codespaces", "cloud-dev"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"codespaces\\\"", "\\\"cloud-dev\\\""]
+featured: "true"
 ---
 
 

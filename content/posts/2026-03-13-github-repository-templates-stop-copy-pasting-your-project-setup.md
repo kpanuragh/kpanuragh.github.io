@@ -2,8 +2,8 @@
 title: "GitHub Repository Templates: Stop Copy-Pasting Your Project Setup Every Single Time 🏗️"
 date: "2026-03-13"
 excerpt: "Every new project. Same dance. Copy CONTRIBUTING.md, steal the GitHub Actions workflow, paste the .editorconfig... What if you never had to do that again?"
-tags: ["open-source", "github", "developer-tools", "community", "productivity"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"community\\\"", "\\\"productivity\\\""]
+featured: "true"
 ---
 
 # GitHub Repository Templates: Stop Copy-Pasting Your Project Setup Every Single Time 🏗️

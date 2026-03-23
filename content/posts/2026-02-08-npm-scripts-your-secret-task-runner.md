@@ -2,8 +2,8 @@
 title: "npm Scripts: Your Secret Task Runner 🎯"
 date: "2026-02-08"
 excerpt: "Think npm is just for installing packages? Cool! Now explain why you're writing bash scripts when npm can automate everything. Let's dive into npm scripts - the built-in task runner you didn't know you had!"
-tags: ["nodejs", "javascript", "npm", "backend", "productivity"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"npm\\\"", "\\\"backend\\\"", "\\\"productivity\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "APRS: Ham Radio Invented Real-Time GPS Tracking Before Smartphones Existed 📡"
 date: "2026-02-23"
 excerpt: "I tuned my RTL-SDR to 144.800 MHz and suddenly the airwaves were alive with position reports, weather data, and text messages — from amateur radio operators moving around my city in real time. Ham radio has had its own Twitter-before-Twitter since 1992, and most software developers have no idea it exists."
-tags: ["rf", "sdr", "wireless", "hobby", "aprs", "ham-radio"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"aprs\\\"", "\\\"ham-radio\\\""]
+featured: "true"
 ---
 
 # APRS: Ham Radio Invented Real-Time GPS Tracking Before Smartphones Existed 📡

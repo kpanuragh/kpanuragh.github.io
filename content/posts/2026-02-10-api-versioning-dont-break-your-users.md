@@ -2,8 +2,8 @@
 title: "API Versioning: Stop Breaking Your Users' Apps Every Time You Deploy 🔢💥"
 date: "2026-02-10"
 excerpt: "You changed one field name and suddenly 10,000 mobile apps crashed. After 7 years architecting APIs, here's how I learned that API versioning isn't optional - it's the difference between 'iterating fast' and 'creating a support ticket tsunami'!"
-tags: ["architecture", "api-design", "versioning", "scalability", "system-design"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"api-design\\\"", "\\\"versioning\\\"", "\\\"scalability\\\"", "\\\"system-design\\\""]
+featured: "true"
 ---
 
 

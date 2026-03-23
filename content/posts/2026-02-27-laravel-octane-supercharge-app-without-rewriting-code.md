@@ -2,7 +2,7 @@
 title: "Laravel Octane: I Made My App 10x Faster Without Touching a Single Feature 🚀"
 date: "2026-02-27"
 excerpt: "PHP dies after every request. What if it didn't? Laravel Octane keeps your app alive and screaming fast. Here's what happened when I turned it on in production."
-tags: ["laravel", "php", "performance", "web-dev", "octane"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"performance\\\"", "\\\"web-dev\\\"", "\\\"octane\\\""]
 ---
 
 # Laravel Octane: I Made My App 10x Faster Without Touching a Single Feature 🚀

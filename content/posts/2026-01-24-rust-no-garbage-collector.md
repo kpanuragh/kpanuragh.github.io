@@ -2,8 +2,8 @@
 title: "Why Rust Doesn't Need a Garbage Collector (And Why That's Pure Genius) 🦀🚮"
 date: "2026-01-24"
 excerpt: "Ever wonder why Rust doesn't have a garbage collector like every other modern language? Turns out, that's not a missing feature - it's a superpower! Here's why."
-tags: ["rust", "performance", "memory-management", "systems-programming"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"performance\\\"", "\\\"memory-management\\\"", "\\\"systems-programming\\\""]
+featured: "true"
 ---
 
 

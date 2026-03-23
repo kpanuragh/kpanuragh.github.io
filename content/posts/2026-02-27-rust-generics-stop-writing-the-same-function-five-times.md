@@ -2,8 +2,8 @@
 title: "Rust Generics: Stop Writing the Same Function Five Times 🦀"
 date: "2026-02-27"
 excerpt: "Coming from PHP where 'generic' just means 'accepts everything and hopes for the best at runtime', Rust generics feel like someone finally made types work *for* you instead of against you."
-tags: ["rust", "systems-programming", "performance", "generics", "type-system"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"generics\\\"", "\\\"type-system\\\""]
+featured: "true"
 ---
 
 # Rust Generics: Stop Writing the Same Function Five Times 🦀

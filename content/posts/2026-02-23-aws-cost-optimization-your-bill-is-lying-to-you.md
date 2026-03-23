@@ -2,8 +2,8 @@
 title: "AWS Cost Optimization: Your Bill Is Lying to You (And How to Fight Back) 💸☁️"
 date: "2026-02-23"
 excerpt: "I once thought our AWS bill was fine — until I actually read it. Turns out we were paying $400/month for data transfer between services in the same Availability Zone. Here's everything I learned about cutting AWS costs without breaking production."
-tags: ["aws", "cloud", "serverless", "cost-optimization", "finops"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"cost-optimization\\\"", "\\\"finops\\\""]
+featured: "true"
 ---
 
 # AWS Cost Optimization: Your Bill Is Lying to You (And How to Fight Back) 💸☁️

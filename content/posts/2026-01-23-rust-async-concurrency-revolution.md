@@ -2,8 +2,8 @@
 title: "Rust's Async: When Your Code Does 10,000 Things at Once (Without Losing Its Mind) 🦀⚡"
 date: "2026-01-23"
 excerpt: "Think handling 10k concurrent connections requires callbacks from hell or threading nightmares? Rust's async runtime says 'hold my beer' and does it with 50MB of RAM."
-tags: ["rust", "async", "concurrency", "performance"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"async\\\"", "\\\"concurrency\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

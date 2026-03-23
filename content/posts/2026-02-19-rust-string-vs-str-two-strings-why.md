@@ -2,8 +2,8 @@
 title: "Rust Has TWO String Types and I'm Not Okay 🦀😤"
 date: "2026-02-19"
 excerpt: "Coming from 7 years of PHP where strings just... exist, discovering that Rust has String AND &str made me question everything. Then it made me question PHP. Here's the guide that finally made it click."
-tags: ["rust", "systems-programming", "performance", "strings", "memory-management"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"strings\\\"", "\\\"memory-management\\\""]
+featured: "true"
 ---
 
 

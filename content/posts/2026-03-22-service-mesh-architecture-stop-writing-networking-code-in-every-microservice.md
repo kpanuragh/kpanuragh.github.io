@@ -2,8 +2,8 @@
 title: "Service Mesh Architecture: When Your Microservices Turn Into a Phone Game 🕸️"
 date: "2026-03-22"
 excerpt: "I had 12 microservices all writing the same retry logic, timeout logic, and mTLS code. Then I discovered service meshes. Here's what happened when we added Istio to our e-commerce backend - the wins, the surprises, and the 'what did we get ourselves into' moments."
-tags: ["architecture", "scalability", "system-design", "microservices", "devops"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"devops\\\""]
+featured: "true"
 ---
 
 # Service Mesh Architecture: When Your Microservices Turn Into a Phone Game 🕸️

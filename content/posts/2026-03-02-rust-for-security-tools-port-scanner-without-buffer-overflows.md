@@ -2,8 +2,8 @@
 title: "Rust for Security Tools: Building a Port Scanner That Won't Segfault 🦀🔍"
 date: "2026-03-02"
 excerpt: "Coming from 7 years of PHP and Node.js, I never thought I'd write a network security tool. Then Rust made it not just possible, but actually safe. Here's what happened when a web dev tried to build their own port scanner!"
-tags: ["rust", "systems-programming", "security", "networking", "performance"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"security\\\"", "\\\"networking\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # Rust for Security Tools: Building a Port Scanner That Won't Segfault 🦀🔍

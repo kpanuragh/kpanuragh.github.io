@@ -1,9 +1,9 @@
 ---
 title: "🪩 Your API is a Nightclub — And Rate Limiting is the Bouncer"
-date: 2026-03-14
+date: "2026-03-14"
 excerpt: "Without rate limiting, your API is an open bar with no last call. Learn how to implement rock-solid rate limiting in Express before one angry user (or bot) takes down your entire service."
-tags: ["nodejs", "express", "backend", "api", "performance"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"api\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 Picture this: you've just launched your shiny new API. You're sipping coffee, basking in the glow of successful deploys, when suddenly your server starts groaning like a haunted house. CPU spikes. Memory evaporates. Your database is on its knees begging for mercy.

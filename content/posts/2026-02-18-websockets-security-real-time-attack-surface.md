@@ -2,8 +2,8 @@
 title: "WebSockets Security: Your Real-Time App Has a Real-Time Attack Surface 🔌"
 date: "2026-02-18"
 excerpt: "WebSockets are awesome for real-time features - until someone uses your persistent connection to do things you really didn't sign up for."
-tags: ["cybersecurity", "web-security", "security", "websockets", "real-time"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"websockets\\\"", "\\\"real-time\\\""]
+featured: "false"
 ---
 
 

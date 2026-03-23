@@ -2,8 +2,8 @@
 title: "Circuit Breakers: Stop Hammering Dead Services Like a Broken Doorbell 🚨🔌"
 date: "2026-02-06"
 excerpt: "Your payment service is down and you're sending it 10,000 requests per second anyway. Brilliant! After 7 years architecting distributed systems, I learned that circuit breakers aren't optional - they're the difference between 'service is down' and 'entire platform is on fire'!"
-tags: ["architecture", "scalability", "system-design", "resilience", "microservices"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"resilience\\\"", "\\\"microservices\\\""]
+featured: "true"
 ---
 
 

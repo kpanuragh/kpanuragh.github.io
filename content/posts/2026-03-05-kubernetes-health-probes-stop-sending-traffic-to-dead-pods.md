@@ -2,8 +2,8 @@
 title: "Kubernetes Health Probes: Stop Sending Traffic to Dead Pods 🩺💀"
 date: "2026-03-05"
 excerpt: "Your Kubernetes pods are crashing silently and users are getting 502 errors. After running dozens of production clusters, I learned that misconfigured health probes are the silent killer - here's how to fix them!"
-tags: ["devops", "kubernetes", "docker", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # Kubernetes Health Probes: Stop Sending Traffic to Dead Pods 🩺💀

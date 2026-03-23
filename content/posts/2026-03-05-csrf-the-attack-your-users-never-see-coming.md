@@ -2,8 +2,8 @@
 title: "CSRF: The Attack Your Users Never See Coming 🎭"
 date: "2026-03-05"
 excerpt: "Your users are unknowingly submitting forms on your behalf — and they have no idea. Cross-Site Request Forgery is sneaky, silent, and stupidly easy to exploit if you're not protected."
-tags: ["cybersecurity", "web-security", "security", "csrf", "authentication"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"csrf\\\"", "\\\"authentication\\\""]
+featured: "true"
 ---
 
 # CSRF: The Attack Your Users Never See Coming 🎭

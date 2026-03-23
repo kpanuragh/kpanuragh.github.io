@@ -2,7 +2,7 @@
 title: "Laravel Cashier: Stop Building Your Own Billing System (Seriously, Stop) 💳"
 date: "2026-03-14"
 excerpt: "Every e-commerce project I've touched had a custom Stripe integration that was held together by duct tape and prayers. Then I discovered Laravel Cashier and my weekends came back."
-tags: ["laravel", "php", "web-dev", "stripe", "e-commerce"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"stripe\\\"", "\\\"e-commerce\\\""]
 ---
 
 # Laravel Cashier: Stop Building Your Own Billing System (Seriously, Stop) 💳

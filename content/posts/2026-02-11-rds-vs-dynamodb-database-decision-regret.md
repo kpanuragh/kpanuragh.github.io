@@ -2,8 +2,8 @@
 title: "RDS vs DynamoDB: The Database Choice That'll Keep You Up at Night 🗄️😰"
 date: "2026-02-11"
 excerpt: "Picked the wrong AWS database and now you're paying for it? After 7+ years architecting on AWS, here's how to choose between RDS and DynamoDB without destroying your budget, sanity, or career!"
-tags: ["aws", "cloud", "database", "rds", "dynamodb"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"database\\\"", "\\\"rds\\\"", "\\\"dynamodb\\\""]
+featured: "true"
 ---
 
 

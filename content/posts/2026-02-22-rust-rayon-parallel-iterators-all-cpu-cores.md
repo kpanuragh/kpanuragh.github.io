@@ -2,8 +2,8 @@
 title: "Rust Rayon: I Added `.par_iter()` and Accidentally Used All 4 CPU Cores 🦀⚡"
 date: "2026-02-22"
 excerpt: "Coming from a world where PHP runs on one core and Node.js pretends it doesn't need the others, Rayon is the kind of magic that makes you feel like you've been leaving money on the table for 7 years."
-tags: ["rust", "systems-programming", "performance", "rayon", "parallelism"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"rayon\\\"", "\\\"parallelism\\\""]
+featured: "true"
 ---
 
 # Rust Rayon: I Added `.par_iter()` and Accidentally Used All 4 CPU Cores 🦀⚡

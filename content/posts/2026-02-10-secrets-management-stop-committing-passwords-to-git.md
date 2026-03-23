@@ -2,8 +2,8 @@
 title: "Secrets Management: Stop Committing Your API Keys to Git (We've All Done It) 🔐🙈"
 date: "2026-02-10"
 excerpt: "After 7 years of production deployments and one very public GitHub leak that cost us $3,000 in AWS charges, I learned that managing secrets isn't optional - it's survival. Here's how to stop hardcoding passwords like it's 2005!"
-tags: ["devops", "security", "kubernetes", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"security\\\"", "\\\"kubernetes\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 

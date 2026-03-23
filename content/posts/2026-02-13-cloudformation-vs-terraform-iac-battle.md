@@ -2,8 +2,8 @@
 title: "CloudFormation vs Terraform: The IaC Battle I Wish Someone Explained to Me ☁️⚔️"
 date: "2026-02-13"
 excerpt: "You're clicking through the AWS Console like it's 2015. Let me show you how Infrastructure as Code will save your sanity - and why I switched from CloudFormation to Terraform (and sometimes back!)"
-tags: ["aws", "cloud", "terraform", "devops", "iac"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"terraform\\\"", "\\\"devops\\\"", "\\\"iac\\\""]
+featured: "true"
 ---
 
 

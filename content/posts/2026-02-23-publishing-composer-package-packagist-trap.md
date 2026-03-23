@@ -2,8 +2,8 @@
 title: "I Published My First Composer Package on Packagist and It Was Nothing Like I Expected 📦😅"
 date: "2026-02-23"
 excerpt: "I spent 3 days writing a Laravel helper package, 10 minutes publishing it to Packagist, and the next 6 months dealing with the consequences. Here's everything nobody told me before I clicked that 'Submit' button."
-tags: ["open-source", "github", "php", "laravel", "community"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"php\\\"", "\\\"laravel\\\"", "\\\"community\\\""]
+featured: "true"
 ---
 
 # I Published My First Composer Package on Packagist and It Was Nothing Like I Expected 📦😅

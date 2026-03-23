@@ -2,8 +2,8 @@
 title: "Lambda Function URLs: Stop Paying for API Gateway When You Don't Need It 💰⚡"
 date: "2026-03-17"
 excerpt: "AWS sneaked a feature into Lambda in 2022 that lets you call functions directly via HTTPS — no API Gateway required. I've been saving hundreds per month with it. Here's how."
-tags: ["aws", "serverless", "lambda", "cost-optimization"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"cost-optimization\\\""]
+featured: "true"
 ---
 
 # Lambda Function URLs: Stop Paying for API Gateway When You Don't Need It 💰⚡

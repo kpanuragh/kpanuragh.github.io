@@ -2,8 +2,8 @@
 title: "Mass Assignment: The Bug That Turns Users Into Admins 👑"
 date: "2026-02-17"
 excerpt: "You built a form for users to update their name. They updated their role to 'admin' instead. Welcome to mass assignment, where blind trust in user input costs you everything."
-tags: ["cybersecurity", "web-security", "security", "laravel", "api-security"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"laravel\\\"", "\\\"api-security\\\""]
+featured: "false"
 ---
 
 

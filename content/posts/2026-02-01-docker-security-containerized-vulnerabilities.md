@@ -2,8 +2,8 @@
 title: "Docker Security: Your Containers Aren't as Safe as You Think 🐳🔒"
 date: "2026-02-01"
 excerpt: "Think throwing your app in a container makes it secure? Think again! Let's talk about Docker security holes that'll keep you up at night - and how to fix them."
-tags: ["cybersecurity", "docker", "devops", "security"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"docker\\\"", "\\\"devops\\\"", "\\\"security\\\""]
+featured: "true"
 ---
 
 

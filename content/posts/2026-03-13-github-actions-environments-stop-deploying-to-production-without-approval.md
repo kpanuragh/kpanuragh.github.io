@@ -2,8 +2,8 @@
 title: "GitHub Actions Environments: Stop Deploying to Production Without Anyone Knowing 🔐🚀"
 date: "2026-03-13"
 excerpt: "After accidentally shipping a half-baked feature to production at 11 PM because nobody stopped me, I discovered GitHub Actions Environments — the deployment protection feature that makes 'hold on, did anyone review this?' a built-in part of your CI/CD pipeline."
-tags: ["devops", "ci-cd", "github-actions", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # GitHub Actions Environments: Stop Deploying to Production Without Anyone Knowing 🔐🚀

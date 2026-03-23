@@ -2,8 +2,8 @@
 title: "CONTRIBUTING.md: The One File That Turns GitHub Visitors Into Contributors 🤝"
 date: "2026-02-27"
 excerpt: "Your project has zero contributors and you can't figure out why. Spoiler: it's because your repo is a locked house with no front door. CONTRIBUTING.md is the welcome mat, the hallway, AND the map — and most projects don't have one."
-tags: ["open-source", "github", "community", "contributing", "developer-tools"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"contributing\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 # CONTRIBUTING.md: The One File That Turns GitHub Visitors Into Contributors 🤝

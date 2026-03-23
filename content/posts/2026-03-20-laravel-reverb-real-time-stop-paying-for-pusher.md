@@ -2,7 +2,7 @@
 title: "Laravel Reverb: Real-Time Features That Don't Require a Second Mortgage 💸⚡"
 date: "2026-03-20"
 excerpt: "Stop outsourcing your WebSockets to a third-party and paying through the nose for it. Laravel Reverb is here, it's free, and it's stupidly easy to set up."
-tags: ["laravel", "php", "websockets", "real-time", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"websockets\\\"", "\\\"real-time\\\"", "\\\"web-dev\\\""]
 ---
 
 # Laravel Reverb: Real-Time Features That Don't Require a Second Mortgage 💸⚡

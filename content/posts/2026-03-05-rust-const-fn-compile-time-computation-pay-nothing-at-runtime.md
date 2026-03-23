@@ -2,8 +2,8 @@
 title: "Rust `const fn`: Stop Paying for Math at Runtime When the Compiler Works for Free ⚡🦀"
 date: "2026-03-05"
 excerpt: "Coming from PHP and Node.js, the concept of 'do this computation at compile time, not runtime' never existed. Rust's const fn changes everything — and the performance implications are wild."
-tags: ["rust", "systems-programming", "performance", "const-fn", "compile-time"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"const-fn\\\"", "\\\"compile-time\\\""]
+featured: "true"
 ---
 
 # Rust `const fn`: Stop Paying for Math at Runtime When the Compiler Works for Free ⚡🦀

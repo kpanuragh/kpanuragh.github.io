@@ -2,8 +2,8 @@
 title: "Database Connection Pooling: Stop Opening 10,000 Connections Like a Maniac 🏊‍♂️💀"
 date: "2026-02-14"
 excerpt: "My database crashed at 3am because we were opening new connections for every request. 10,000 concurrent users = 10,000 database connections = complete disaster! Here's how connection pooling saved our infrastructure and my sleep schedule!"
-tags: ["architecture", "scalability", "database", "performance"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"database\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

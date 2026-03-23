@@ -2,7 +2,7 @@
 title: "Laravel Tinker: Stop Writing Test Controllers Just to Run One Query 🔮"
 date: "2026-03-05"
 excerpt: "You've done it. We've all done it. Created a TestController just to run a single Eloquent query at 2am. Tinker is here to save your dignity."
-tags: ["laravel", "php", "web-dev", "debugging", "developer-tools"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"debugging\\\"", "\\\"developer-tools\\\""]
 ---
 
 # Laravel Tinker: Stop Writing Test Controllers Just to Run One Query 🔮

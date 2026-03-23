@@ -1,9 +1,9 @@
 ---
 title: "🧵 AsyncLocalStorage: Stop Passing userId Through 15 Function Signatures"
-date: 2026-02-26
+date: "2026-02-26"
 excerpt: "You know that feeling when userId shows up in a function parameter, then the caller, then the caller's caller, and suddenly it's req.user all the way down six layers? Node.js has had a fix for this since v16. Nobody told you."
-tags: ["nodejs", "javascript", "backend", "express", "asynclocalstorage"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"express\\\"", "\\\"asynclocalstorage\\\""]
+featured: "true"
 ---
 
 Here's a quick smell test for your Node.js codebase: search for `userId` as a function parameter. If it shows up in more than three files, you have a problem I spent way too long living with.

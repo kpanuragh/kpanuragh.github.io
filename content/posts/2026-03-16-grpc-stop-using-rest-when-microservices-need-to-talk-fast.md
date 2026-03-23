@@ -2,8 +2,8 @@
 title: "gRPC: Stop Using REST When Your Microservices Need to Talk Fast ⚡🚀"
 date: "2026-03-16"
 excerpt: "Our inventory service was calling the pricing service 200 times per second over REST/JSON. Response times averaged 45ms. We switched to gRPC. Response times dropped to 4ms. Same network. Same servers. Just better protocol choices. Here's what I learned designing inter-service communication for a high-traffic e-commerce backend."
-tags: ["architecture", "scalability", "system-design", "grpc", "microservices"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"grpc\\\"", "\\\"microservices\\\""]
+featured: "true"
 ---
 
 # gRPC: Stop Using REST When Your Microservices Need to Talk Fast ⚡🚀

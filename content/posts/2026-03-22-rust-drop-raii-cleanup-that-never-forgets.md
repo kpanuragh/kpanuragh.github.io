@@ -2,8 +2,8 @@
 title: "Rust's Drop Trait: The Cleanup Crew That Never Calls In Sick 🦀🧹"
 date: "2026-03-22"
 excerpt: "Coming from PHP and Node.js, I spent years accidentally leaving database connections open, forgetting to close file handles, and praying the GC would get to it eventually. Then I learned Rust's Drop trait and RAII. I haven't leaked a resource since."
-tags: ["rust", "systems-programming", "memory-management", "performance"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"memory-management\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # Rust's Drop Trait: The Cleanup Crew That Never Calls In Sick 🦀🧹

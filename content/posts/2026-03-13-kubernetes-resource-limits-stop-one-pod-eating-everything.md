@@ -2,8 +2,8 @@
 title: "Kubernetes Resource Limits: Stop One Greedy Pod From Eating Your Entire Cluster 🐳💀"
 date: "2026-03-13"
 excerpt: "No resource limits in Kubernetes? One memory leak will take down your entire cluster. I learned this the hard way at 2 AM. Here's how to set requests and limits so your pods play nice with each other."
-tags: ["devops", "kubernetes", "docker", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # Kubernetes Resource Limits: Stop One Greedy Pod From Eating Your Entire Cluster 🐳💀

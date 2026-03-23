@@ -2,8 +2,8 @@
 title: "Path Traversal: The '../../../' Attack You've Never Heard Of 📁"
 date: "2026-02-01"
 excerpt: "Think your file uploads are safe? Let me show you how hackers use '../' to read your passwords, SSH keys, and database configs. It's scarier than it sounds!"
-tags: ["cybersecurity", "web-security", "security", "file-security"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"file-security\\\""]
+featured: "true"
 ---
 
 

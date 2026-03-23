@@ -1,9 +1,9 @@
 ---
 title: "🔥 Kubernetes Resource Limits: Stop Letting Your Pods Eat All the RAM"
-date: 2026-03-16
+date: "2026-03-16"
 excerpt: "Your cluster is a buffet, not an all-you-can-eat contest. Learn how to set resource requests and limits before your pods go full Cookie Monster on your nodes."
-tags: ["Kubernetes", "DevOps", "Performance", "Best Practices", "K8s"]
-featured: true
+tags: ["\\\"Kubernetes\\\"", "\\\"DevOps\\\"", "\\\"Performance\\\"", "\\\"Best Practices\\\"", "\\\"K8s\\\""]
+featured: "true"
 ---
 
 # 🔥 Kubernetes Resource Limits: Stop Letting Your Pods Eat All the RAM

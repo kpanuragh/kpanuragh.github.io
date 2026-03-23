@@ -2,8 +2,8 @@
 title: "Rust's `unsafe`: When the Borrow Checker Lets You Live Dangerously 🦀🚨"
 date: "2026-02-26"
 excerpt: "Coming from PHP where literally everything is 'unsafe' by default, Rust's explicit `unsafe` keyword felt bizarre. Turns out it's the most honest thing about the whole language."
-tags: ["rust", "systems-programming", "performance", "memory-safety", "security"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"memory-safety\\\"", "\\\"security\\\""]
+featured: "true"
 ---
 
 # Rust's `unsafe`: When the Borrow Checker Lets You Live Dangerously 🦀🚨

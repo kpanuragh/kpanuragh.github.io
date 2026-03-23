@@ -2,8 +2,8 @@
 title: "Rust's Error Handling: Where Exceptions Go to Die 🦀💥"
 date: "2026-01-26"
 excerpt: "Think try-catch is the pinnacle of error handling? Rust's Result<T, E> type just entered the chat and it's about to blow your mind!"
-tags: ["rust", "error-handling", "systems-programming", "type-safety"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"error-handling\\\"", "\\\"systems-programming\\\"", "\\\"type-safety\\\""]
+featured: "true"
 ---
 
 

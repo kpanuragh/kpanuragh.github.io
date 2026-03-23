@@ -2,8 +2,8 @@
 title: "Deployment Smoke Tests: Stop Letting Users Tell You Your Deploy Is Broken 🔥"
 date: "2026-03-21"
 excerpt: "After countless deployments, I learned the hard way that 'it works in staging' is not a deployment strategy. Smoke tests run in under 60 seconds and catch the disasters before your users do - here's how to build them."
-tags: ["devops", "deployment", "ci-cd", "testing", "automation"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"deployment\\\"", "\\\"ci-cd\\\"", "\\\"testing\\\"", "\\\"automation\\\""]
+featured: "true"
 ---
 
 # Deployment Smoke Tests: Stop Letting Users Tell You Your Deploy Is Broken 🔥

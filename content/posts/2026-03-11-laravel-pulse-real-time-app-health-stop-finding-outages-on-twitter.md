@@ -2,7 +2,7 @@
 title: "Laravel Pulse: Stop Finding Out About Outages on Twitter 🩺"
 date: "2026-03-11"
 excerpt: "Your app is probably dying right now and you have absolutely no idea. Laravel Pulse is the health dashboard you didn't know you desperately needed."
-tags: ["laravel", "php", "web-dev", "monitoring", "devops"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"monitoring\\\"", "\\\"devops\\\""]
 ---
 
 # Laravel Pulse: Stop Finding Out About Outages on Twitter 🩺

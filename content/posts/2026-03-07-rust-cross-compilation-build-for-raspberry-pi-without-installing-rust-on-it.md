@@ -2,8 +2,8 @@
 title: "Rust Cross-Compilation: Build for Your Raspberry Pi Without Touching It 🦀🥧"
 date: "2026-03-07"
 excerpt: "Coming from 7 years of PHP and Node.js where 'deployment' meant scp-ing a folder and hoping the server had the right version of everything installed, discovering that Rust can compile a binary for my Raspberry Pi — right from my laptop — without installing a single thing on the Pi felt like cheating."
-tags: ["rust", "systems-programming", "cross-compilation", "raspberry-pi", "performance"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"cross-compilation\\\"", "\\\"raspberry-pi\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # Rust Cross-Compilation: Build for Your Raspberry Pi Without Touching It 🦀🥧

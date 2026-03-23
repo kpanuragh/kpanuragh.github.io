@@ -2,8 +2,8 @@
 title: "Rate Limiting: The Bouncer Your API Desperately Needs 🚪"
 date: "2026-02-21"
 excerpt: "Without rate limiting, your API is an open bar with no closing time. Learn how to add the bouncer that keeps your server alive when traffic goes sideways."
-tags: ["nodejs", "express", "backend", "api", "security", "performance"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"api\\\"", "\\\"security\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # Rate Limiting: The Bouncer Your API Desperately Needs 🚪

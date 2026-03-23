@@ -2,8 +2,8 @@
 title: "CQRS: Stop Treating Reads and Writes Like They're the Same Problem 📖✍️⚡"
 date: "2026-02-22"
 excerpt: "I had one database handling millions of product listing reads AND high-throughput order writes. They hated each other. Locks everywhere. Timeouts at checkout. Then I discovered CQRS — and my reads and writes finally got their own rooms."
-tags: ["architecture", "scalability", "system-design", "cqrs", "distributed-systems"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"cqrs\\\"", "\\\"distributed-systems\\\""]
+featured: "true"
 ---
 
 # CQRS: Stop Treating Reads and Writes Like They're the Same Problem 📖✍️⚡

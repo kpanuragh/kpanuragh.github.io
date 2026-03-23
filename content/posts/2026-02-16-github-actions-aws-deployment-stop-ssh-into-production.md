@@ -2,8 +2,8 @@
 title: "GitHub Actions + AWS Deployment: Stop SSH-ing Into Production Like It's 2012 🚀☁️"
 date: "2026-02-16"
 excerpt: "Still deploying to AWS with 'git pull' over SSH? After setting up CI/CD pipelines for production serverless apps handling real traffic, here's how GitHub Actions + AWS makes deployment actually enjoyable (and way less terrifying!)"
-tags: ["aws", "cloud", "ci-cd", "github-actions", "devops"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"devops\\\""]
+featured: "true"
 ---
 
 

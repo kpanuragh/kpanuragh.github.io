@@ -2,7 +2,7 @@
 title: "Laravel Pint: Stop Arguing About Code Style Forever 🫧"
 date: "2026-03-13"
 excerpt: "Your team has spent more time debating tabs vs spaces than actually shipping features. Laravel Pint is here to end the civil war."
-tags: ["laravel", "php", "web-dev", "developer-tools", "code-quality"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"developer-tools\\\"", "\\\"code-quality\\\""]
 ---
 
 # Laravel Pint: Stop Arguing About Code Style Forever 🫧

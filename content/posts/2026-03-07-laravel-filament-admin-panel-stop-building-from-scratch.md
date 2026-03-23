@@ -2,7 +2,7 @@
 title: "Laravel Filament: Build an Admin Panel in Minutes (Not Months) 🚀"
 date: "2026-03-07"
 excerpt: "Every Laravel project needs an admin panel. Every dev dreads building one. Enter Filament — the tool that makes admin panels almost fun to build."
-tags: ["laravel", "php", "web-dev", "filament", "admin-panel"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"filament\\\"", "\\\"admin-panel\\\""]
 ---
 
 # Laravel Filament: Build an Admin Panel in Minutes (Not Months) 🚀

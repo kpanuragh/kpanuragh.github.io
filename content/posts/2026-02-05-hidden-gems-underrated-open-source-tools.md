@@ -2,8 +2,8 @@
 title: "Hidden Gems: Underrated Open Source Tools That'll Change Your Workflow 💎🛠️"
 date: "2026-02-05"
 excerpt: "Still using the same mainstream tools everyone recommends? I found some lesser-known open source projects that are absolute game-changers but somehow fly under the radar. Let me share the secret weapons!"
-tags: ["open-source", "developer-tools", "productivity", "cli"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"developer-tools\\\"", "\\\"productivity\\\"", "\\\"cli\\\""]
+featured: "true"
 ---
 
 

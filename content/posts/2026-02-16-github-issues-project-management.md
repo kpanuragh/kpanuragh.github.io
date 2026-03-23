@@ -2,8 +2,8 @@
 title: "GitHub Issues: Stop Using Them Like Email Threads 📋🚫"
 date: "2026-02-16"
 excerpt: "Been using GitHub Issues like a glorified comment section? Wondering why your project feels chaotic? Issues are a project management powerhouse, not a message board. Let me show you how to use them like a pro."
-tags: ["open-source", "github", "project-management", "workflow"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"project-management\\\"", "\\\"workflow\\\""]
+featured: "true"
 ---
 
 

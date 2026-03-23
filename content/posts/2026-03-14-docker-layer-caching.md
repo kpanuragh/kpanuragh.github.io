@@ -1,9 +1,9 @@
 ---
 title: "🐳 Docker Layer Caching: Stop Waiting 10 Minutes for Your CI to Install npm"
-date: 2026-03-14
+date: "2026-03-14"
 excerpt: "Your Docker builds are slow because you're doing it wrong. Here's how layer caching actually works — and how to make your CI builds go from 10 minutes to 90 seconds."
-tags: ["docker", "devops", "ci-cd", "performance", "containers"]
-featured: true
+tags: ["\\\"docker\\\"", "\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"performance\\\"", "\\\"containers\\\""]
+featured: "true"
 ---
 
 You push a one-line bug fix. You open GitHub Actions. You watch the CI pipeline install 847 npm packages. Again. For the fourth time today.

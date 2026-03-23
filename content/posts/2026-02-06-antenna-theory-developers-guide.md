@@ -2,8 +2,8 @@
 title: "Antenna Theory for Developers: The Magic Sticks That Catch Invisible Waves 📡"
 date: "2026-02-06"
 excerpt: "I thought antennas were just metal sticks. Then I learned they're actually resonant electromagnetic wave catchers tuned to specific frequencies using PHYSICS and MATH. Mind blown! Here's antenna theory explained for software developers who want to build better RF projects."
-tags: ["rf", "sdr", "wireless", "hobby", "antennas"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"antennas\\\""]
+featured: "true"
 ---
 
 

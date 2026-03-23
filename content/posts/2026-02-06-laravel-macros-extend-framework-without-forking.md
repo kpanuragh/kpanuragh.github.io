@@ -2,7 +2,7 @@
 title: "Laravel Macros: Extend the Framework Without Forking It 🎩✨"
 date: "2026-02-06"
 excerpt: "Want to add custom methods to Laravel's core classes without touching framework code? Macros are your secret weapon. Here's how I've used them in production to keep code DRY."
-tags: ["laravel", "php", "web-dev", "tips"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"tips\\\""]
 ---
 
 

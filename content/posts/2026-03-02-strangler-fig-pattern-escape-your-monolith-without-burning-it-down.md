@@ -2,8 +2,8 @@
 title: "The Strangler Fig Pattern: Escape Your Monolith Without Burning It Down 🌿🏚️"
 date: "2026-03-02"
 excerpt: "Our 'temporary' Laravel monolith turned 4 years old and nobody could add a feature without breaking three others. Then I discovered the Strangler Fig Pattern — the only sane way to modernize a legacy system without a 6-month big bang rewrite that ends careers."
-tags: ["architecture", "scalability", "system-design", "microservices", "refactoring"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"microservices\\\"", "\\\"refactoring\\\""]
+featured: "true"
 ---
 
 # The Strangler Fig Pattern: Escape Your Monolith Without Burning It Down 🌿🏚️

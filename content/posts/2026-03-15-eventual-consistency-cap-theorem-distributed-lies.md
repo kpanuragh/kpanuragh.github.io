@@ -2,8 +2,8 @@
 title: "Eventual Consistency: Why Your Distributed System is Always a Little Bit Wrong (And That's Okay) 🔄"
 date: "2026-03-15"
 excerpt: "I once convinced my CTO that our distributed e-commerce system was 'fully consistent'. Reader, it was not. Here's the CAP theorem explained with actual production disasters, not whiteboard theory."
-tags: ["architecture", "scalability", "system-design", "distributed-systems", "consistency"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"distributed-systems\\\"", "\\\"consistency\\\""]
+featured: "true"
 ---
 
 # Eventual Consistency: Why Your Distributed System is Always a Little Bit Wrong (And That's Okay) 🔄

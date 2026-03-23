@@ -2,8 +2,8 @@
 title: "Database Replication: Stop Praying Your Database Doesn't Die 🗄️⚡"
 date: "2026-02-08"
 excerpt: "Your single database is a ticking time bomb. After 7 years architecting production systems, here's how I learned that database replication isn't optional - it's the difference between 99.9% uptime and 3 AM panic attacks!"
-tags: ["architecture", "scalability", "system-design", "database", "high-availability"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"database\\\"", "\\\"high-availability\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "GitHub Actions Cache: Stop Reinstalling the Same npm Packages 50 Times a Day ⚡"
 date: "2026-03-19"
 excerpt: "Your CI pipeline downloads 400MB of node_modules on every single push. I've set up GitHub Actions for dozens of projects, and actions/cache alone cut our CI times from 8 minutes to 90 seconds. Here's exactly how."
-tags: ["devops", "ci-cd", "github-actions", "optimization"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"ci-cd\\\"", "\\\"github-actions\\\"", "\\\"optimization\\\""]
+featured: "true"
 ---
 
 # GitHub Actions Cache: Stop Reinstalling the Same npm Packages 50 Times a Day ⚡

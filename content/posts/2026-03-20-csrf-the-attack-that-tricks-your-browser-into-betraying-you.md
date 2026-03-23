@@ -2,8 +2,8 @@
 title: "CSRF: The Attack That Tricks Your Browser Into Betraying You 🎭"
 date: "2026-03-20"
 excerpt: "Your browser is loyal — it sends your cookies everywhere you go. Hackers love that. CSRF attacks exploit this blind trust to make your browser submit requests you never intended. Here's how it works and how to stop it."
-tags: ["cybersecurity", "web-security", "csrf", "owasp", "security"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"csrf\\\"", "\\\"owasp\\\"", "\\\"security\\\""]
+featured: "true"
 ---
 
 # CSRF: The Attack That Tricks Your Browser Into Betraying You 🎭

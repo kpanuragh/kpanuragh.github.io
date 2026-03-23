@@ -2,8 +2,8 @@
 title: "AWS SQS: Stop Losing Messages (And Your Mind) With Dead Letter Queues ⚡"
 date: "2026-03-02"
 excerpt: "I once lost 2,400 order messages in production. Not hacked. Not a DDoS. Just SQS silently swallowing them. Here's everything I learned about Dead Letter Queues, visibility timeouts, and building bulletproof message queues!"
-tags: ["aws", "serverless", "sqs", "cloud"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"sqs\\\"", "\\\"cloud\\\""]
+featured: "true"
 ---
 
 # AWS SQS: Stop Losing Messages (And Your Mind) With Dead Letter Queues ⚡

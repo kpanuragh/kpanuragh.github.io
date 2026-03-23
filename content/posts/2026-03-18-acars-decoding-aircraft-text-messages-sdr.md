@@ -2,8 +2,8 @@
 title: "ACARS: Reading the Secret Text Messages Planes Send While Flying Over Your House ✈️📡"
 date: "2026-03-18"
 excerpt: "Aircraft don't just broadcast their position — they send actual text messages to airlines, maintenance crews, and dispatchers in real-time. A $25 USB dongle lets you read every single one. I've been doing this for weeks and I have questions about flight UA447."
-tags: ["rf", "sdr", "wireless", "hobby", "acars", "aviation"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"acars\\\"", "\\\"aviation\\\""]
+featured: "true"
 ---
 
 # ACARS: Reading the Secret Text Messages Planes Send While Flying Over Your House ✈️📡

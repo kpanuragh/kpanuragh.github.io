@@ -2,8 +2,8 @@
 title: "AWS RDS Proxy: Stop Letting Lambda Slowly Choke Your Database 🗄️⚡"
 date: "2026-02-26"
 excerpt: "I scaled Lambda to handle 10x traffic and watched our RDS instance die in real-time. Turns out each Lambda invocation opens its own DB connection — and RDS has a limit. Here's how RDS Proxy saved our e-commerce backend from connection hell."
-tags: ["aws", "serverless", "lambda", "rds", "database"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"serverless\\\"", "\\\"lambda\\\"", "\\\"rds\\\"", "\\\"database\\\""]
+featured: "true"
 ---
 
 # AWS RDS Proxy: Stop Letting Lambda Slowly Choke Your Database 🗄️⚡

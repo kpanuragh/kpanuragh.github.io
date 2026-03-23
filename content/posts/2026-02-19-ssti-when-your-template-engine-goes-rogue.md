@@ -2,8 +2,8 @@
 title: "Server-Side Template Injection: When Your Template Engine Goes Rogue 🔥"
 date: "2026-02-19"
 excerpt: "You gave users a way to customize their welcome email. They used it to execute commands on your server. SSTI is the vulnerability where innocent-looking template syntax becomes a one-way ticket to full server compromise."
-tags: ["cybersecurity", "web-security", "security", "ssti", "template-injection"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"ssti\\\"", "\\\"template-injection\\\""]
+featured: "false"
 ---
 
 

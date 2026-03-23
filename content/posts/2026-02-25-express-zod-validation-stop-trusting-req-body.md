@@ -1,9 +1,9 @@
 ---
 title: "🛡️ Stop Trusting req.body: Runtime Validation in Express with Zod"
-date: 2026-02-25
+date: "2026-02-25"
 excerpt: "Your Express API trusts whatever JSON the client sends. That's cute. Let's fix it with Zod — the schema validation library that'll save you from yourself."
-tags: ["nodejs", "express", "backend", "typescript", "validation", "zod"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"typescript\\\"", "\\\"validation\\\"", "\\\"zod\\\""]
+featured: "true"
 ---
 
 Here's a fun game: open your Express codebase, search for `req.body.`, and count how many times you just *trust* what's in there. No checks. No types. Just vibes.

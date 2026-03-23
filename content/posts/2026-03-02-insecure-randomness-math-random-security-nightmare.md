@@ -2,8 +2,8 @@
 title: "Insecure Randomness: Why Math.random() Is a Security Disaster 🎲"
 date: "2026-03-02"
 excerpt: "You're using Math.random() to generate password reset tokens. An attacker can predict the next value in about 30 seconds. Here's why 'random' doesn't mean 'secure' — and exactly how to fix it."
-tags: ["cybersecurity", "web-security", "security", "javascript", "cryptography"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"javascript\\\"", "\\\"cryptography\\\""]
+featured: "true"
 ---
 
 # Insecure Randomness: Why Math.random() Is a Security Disaster 🎲

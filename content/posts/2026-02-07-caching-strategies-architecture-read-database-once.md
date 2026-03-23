@@ -2,8 +2,8 @@
 title: "Caching Strategies: Stop Reading the Same Database Row 10,000 Times 🚀💾"
 date: "2026-02-07"
 excerpt: "Your database is dying because you keep querying the same product page for every visitor. After 7 years architecting high-traffic systems, here's how I learned that caching isn't just 'adding Redis' - it's the difference between a $200/month server and a $50,000/month catastrophe!"
-tags: ["architecture", "scalability", "caching", "system-design", "performance"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"caching\\\"", "\\\"system-design\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

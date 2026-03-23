@@ -2,7 +2,7 @@
 title: "Laravel Pipelines: Stop Writing Nested If-Else Hell 🚀"
 date: "2026-03-09"
 excerpt: "There's a Pipeline class hiding in Laravel that'll make your messy, nested business logic look like clean, elegant art. Let me show you what I should have learned in year one."
-tags: ["laravel", "php", "web-dev", "clean-code", "patterns"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"clean-code\\\"", "\\\"patterns\\\""]
 ---
 
 # Laravel Pipelines: Stop Writing Nested If-Else Hell 🚀

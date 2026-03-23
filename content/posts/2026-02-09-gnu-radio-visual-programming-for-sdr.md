@@ -2,8 +2,8 @@
 title: "GNU Radio: I Built My Own SDR Apps by Dragging Blocks Around! 📡🎨"
 date: "2026-02-09"
 excerpt: "Forget traditional coding - I built FM radio receivers, spectrum analyzers, and custom signal processors by connecting visual blocks like LEGO! GNU Radio Companion turned me into an RF engineer without writing a single line of DSP code. Then I dove into Python and the rabbit hole got DEEP!"
-tags: ["rf", "sdr", "wireless", "hobby", "gnu-radio"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"gnu-radio\\\""]
+featured: "true"
 ---
 
 

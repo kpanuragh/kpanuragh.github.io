@@ -2,8 +2,8 @@
 title: "Build Your Own `gh` Commands: GitHub CLI Extensions Are Pure Magic 🔧✨"
 date: "2026-03-20"
 excerpt: "Tired of typing the same 5 GitHub commands 40 times a day? GitHub CLI extensions let you build your own `gh` subcommands. I built one on a lazy Sunday and it saved me hours every week."
-tags: ["open-source", "github", "developer-tools", "automation"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"automation\\\""]
+featured: "true"
 ---
 
 # Build Your Own `gh` Commands: GitHub CLI Extensions Are Pure Magic 🔧✨

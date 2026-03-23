@@ -2,8 +2,8 @@
 title: "CSRF: The Attack Where YOUR Browser Becomes the Weapon 🔫"
 date: "2026-03-19"
 excerpt: "Cross-Site Request Forgery sounds complicated, but it's basically a hacker tricking your browser into doing bad things while you're logged in. Here's how it works, why it's sneaky, and how to stop it cold."
-tags: ["cybersecurity", "web-security", "security", "csrf", "owasp"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"csrf\\\"", "\\\"owasp\\\""]
+featured: "true"
 ---
 
 # CSRF: The Attack Where YOUR Browser Becomes the Weapon 🔫

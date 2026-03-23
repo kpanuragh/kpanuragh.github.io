@@ -2,8 +2,8 @@
 title: "GitHub Sponsors: How to Actually Get Paid for Open Source Work 💰💚"
 date: "2026-01-31"
 excerpt: "You maintain a library with 50,000 weekly downloads and make $0 from it? GitHub Sponsors is literally sitting there waiting to fund your work. Here's how developers are ACTUALLY making money from open source (not just begging for coffee money)."
-tags: ["open-source", "github", "funding", "sponsors"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"funding\\\"", "\\\"sponsors\\\""]
+featured: "true"
 ---
 
 

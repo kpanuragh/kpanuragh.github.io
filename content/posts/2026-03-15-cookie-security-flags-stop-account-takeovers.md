@@ -2,8 +2,8 @@
 title: "Cookie Security Flags: The Five Attributes Hackers Hope You Forget 🍪"
 date: "2026-03-15"
 excerpt: "Your session cookie is sitting on the table, unlocked, with a neon sign pointing at it. Five tiny attributes can change everything — and most devs skip all of them."
-tags: ["cybersecurity", "web-security", "security", "cookies", "session-security"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"cookies\\\"", "\\\"session-security\\\""]
+featured: "false"
 ---
 
 # Cookie Security Flags: The Five Attributes Hackers Hope You Forget 🍪

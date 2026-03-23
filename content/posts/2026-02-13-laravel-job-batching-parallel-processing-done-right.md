@@ -2,7 +2,7 @@
 title: "Laravel Job Batching: Stop Waiting for 1000 Tasks to Finish One by One 🚀⚡"
 date: "2026-02-13"
 excerpt: "Need to process 10,000 images? Send 5,000 emails? Track it all with progress bars and handle failures like a boss!"
-tags: ["laravel", "php", "queues", "performance"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"queues\\\"", "\\\"performance\\\""]
 ---
 
 

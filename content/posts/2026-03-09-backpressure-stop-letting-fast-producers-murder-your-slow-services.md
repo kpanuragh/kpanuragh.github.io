@@ -2,8 +2,8 @@
 title: "Backpressure: Stop Letting Fast Producers Murder Your Slow Services 🌊💀"
 date: "2026-03-09"
 excerpt: "Your order service is publishing 10,000 events per second. Your email service processes 200 per second. Nobody told the order service to slow down. I watched this kill our e-commerce platform at 2 AM on Black Friday. Here's what backpressure is, why you need it, and how to actually implement it before your on-call rotation becomes a full-time job."
-tags: ["architecture", "scalability", "system-design", "distributed-systems", "backpressure"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"distributed-systems\\\"", "\\\"backpressure\\\""]
+featured: "true"
 ---
 
 # Backpressure: Stop Letting Fast Producers Murder Your Slow Services 🌊💀

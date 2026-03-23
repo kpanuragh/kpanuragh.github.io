@@ -2,8 +2,8 @@
 title: "Rust `impl Trait` vs `dyn Trait`: The Performance Decision You Make Without Knowing It 🦀⚡"
 date: "2026-03-16"
 excerpt: "In PHP and JavaScript, calling a method is just... calling a method. In Rust, there are two fundamentally different ways to do it — one is free at runtime, one costs a lookup. I didn't know I was choosing between them until I needed to care."
-tags: ["rust", "systems-programming", "performance", "traits", "dispatch"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"traits\\\"", "\\\"dispatch\\\""]
+featured: "true"
 ---
 
 # Rust `impl Trait` vs `dyn Trait`: The Performance Decision You Make Without Knowing It 🦀⚡

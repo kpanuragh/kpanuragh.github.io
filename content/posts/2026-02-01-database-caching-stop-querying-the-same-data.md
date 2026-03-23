@@ -2,8 +2,8 @@
 title: "Database Caching: Stop Querying for the Same Damn Data 🏎️"
 date: "2026-02-01"
 excerpt: "Your database is crying because you keep asking it the same questions. Let's talk caching strategies - from 'just use Redis' to actually understanding when and how to cache!"
-tags: ["architecture", "scalability", "database", "caching", "performance"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"database\\\"", "\\\"caching\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

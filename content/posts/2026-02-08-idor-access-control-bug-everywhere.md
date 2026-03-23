@@ -2,8 +2,8 @@
 title: "IDOR: The Sneaky Bug That Let Me See Everyone's Orders 🔓"
 date: "2026-02-08"
 excerpt: "Insecure Direct Object References are everywhere, and they're embarrassingly easy to exploit. Here's how I found one in production and what I learned about access control."
-tags: ["cybersecurity", "web-security", "owasp", "api-security"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"owasp\\\"", "\\\"api-security\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "🚨 Stop Getting OOMKilled: Kubernetes Resource Limits That Actually Work"
 date: "2026-02-26"
 excerpt: "Your pods keep dying with OOMKilled and you have no idea why? After surviving countless 3 AM pages from Kubernetes eating my apps alive, I figured out the exact resource limits strategy that keeps pods happy — and your pager silent."
-tags: ["devops", "kubernetes", "docker", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # 🚨 Stop Getting OOMKilled: Kubernetes Resource Limits That Actually Work

@@ -2,8 +2,8 @@
 title: "Prototype Pollution: When JavaScript's Inheritance Becomes Your Worst Enemy 🧬"
 date: "2026-03-05"
 excerpt: "You've heard of SQL injection, XSS, and CSRF. But have you met prototype pollution — the JavaScript attack that silently poisons every object in your app? Let's fix that."
-tags: ["cybersecurity", "web-security", "security", "nodejs", "javascript"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"nodejs\\\"", "\\\"javascript\\\""]
+featured: "false"
 ---
 
 # Prototype Pollution: When JavaScript's Inheritance Becomes Your Worst Enemy 🧬

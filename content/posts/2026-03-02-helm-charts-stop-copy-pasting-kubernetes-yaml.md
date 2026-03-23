@@ -2,8 +2,8 @@
 title: "🎩 Helm Charts: Stop Copy-Pasting Kubernetes YAML Like a Caveman"
 date: "2026-03-02"
 excerpt: "If you're managing Kubernetes apps by duplicating YAML files across environments, I have both bad news and great news. Bad news: you're doing it wrong. Great news: Helm exists, and it will change your life."
-tags: ["devops", "kubernetes", "helm", "deployment", "cicd"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"helm\\\"", "\\\"deployment\\\"", "\\\"cicd\\\""]
+featured: "true"
 ---
 
 # 🎩 Helm Charts: Stop Copy-Pasting Kubernetes YAML Like a Caveman

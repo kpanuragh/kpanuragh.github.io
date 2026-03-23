@@ -2,8 +2,8 @@
 title: "CAPTCHA: The Security Theater Nobody Talks About 🤖"
 date: "2026-02-14"
 excerpt: "Think CAPTCHAs protect you from bots? Think again. Here's why most CAPTCHA implementations are security theater and what actually works in 2026."
-tags: ["cybersecurity", "web-security", "authentication", "bots"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"authentication\\\"", "\\\"bots\\\""]
+featured: "true"
 ---
 
 

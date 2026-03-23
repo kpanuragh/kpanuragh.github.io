@@ -2,8 +2,8 @@
 title: "Spectrum Analyzers: I Can Now SEE the Invisible Radio Waves! 📊📡"
 date: "2026-02-16"
 excerpt: "I thought spectrum analyzers were $10,000 lab equipment. Then I discovered the TinySA and NanoVNA - pocket-sized tools under $100 that let you SEE radio frequencies, debug antennas, and find interference. It's like X-ray vision for the electromagnetic spectrum!"
-tags: ["rf", "sdr", "wireless", "hobby", "test-equipment"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"test-equipment\\\""]
+featured: "true"
 ---
 
 

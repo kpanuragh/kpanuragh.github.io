@@ -2,8 +2,8 @@
 title: "HTTPS: The Green Lock That Saves Your Bacon 🔒"
 date: "2026-01-29"
 excerpt: "Think HTTPS is just a fancy 'S' in your URL? Think again! Here's why that little green lock is the difference between security and complete disaster."
-tags: ["cybersecurity", "web-security", "https", "ssl-tls"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"https\\\"", "\\\"ssl-tls\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Node.js Performance Profiling: Stop Guessing What's Slow ⚡"
 date: "2026-02-18"
 excerpt: "Your Node.js API is slow. Your boss is mad. You've added indexes, you've restarted the server, you've blamed the intern. Time to actually profile it."
-tags: ["nodejs", "javascript", "backend", "performance", "profiling"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"performance\\\"", "\\\"profiling\\\""]
+featured: "true"
 ---
 
 

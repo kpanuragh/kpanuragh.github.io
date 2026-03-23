@@ -2,8 +2,8 @@
 title: "git bisect: The Binary Search That Finds Which Commit Broke Everything 🔍"
 date: "2026-03-05"
 excerpt: "Something broke in production. The last 400 commits are suspects. You could review them one by one like a detective with infinite patience and no life — or you could let git do a binary search and find the culprit in 9 commits flat."
-tags: ["open-source", "github", "developer-tools", "git", "debugging"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"developer-tools\\\"", "\\\"git\\\"", "\\\"debugging\\\""]
+featured: "true"
 ---
 
 # git bisect: The Binary Search That Finds Which Commit Broke Everything 🔍

@@ -2,8 +2,8 @@
 title: "Rust Arc<Mutex<T>>: Sharing State Across Threads Without Global Variable Hell 🦀🔒"
 date: "2026-03-09"
 excerpt: "Coming from 7 years of Laravel and Node.js, my mental model for shared state was simple: global variable, session, or Redis. Then Rust handed me Arc<Mutex<T>> and I had to unlearn everything. Turns out, when the compiler forces you to be honest about shared state, your code becomes shockingly correct."
-tags: ["rust", "systems-programming", "performance", "concurrency"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"concurrency\\\""]
+featured: "true"
 ---
 
 # Rust Arc\<Mutex\<T\>\>: Sharing State Across Threads Without Global Variable Hell 🦀🔒

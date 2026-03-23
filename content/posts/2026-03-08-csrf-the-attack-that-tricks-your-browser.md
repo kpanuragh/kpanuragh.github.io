@@ -2,8 +2,8 @@
 title: "CSRF: The Attack That Makes Your Browser Betray You 🕵️‍♂️💸"
 date: "2026-03-08"
 excerpt: "Imagine visiting a cat meme site and accidentally transferring $5,000 from your bank account. That's CSRF — the sneaky attack where a malicious page hijacks your authenticated sessions to do terrible things on your behalf. Let's break it down!"
-tags: ["security", "csrf", "web", "backend"]
-featured: true
+tags: ["\\\"security\\\"", "\\\"csrf\\\"", "\\\"web\\\"", "\\\"backend\\\""]
+featured: "true"
 ---
 
 # CSRF: The Attack That Makes Your Browser Betray You 🕵️‍♂️💸

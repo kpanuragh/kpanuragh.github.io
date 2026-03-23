@@ -2,7 +2,7 @@
 title: "Laravel Artisan Custom Commands: Stop Running Scripts Manually Like It's 2005 🔧"
 date: "2026-02-25"
 excerpt: "You've been copy-pasting that database cleanup script into Tinker for months. It's time to stop living like this and write a proper Artisan command."
-tags: ["laravel", "php", "web-dev", "artisan", "automation"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"artisan\\\"", "\\\"automation\\\""]
 ---
 
 # Laravel Artisan Custom Commands: Stop Running Scripts Manually Like It's 2005 🔧

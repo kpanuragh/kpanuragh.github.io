@@ -2,8 +2,8 @@
 title: "Race Conditions: How a 0.001ms Gap Is Letting Your Users Buy Things You Don't Have 🏁"
 date: "2026-03-04"
 excerpt: "Your code is sequential. Your users are not. Here's how race conditions silently destroy e-commerce carts, drain loyalty points, and let people redeem coupons 47 times."
-tags: ["cybersecurity", "web-security", "security", "race-conditions", "api-security"]
-featured: false
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"race-conditions\\\"", "\\\"api-security\\\""]
+featured: "false"
 ---
 
 # Race Conditions: How a 0.001ms Gap Is Letting Your Users Buy Things You Don't Have 🏁

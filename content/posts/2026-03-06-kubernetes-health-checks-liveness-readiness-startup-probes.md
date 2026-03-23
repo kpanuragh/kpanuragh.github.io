@@ -2,8 +2,8 @@
 title: "Kubernetes Health Checks: Stop Letting Dead Pods Eat Your Traffic 🩺🔪"
 date: "2026-03-06"
 excerpt: "Your Kubernetes pod is running but returning 500 errors to every user — and K8s has no idea. After running production clusters that randomly served disaster to 1 in 3 users, I learned that liveness, readiness, and startup probes are not optional extras. Here's everything you need to know."
-tags: ["devops", "kubernetes", "docker", "deployment"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"kubernetes\\\"", "\\\"docker\\\"", "\\\"deployment\\\""]
+featured: "true"
 ---
 
 # Kubernetes Health Checks: Stop Letting Dead Pods Eat Your Traffic 🩺🔪

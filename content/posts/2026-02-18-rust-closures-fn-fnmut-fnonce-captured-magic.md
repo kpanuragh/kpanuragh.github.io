@@ -2,8 +2,8 @@
 title: "Rust Closures: When JavaScript's `() => {}` Grew Up and Got a PhD 🦀🔒"
 date: "2026-02-18"
 excerpt: "Coming from 7 years of JavaScript callbacks and PHP anonymous functions, I thought I knew closures. Then Rust handed me Fn, FnMut, and FnOnce and my brain quietly rebooted. Here's the closure guide I wish I had."
-tags: ["rust", "systems-programming", "performance", "closures", "functional-programming"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"systems-programming\\\"", "\\\"performance\\\"", "\\\"closures\\\"", "\\\"functional-programming\\\""]
+featured: "true"
 ---
 
 

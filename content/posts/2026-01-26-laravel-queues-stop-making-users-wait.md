@@ -2,7 +2,7 @@
 title: "Laravel Queues: Stop Making Your Users Wait Like It's the DMV 🚦"
 date: "2026-01-26"
 excerpt: "Your users are staring at loading spinners while you send emails? Let's fix that with Laravel queues - the secret weapon for background tasks!"
-tags: ["laravel", "php", "web-dev", "queues", "performance"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"queues\\\"", "\\\"performance\\\""]
 ---
 
 

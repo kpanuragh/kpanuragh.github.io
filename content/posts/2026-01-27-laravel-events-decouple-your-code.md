@@ -2,7 +2,7 @@
 title: "Laravel Events: Stop Cramming Everything Into One Controller 🎯"
 date: "2026-01-27"
 excerpt: "Your controllers look like spaghetti? Events and Listeners will save your sanity and make your code so clean you'll cry tears of joy!"
-tags: ["laravel", "php", "events", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"events\\\"", "\\\"web-dev\\\""]
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Tokio: Async Runtime That Doesn't Make You Want to Cry 🦀⚡"
 date: "2026-02-09"
 excerpt: "Coming from 7 years of Node.js callback hell and async/await spaghetti, I thought asynchronous programming was inherently painful. Then I discovered Tokio - Rust's async runtime that's actually elegant, performant, and doesn't turn your code into nested madness!"
-tags: ["rust", "tokio", "async", "performance", "concurrency"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"tokio\\\"", "\\\"async\\\"", "\\\"performance\\\"", "\\\"concurrency\\\""]
+featured: "true"
 ---
 
 

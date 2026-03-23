@@ -2,8 +2,8 @@
 title: "Node.js Event Loop: From Callback Hell to Async Heaven 🎢"
 date: "2026-02-01"
 excerpt: "Think you understand async in Node.js? Great! Now explain why your API randomly hangs. Let's dive into the event loop, promises, and async patterns that actually work in production."
-tags: ["nodejs", "javascript", "backend", "async", "performance"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"async\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 

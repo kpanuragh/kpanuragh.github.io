@@ -2,7 +2,7 @@
 title: "Eloquent Relationships That Don't Make You Cry 😭"
 date: "2026-01-21"
 excerpt: "Stop fighting with your database relationships! Here's how to use Eloquent like a pro (without the headaches)."
-tags: ["laravel", "php", "eloquent", "database", "web-dev"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"eloquent\\\"", "\\\"database\\\"", "\\\"web-dev\\\""]
 ---
 
 

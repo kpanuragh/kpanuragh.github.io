@@ -2,8 +2,8 @@
 title: "GitHub Discussions: The Community Feature Nobody's Using (But Should!) 💬🚀"
 date: "2026-01-30"
 excerpt: "You're still managing your open source community in a Discord server with 47 channels nobody reads? GitHub Discussions is sitting right there in your repo, waiting to organize your chaos. Let me show you why it's a game-changer!"
-tags: ["open-source", "github", "community", "developer-tools"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"community\\\"", "\\\"developer-tools\\\""]
+featured: "true"
 ---
 
 

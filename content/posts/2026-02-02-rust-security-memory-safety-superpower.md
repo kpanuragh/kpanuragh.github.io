@@ -2,8 +2,8 @@
 title: "Rust for Security: Memory Safety Is Your Security Superpower 🦀🔒"
 date: "2026-02-02"
 excerpt: "Coming from 7 years of web dev, I never thought memory safety would matter to me. Then I started building RF/SDR tools and security utilities. Rust changed everything. Here's why memory-safe code is your secret weapon against hackers!"
-tags: ["rust", "security", "memory-safety", "systems-programming"]
-featured: true
+tags: ["\\\"rust\\\"", "\\\"security\\\"", "\\\"memory-safety\\\"", "\\\"systems-programming\\\""]
+featured: "true"
 ---
 
 

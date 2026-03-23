@@ -2,8 +2,8 @@
 title: "Open Source Licenses: The Legal Stuff That Actually Matters 📜⚖️"
 date: "2026-02-02"
 excerpt: "Slapping 'MIT' on your repo because everyone else does? Not sure if you can use that GPL library in your startup? Let's decode open source licenses without the lawyer-speak so you don't accidentally sue yourself."
-tags: ["open-source", "github", "legal", "licenses"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"github\\\"", "\\\"legal\\\"", "\\\"licenses\\\""]
+featured: "true"
 ---
 
 

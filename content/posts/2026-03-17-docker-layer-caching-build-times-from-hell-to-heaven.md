@@ -2,8 +2,8 @@
 title: "Docker Layer Caching: Turn 8-Minute Builds Into 30-Second Ones 🚀🐳"
 date: "2026-03-17"
 excerpt: "Every time you push code and wait 8 minutes for Docker to rebuild from scratch, a kitten cries. Learn how Docker layer caching actually works - and the one ordering mistake that's killing your CI/CD pipeline."
-tags: ["devops", "docker", "ci-cd", "optimization", "containers"]
-featured: true
+tags: ["\\\"devops\\\"", "\\\"docker\\\"", "\\\"ci-cd\\\"", "\\\"optimization\\\"", "\\\"containers\\\""]
+featured: "true"
 ---
 
 # Docker Layer Caching: Turn 8-Minute Builds Into 30-Second Ones 🚀🐳

@@ -2,8 +2,8 @@
 title: "AIS: I Built a Real-Time Ship Radar With a $25 USB Stick and Now I Can't Stop Watching Boats 🚢📡"
 date: "2026-03-21"
 excerpt: "Turns out every ship in the ocean is broadcasting its position, speed, cargo, and destination in plain text over the radio — and your RTL-SDR can hear all of it. I tuned in expecting to see a couple of tugboats. I found container ships, oil tankers, coast guard vessels, and one very suspicious yacht named 'Totally Legitimate Business.'"
-tags: ["rf", "sdr", "wireless", "hobby", "ais", "maritime"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"ais\\\"", "\\\"maritime\\\""]
+featured: "true"
 ---
 
 # AIS: I Built a Real-Time Ship Radar With a $25 USB Stick and Now I Can't Stop Watching Boats 🚢📡

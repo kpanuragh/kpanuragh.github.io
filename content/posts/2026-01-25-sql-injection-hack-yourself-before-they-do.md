@@ -2,8 +2,8 @@
 title: "SQL Injection: How a Single Quote Can Steal Your Entire Database 💉"
 date: "2026-01-25"
 excerpt: "Think SQL injection is old news? Think again. It's STILL the #1 way databases get pwned in 2026. Here's how hackers do it, why your code is probably vulnerable, and how to actually fix it."
-tags: ["cybersecurity", "web-security", "security", "sql-injection", "owasp"]
-featured: true
+tags: ["\\\"cybersecurity\\\"", "\\\"web-security\\\"", "\\\"security\\\"", "\\\"sql-injection\\\"", "\\\"owasp\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "AWS CloudFront: The CDN That Can Save You Thousands (Or Cost You Thousands) ☁️⚡"
 date: "2026-02-19"
 excerpt: "CloudFront is the best CDN on the planet when configured right. And an expensive, confusing mess when configured wrong. I've done both. Let me save you from the expensive part."
-tags: ["aws", "cloud", "serverless", "cloudfront", "cdn"]
-featured: true
+tags: ["\\\"aws\\\"", "\\\"cloud\\\"", "\\\"serverless\\\"", "\\\"cloudfront\\\"", "\\\"cdn\\\""]
+featured: "true"
 ---
 
 

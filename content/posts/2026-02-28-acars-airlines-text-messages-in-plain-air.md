@@ -2,8 +2,8 @@
 title: "Airlines Are Texting Their Planes and You Can Read Every Message 📡✈️"
 date: "2026-02-28"
 excerpt: "ACARS is the SMS system airlines have been using since 1978 to communicate with their aircraft. It runs on VHF radio. It broadcasts in plain air. And with a $20 RTL-SDR and free software, I'm now reading actual operational messages between airlines and their planes in real time. Nobody told me this was possible. I'm mildly furious."
-tags: ["rf", "sdr", "wireless", "hobby", "acars", "aviation"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"hobby\\\"", "\\\"acars\\\"", "\\\"aviation\\\""]
+featured: "true"
 ---
 
 # Airlines Are Texting Their Planes and You Can Read Every Message 📡✈️

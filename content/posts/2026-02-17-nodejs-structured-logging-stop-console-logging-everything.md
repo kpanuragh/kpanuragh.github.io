@@ -2,8 +2,8 @@
 title: "Node.js Structured Logging: Stop console.log()-ing Everything 📋"
 date: "2026-02-17"
 excerpt: "If your production debugging strategy is `console.log('here')` followed by `console.log('here2')`, we need to talk. Structured logging in Node.js will save your sanity - and maybe your job."
-tags: ["nodejs", "javascript", "backend", "logging", "devops"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"javascript\\\"", "\\\"backend\\\"", "\\\"logging\\\"", "\\\"devops\\\""]
+featured: "true"
 ---
 
 

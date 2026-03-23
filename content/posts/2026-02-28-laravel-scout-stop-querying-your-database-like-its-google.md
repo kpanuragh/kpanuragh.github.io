@@ -2,7 +2,7 @@
 title: "Laravel Scout: Stop Querying Your Database Like It's Google 🔍"
 date: "2026-02-28"
 excerpt: "Your LIKE '%search%' query is not a search engine. Your users know it. Your database is crying. Let Laravel Scout fix this embarrassment."
-tags: ["laravel", "php", "web-dev", "search", "performance"]
+tags: ["\\\"laravel\\\"", "\\\"php\\\"", "\\\"web-dev\\\"", "\\\"search\\\"", "\\\"performance\\\""]
 ---
 
 # Laravel Scout: Stop Querying Your Database Like It's Google 🔍

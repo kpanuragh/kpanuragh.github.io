@@ -2,8 +2,8 @@
 title: "Backend for Frontend (BFF): Stop Serving Your Mobile App the Same Fat API as Your Web App 📱"
 date: "2026-03-21"
 excerpt: "One API to rule them all sounds great until your mobile app is downloading 47 fields it never renders. The BFF pattern saved our e-commerce UX - here's the honest truth about it."
-tags: ["architecture", "scalability", "system-design", "api", "microservices"]
-featured: true
+tags: ["\\\"architecture\\\"", "\\\"scalability\\\"", "\\\"system-design\\\"", "\\\"api\\\"", "\\\"microservices\\\""]
+featured: "true"
 ---
 
 # Backend for Frontend (BFF): Stop Serving Your Mobile App the Same Fat API as Your Web App 📱

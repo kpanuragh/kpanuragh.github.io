@@ -2,8 +2,8 @@
 title: "Contributing to Security-Focused Open Source: Where Bugs Are Features 🔒🐛"
 date: "2026-02-12"
 excerpt: "Want to contribute to open source but tired of todo apps? Security projects need contributors, and you don't need to be a hacker! Let me show you how to get started in the coolest corner of open source."
-tags: ["open-source", "security", "contributing", "community"]
-featured: true
+tags: ["\\\"open-source\\\"", "\\\"security\\\"", "\\\"contributing\\\"", "\\\"community\\\""]
+featured: "true"
 ---
 
 

@@ -2,8 +2,8 @@
 title: "Bluetooth Sniffing with SDR: I Can See Your Fitbit Talking! 📡💙"
 date: "2026-02-14"
 excerpt: "Ever wonder what your Bluetooth devices are actually broadcasting? I pointed my SDR at 2.4 GHz and discovered my Fitbit, smartwatch, and wireless headphones are CONSTANTLY chatting. Here's how I learned to sniff BLE (Bluetooth Low Energy) packets and what I found lurking in the wireless spectrum!"
-tags: ["rf", "sdr", "wireless", "bluetooth", "iot"]
-featured: true
+tags: ["\\\"rf\\\"", "\\\"sdr\\\"", "\\\"wireless\\\"", "\\\"bluetooth\\\"", "\\\"iot\\\""]
+featured: "true"
 ---
 
 

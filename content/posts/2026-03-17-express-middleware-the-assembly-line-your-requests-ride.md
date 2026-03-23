@@ -1,9 +1,9 @@
 ---
 title: "🏭 Express Middleware: The Assembly Line Your Requests Ride"
-date: 2026-03-17
+date: "2026-03-17"
 excerpt: "Every Express request passes through a chain of middleware functions before getting a response. Understanding how that chain works — and how to build your own — turns spaghetti apps into clean, maintainable systems."
-tags: ["nodejs", "express", "backend", "middleware", "javascript"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"middleware\\\"", "\\\"javascript\\\""]
+featured: "true"
 ---
 
 # 🏭 Express Middleware: The Assembly Line Your Requests Ride

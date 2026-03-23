@@ -1,9 +1,9 @@
 ---
 title: "🛑 Node.js Graceful Shutdown: Stop Killing Your Server Like It Owes You Money"
-date: 2026-03-16
+date: "2026-03-16"
 excerpt: "Ctrl+C your Node.js server and you might be dropping database connections, cutting off active requests, and losing in-flight jobs. Here's how to shut down like a professional instead of a villain."
-tags: ["nodejs", "express", "backend", "devops", "performance"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"devops\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # 🛑 Node.js Graceful Shutdown: Stop Killing Your Server Like It Owes You Money

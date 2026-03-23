@@ -1,9 +1,9 @@
 ---
 title: "🔢 Stop Using OFFSET Pagination — Cursor-Based Pagination Will Save Your Database"
-date: 2026-02-26
+date: "2026-02-26"
 excerpt: "OFFSET pagination feels fine until page 500 brings your database to its knees. Here's how cursor-based pagination works, why it's faster, and how to implement it in Express."
-tags: ["nodejs", "express", "backend", "database", "api", "performance"]
-featured: true
+tags: ["\\\"nodejs\\\"", "\\\"express\\\"", "\\\"backend\\\"", "\\\"database\\\"", "\\\"api\\\"", "\\\"performance\\\""]
+featured: "true"
 ---
 
 # 🔢 Stop Using OFFSET Pagination — Cursor-Based Pagination Will Save Your Database
