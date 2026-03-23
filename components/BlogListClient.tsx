@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import type { PostMetadata } from '@/lib/posts-utils';
+import type { PostMetadata } from '@/lib/posts-types';
 import BlogCard from '@/components/BlogCard';
 
 interface BlogListClientProps {

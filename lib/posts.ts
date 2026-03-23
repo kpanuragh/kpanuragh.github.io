@@ -4,11 +4,12 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import readingTime from 'reading-time';
-import type { Post, PostMetadata } from '@/lib/posts-utils';
 
-// Re-export types and utilities
-export type { Post, PostMetadata };
-export { formatDate } from '@/lib/posts-utils';
+// Export types from client-safe module
+export type { PostMetadata, Post } from '@/lib/posts-types';
+export { formatDate } from '@/lib/posts-types';
+
+import type { Post, PostMetadata } from '@/lib/posts-types';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
@@ -87,4 +88,3 @@ export function getAllTags(): string[] {
 
   return Array.from(tagsSet).sort();
 }
-

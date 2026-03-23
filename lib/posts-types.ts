@@ -1,5 +1,5 @@
-// Client-safe utilities - no 'server-only'
-// These can be imported from client components, scripts, etc.
+// Client-safe type definitions - no server imports
+// These can be imported from client components
 
 import { format } from 'date-fns';
 

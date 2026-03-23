@@ -1,8 +1,60 @@
 import { ImageResponse } from '@vercel/og';
-import { getAllPosts } from '../lib/posts-server-utils';
 import fs from 'fs';
 import path from 'path';
+import matter from 'gray-matter';
+import readingTime from 'reading-time';
+import type { PostMetadata } from '../lib/posts-types';
 import React from 'react';
+
+const postsDirectory = path.join(process.cwd(), 'content/posts');
+
+// Helper function to get all posts (copy of posts.ts logic)
+function getAllPosts(): PostMetadata[] {
+  try {
+    if (!fs.existsSync(postsDirectory)) {
+      return [];
+    }
+    const fileNames = fs.readdirSync(postsDirectory);
+    const slugs = fileNames
+      .filter(fileName => fileName.endsWith('.md') || fileName.endsWith('.mdx'))
+      .map(fileName => fileName.replace(/\.(md|mdx)$/, ''));
+
+    const posts = slugs
+      .map(slug => {
+        const fullPath = path.join(postsDirectory, `${slug}.md`);
+        let fileContents: string;
+
+        try {
+          fileContents = fs.readFileSync(fullPath, 'utf8');
+        } catch {
+          const mdxPath = path.join(postsDirectory, `${slug}.mdx`);
+          fileContents = fs.readFileSync(mdxPath, 'utf8');
+        }
+
+        const { data, content } = matter(fileContents);
+        const stats = readingTime(content);
+
+        return {
+          slug,
+          title: data.title || 'Untitled',
+          date: data.date || new Date().toISOString(),
+          excerpt: data.excerpt || '',
+          tags: data.tags || [],
+          featured: data.featured || false,
+          coverImage: data.coverImage || '',
+          readingTime: stats.text,
+        } as PostMetadata;
+      })
+      .sort((a, b) => {
+        return new Date(b.date).getTime() - new Date(a.date).getTime();
+      });
+
+    return posts;
+  } catch (error) {
+    console.error('Error getting posts:', error);
+    return [];
+  }
+}
 
 async function generateOGImage(title: string, slug: string, tags?: string[]) {
   const imageResponse = new ImageResponse(

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PostMetadata, formatDate } from '@/lib/posts';
+import { PostMetadata, formatDate } from '@/lib/posts-types';
 
 interface BlogCardProps {
   post: PostMetadata;
