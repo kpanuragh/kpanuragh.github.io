@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { format } from 'date-fns';
 import readingTime from 'reading-time';
+
+const postsDirectory = path.join(process.cwd(), 'content/posts');
 
 export interface PostMetadata {
   slug: string;
@@ -17,8 +20,6 @@ export interface PostMetadata {
 export interface Post extends PostMetadata {
   content: string;
 }
-
-const postsDirectory = path.join(process.cwd(), 'content/posts');
 
 export function getAllPostSlugs(): string[] {
   try {
@@ -94,4 +95,8 @@ export function getAllTags(): string[] {
   });
 
   return Array.from(tagsSet).sort();
+}
+
+export function formatDate(dateString: string): string {
+  return format(new Date(dateString), 'MMM dd, yyyy');
 }
