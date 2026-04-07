@@ -1,9 +1,35 @@
+import type { Metadata } from 'next';
 import { getAllPosts, getAllTags } from '@/lib/posts';
 import BlogListClient from '@/components/BlogListClient';
+import { getBlogSchema, getBreadcrumbSchema } from '@/lib/schema';
+import { siteConfig } from '@/lib/seo-config';
 
-export const metadata = {
-  title: 'Blog - 0x55aa',
-  description: 'Articles about Laravel, Cybersecurity, Open Source, and more',
+export const metadata: Metadata = {
+  title: 'Blog',
+  description: 'Articles about Cybersecurity, Open Source, RF, SDR, and technology experiments.',
+  alternates: {
+    canonical: '/blog',
+  },
+  openGraph: {
+    type: 'website',
+    url: `${siteConfig.url}/blog`,
+    title: 'Blog - 0x55aa',
+    description: 'Articles about Cybersecurity, Open Source, RF, SDR, and technology experiments.',
+    images: [
+      {
+        url: '/og/og-blog.png',
+        width: 1200,
+        height: 630,
+        alt: 'Blog - 0x55aa',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Blog - 0x55aa',
+    description: 'Articles about Cybersecurity, Open Source, RF, SDR, and technology experiments.',
+    images: ['/og/og-blog.png'],
+  },
 };
 
 export default function BlogPage() {
@@ -11,17 +37,28 @@ export default function BlogPage() {
   const tags = getAllTags();
 
   return (
-    <div className="min-h-screen bg-[#f8f8f8]">
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold text-[#1a1a1a] mb-2">Blog</h1>
-          <p className="text-[#666] text-sm">
-            Thoughts on cybersecurity, open source, SDR, and technology experiments.
-          </p>
-        </div>
-
-        <BlogListClient posts={posts} allTags={tags} />
+    <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold text-terminal-highlight mb-2">Blog</h1>
+        <p className="text-terminal-text">
+          Thoughts on cybersecurity, open source, SDR, and technology experiments.
+        </p>
       </div>
+
+      <BlogListClient posts={posts} allTags={tags} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            getBlogSchema(),
+            getBreadcrumbSchema([
+              { name: 'Home', url: '/' },
+              { name: 'Blog', url: '/blog' },
+            ]),
+          ]),
+        }}
+      />
     </div>
   );
 }

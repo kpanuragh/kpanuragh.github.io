@@ -71,13 +71,13 @@ export default async function TagPage({
       <div className="max-w-6xl mx-auto px-4 py-8">
         <Link
           href="/blog"
-          className="inline-block text-terminal-success hover:underline mb-6"
+          className="inline-flex items-center text-sm font-medium text-terminal-accent hover:underline mb-6"
         >
           ← Back to Blog
         </Link>
 
-        <div className="terminal-card mb-8">
-          <h1 className="text-4xl font-bold text-terminal-accent mb-4">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold text-terminal-highlight mb-2">
             #{tagTitle}
           </h1>
           <p className="text-terminal-text">
@@ -86,7 +86,7 @@ export default async function TagPage({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {posts.map((post) => (
             <BlogCard key={post.slug} post={post} />
           ))}

@@ -19,14 +19,17 @@ export default function Home() {
 
   return (
     <>
-      <div className="max-w-5xl mx-auto px-4 py-8">
-        <section className="terminal-card mb-12">
-          <h1 className="text-4xl font-bold text-terminal-accent mb-6 text-center">
-            0x55aa
+      <div className="max-w-5xl mx-auto px-4 py-12">
+        <section className="mb-16">
+          <h1 className="text-4xl font-bold text-terminal-highlight mb-2">
+            Anurag KP
           </h1>
+          <p className="text-lg text-terminal-accent font-medium mb-8">
+            Developer · Security Enthusiast · Radio Explorer
+          </p>
 
-          <section id="about" className="scroll-mt-20">
-            <h2 className="text-2xl terminal-heading mb-4">About Me</h2>
+          <section id="about" className="scroll-mt-20 terminal-card">
+            <h2 className="text-xl font-semibold text-terminal-highlight mb-4">About Me</h2>
             <p className="leading-relaxed">
               I am a passionate Laravel Developer who thrives on coding and debugging, constantly striving
               to turn challenges into opportunities for growth. Beyond development, I have a deep
@@ -51,10 +54,10 @@ export default function Home() {
         {recentPosts.length > 0 && (
           <section className="mb-12">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl terminal-heading">Latest Posts</h2>
+              <h2 className="text-xl font-semibold text-terminal-highlight">Latest Posts</h2>
               <Link
                 href="/blog"
-                className="text-terminal-success hover:underline text-sm"
+                className="text-terminal-accent hover:underline text-sm font-medium"
               >
                 View all posts →
               </Link>

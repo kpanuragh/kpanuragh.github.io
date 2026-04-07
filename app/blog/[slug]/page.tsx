@@ -76,20 +76,20 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Link
         href="/blog"
-        className="inline-block text-terminal-success hover:underline mb-6"
+        className="inline-flex items-center text-sm font-medium text-terminal-accent hover:underline mb-6"
       >
         ← Back to Blog
       </Link>
 
       <article className="terminal-card">
         <header className="mb-8 border-b border-terminal-border pb-6">
-          <h1 className="text-4xl font-bold text-terminal-accent mb-4">
+          <h1 className="text-3xl font-bold text-terminal-highlight mb-4 leading-tight">
             {post.title}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
+          <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
             <time dateTime={post.date}>{formatDate(post.date)}</time>
-            <span>•</span>
+            <span>·</span>
             <span>{post.readingTime}</span>
           </div>
 
@@ -99,7 +99,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <Link
                   key={tag}
                   href={`/blog/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="bg-terminal-bg text-terminal-success px-3 py-1 rounded text-sm hover:bg-terminal-accent hover:text-white transition-colors"
+                  className="bg-[#fff3e0] text-terminal-accent px-3 py-1 rounded-md text-xs font-medium hover:bg-[#ffe0b2] transition-colors"
                 >
                   {tag}
                 </Link>
@@ -108,8 +108,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           )}
         </header>
 
+        {/* Content is generated from markdown at build time via markdownToHtml */}
         <div
-          className="prose prose-invert max-w-none"
+          className="prose max-w-none"
           dangerouslySetInnerHTML={{ __html: htmlContent }}
         />
       </article>
@@ -117,7 +118,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       <div className="mt-8 flex justify-center">
         <Link
           href="/blog"
-          className="terminal-card inline-block px-6 py-3 text-terminal-success hover:bg-terminal-bg transition-colors"
+          className="inline-block px-6 py-3 text-sm font-medium text-terminal-accent border border-terminal-border rounded-lg hover:bg-[#fff3e0] transition-colors"
         >
           ← Back to all posts
         </Link>

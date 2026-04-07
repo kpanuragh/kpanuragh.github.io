@@ -1,72 +1,47 @@
 @import "tailwindcss";
 
 @theme {
-  --color-terminal-bg: #0d1117;
-  --color-terminal-card: #1b2029;
-  --color-terminal-text: #c8ccd4;
-  --color-terminal-accent: #81a1c1;
-  --color-terminal-success: #50fa7b;
-  --color-terminal-border: #5e81ac;
-  --color-terminal-highlight: #88c0d0;
+  --color-terminal-bg: #f8f9fa;
+  --color-terminal-card: #ffffff;
+  --color-terminal-text: #374151;
+  --color-terminal-accent: #e65100;
+  --color-terminal-success: #e65100;
+  --color-terminal-border: #e5e7eb;
+  --color-terminal-highlight: #111827;
 
-  --font-family-mono: "Courier New", Courier, monospace;
+  --font-family-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-terminal-bg text-terminal-text font-mono;
+    @apply bg-terminal-bg text-terminal-text font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
 @layer components {
   .terminal-card {
-    @apply bg-terminal-card rounded-lg shadow-lg p-6;
+    @apply bg-terminal-card rounded-xl border border-terminal-border p-6;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.06);
   }
 
   .terminal-heading {
-    @apply border-l-4 border-terminal-border pl-3 text-terminal-highlight;
+    @apply border-l-4 border-terminal-accent pl-3 text-terminal-highlight font-semibold;
   }
 }
 
-/* Boot Animation Styles */
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes scrollLog {
-  from { transform: translateY(100%); }
-  to { transform: translateY(-200%); }
-}
-
-.boot-animation {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-}
-
-.boot-animation p {
-  animation: blink 2s linear infinite;
-}
-
-.log-container {
-  position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 20px);
-  z-index: 50;
-}
-
-.log-message {
-  animation: scrollLog 20s linear infinite;
-}
-
-/* Code Syntax Highlighting - Enhanced Dark Terminal Theme */
+/* Code Syntax Highlighting */
 .hljs {
-  @apply bg-terminal-card text-terminal-text rounded-lg overflow-x-auto;
+  @apply rounded-lg overflow-x-auto;
+  background: #1e1e2e !important;
+  color: #cdd6f4;
   padding: 1.5rem;
   line-height: 1.6;
   font-size: 0.95rem;
@@ -177,10 +152,10 @@
   color: #ffb86c;
 }
 
-/* Blog Post Typography - Enhanced for Beautiful Rendering */
+/* Blog Post Typography */
 .prose {
   @apply max-w-none text-terminal-text;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.8;
 }
 
@@ -234,39 +209,40 @@
   margin-bottom: 1.5rem;
 }
 
-/* Links with Better Styling */
+/* Links */
 .prose a {
-  @apply text-terminal-success no-underline;
+  @apply text-terminal-accent no-underline font-medium;
   transition: all 0.2s ease;
-  border-bottom: 1px solid transparent;
 }
 
 .prose a:hover {
   @apply underline;
-  border-bottom-color: var(--color-terminal-success);
 }
 
-/* Inline Code with Better Contrast */
+/* Inline Code */
 .prose code {
-  @apply bg-terminal-card text-terminal-success rounded;
+  @apply rounded;
+  background: #f1f3f5;
+  color: #d63384;
   padding: 0.2rem 0.4rem;
-  font-size: 0.9em;
+  font-size: 0.875em;
   font-weight: 500;
-  border: 1px solid var(--color-terminal-border);
 }
 
-/* Code Blocks with Enhanced Styling */
+/* Code Blocks */
 .prose pre {
-  @apply bg-terminal-card rounded-lg;
+  @apply rounded-xl;
+  background: #1e1e2e !important;
   padding: 1.5rem;
   margin: 2rem 0;
   overflow-x: auto;
-  border: 1px solid var(--color-terminal-border);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.08);
 }
 
 .prose pre code {
-  @apply bg-transparent border-0 p-0;
+  @apply bg-transparent p-0;
+  color: #cdd6f4;
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -291,10 +267,10 @@
 }
 
 .prose ul > li::before {
-  content: "▸";
+  content: "•";
   position: absolute;
-  left: -1.5rem;
-  color: var(--color-terminal-success);
+  left: -1.25rem;
+  color: var(--color-terminal-accent);
   font-weight: bold;
 }
 
@@ -311,12 +287,12 @@
   margin-bottom: 0.5rem;
 }
 
-/* Blockquotes with Better Style */
+/* Blockquotes */
 .prose blockquote {
   @apply border-l-4 border-terminal-accent pl-6 italic;
   margin: 2rem 0;
   padding: 1rem 0 1rem 1.5rem;
-  background: rgba(129, 161, 193, 0.05);
+  background: #fff7ed;
   border-radius: 0 0.5rem 0.5rem 0;
   color: var(--color-terminal-highlight);
 }
@@ -352,7 +328,8 @@
 }
 
 .prose th {
-  @apply bg-terminal-card text-terminal-accent;
+  @apply text-terminal-highlight;
+  background: #f8f9fa;
   padding: 0.875rem 1rem;
   text-align: left;
   font-weight: 600;
@@ -365,15 +342,15 @@
 }
 
 .prose tbody tr:hover {
-  background: rgba(129, 161, 193, 0.05);
+  background: #f8f9fa;
 }
 
 /* Images */
 .prose img {
   margin: 2rem auto;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   border: 1px solid var(--color-terminal-border);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.08);
 }
 
 /* Figcaption */
