@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <>
       {/* Hero Section with gradient background */}
-      <section className="relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #fff7ed 0%, #f8f9fa 40%, #f0f4ff 100%)' }}>
-        <div className="absolute inset-0 opacity-30" style={{ background: 'radial-gradient(circle at 20% 50%, #e6510020, transparent 50%), radial-gradient(circle at 80% 20%, #3b82f620, transparent 50%)' }} />
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-[#f8f9fa] to-[#f0f4ff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#0f172a]">
+        <div className="absolute inset-0 opacity-30 dark:opacity-20" style={{ background: 'radial-gradient(circle at 20% 50%, #e6510020, transparent 50%), radial-gradient(circle at 80% 20%, #3b82f620, transparent 50%)' }} />
         <div className="max-w-5xl mx-auto px-4 py-20 md:py-28 relative z-10">
           <div className="flex flex-col items-center text-center">
             <div className="shrink-0 mb-8">
@@ -39,10 +39,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-terminal-highlight tracking-tight mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold text-terminal-highlight dark:text-gray-100 tracking-tight mb-4">
               Anurag KP
             </h1>
-            <p className="text-lg md:text-xl text-gray-500 mb-8 max-w-lg">
+            <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 mb-8 max-w-lg">
               Laravel Developer &middot; Security Enthusiast &middot; Radio Explorer
             </p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
@@ -76,7 +76,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   title={label}
-                  className="w-10 h-10 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm border border-gray-200 text-gray-600 hover:text-[#e65100] hover:border-[#e65100] hover:shadow-md transition-all duration-200 hover:-translate-y-0.5"
+                  className="w-10 h-10 flex items-center justify-center rounded-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 hover:text-[#e65100] dark:hover:text-[#ff8a50] hover:border-[#e65100] dark:hover:border-[#ff8a50] hover:shadow-md transition-all duration-200 hover:-translate-y-0.5"
                 >
                   {icon}
                 </a>
@@ -100,12 +100,12 @@ export default function Home() {
               { icon: '📡', title: 'Radio & SDR', desc: 'Exploring the fascinating world of Radio Frequency using SDR devices, blending curiosity for technology with hands-on experimentation in signal analysis and spectrum exploration.' },
               { icon: '❤️', title: 'Open Source', desc: 'Love giving back to the community by contributing to open-source projects. Technology inspires me in every way — a boundless world of possibilities that fuels creativity every single day.' },
             ].map(({ icon, title, desc }) => (
-              <div key={title} className="group bg-white rounded-2xl border border-gray-100 p-7 transition-all duration-300 hover:shadow-xl hover:shadow-orange-100/50 hover:-translate-y-1 hover:border-[#e65100]/20">
+              <div key={title} className="group bg-white dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50 p-7 transition-all duration-300 hover:shadow-xl hover:shadow-orange-100/50 dark:hover:shadow-orange-900/20 hover:-translate-y-1 hover:border-[#e65100]/20">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#fff3e0] to-[#ffe0b2] flex items-center justify-center mb-5 text-lg group-hover:scale-110 transition-transform duration-300">
                   {icon}
                 </div>
-                <h3 className="font-semibold text-terminal-highlight mb-2 text-lg">{title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
+                <h3 className="font-semibold text-terminal-highlight dark:text-gray-100 mb-2 text-lg">{title}</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{desc}</p>
               </div>
             ))}
           </div>

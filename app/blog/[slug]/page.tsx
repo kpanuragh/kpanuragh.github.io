@@ -6,6 +6,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getBlogPostingSchema, getBreadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/seo-config';
+import ReadingProgress from '@/components/ReadingProgress';
+import CopyCodeButton from '@/components/CopyCodeButton';
+import TableOfContents from '@/components/TableOfContents';
 
 export async function generateStaticParams() {
   const slugs = getAllPostSlugs();
@@ -74,8 +77,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   return (
     <>
+      <ReadingProgress />
+      <CopyCodeButton />
+      <TableOfContents />
+
       {/* Article Header */}
-      <section className="relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #fff7ed 0%, #f8f9fa 50%, #f0f4ff 100%)' }}>
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-[#f8f9fa] to-[#f0f4ff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#0f172a]">
         <div className="absolute inset-0 opacity-20" style={{ background: 'radial-gradient(circle at 20% 80%, #e6510015, transparent 50%)' }} />
         <div className="max-w-3xl mx-auto px-4 pt-10 pb-14 relative z-10">
           <Link
@@ -100,7 +107,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
           )}
 
-          <h1 className="text-3xl md:text-5xl font-bold text-terminal-highlight leading-tight tracking-tight mb-5">
+          <h1 className="text-3xl md:text-5xl font-bold text-terminal-highlight dark:text-gray-100 leading-tight tracking-tight mb-5">
             {post.title}
           </h1>
 

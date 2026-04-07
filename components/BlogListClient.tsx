@@ -40,7 +40,7 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
   return (
     <>
       {/* Search & Filter Bar */}
-      <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-8" style={{ boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.04)' }}>
+      <div className="bg-white dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50 p-5 mb-8" style={{ boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.04)' }}>
         <div className="mb-4">
           <div className="relative">
             <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
                 setSearchTerm(e.target.value);
                 setCurrentPage(1);
               }}
-              className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl text-terminal-highlight placeholder-gray-400 bg-gray-50 focus:outline-none focus:border-[#e65100] focus:ring-2 focus:ring-[#e65100]/10 focus:bg-white text-sm transition-all"
+              className="w-full pl-12 pr-4 py-3 border border-gray-200 dark:border-gray-600 rounded-xl text-terminal-highlight dark:text-gray-100 placeholder-gray-400 bg-gray-50 dark:bg-gray-900/50 focus:outline-none focus:border-[#e65100] focus:ring-2 focus:ring-[#e65100]/10 focus:bg-white dark:focus:bg-gray-900 text-sm transition-all"
             />
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
                 setSelectedTag(e.target.value || null);
                 setCurrentPage(1);
               }}
-              className="px-4 py-2 border border-gray-200 rounded-xl bg-gray-50 text-terminal-highlight cursor-pointer text-sm focus:outline-none focus:border-[#e65100] transition-colors"
+              className="px-4 py-2 border border-gray-200 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-900/50 text-terminal-highlight dark:text-gray-100 cursor-pointer text-sm focus:outline-none focus:border-[#e65100] transition-colors"
             >
               <option value="">All Tags</option>
               {allTags.map(tag => (

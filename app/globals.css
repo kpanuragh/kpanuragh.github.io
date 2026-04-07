@@ -14,11 +14,23 @@
   --font-family-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   body {
     @apply bg-terminal-bg text-terminal-text font-sans;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  .dark body,
+  html.dark body {
+    background: #0f172a;
+    color: #cbd5e1;
+  }
+
+  html.dark {
+    color-scheme: dark;
   }
 }
 
@@ -369,4 +381,98 @@
   @apply text-gray-400 text-center italic;
   margin-top: 0.75rem;
   font-size: 0.9rem;
+}
+
+/* ============================================
+   Dark Mode Overrides
+   ============================================ */
+
+/* Dark mode: prose typography */
+.dark .prose {
+  color: #cbd5e1;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h5,
+.dark .prose h6 {
+  color: #f1f5f9;
+}
+
+.dark .prose h2 {
+  border-bottom-color: #334155;
+}
+
+.dark .prose h3,
+.dark .prose h4 {
+  color: #ff8a50;
+}
+
+.dark .prose strong {
+  color: #ff8a50;
+}
+
+.dark .prose em {
+  color: #e2e8f0;
+}
+
+.dark .prose a {
+  color: #ff8a50;
+}
+
+.dark .prose blockquote {
+  background: #1e293b;
+  border-left-color: #ff8a50;
+  color: #e2e8f0;
+}
+
+.dark .prose code {
+  background: #1e293b;
+  color: #f472b6;
+}
+
+.dark .prose pre {
+  border-color: #334155;
+}
+
+.dark .prose ul > li::before {
+  color: #ff8a50;
+}
+
+.dark .prose hr {
+  border-top-color: #334155;
+}
+
+.dark .prose th {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-color: #334155;
+}
+
+.dark .prose td {
+  border-color: #334155;
+}
+
+.dark .prose tbody tr:hover {
+  background: #1e293b;
+}
+
+.dark .prose img {
+  border-color: #334155;
+}
+
+/* Dark mode: tag pills */
+.dark .tag-pill {
+  background: #1e293b;
+  color: #ff8a50;
+}
+
+.dark .tag-pill:hover {
+  background: #334155;
+}
+
+/* Dark mode: cards and components */
+.dark .terminal-card {
+  background: #1e293b;
+  border-color: #334155;
 }

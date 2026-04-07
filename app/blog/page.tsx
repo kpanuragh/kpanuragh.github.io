@@ -39,11 +39,11 @@ export default function BlogPage() {
   return (
     <>
       {/* Blog Header */}
-      <section className="relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #fff7ed 0%, #f8f9fa 50%, #f0f4ff 100%)' }}>
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-[#f8f9fa] to-[#f0f4ff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#0f172a]">
         <div className="absolute inset-0 opacity-20" style={{ background: 'radial-gradient(circle at 30% 50%, #e6510015, transparent 50%)' }} />
         <div className="max-w-6xl mx-auto px-4 py-14 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold text-terminal-highlight tracking-tight mb-3">Blog</h1>
-          <p className="text-gray-500 text-lg max-w-xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-terminal-highlight dark:text-gray-100 tracking-tight mb-3">Blog</h1>
+          <p className="text-gray-500 dark:text-gray-400 text-lg max-w-xl">
             Thoughts on cybersecurity, open source, SDR, and technology experiments.
           </p>
         </div>
