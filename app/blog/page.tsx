@@ -11,15 +11,17 @@ export default function BlogPage() {
   const tags = getAllTags();
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      <div className="terminal-card mb-8">
-        <h1 className="text-4xl font-bold text-terminal-accent mb-4">Blog</h1>
-        <p className="text-terminal-text">
-          Thoughts on Laravel development, cybersecurity, open source, and technology experiments.
-        </p>
-      </div>
+    <div className="min-h-screen bg-[#f8f8f8]">
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="mb-6">
+          <h1 className="text-3xl font-bold text-[#1a1a1a] mb-2">Blog</h1>
+          <p className="text-[#666] text-sm">
+            Thoughts on cybersecurity, open source, SDR, and technology experiments.
+          </p>
+        </div>
 
-      <BlogListClient posts={posts} allTags={tags} />
+        <BlogListClient posts={posts} allTags={tags} />
+      </div>
     </div>
   );
 }
