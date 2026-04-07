@@ -37,28 +37,34 @@ export default function BlogPage() {
   const tags = getAllTags();
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      <div className="mb-6">
-        <h1 className="text-3xl font-bold text-terminal-highlight mb-2">Blog</h1>
-        <p className="text-terminal-text">
-          Thoughts on cybersecurity, open source, SDR, and technology experiments.
-        </p>
-      </div>
+    <>
+      {/* Blog Header */}
+      <section className="relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #fff7ed 0%, #f8f9fa 50%, #f0f4ff 100%)' }}>
+        <div className="absolute inset-0 opacity-20" style={{ background: 'radial-gradient(circle at 30% 50%, #e6510015, transparent 50%)' }} />
+        <div className="max-w-6xl mx-auto px-4 py-14 relative z-10">
+          <h1 className="text-4xl md:text-5xl font-bold text-terminal-highlight tracking-tight mb-3">Blog</h1>
+          <p className="text-gray-500 text-lg max-w-xl">
+            Thoughts on cybersecurity, open source, SDR, and technology experiments.
+          </p>
+        </div>
+      </section>
 
-      <BlogListClient posts={posts} allTags={tags} />
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        <BlogListClient posts={posts} allTags={tags} />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            getBlogSchema(),
-            getBreadcrumbSchema([
-              { name: 'Home', url: '/' },
-              { name: 'Blog', url: '/blog' },
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              getBlogSchema(),
+              getBreadcrumbSchema([
+                { name: 'Home', url: '/' },
+                { name: 'Blog', url: '/blog' },
+              ]),
             ]),
-          ]),
-        }}
-      />
-    </div>
+          }}
+        />
+      </div>
+    </>
   );
 }

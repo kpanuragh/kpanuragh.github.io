@@ -40,10 +40,10 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
   return (
     <>
       {/* Search & Filter Bar */}
-      <div className="bg-white rounded-xl border border-gray-200 p-4 mb-6" style={{ boxShadow: '0 1px 3px 0 rgb(0 0 0 / 0.04)' }}>
-        <div className="mb-3">
+      <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-8" style={{ boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.04)' }}>
+        <div className="mb-4">
           <div className="relative">
-            <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
             <input
@@ -54,7 +54,7 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
                 setSearchTerm(e.target.value);
                 setCurrentPage(1);
               }}
-              className="w-full pl-10 pr-4 py-2.5 border border-gray-200 rounded-lg text-terminal-highlight placeholder-gray-400 bg-gray-50 focus:outline-none focus:border-[#e65100] focus:ring-2 focus:ring-[#e65100]/10 focus:bg-white text-sm transition-all"
+              className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl text-terminal-highlight placeholder-gray-400 bg-gray-50 focus:outline-none focus:border-[#e65100] focus:ring-2 focus:ring-[#e65100]/10 focus:bg-white text-sm transition-all"
             />
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
                 setSelectedTag(e.target.value || null);
                 setCurrentPage(1);
               }}
-              className="px-3 py-1.5 border border-gray-200 rounded-lg bg-gray-50 text-terminal-highlight cursor-pointer text-sm focus:outline-none focus:border-[#e65100] transition-colors"
+              className="px-4 py-2 border border-gray-200 rounded-xl bg-gray-50 text-terminal-highlight cursor-pointer text-sm focus:outline-none focus:border-[#e65100] transition-colors"
             >
               <option value="">All Tags</option>
               {allTags.map(tag => (
@@ -84,13 +84,13 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
                   setSelectedTag(null);
                   setCurrentPage(1);
                 }}
-                className="text-xs text-[#e65100] hover:text-[#d94e00] cursor-pointer font-medium px-2 py-1 rounded hover:bg-[#fff3e0] transition-colors"
+                className="text-xs text-[#e65100] hover:text-[#d94e00] cursor-pointer font-semibold px-3 py-1.5 rounded-lg hover:bg-[#fff3e0] transition-colors"
               >
-                Clear
+                Clear filters
               </button>
             )}
           </div>
-          <div className="text-xs text-gray-400 font-medium">
+          <div className="text-xs text-gray-400 font-medium bg-gray-50 px-3 py-1.5 rounded-full">
             {filteredPosts.length === 0
               ? 'No posts found'
               : `${filteredPosts.length} posts`}
@@ -114,23 +114,25 @@ export default function BlogListClient({ posts, allTags }: BlogListClientProps) 
 
       {/* Pagination Controls */}
       {totalPages > 1 && (
-        <div className="mt-12 pt-8 border-t border-[#e0e0e0] flex justify-center items-center gap-6">
+        <div className="mt-12 flex justify-center items-center gap-3">
           <button
             onClick={() => setCurrentPage(Math.max(1, safePage - 1))}
             disabled={safePage === 1}
-            className="text-[#e65100] hover:text-[#d94e00] disabled:text-[#ccc] cursor-pointer disabled:cursor-not-allowed font-medium text-sm"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-full border border-gray-200 text-terminal-highlight hover:border-[#e65100] hover:text-[#e65100] disabled:text-gray-300 disabled:border-gray-100 cursor-pointer disabled:cursor-not-allowed transition-all duration-200 hover:-translate-y-0.5 disabled:hover:translate-y-0"
           >
-            ← Previous
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
+            Previous
           </button>
-          <span className="text-[#666] text-sm">
-            Page <strong>{safePage}</strong> of <strong>{totalPages}</strong>
+          <span className="text-sm text-gray-500 px-3 py-2 bg-gray-50 rounded-full">
+            <strong className="text-terminal-highlight">{safePage}</strong> / {totalPages}
           </span>
           <button
             onClick={() => setCurrentPage(Math.min(totalPages, safePage + 1))}
             disabled={safePage === totalPages}
-            className="text-[#e65100] hover:text-[#d94e00] disabled:text-[#ccc] cursor-pointer disabled:cursor-not-allowed font-medium text-sm"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-full border border-gray-200 text-terminal-highlight hover:border-[#e65100] hover:text-[#e65100] disabled:text-gray-300 disabled:border-gray-100 cursor-pointer disabled:cursor-not-allowed transition-all duration-200 hover:-translate-y-0.5 disabled:hover:translate-y-0"
           >
-            Next →
+            Next
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
           </button>
         </div>
       )}
