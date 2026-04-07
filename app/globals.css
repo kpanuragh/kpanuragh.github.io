@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@source not "../content";
+
 @theme {
   --color-terminal-bg: #f8f9fa;
   --color-terminal-card: #ffffff;
