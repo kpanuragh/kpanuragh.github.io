@@ -81,6 +81,22 @@ export default function Home() {
                 >
                   Stack Overflow
                 </a>
+                <a
+                  href="https://x.com/anuragh_kp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 border border-gray-300 text-terminal-highlight text-sm font-medium rounded-lg hover:border-[#e65100] hover:text-[#e65100] transition-colors"
+                >
+                  X / Twitter
+                </a>
+                <a
+                  href="https://www.instagram.com/anuraghkp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 border border-gray-300 text-terminal-highlight text-sm font-medium rounded-lg hover:border-[#e65100] hover:text-[#e65100] transition-colors"
+                >
+                  Instagram
+                </a>
               </div>
             </div>
           </div>
