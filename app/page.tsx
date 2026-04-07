@@ -65,6 +65,14 @@ export default function Home() {
                 >
                   LinkedIn
                 </a>
+                <a
+                  href="https://www.npmjs.com/~kpanuragh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 border border-gray-300 text-terminal-highlight text-sm font-medium rounded-lg hover:border-[#e65100] hover:text-[#e65100] transition-colors"
+                >
+                  npm
+                </a>
               </div>
             </div>
           </div>
