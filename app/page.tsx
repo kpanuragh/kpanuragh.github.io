@@ -73,6 +73,14 @@ export default function Home() {
                 >
                   npm
                 </a>
+                <a
+                  href="https://stackoverflow.com/users/9456940/anuragh-kp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-2.5 border border-gray-300 text-terminal-highlight text-sm font-medium rounded-lg hover:border-[#e65100] hover:text-[#e65100] transition-colors"
+                >
+                  Stack Overflow
+                </a>
               </div>
             </div>
           </div>
