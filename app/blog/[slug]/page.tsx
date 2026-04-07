@@ -73,40 +73,42 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const htmlContent = await markdownToHtml(post.content);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-6">
       <Link
         href="/blog"
-        className="inline-flex items-center text-sm font-medium text-terminal-accent hover:underline mb-6"
+        className="inline-flex items-center gap-1 text-sm font-medium text-terminal-accent hover:underline mb-4"
       >
         ← Back to Blog
       </Link>
 
-      <article className="terminal-card">
-        <header className="mb-8 border-b border-terminal-border pb-6">
-          <h1 className="text-3xl font-bold text-terminal-highlight mb-4 leading-tight">
-            {post.title}
-          </h1>
-
-          <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
-            <time dateTime={post.date}>{formatDate(post.date)}</time>
-            <span>·</span>
-            <span>{post.readingTime}</span>
-          </div>
-
+      <article>
+        <header className="mb-6">
           {post.tags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-4">
+            <div className="flex flex-wrap gap-2 mb-4">
               {post.tags.map(tag => (
                 <Link
                   key={tag}
                   href={`/blog/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="bg-[#fff3e0] text-terminal-accent px-3 py-1 rounded-md text-xs font-medium hover:bg-[#ffe0b2] transition-colors"
+                  className="tag-pill"
                 >
                   {tag}
                 </Link>
               ))}
             </div>
           )}
+
+          <h1 className="text-3xl md:text-4xl font-bold text-terminal-highlight mb-3 leading-tight tracking-tight">
+            {post.title}
+          </h1>
+
+          <div className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
+            <time dateTime={post.date}>{formatDate(post.date)}</time>
+            <span>·</span>
+            <span>{post.readingTime}</span>
+          </div>
         </header>
+
+        <hr className="border-terminal-border mb-8" />
 
         {/* Content is generated from markdown at build time via markdownToHtml */}
         <div
@@ -115,10 +117,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         />
       </article>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-12 pt-6 border-t border-terminal-border flex justify-center">
         <Link
           href="/blog"
-          className="inline-block px-6 py-3 text-sm font-medium text-terminal-accent border border-terminal-border rounded-lg hover:bg-[#fff3e0] transition-colors"
+          className="inline-flex items-center gap-1 px-5 py-2.5 text-sm font-medium text-white bg-terminal-accent rounded-lg hover:opacity-90 transition-opacity"
         >
           ← Back to all posts
         </Link>

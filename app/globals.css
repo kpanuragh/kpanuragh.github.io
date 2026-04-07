@@ -24,12 +24,21 @@
 
 @layer components {
   .terminal-card {
-    @apply bg-terminal-card rounded-xl border border-terminal-border p-6;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.06);
+    @apply bg-terminal-card rounded-2xl border border-terminal-border p-8;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
   }
 
   .terminal-heading {
     @apply border-l-4 border-terminal-accent pl-3 text-terminal-highlight font-semibold;
+  }
+
+  .tag-pill {
+    @apply inline-block bg-[#fff3e0] text-[#e65100] px-3 py-1 rounded-full text-xs font-medium;
+    transition: background 0.15s ease;
+  }
+
+  .tag-pill:hover {
+    @apply bg-[#ffe0b2];
   }
 }
 
