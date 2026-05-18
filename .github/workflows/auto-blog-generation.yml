@@ -12,8 +12,17 @@ permissions:
   pull-requests: write
   id-token: write
 
+# Topic strategy:
+# Each generate-* job rotates its sub-category by weekday (Mon=1 .. Sun=7) and
+# picks a random topic from that day's pool. The prompt is also given the last
+# ~3 weeks of post slugs so it can pivot if the picked topic overlaps with
+# something recent. This is what stops the bot from re-generating "JWT
+# Security" / "Docker multi-stage builds" / "graceful shutdown" on loop.
+#
+# To add or rebalance topics, edit the TOPICS arrays in the "Pick today's
+# topic" step of each job — that is the single source of truth.
+
 jobs:
-  # Generate 3 different category blogs
   generate-security-blog:
     runs-on: ubuntu-latest
     steps:
@@ -31,6 +40,118 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Pick today's topic
+        run: |
+          WEEKDAY=$(date -u +%u)
+          case "$WEEKDAY" in
+            1)
+              SUB="Web application vulnerabilities"
+              TOPICS=(
+                "XSS prevention with CSP in 2026"
+                "CSRF in modern SPAs (SameSite is not enough)"
+                "SSRF: when your server attacks itself"
+                "Open redirect: the bug everyone underestimates"
+                "Host header injection"
+                "Prototype pollution in Node modules"
+                "Log injection: when logs lie to you"
+                "Path traversal in 2026"
+                "Insecure deserialization explained"
+              )
+              ;;
+            2)
+              SUB="Authentication & session security"
+              TOPICS=(
+                "OAuth2 PKCE: the dance you can't skip"
+                "OIDC vs OAuth: what you actually need"
+                "Password storage in 2026 (argon2id, not bcrypt)"
+                "Session fixation and renewal patterns"
+                "Account enumeration leaks"
+                "MFA done right (and TOTP gotchas)"
+                "Magic links: secure or theater?"
+                "WebAuthn for skeptics"
+              )
+              ;;
+            3)
+              SUB="API security"
+              TOPICS=(
+                "IDOR: the most boring critical bug"
+                "BOLA in REST APIs"
+                "Mass assignment vulnerabilities"
+                "API key rotation strategies"
+                "Rate limiting that actually works (token bucket)"
+                "GraphQL query cost analysis"
+                "JWT alg confusion attacks"
+                "OAuth scope abuse"
+              )
+              ;;
+            4)
+              SUB="Crypto & secrets management"
+              TOPICS=(
+                "Hashing vs encryption: stop confusing them"
+                "TLS misconfig that ships to production"
+                "Certificate pinning for mobile + API"
+                "Secrets management: env vars are not enough"
+                "KMS envelope encryption explained"
+                "Insecure RNG: Math.random is not your friend"
+                "HMAC verification in webhooks"
+                "Field-level encryption in databases"
+              )
+              ;;
+            5)
+              SUB="Supply chain security"
+              TOPICS=(
+                "npm typosquatting attacks"
+                "Dependency confusion in monorepos"
+                "SBOM: what to generate and how to use it"
+                "Lockfile poisoning"
+                "Malicious post-install scripts"
+                "Signed commits and provenance (SLSA)"
+                "Container base image hygiene"
+                "Pinning vs floating versions"
+              )
+              ;;
+            6)
+              SUB="Infrastructure & cloud security"
+              TOPICS=(
+                "IAM least privilege without losing your mind"
+                "S3 bucket misconfig in 2026"
+                "Cloud metadata SSRF (IMDSv2 saves you)"
+                "Container escape attack surface"
+                "Kubernetes RBAC patterns"
+                "Network policies in K8s"
+                "VPC peering vs Transit Gateway security"
+                "Secrets in CI: GitHub OIDC for AWS"
+              )
+              ;;
+            7)
+              SUB="Defensive engineering & incident response"
+              TOPICS=(
+                "Security headers beyond the basics (CSP, COEP, COOP)"
+                "Audit logs that survive an incident"
+                "Threat modeling for tired engineers"
+                "Detection engineering 101"
+                "Runbooks that don't lie"
+                "Honeypots for the practical dev"
+                "Post-incident reviews without blame"
+                "Zero trust without buying a product"
+              )
+              ;;
+          esac
+
+          TOPIC="${TOPICS[$RANDOM % ${#TOPICS[@]}]}"
+          RECENT=$( (cd content/posts && ls *.md 2>/dev/null) | sort | tail -63 )
+
+          {
+            echo "BLOG_SUB_CATEGORY=$SUB"
+            echo "BLOG_TOPIC=$TOPIC"
+            echo "RECENT_POSTS<<RECENT_EOF"
+            echo "$RECENT"
+            echo "RECENT_EOF"
+          } >> "$GITHUB_ENV"
+
+          echo "Picked sub-category: $SUB"
+          echo "Picked topic: $TOPIC"
+
       - name: Generate Security Blog Post
         uses: anthropics/claude-code-action@v1
         with:
@@ -39,9 +160,20 @@ jobs:
           prompt: |
             Generate one fun, engaging blog post about **Cybersecurity**.
 
-            Pick a SPECIFIC security topic that would be interesting for developers (e.g., "OWASP Top 10", "JWT Security", "API Security", "Docker Security", etc.)
+            Today's focus area within security: **${{ env.BLOG_SUB_CATEGORY }}**.
+            Suggested topic: **${{ env.BLOG_TOPIC }}**.
+
+            ANTI-REPEAT CHECK — these post slugs were generated in the last ~3 weeks. Do NOT cover any of these topics again, even with a fresh angle:
+            ${{ env.RECENT_POSTS }}
+
+            If the suggested topic overlaps with any recent slug (same core concept — e.g. another "JWT security" post when JWT already appears recently), PIVOT to a sibling topic within "${{ env.BLOG_SUB_CATEGORY }}" that hasn't been covered. Use your judgment to find a genuinely fresh angle. Do NOT default to JWT, rate limiting, or generic OWASP rehashes if those have appeared recently.
 
             Return ONLY valid markdown with proper frontmatter (title, date as today, excerpt, tags, featured: true).
+
+            AUTHOR CONTEXT (use when adding personal/experience anecdotes):
+            - The author is currently a Technical Lead at **Cubet Techno Labs**. Default any present-tense "in production / at work / on my team" anecdotes to Cubet Techno Labs (or just "Cubet").
+            - Acodez was an *earlier* role. Mention it only occasionally (roughly 1 in every 5 posts), and when you do, frame it with chronology cues: "early in my career at Acodez", "back when I was at Acodez", "before Cubet, at Acodez". Never present Acodez as the current employer.
+            - Avoid naming any company at all in posts where a personal anecdote would feel forced — generic "in production" is fine.
 
             Include:
             - Catchy title with emoji
@@ -79,19 +211,141 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Pick today's topic
+        run: |
+          WEEKDAY=$(date -u +%u)
+          case "$WEEKDAY" in
+            1)
+              SUB="API design"
+              TOPICS=(
+                "API versioning that doesn't break clients"
+                "Idempotency keys: stop processing duplicates"
+                "Pagination strategies (cursor vs offset)"
+                "Error response contracts at scale"
+                "OpenAPI-driven development workflow"
+                "Webhook design patterns (retries, signatures, ordering)"
+                "Long-running operations in HTTP APIs"
+                "RESTful is not REST: a vocabulary fix"
+              )
+              ;;
+            2)
+              SUB="Databases for application engineers"
+              TOPICS=(
+                "N+1 queries: the silent killer"
+                "Postgres index types beyond btree"
+                "Transaction isolation levels for the confused"
+                "Connection pooling in serverless"
+                "JSON columns: when to use, when to regret"
+                "Zero-downtime database migrations"
+                "Soft deletes vs hard deletes vs audit tables"
+                "Read replicas: read-your-writes pitfalls"
+                "Sharding without losing your mind"
+              )
+              ;;
+            3)
+              SUB="Messaging, queues & async patterns"
+              TOPICS=(
+                "Queue idempotency patterns"
+                "Outbox pattern for reliable event publishing"
+                "Backpressure in async pipelines"
+                "Dead letter queues that actually help"
+                "Event sourcing for non-fanatics"
+                "Pub/sub vs queues: picking the right primitive"
+                "Saga pattern for distributed transactions"
+                "At-least-once vs exactly-once delivery"
+              )
+              ;;
+            4)
+              SUB="Performance & caching"
+              TOPICS=(
+                "Cache invalidation strategies (yes, the hard one)"
+                "HTTP caching headers: stop guessing"
+                "Reading database query plans"
+                "Connection pool tuning under load"
+                "Memory leak hunting in Node.js"
+                "Profiling production without crashing it"
+                "Bulk operations vs row-by-row"
+                "Lazy vs eager loading at scale"
+              )
+              ;;
+            5)
+              SUB="Observability"
+              TOPICS=(
+                "Structured logging that's actually queryable"
+                "Distributed tracing with OpenTelemetry"
+                "Metrics, logs, traces: when to use which"
+                "Sampling strategies for traces"
+                "Correlation IDs across services"
+                "SLO/SLI design that engineers use"
+                "Debugging async stack traces"
+              )
+              ;;
+            6)
+              SUB="Testing & code quality"
+              TOPICS=(
+                "Contract testing between services"
+                "Test pyramid revisited for microservices"
+                "Property-based testing in real code"
+                "Flaky test detection and quarantine"
+                "Snapshot testing pitfalls"
+                "Test data: factories vs fixtures"
+                "Mutation testing for the brave"
+                "Integration tests without a full stack"
+              )
+              ;;
+            7)
+              SUB="Architecture patterns"
+              TOPICS=(
+                "Modular monolith: the underrated middle ground"
+                "When (and when NOT) to split a service"
+                "CQRS without ceremony"
+                "Hexagonal architecture for skeptics"
+                "Strangler fig: migrating legacy without rewrites"
+                "Service boundaries via DDD bounded contexts"
+                "Multi-tenancy strategies"
+                "Async-first architecture trade-offs"
+              )
+              ;;
+          esac
+
+          TOPIC="${TOPICS[$RANDOM % ${#TOPICS[@]}]}"
+          RECENT=$( (cd content/posts && ls *.md 2>/dev/null) | sort | tail -63 )
+
+          {
+            echo "BLOG_SUB_CATEGORY=$SUB"
+            echo "BLOG_TOPIC=$TOPIC"
+            echo "RECENT_POSTS<<RECENT_EOF"
+            echo "$RECENT"
+            echo "RECENT_EOF"
+          } >> "$GITHUB_ENV"
+
+          echo "Picked sub-category: $SUB"
+          echo "Picked topic: $TOPIC"
+
       - name: Generate Backend Blog Post
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
           prompt: |
-            Generate one fun, engaging blog post about **Node.js, Express, or Backend Development**.
+            Generate one fun, engaging blog post about **backend engineering** (Node.js, Express, databases, distributed systems, etc. — pick whichever fits the topic best, not always Node.js).
 
-            Pick a SPECIFIC backend topic that's different from recent posts (e.g., "Error Handling", "API Design", "Performance Optimization", "Database Patterns", etc.)
+            Today's focus area within backend: **${{ env.BLOG_SUB_CATEGORY }}**.
+            Suggested topic: **${{ env.BLOG_TOPIC }}**.
+
+            ANTI-REPEAT CHECK — these post slugs were generated in the last ~3 weeks. Do NOT cover any of these topics again, even with a fresh angle:
+            ${{ env.RECENT_POSTS }}
+
+            If the suggested topic overlaps with any recent slug (same core concept — e.g. another "graceful shutdown" or "streams" post when those already appear), PIVOT to a sibling topic within "${{ env.BLOG_SUB_CATEGORY }}" that hasn't been covered. Use your judgment to find a genuinely fresh angle. Do NOT default to Node.js fundamentals (event loop, streams, graceful shutdown, rate limiting) if those have appeared recently — branch into databases, messaging, observability, architecture, etc.
 
             Return ONLY valid markdown with proper frontmatter (title, date as today, excerpt, tags, featured: true).
 
             IMPORTANT: In the excerpt field, escape any backslashes by doubling them (e.g., GuzzleHttp\Client becomes GuzzleHttp\\Client).
+
+            AUTHOR CONTEXT (use when adding personal/experience anecdotes):
+            - The author is currently a Technical Lead at **Cubet Techno Labs**. Default any present-tense "in production / at work / on my team" anecdotes to Cubet Techno Labs (or just "Cubet").
+            - Acodez was an *earlier* role. Mention it only occasionally (roughly 1 in every 5 posts), and when you do, frame it with chronology cues: "early in my career at Acodez", "back when I was at Acodez", "before Cubet, at Acodez". Never present Acodez as the current employer.
+            - Avoid naming any company at all in posts where a personal anecdote would feel forced — generic "in production" is fine.
 
             Include:
             - Catchy title with emoji
@@ -129,19 +383,139 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Pick today's topic
+        run: |
+          WEEKDAY=$(date -u +%u)
+          case "$WEEKDAY" in
+            1)
+              SUB="Containers (deep)"
+              TOPICS=(
+                "Multi-arch Docker builds with buildx"
+                "Distroless images: actually using them"
+                "Container image scanning in CI"
+                "Runtime security with seccomp and AppArmor"
+                "Container layering for cache hits"
+                "Init systems inside containers (tini, dumb-init)"
+                "Container UID/GID gotchas"
+                "Docker socket: the security hole nobody talks about"
+              )
+              ;;
+            2)
+              SUB="Kubernetes operations"
+              TOPICS=(
+                "Resource requests and limits done right"
+                "HPA vs VPA vs Karpenter"
+                "Network policies that don't break apps"
+                "Ingress controllers compared"
+                "Secrets management beyond base64"
+                "PodDisruptionBudgets that save deploys"
+                "Custom resources and operators for the curious"
+                "Probes that lie vs probes that work"
+              )
+              ;;
+            3)
+              SUB="CI/CD patterns"
+              TOPICS=(
+                "GitHub Actions matrix builds that don't explode"
+                "Trunk-based development in monorepos"
+                "Deployment gates without slowing down"
+                "What to cache in CI, what not to"
+                "Self-hosted runners: when worth it"
+                "Pipeline observability"
+                "Build reproducibility in practice"
+                "Pre-commit hooks that don't annoy"
+              )
+              ;;
+            4)
+              SUB="Infrastructure as code"
+              TOPICS=(
+                "Terraform state: locking, sharing, recovering"
+                "Module design patterns for Terraform"
+                "Drift detection strategies"
+                "Pulumi vs Terraform: an honest take"
+                "Crossplane: Kubernetes as IaC"
+                "Policy-as-code with OPA"
+                "Secret handling in IaC"
+              )
+              ;;
+            5)
+              SUB="Cloud & cost engineering"
+              TOPICS=(
+                "AWS bill audit checklist"
+                "Right-sizing without guessing"
+                "Savings plans vs reserved instances"
+                "FinOps for engineers (not finance)"
+                "Multi-region: when you actually need it"
+                "Egress costs that bite"
+                "Lambda cold starts: the real impact"
+                "S3 storage class transitions"
+              )
+              ;;
+            6)
+              SUB="Reliability engineering"
+              TOPICS=(
+                "SLO design that engineers actually use"
+                "Error budgets without burnout"
+                "Chaos engineering on a budget"
+                "Runbook automation"
+                "On-call rotations humans can sustain"
+                "Post-mortems that change behavior"
+                "Graceful degradation patterns"
+                "Circuit breakers in practice"
+              )
+              ;;
+            7)
+              SUB="Platform & developer tooling"
+              TOPICS=(
+                "Internal developer platforms: build or buy?"
+                "Backstage in real life"
+                "Golden paths vs guard rails"
+                "Containerized dev environments"
+                "Ephemeral preview environments"
+                "Local-prod parity tricks"
+                "Toolchain consolidation"
+              )
+              ;;
+          esac
+
+          TOPIC="${TOPICS[$RANDOM % ${#TOPICS[@]}]}"
+          RECENT=$( (cd content/posts && ls *.md 2>/dev/null) | sort | tail -63 )
+
+          {
+            echo "BLOG_SUB_CATEGORY=$SUB"
+            echo "BLOG_TOPIC=$TOPIC"
+            echo "RECENT_POSTS<<RECENT_EOF"
+            echo "$RECENT"
+            echo "RECENT_EOF"
+          } >> "$GITHUB_ENV"
+
+          echo "Picked sub-category: $SUB"
+          echo "Picked topic: $TOPIC"
+
       - name: Generate DevOps Blog Post
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
           prompt: |
-            Generate one fun, engaging blog post about **DevOps, Docker, Kubernetes, or CI/CD**.
+            Generate one fun, engaging blog post about **DevOps / platform engineering** (containers, Kubernetes, CI/CD, IaC, cloud cost, reliability, dev platforms — not always Docker).
 
-            Pick a SPECIFIC DevOps topic that would help developers (e.g., "Docker Best Practices", "GitHub Actions Tips", "Deployment Strategies", "Container Security", etc.)
+            Today's focus area within devops: **${{ env.BLOG_SUB_CATEGORY }}**.
+            Suggested topic: **${{ env.BLOG_TOPIC }}**.
+
+            ANTI-REPEAT CHECK — these post slugs were generated in the last ~3 weeks. Do NOT cover any of these topics again, even with a fresh angle:
+            ${{ env.RECENT_POSTS }}
+
+            If the suggested topic overlaps with any recent slug (same core concept — e.g. another "Docker multi-stage" or "GitHub Actions cache" post when those already appear), PIVOT to a sibling topic within "${{ env.BLOG_SUB_CATEGORY }}" that hasn't been covered. Use your judgment to find a genuinely fresh angle. Do NOT default to Docker multi-stage builds, GitHub Actions caching, or Kubernetes health probes if those have appeared recently — branch into IaC, cost, reliability, platform tooling, etc.
 
             Return ONLY valid markdown with proper frontmatter (title, date as today, excerpt, tags, featured: true).
 
             IMPORTANT: In the excerpt field, escape any backslashes by doubling them (e.g., GuzzleHttp\Client becomes GuzzleHttp\\Client).
+
+            AUTHOR CONTEXT (use when adding personal/experience anecdotes):
+            - The author is currently a Technical Lead at **Cubet Techno Labs**. Default any present-tense "in production / at work / on my team" anecdotes to Cubet Techno Labs (or just "Cubet").
+            - Acodez was an *earlier* role. Mention it only occasionally (roughly 1 in every 5 posts), and when you do, frame it with chronology cues: "early in my career at Acodez", "back when I was at Acodez", "before Cubet, at Acodez". Never present Acodez as the current employer.
+            - Avoid naming any company at all in posts where a personal anecdote would feel forced — generic "in production" is fine.
 
             Include:
             - Catchy title with emoji
