@@ -1,0 +1,168 @@
+---
+title: "🛤️ Golden Paths vs Guard Rails: Stop Building Walls, Start Paving Roads"
+date: 2026-06-07
+excerpt: "Golden paths guide developers toward good defaults; guard rails stop them from bad ones. Used wrong, both create misery. Here's how to know which one your platform actually needs."
+tags:
+  - platform-engineering
+  - developer-experience
+  - devops
+  - kubernetes
+  - ci-cd
+featured: true
+---
+
+Every platform team faces the same fork in the road eventually.
+
+A developer ships something that bypasses your carefully crafted standards. Maybe they hard-coded a secret. Maybe they deployed without resource limits. Maybe they picked an unsupported runtime because the approved one didn't have the library they needed.
+
+Your instinct: **lock it down**. Add a policy. Block the merge. Enforce the standard with an iron fist.
+
+But here's the uncomfortable truth: the more walls you build, the more tunnels developers dig under them — and those tunnels are invisible, unsupported, and full of surprises. You haven't fixed the problem; you've just hidden it.
+
+This is the core tension in platform engineering between **golden paths** and **guard rails**. Both matter. Used wrong, both cause damage. Here's how to tell them apart — and when to reach for each.
+
+---
+
+## What's the Actual Difference?
+
+A **golden path** is an opinionated, well-maintained route to doing something the right way. It makes the good choice the easy choice. You pick up the scaffold, follow the path, and land somewhere sensible without having to understand every underlying system.
+
+A **guard rail** is a hard stop on a bad choice. It blocks the deploy, fails the lint, rejects the PR. It says "you can't go there."
+
+Golden paths are *pull*: they attract developers toward good defaults.  
+Guard rails are *push*: they repel developers from bad ones.
+
+Here's the kicker — if your golden path is actually good, most developers will take it voluntarily. Guard rails only become necessary when the path isn't compelling enough on its own, or when the cost of deviation is catastrophic (security, compliance, production stability).
+
+---
+
+## The All-Guard-Rails Trap
+
+At Cubet, we went through a phase where our platform team's answer to every incident was a new policy. Bad secret management? OPA policy. Missing resource limits? Admission webhook. Unknown base image? Image allowlist.
+
+Within a few months we had a maze of restrictions and almost no documentation about *why* they existed or *what to do instead*. New engineers spent their first week not learning the product — they spent it learning how to get past the platform.
+
+The signal that you've fallen into this trap: **developers start asking for exemptions on day one**, before they've even understood what they're trying to do.
+
+Guard rails without golden paths teach developers that the platform is an obstacle, not an ally.
+
+---
+
+## The All-Golden-Path Problem
+
+The opposite failure is softer and slower. You build an excellent internal platform — service templates, CI scaffolds, pre-configured Helm charts, the works. Developers are free to use it or not.
+
+Most don't. The path exists, but inertia and "I know my way" win. You're now maintaining two parallel universes: the supported path and a dozen artisanal setups that nobody fully understands.
+
+The signal here: **every incident has a different root cause** because every service was wired up differently.
+
+Freedom without structure means your platform investment doesn't actually move the needle on reliability.
+
+---
+
+## A Practical Framework
+
+Think about risk and frequency together:
+
+| | Low Frequency | High Frequency |
+|---|---|---|
+| **Low Risk** | Skip it entirely | Golden path |
+| **High Risk** | Guard rail | Guard rail + golden path |
+
+For anything high-frequency and low-risk (deploying a service, adding a dependency, writing a Dockerfile), the answer is almost always a golden path — make the right thing easy, don't block the wrong thing.
+
+For high-risk actions regardless of frequency (pushing to production with no review, writing secrets to logs, exposing unauthenticated endpoints), guard rails are justified. The cost of deviation is real.
+
+The worst investment: a guard rail on something low-risk that just adds friction. The second-worst: a golden path for something high-risk with no backstop.
+
+---
+
+## What a Good Golden Path Actually Looks Like
+
+A golden path isn't just a template in a wiki. It's:
+
+1. **A scaffold you can run**: `platform init --type service --lang go` should produce a working repo.
+2. **Batteries included**: CI config, Dockerfile, Helm chart, resource limits, liveness probes — all in.
+3. **Opinionated but escapable**: sensible defaults that you can override with intention, not by accident.
+4. **Maintained**: if the scaffold bit-rots, developers learn not to trust it.
+
+Here's a simplified example of what an internal `platform` CLI scaffold might generate for a service's CI step:
+
+```yaml
+# .github/workflows/deploy.yml (generated by platform init)
+name: Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    uses: org/platform-workflows/.github/workflows/service-deploy.yml@v2
+    with:
+      service-name: ${{ github.event.repository.name }}
+      environment: production
+    secrets: inherit
+```
+
+One line of configuration. The reusable workflow handles image build, scanning, signing, staging promotion, and smoke tests. Developers don't configure any of that — they just call the workflow. That's a golden path.
+
+---
+
+## What a Good Guard Rail Actually Looks Like
+
+A guard rail that's worth the friction has two properties: **it explains itself** and **it points to the alternative**.
+
+Here's an OPA/Gatekeeper policy that blocks containers running as root — but with a message that tells you what to do instead:
+
+```rego
+package kubernetes.admission
+
+deny[msg] {
+  input.request.kind.kind == "Pod"
+  container := input.request.object.spec.containers[_]
+  not container.securityContext.runAsNonRoot
+  msg := sprintf(
+    "Container '%v' must set securityContext.runAsNonRoot: true. See go/platform-security for the base image that handles this automatically.",
+    [container.name]
+  )
+}
+```
+
+Notice the `go/platform-security` link. That's not an accident. Every guard rail you ship should point directly at the golden path that makes it unnecessary to hit the guard rail in the first place.
+
+If you can't write that link, the guard rail isn't ready to ship yet.
+
+---
+
+## The Sequencing Question
+
+Here's something platform teams get backwards: they ship guard rails first because they're faster to implement, then promise to build the golden path "later."
+
+Later never comes — or it comes after developers have already built enough scar tissue around the restriction that they resent the golden path when it arrives.
+
+Ship the golden path first, even if it's rough. Let developers use it voluntarily. Gather feedback. Then — only when you understand the failure modes — add guard rails on the things that actually break.
+
+Guard rails should be the final line of defence, not the first.
+
+---
+
+## Measuring Whether It's Working
+
+Three signals worth tracking:
+
+- **Time to first deploy** for a new service — golden paths should shrink this.
+- **Exemption request volume** — rising exemptions mean your paths aren't good enough or your rails are too strict.
+- **Incident diversity** — if you're seeing the same failure mode repeatedly, you need a golden path or a guard rail for it.
+
+The goal isn't zero guard rails. It's guard rails that developers hit so rarely they've almost forgotten they exist, because the golden path made the safe choice obvious.
+
+---
+
+## The Mental Shift
+
+Platform engineering isn't about controlling what developers can do. It's about making the right things so easy that the wrong things aren't worth the effort.
+
+Build the road first. Paint the lanes. Then — and only then — put up the barriers at the cliff edges.
+
+Your developers aren't trying to do the wrong thing. They're trying to move fast with the tools they have. Give them better tools and you'll spend a lot less time policing the walls.
+
+What's the ratio of golden paths to guard rails on your platform right now? Might be worth counting.
