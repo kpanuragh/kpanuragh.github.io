@@ -13,7 +13,7 @@ export default function Header() {
             <Link href="/blog" className="px-3 py-1.5 text-sm font-medium text-terminal-text dark:text-gray-300 hover:text-terminal-accent hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors">
               Blog
             </Link>
-            <Link href="/#about" className="px-3 py-1.5 text-sm font-medium text-terminal-text dark:text-gray-300 hover:text-terminal-accent hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors">
+            <Link href="/about" className="px-3 py-1.5 text-sm font-medium text-terminal-text dark:text-gray-300 hover:text-terminal-accent hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors">
               About
             </Link>
           </nav>
