@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full overflow-hidden border-3 border-white">
                   <Image
                     src="/profile.jpg"
-                    alt="Anurag KP"
+                    alt="Anuragh KP"
                     fill
                     className="object-cover"
                     priority
@@ -40,10 +40,10 @@ export default function Home() {
               </div>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-terminal-highlight dark:text-gray-100 tracking-tight mb-4">
-              Anurag KP
+              Anuragh KP
             </h1>
             <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 mb-8 max-w-lg">
-              Laravel Developer &middot; Security Enthusiast &middot; Radio Explorer
+              Technical Lead @ Cubet &middot; Backend &amp; Security Engineer &middot; Open Source
             </p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
               <Link
