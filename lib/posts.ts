@@ -10,6 +10,7 @@ export interface PostMetadata {
   slug: string;
   title: string;
   date: string;
+  updated?: string;
   excerpt: string;
   tags: string[];
   featured?: boolean;
@@ -55,6 +56,7 @@ export function getPostBySlug(slug: string): Post {
     slug,
     title: data.title || 'Untitled',
     date: data.date || new Date().toISOString(),
+    updated: data.updated || undefined,
     excerpt: data.excerpt || '',
     tags: data.tags || [],
     featured: data.featured || false,

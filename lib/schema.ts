@@ -73,7 +73,7 @@ export function getBlogPostingSchema(post: Post) {
       ? `${siteConfig.url}${post.coverImage}`
       : `${siteConfig.url}/og/${post.slug}.png`,
     datePublished: post.date,
-    dateModified: post.date, // Use modifiedDate from frontmatter if available
+    dateModified: post.updated || post.date,
     author: {
       '@type': 'Person',
       name: siteConfig.author.name,
