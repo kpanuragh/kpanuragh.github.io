@@ -10,6 +10,7 @@ import ReadingProgress from '@/components/ReadingProgress';
 import CopyCodeButton from '@/components/CopyCodeButton';
 import TableOfContents from '@/components/TableOfContents';
 import RelatedPosts from '@/components/RelatedPosts';
+import ShareButtons from '@/components/ShareButtons';
 
 export async function generateStaticParams() {
   const slugs = getAllPostSlugs();
@@ -76,6 +77,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   const htmlContent = await markdownToHtml(post.content);
   const relatedPosts = getRelatedPosts(slug);
+  const postUrl = `${siteConfig.url}/blog/${slug}`;
 
   return (
     <>
@@ -136,6 +138,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             dangerouslySetInnerHTML={{ __html: htmlContent }}
           />
         </article>
+
+        <ShareButtons url={postUrl} title={post.title} />
 
         <RelatedPosts posts={relatedPosts} />
 
