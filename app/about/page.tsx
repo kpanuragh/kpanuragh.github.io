@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/seo-config';
 import { getPersonSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'About — Anuragh KP',
+  title: 'About',
   description:
     'Anuragh KP — Technical Lead at Cubet Techno Labs. Backend engineering, application security, and DevOps. Available for consulting and collaboration.',
   alternates: { canonical: '/about' },
