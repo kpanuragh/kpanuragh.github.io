@@ -1,18 +1,21 @@
 export const siteConfig = {
   name: "0x55aa",
-  title: "0x55aa - Personal Blog",
-  description: "Laravel Developer, Cybersecurity Enthusiast, Open Source Contributor",
+  tagline: "0x55aa",
+  title: "Anuragh KP — Technical Lead, Backend & Security Engineer",
+  description:
+    "Technical Lead at Cubet Techno Labs, writing about backend engineering, application security, and DevOps — Laravel, Node.js, Kubernetes, and the messy realities of production.",
   url: "https://iamanuragh.in",
   author: {
-    name: "Anuragh K P",
+    name: "Anuragh KP",
     email: "noreply@iamanuragh.in",
     url: "https://iamanuragh.in",
   },
+  contactEmail: "kpanuragh@gmail.com",
   social: {
-    twitter: "@anuragh_kp", // Update with your actual Twitter handle if you have one
+    twitter: "@anuragh_kp",
     github: "kpanuragh",
-    linkedin: "anuragh-k-p", // Update with your LinkedIn username
+    linkedin: "anuraghkp",
   },
   locale: "en_US",
-  ogImage: "/og/og-default.png", // Fallback OG image
+  ogImage: "/og/og-default.png",
 };

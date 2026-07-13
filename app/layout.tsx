@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.title,
-    template: '%s - 0x55aa',
+    template: '%s — Anuragh KP',
   },
   description: siteConfig.description,
-  keywords: ["Laravel", "PHP", "Cybersecurity", "Open Source", "RF", "SDR", "Web Development", "Security"],
+  keywords: ["Anuragh KP", "Laravel", "PHP", "Node.js", "Backend Engineering", "Application Security", "Kubernetes", "DevOps", "Technical Lead"],
   authors: [{ name: siteConfig.author.name, url: siteConfig.author.url }],
   creator: siteConfig.author.name,
   publisher: siteConfig.author.name,
@@ -54,6 +54,9 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION,
   },
   icons: {
     icon: [
