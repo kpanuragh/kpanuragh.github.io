@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getAllPostSlugs, getPostBySlug, } from '@/lib/posts';
+import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from '@/lib/posts';
 import { formatDate } from '@/lib/date-utils';
 import { markdownToHtml } from '@/lib/markdown';
 import Link from 'next/link';
@@ -9,6 +9,7 @@ import { siteConfig } from '@/lib/seo-config';
 import ReadingProgress from '@/components/ReadingProgress';
 import CopyCodeButton from '@/components/CopyCodeButton';
 import TableOfContents from '@/components/TableOfContents';
+import RelatedPosts from '@/components/RelatedPosts';
 
 export async function generateStaticParams() {
   const slugs = getAllPostSlugs();
@@ -74,6 +75,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
   const htmlContent = await markdownToHtml(post.content);
+  const relatedPosts = getRelatedPosts(slug);
 
   return (
     <>
@@ -134,6 +136,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             dangerouslySetInnerHTML={{ __html: htmlContent }}
           />
         </article>
+
+        <RelatedPosts posts={relatedPosts} />
 
         {/* Footer CTA */}
         <div className="mt-16 pt-8 border-t border-gray-200">

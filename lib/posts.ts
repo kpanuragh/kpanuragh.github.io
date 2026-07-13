@@ -86,6 +86,27 @@ export function getPostsByTag(tag: string): PostMetadata[] {
   );
 }
 
+export function getRelatedPosts(slug: string, limit = 3): PostMetadata[] {
+  const all = getAllPosts();
+  const current = all.find(p => p.slug === slug);
+  if (!current) return [];
+  const currentTags = new Set(current.tags.map(t => t.toLowerCase()));
+
+  return all
+    .filter(p => p.slug !== slug)
+    .map(p => ({
+      post: p,
+      score: p.tags.filter(t => currentTags.has(t.toLowerCase())).length,
+    }))
+    .filter(x => x.score > 0)
+    .sort((a, b) =>
+      b.score - a.score ||
+      new Date(b.post.date).getTime() - new Date(a.post.date).getTime()
+    )
+    .slice(0, limit)
+    .map(x => x.post);
+}
+
 export function getAllTags(): string[] {
   const posts = getAllPosts();
   const tagsSet = new Set<string>();
