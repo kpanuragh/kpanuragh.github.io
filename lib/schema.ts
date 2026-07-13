@@ -30,11 +30,21 @@ export function getPersonSchema() {
     '@type': 'Person',
     name: siteConfig.author.name,
     url: siteConfig.author.url,
+    image: `${siteConfig.url}/profile.jpg`,
     sameAs: [
       `https://github.com/${siteConfig.social.github}`,
       `https://www.linkedin.com/in/${siteConfig.social.linkedin}`,
+      `https://x.com/${siteConfig.social.twitter.replace('@', '')}`,
     ].filter(Boolean),
-    jobTitle: 'Laravel Developer',
+    jobTitle: 'Technical Lead',
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Cubet Techno Labs',
+    },
+    knowsAbout: [
+      'Laravel', 'PHP', 'Node.js', 'Backend Architecture',
+      'Application Security', 'Kubernetes', 'DevOps', 'CI/CD',
+    ],
     description: siteConfig.description,
   };
 }
@@ -45,7 +55,7 @@ export function getBlogSchema() {
     '@type': 'Blog',
     name: `${siteConfig.name} Blog`,
     url: `${siteConfig.url}/blog`,
-    description: 'Articles about Laravel, Cybersecurity, Open Source, and more',
+    description: 'Articles about backend engineering, application security, and DevOps — Laravel, Node.js, and Kubernetes.',
     author: {
       '@type': 'Person',
       name: siteConfig.author.name,
