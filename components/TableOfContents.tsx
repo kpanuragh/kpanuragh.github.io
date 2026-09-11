@@ -59,10 +59,10 @@ export default function TableOfContents() {
 
   return (
     <nav className="hidden xl:block fixed right-[max(1rem,calc((100vw-768px)/2-280px))] top-24 w-56 max-h-[calc(100vh-8rem)] overflow-y-auto">
-      <p className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase tracking-wider mb-3">
+      <p className="text-xs font-semibold text-dim uppercase tracking-wider mb-3">
         On this page
       </p>
-      <ul className="space-y-1 border-l border-gray-200 dark:border-gray-700">
+      <ul className="space-y-1 border-l border-line">
         {headings.map(({ id, text, level }) => (
           <li key={id}>
             <a
@@ -75,8 +75,8 @@ export default function TableOfContents() {
                 level === 3 ? 'pl-5' : 'pl-3'
               } ${
                 activeId === id
-                  ? 'border-[#e65100] text-[#e65100] dark:text-[#ff8a50] font-medium'
-                  : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+                  ? 'border-acc text-acc font-medium'
+                  : 'border-transparent text-mut hover:text-tx'
               }`}
             >
               {text}

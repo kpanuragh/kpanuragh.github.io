@@ -12,7 +12,7 @@ export default function CopyLinkButton({ url }: { url: string }) {
           setTimeout(() => setCopied(false), 1500);
         });
       }}
-      className="px-4 py-1.5 text-xs font-medium rounded-full border border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 hover:border-[#e65100] hover:text-[#e65100] transition-colors"
+      className="px-4 py-1.5 text-xs font-medium rounded-full border border-line text-mut hover:border-acc hover:text-acc transition-colors"
     >
       {copied ? 'Copied!' : 'Copy link'}
     </button>

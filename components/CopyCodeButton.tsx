@@ -15,7 +15,7 @@ export default function CopyCodeButton() {
       wrapper.appendChild(pre);
 
       const btn = document.createElement('button');
-      btn.className = 'copy-btn absolute top-3 right-3 px-2.5 py-1.5 text-xs font-medium rounded-lg bg-white/10 text-gray-400 hover:text-white hover:bg-white/20 backdrop-blur-sm border border-white/10 opacity-0 group-hover/code:opacity-100 transition-all duration-200 cursor-pointer';
+      btn.className = 'copy-btn absolute top-3 right-3 px-2.5 py-1.5 text-xs font-medium rounded-lg bg-surf2 text-dim hover:text-tx hover:bg-surf backdrop-blur-sm border border-line opacity-0 group-hover/code:opacity-100 transition-all duration-200 cursor-pointer';
       btn.textContent = 'Copy';
 
       btn.addEventListener('click', async () => {

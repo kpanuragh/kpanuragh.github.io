@@ -154,14 +154,14 @@
 
   .hljs-comment,
   .hljs-quote {
-    @apply text-dim italic;
+    @apply text-mut italic;
   }
 
   .hljs-keyword,
   .hljs-selector-tag,
   .hljs-operator,
   .hljs-subst {
-    color: #c8965a;
+    @apply text-acc;
   }
 
   .hljs-string,
@@ -181,7 +181,7 @@
   .hljs-title.function_,
   .hljs-function,
   .hljs-section {
-    color: #7aa2c4;
+    @apply text-acc2;
   }
 
   .hljs-params {
@@ -223,8 +223,7 @@
   }
 
   .hljs-link {
-    color: #7aa2c4;
-    @apply underline;
+    @apply text-acc2 underline;
   }
 
   .hljs-emphasis {

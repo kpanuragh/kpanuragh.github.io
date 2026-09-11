@@ -42,3 +42,16 @@ describe('blog post styling', () => {
     expect(source).not.toContain('/blog/tags/');
   });
 });
+
+describe('components carry no light-theme palette', () => {
+  const componentsDir = path.join(process.cwd(), 'components');
+  const files = fs.readdirSync(componentsDir).filter(f => f.endsWith('.tsx'));
+  const banned = [/dark:/, /text-terminal-/, /bg-white/, /text-gray-\d+/];
+
+  it.each(files)('%s has no dark: / text-terminal- / bg-white / text-gray-N classes', (file) => {
+    const source = fs.readFileSync(path.join(componentsDir, file), 'utf8');
+    for (const pattern of banned) {
+      expect(source, `${file} matched ${pattern}`).not.toMatch(pattern);
+    }
+  });
+});
