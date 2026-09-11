@@ -5,7 +5,7 @@ excerpt: "forceIndex() and inRandomOrder() passed their arguments straight into 
 tags: ["security", "laravel", "sql-injection"]
 ---
 
-I spent part of last month going through Laravel's query builder looking for places where a string ends up inside compiled SQL without being checked first. I found one: `forceIndex()` and `inRandomOrder()` took their argument and wrote it into the query, unvalidated, in the MySQL, SQLite, and SQL Server grammars. I reported it through Laravel's security process, wrote the patch, and it shipped in **v12.48.0**, commit [`1dcf0b38`](https://github.com/laravel/framework/commit/1dcf0b38).
+Earlier this year I went through Laravel's query builder looking for places where a string ends up inside compiled SQL without being checked first. I found one: `forceIndex()` and `inRandomOrder()` took their argument and wrote it into the query, unvalidated, in the MySQL, SQLite, and SQL Server grammars. I reported it through Laravel's security process, wrote the patch, and it shipped in **v12.48.0**, commit [`1dcf0b38`](https://github.com/laravel/framework/commit/1dcf0b38).
 
 Laravel did not issue a CVE for this. I think that was the right call, and I want to explain why, because the interesting part of this story isn't the bug — it's the disagreement about whose problem it was.
 
@@ -50,7 +50,7 @@ if (! preg_match('/^[a-zA-Z0-9_$]+$/', $index)) {
 
 I picked an allow-list over escaping on purpose. Escaping makes sense when the value is data — a string that needs to survive being embedded in SQL syntax while still meaning what it meant. An index identifier isn't data in that sense. It's a name, and MySQL, SQLite, and SQL Server all agree on what a valid identifier of this kind can contain: letters, digits, underscores, and `$`. There's no legitimate index name that this regex rejects. So instead of trying to neutralize dangerous characters, the guard just refuses to compile anything that couldn't be a real index name in the first place.
 
-Alongside the regex, the compiled SQL also wraps the identifier in backticks — `"force index (`{$index}`)"` in MySQL, `"indexed by `{$index}`"` in SQLite. The allow-list makes the value safe; the quoting makes it correct even for an identifier that happens to collide with a reserved word. Belt and braces.
+Alongside the regex, the compiled SQL also wraps the identifier in backticks — `` "force index (`{$index}`)" `` in MySQL, `` "indexed by `{$index}`" `` in SQLite. The allow-list makes the value safe; the quoting makes it correct even for an identifier that happens to collide with a reserved word. Belt and braces.
 
 The seed passed to `inRandomOrder()` isn't a name, it's a number, so it gets a numeric check and a cast instead of a regex:
 
