@@ -76,6 +76,13 @@ describe('site identity', () => {
     expect(pp['@type']).toBe('ProfilePage');
     expect(pp.mainEntity.name).toBe('Anuragh KP');
   });
+
+  it('advertises no search capability that does not exist', () => {
+    // A blog search UI existed in an earlier design and was deleted in this redesign.
+    // Advertising a SearchAction that has no backing endpoint is worse than omitting it.
+    expect(JSON.stringify(getWebSiteSchema())).not.toContain('potentialAction');
+    expect(JSON.stringify(getWebSiteSchema())).not.toContain('SearchAction');
+  });
 });
 
 describe('work collection schema', () => {

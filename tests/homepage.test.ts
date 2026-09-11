@@ -42,6 +42,12 @@ describe('homepage build output', () => {
     expect(html).toContain('"alternateName"');
   });
 
+  it('embeds WebSite JSON-LD with no potentialAction', () => {
+    expect(html).toContain('"@type":"WebSite"');
+    expect(html).not.toContain('potentialAction');
+    expect(html).not.toContain('SearchAction');
+  });
+
   it('mentions langchain nowhere', () => {
     expect(html.toLowerCase()).not.toContain('langchain');
   });

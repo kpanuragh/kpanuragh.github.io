@@ -5,7 +5,7 @@ import SecurityLead from '@/components/SecurityLead';
 import RoleList from '@/components/RoleList';
 import CertGrid from '@/components/CertGrid';
 import { featuredProjects } from '@/lib/projects';
-import { getProfilePageSchema } from '@/lib/schema';
+import { getProfilePageSchema, getWebSiteSchema } from '@/lib/schema';
 
 export default function Home() {
   const featured = featuredProjects().slice(0, 2);
@@ -73,7 +73,9 @@ export default function Home() {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(getProfilePageSchema()) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([getProfilePageSchema(), getWebSiteSchema()]),
+        }}
       />
     </div>
   );
