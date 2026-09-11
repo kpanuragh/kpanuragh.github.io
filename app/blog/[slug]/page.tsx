@@ -14,6 +14,14 @@ import ShareButtons from '@/components/ShareButtons';
 
 export async function generateStaticParams() {
   const slugs = getAllPostSlugs();
+  // Next.js's `output: 'export'` build refuses a dynamic route whose
+  // generateStaticParams() resolves to zero routes, even though the
+  // function is present (see the "is missing generateStaticParams()"
+  // export validation). With no posts yet, emit one placeholder param;
+  // the page below calls notFound() for it since no post file matches.
+  if (slugs.length === 0) {
+    return [{ slug: '__placeholder__' }];
+  }
   return slugs.map((slug) => ({ slug }));
 }
 
