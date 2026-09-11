@@ -94,12 +94,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
       <TableOfContents />
 
       {/* Article Header */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-[#f8f9fa] to-[#f0f4ff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#0f172a]">
-        <div className="absolute inset-0 opacity-20" style={{ background: 'radial-gradient(circle at 20% 80%, #e6510015, transparent 50%)' }} />
+      <section className="relative overflow-hidden bg-surf border-b border-line">
+        <div className="absolute inset-0 opacity-20" style={{ background: 'radial-gradient(circle at 20% 80%, rgba(200,150,90,0.08), transparent 50%)' }} />
         <div className="max-w-3xl mx-auto px-4 pt-10 pb-14 relative z-10">
           <Link
             href="/blog"
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-gray-500 hover:text-[#e65100] transition-colors mb-6"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-mut hover:text-acc transition-colors mb-6"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
             Back to Blog
@@ -108,27 +108,26 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           {post.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-5">
               {post.tags.map(tag => (
-                <Link
+                <span
                   key={tag}
-                  href={`/blog/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="tag-pill"
+                  className="font-mono text-[10.5px] text-dim border border-line rounded px-2 py-0.5"
                 >
                   {tag}
-                </Link>
+                </span>
               ))}
             </div>
           )}
 
-          <h1 className="text-3xl md:text-5xl font-bold text-terminal-highlight dark:text-gray-100 leading-tight tracking-tight mb-5">
+          <h1 className="text-3xl md:text-5xl font-bold text-tx leading-tight tracking-tight mb-5">
             {post.title}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
+          <div className="flex flex-wrap items-center gap-3 text-sm text-mut">
             <div className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
               <time dateTime={post.date}>{formatDate(post.date)}</time>
             </div>
-            <span className="text-gray-300">|</span>
+            <span className="text-dim">|</span>
             <div className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               <span>{post.readingTime}</span>
@@ -152,13 +151,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <RelatedPosts posts={relatedPosts} />
 
         {/* Footer CTA */}
-        <div className="mt-16 pt-8 border-t border-gray-200">
+        <div className="mt-16 pt-8 border-t border-line">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-gray-500 text-sm">Thanks for reading!</p>
+            <p className="text-mut text-sm">Thanks for reading!</p>
             <Link
               href="/blog"
-              className="inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold text-white rounded-full transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-              style={{ background: 'linear-gradient(135deg, #e65100, #ff6d00)' }}
+              className="inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold text-bg bg-acc rounded-full transition-all duration-200 hover:-translate-y-0.5"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
               Back to all posts

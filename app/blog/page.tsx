@@ -1,70 +1,57 @@
 import type { Metadata } from 'next';
-import { getAllPosts, getAllTags } from '@/lib/posts';
-import BlogListClient from '@/components/BlogListClient';
+import Link from 'next/link';
+import { getAllPosts, formatDate } from '@/lib/posts';
 import { getBlogSchema, getBreadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/seo-config';
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Articles about Cybersecurity, Open Source, RF, SDR, and technology experiments.',
-  alternates: {
-    canonical: '/blog',
-  },
-  openGraph: {
-    type: 'website',
-    url: `${siteConfig.url}/blog`,
-    title: 'Blog - 0x55aa',
-    description: 'Articles about Cybersecurity, Open Source, RF, SDR, and technology experiments.',
-    images: [
-      {
-        url: '/og/og-blog.png',
-        width: 1200,
-        height: 630,
-        alt: 'Blog - 0x55aa',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Blog - 0x55aa',
-    description: 'Articles about Cybersecurity, Open Source, RF, SDR, and technology experiments.',
-    images: ['/og/og-blog.png'],
-  },
+  title: 'Writing',
+  description: 'Occasional writing on backend engineering, application security and DevOps by Anuragh KP.',
+  alternates: { canonical: '/blog' },
+  openGraph: { type: 'website', url: `${siteConfig.url}/blog`, title: 'Writing — Anuragh KP' },
 };
 
 export default function BlogPage() {
   const posts = getAllPosts();
-  const tags = getAllTags();
 
   return (
-    <>
-      {/* Blog Header */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7ed] via-[#f8f9fa] to-[#f0f4ff] dark:from-[#0f172a] dark:via-[#1e293b] dark:to-[#0f172a]">
-        <div className="absolute inset-0 opacity-20" style={{ background: 'radial-gradient(circle at 30% 50%, #e6510015, transparent 50%)' }} />
-        <div className="max-w-6xl mx-auto px-4 py-14 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold text-terminal-highlight dark:text-gray-100 tracking-tight mb-3">Blog</h1>
-          <p className="text-gray-500 dark:text-gray-400 text-lg max-w-xl">
-            Thoughts on cybersecurity, open source, SDR, and technology experiments.
-          </p>
+    <div className="max-w-2xl mx-auto px-5 py-12">
+      <h1 className="text-[29px] mb-3">Writing</h1>
+      <p className="text-[13px] text-mut leading-relaxed mb-9">
+        Infrequent, and only about things I&rsquo;ve actually hit.
+      </p>
+
+      {posts.length === 0 ? (
+        <p className="text-[12.5px] text-dim">Nothing published yet.</p>
+      ) : (
+        <div className="flex flex-col gap-5">
+          {posts.map(p => (
+            <Link key={p.slug} href={`/blog/${p.slug}`}
+                  className="no-underline border-t border-line pt-4 block group">
+              <div className="font-mono text-[10px] text-dim">
+                {formatDate(p.date)} · {p.readingTime}
+              </div>
+              <h2 className="my-2 text-[16px] leading-snug group-hover:text-acc transition-colors">
+                {p.title}
+              </h2>
+              <p className="m-0 text-[12px] text-mut leading-relaxed">{p.excerpt}</p>
+            </Link>
+          ))}
         </div>
-      </section>
+      )}
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
-        <BlogListClient posts={posts} allTags={tags} />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify([
-              getBlogSchema(),
-              getBreadcrumbSchema([
-                { name: 'Home', url: '/' },
-                { name: 'Blog', url: '/blog' },
-              ]),
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            getBlogSchema(),
+            getBreadcrumbSchema([
+              { name: 'Home', url: '/' },
+              { name: 'Writing', url: '/blog' },
             ]),
-          }}
-        />
-      </div>
-    </>
+          ]),
+        }}
+      />
+    </div>
   );
 }
