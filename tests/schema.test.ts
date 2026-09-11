@@ -29,7 +29,7 @@ describe('person schema', () => {
     expect(s).toContain('https://github.com/kpanuragh');
     expect(s).toContain('https://www.linkedin.com/in/anuraghkp');
     expect(s).toContain('https://www.npmjs.com/~kpanuragh');
-    expect(s.length).toBeGreaterThanOrEqual(6);
+    expect(s.length).toBeGreaterThanOrEqual(5);
   });
 
   it('publishes all four certifications as credentials', () => {

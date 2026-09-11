@@ -17,7 +17,7 @@ export const siteConfig = {
     linkedin: "anuraghkp",
     npm: "kpanuragh",
     stackoverflow: "",
-    devto: "kpanuragh",
+    devto: "",
     instagram: "anuragh_p",
   },
   locale: "en_US",
