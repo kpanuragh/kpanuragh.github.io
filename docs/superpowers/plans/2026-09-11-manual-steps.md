@@ -16,6 +16,7 @@
 - [ ] Location `Vatakara` → `Kochi`
 - [ ] Company → `Cubet Techno Labs`
 - [ ] Bio → `Technical Lead at Cubet Techno Labs. Backend, application security, DevOps.`
+- [ ] `siteConfig.social.instagram` is currently `anuraghkp`, taken from the site's own previous homepage, but a search result suggested `anuragh_p` instead — confirm which account is actually his. Both URLs return HTTP 200 (Instagram serves 200 for missing profiles when logged out), so this cannot be settled by probing and needs a manual check.
 
 ## LinkedIn
 - [ ] Move Cyberdome into **Honors & Awards** (keep the Experience entry)
@@ -25,4 +26,3 @@
 
 ## Optional
 - [ ] Renew CEH with EC-Council — currently the weakest item on the page
-- [ ] Find the Stack Overflow profile URL and fill `siteConfig.social.stackoverflow`

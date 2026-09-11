@@ -13,6 +13,7 @@ Personal site for Anuragh KP, built with Next.js 16 (App Router, React 19) and T
 ```bash
 npm run dev              # next dev (localhost:3000)
 npm run build            # runs prebuild then `next build` → static export in /out
+npm start                # next start — unused under `output: 'export'`, no server to run
 npm run lint             # next lint
 npm test                 # vitest run (single pass, CI-style)
 npm run test:watch       # vitest (watch mode)
