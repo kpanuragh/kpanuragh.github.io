@@ -4,8 +4,10 @@ import { getAllPosts, getPostBySlug } from '@/lib/posts';
 const SLUG = '2026-09-11-an-injection-vector-in-laravels-index-hints';
 
 describe('first post', () => {
-  it('is the only published post', () => {
-    expect(getAllPosts().length).toBe(1);
+  // Deliberately not a count — publishing more posts must never fail the suite.
+  // The invariant is that this post exists and is reachable.
+  it('is published', () => {
+    expect(getAllPosts().map(p => p.slug)).toContain(SLUG);
   });
 
   it('has complete frontmatter', () => {
