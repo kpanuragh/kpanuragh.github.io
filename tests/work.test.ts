@@ -29,4 +29,14 @@ describe('work section', () => {
     expect(readOut('work/index.html')).toMatch(/<meta property="og:image" content="[^"]+"/);
     expect(readOut('work/zstd-js/index.html')).toMatch(/<meta property="og:image" content="[^"]+"/);
   });
+
+  it('embeds a CollectionPage with an ItemList of every project, and a breadcrumb', () => {
+    const html = readOut('work/index.html');
+    expect(html).toContain('"@type":"CollectionPage"');
+    expect(html).toContain('"@type":"ItemList"');
+    for (const p of projects) {
+      expect(html, p.slug).toContain(`https://iamanuragh.in/work/${p.slug}/`);
+    }
+    expect(html).toContain('"@type":"BreadcrumbList"');
+  });
 });
