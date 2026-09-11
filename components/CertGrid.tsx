@@ -17,7 +17,7 @@ export default function CertGrid() {
         <div key={c.name} className="panel p-3">
           <div className="text-[9px] uppercase tracking-wider text-dim">{c.issuer}</div>
           <div className="text-[11.5px] my-1.5 leading-snug text-tx font-medium">{c.name}</div>
-          <div className={`font-mono text-[10px] ${c.lapsed ? 'text-[#8a6d3f]' : 'text-dim'}`}>
+          <div className={`font-mono text-[10px] ${c.lapsed ? 'text-lapsed' : 'text-dim'}`}>
             {label(c)}
           </div>
         </div>
