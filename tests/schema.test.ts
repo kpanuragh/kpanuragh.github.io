@@ -7,6 +7,7 @@ import {
   getBlogPostingSchema,
   getBreadcrumbSchema,
   getWorkCollectionSchema,
+  getContactPageSchema,
 } from '@/lib/schema';
 import { siteConfig } from '@/lib/seo-config';
 import { roles } from '@/lib/cv';
@@ -100,6 +101,18 @@ describe('work collection schema', () => {
   });
 });
 
+describe('contact page schema', () => {
+  const c = getContactPageSchema();
+
+  it('is a ContactPage', () => {
+    expect(c['@type']).toBe('ContactPage');
+  });
+
+  it('emits a trailing-slash url', () => {
+    expect(c.url).toBe(`${siteConfig.url}/contact/`);
+  });
+});
+
 describe('trailing-slash consistency', () => {
   // `next.config.ts` sets `trailingSlash: true` — every page route on this site resolves
   // with a trailing slash, and canonical links / sitemap.xml already reflect that. Any
@@ -174,6 +187,7 @@ describe('trailing-slash consistency', () => {
       getBlogSchema(),
       getBlogPostingSchema(fakePost),
       getWorkCollectionSchema(),
+      getContactPageSchema(),
       getBreadcrumbSchema([
         { name: 'Home', url: '/' },
         { name: 'Blog', url: '/blog' },

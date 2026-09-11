@@ -31,3 +31,19 @@ describe('about page', () => {
     expect(outExists('contact/index.html')).toBe(true);
   });
 });
+
+describe('contact page', () => {
+  let contactHtml = '';
+  beforeAll(() => {
+    contactHtml = readOut('contact/index.html');
+  });
+
+  it('embeds ContactPage JSON-LD', () => {
+    expect(contactHtml).toContain('"@type":"ContactPage"');
+  });
+
+  it('embeds a Home → Contact BreadcrumbList', () => {
+    expect(contactHtml).toContain('"@type":"BreadcrumbList"');
+    expect(contactHtml).toContain('"name":"Contact"');
+  });
+});

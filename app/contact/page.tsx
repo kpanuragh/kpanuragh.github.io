@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { siteConfig } from '@/lib/seo-config';
+import { getContactPageSchema, getBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -33,6 +34,19 @@ export default function Contact() {
           </div>
         ))}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            getContactPageSchema(),
+            getBreadcrumbSchema([
+              { name: 'Home', url: '/' },
+              { name: 'Contact', url: '/contact' },
+            ]),
+          ]),
+        }}
+      />
     </div>
   );
 }

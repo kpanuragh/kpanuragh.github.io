@@ -157,6 +157,20 @@ export function getWorkCollectionSchema() {
   };
 }
 
+export function getContactPageSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: `Contact — ${siteConfig.name}`,
+    url: `${siteConfig.url}/contact/`,
+    description: 'How to reach Anuragh KP — email, GitHub, LinkedIn.',
+    about: {
+      '@type': 'Person',
+      name: siteConfig.author.name,
+    },
+  };
+}
+
 export function getBreadcrumbSchema(items: { name: string; url: string }[]) {
   return {
     '@context': 'https://schema.org',
