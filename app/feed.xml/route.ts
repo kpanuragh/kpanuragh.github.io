@@ -17,7 +17,7 @@ export async function GET() {
 
   const rssItems = posts
     .map((post) => {
-      const postUrl = `${siteConfig.url}/blog/${post.slug}`;
+      const postUrl = `${siteConfig.url}/blog/${post.slug}/`;
       return `
     <item>
       <title>${escapeXml(post.title)}</title>

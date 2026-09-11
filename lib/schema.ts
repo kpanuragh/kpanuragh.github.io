@@ -1,24 +1,35 @@
 import { siteConfig, NAME_VARIANTS } from './seo-config';
 import { Post } from './posts';
-import { certifications } from './cv';
+import { certifications, roles, Role } from './cv';
+
+const currentRole: Role = (() => {
+  const r = roles.find(role => role.end === null && role.org === 'Cubet Techno Labs');
+  if (!r) throw new Error('getPersonSchema: no current Cubet Techno Labs role found in lib/cv.ts roles');
+  return r;
+})();
+
+/** `next.config.ts` sets `trailingSlash: true`; every page route on this site resolves with a trailing slash. */
+function withTrailingSlash(path: string): string {
+  return path.endsWith('/') ? path : `${path}/`;
+}
 
 export function getWebSiteSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: siteConfig.name,
-    url: siteConfig.url,
+    url: withTrailingSlash(siteConfig.url),
     description: siteConfig.description,
     author: {
       '@type': 'Person',
       name: siteConfig.author.name,
-      url: siteConfig.author.url,
+      url: withTrailingSlash(siteConfig.author.url),
     },
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${siteConfig.url}/blog?q={search_term_string}`,
+        urlTemplate: `${siteConfig.url}/blog/?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -42,11 +53,11 @@ export function getPersonSchema() {
     '@type': 'Person',
     name: siteConfig.author.name,
     alternateName: NAME_VARIANTS,
-    url: siteConfig.author.url,
+    url: withTrailingSlash(siteConfig.author.url),
     image: `${siteConfig.url}/profile.jpg`,
     email: `mailto:${siteConfig.author.email}`,
-    jobTitle: 'Technical Lead',
-    worksFor: { '@type': 'Organization', name: 'Cubet Techno Labs' },
+    jobTitle: currentRole.title,
+    worksFor: { '@type': 'Organization', name: currentRole.org },
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Kochi',
@@ -84,7 +95,7 @@ export function getBlogSchema() {
     '@context': 'https://schema.org',
     '@type': 'Blog',
     name: `${siteConfig.name} Blog`,
-    url: `${siteConfig.url}/blog`,
+    url: `${siteConfig.url}/blog/`,
     description: 'Articles about backend engineering, application security, and DevOps — Laravel, Node.js, and Kubernetes.',
     author: {
       '@type': 'Person',
@@ -107,16 +118,16 @@ export function getBlogPostingSchema(post: Post) {
     author: {
       '@type': 'Person',
       name: siteConfig.author.name,
-      url: siteConfig.author.url,
+      url: withTrailingSlash(siteConfig.author.url),
     },
     publisher: {
       '@type': 'Person',
       name: siteConfig.author.name,
     },
-    url: `${siteConfig.url}/blog/${post.slug}`,
+    url: `${siteConfig.url}/blog/${post.slug}/`,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${siteConfig.url}/blog/${post.slug}`,
+      '@id': `${siteConfig.url}/blog/${post.slug}/`,
     },
     keywords: post.tags.join(', '),
     articleSection: post.tags[0] || 'Technology',
@@ -133,7 +144,7 @@ export function getBreadcrumbSchema(items: { name: string; url: string }[]) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `${siteConfig.url}${item.url}`,
+      item: `${siteConfig.url}${withTrailingSlash(item.url)}`,
     })),
   };
 }
