@@ -18,8 +18,8 @@ export default function Contact() {
     <div className="max-w-2xl mx-auto px-5 py-12">
       <h1 className="text-[29px] mb-4">Contact</h1>
       <p className="text-[13px] text-mut leading-[1.8] mb-8">
-        Email is the reliable one. I take on occasional consulting — backend architecture, security
-        review, and the DevOps underneath — when it fits around the day job.
+        Email is the reliable one, taking on the occasional consulting engagement — backend
+        architecture, security review, and the DevOps underneath — when it fits around the day job.
       </p>
 
       <div className="panel">

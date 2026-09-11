@@ -25,4 +25,4 @@
 - [ ] Reconcile headline "Team Lead" with the Experience title "Technical Lead"
 
 ## Optional
-- [ ] Renew CEH with EC-Council — currently the weakest item on the page
+- [ ] Renew CEH with EC-Council — the site shows it lapsed (`2021 – 2024`) until then

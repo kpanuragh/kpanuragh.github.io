@@ -14,12 +14,15 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto px-5 py-7 flex flex-wrap gap-4 justify-between items-center text-[12px] text-dim">
         <span>Kochi, Kerala</span>
         <span className="flex gap-4">
-          {links.map(l => (
-            <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer"
-               className="text-mut hover:text-tx transition-colors no-underline">
-              {l.label}
-            </a>
-          ))}
+          {links.map(l => {
+            const isMailto = l.href.startsWith('mailto:');
+            return (
+              <a key={l.label} href={l.href} {...(!isMailto && { target: '_blank', rel: 'noopener noreferrer' })}
+                 className="text-mut hover:text-tx transition-colors no-underline">
+                {l.label}
+              </a>
+            );
+          })}
         </span>
       </div>
     </footer>
