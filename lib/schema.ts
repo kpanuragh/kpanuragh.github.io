@@ -1,5 +1,6 @@
-import { siteConfig } from './seo-config';
+import { siteConfig, NAME_VARIANTS } from './seo-config';
 import { Post } from './posts';
+import { certifications } from './cv';
 
 export function getWebSiteSchema() {
   return {
@@ -25,27 +26,56 @@ export function getWebSiteSchema() {
 }
 
 export function getPersonSchema() {
+  const s = siteConfig.social;
+  const sameAs = [
+    `https://github.com/${s.github}`,
+    `https://www.linkedin.com/in/${s.linkedin}`,
+    `https://x.com/${s.twitter.replace('@', '')}`,
+    s.npm ? `https://www.npmjs.com/~${s.npm}` : '',
+    s.devto ? `https://dev.to/${s.devto}` : '',
+    s.instagram ? `https://www.instagram.com/${s.instagram}/` : '',
+    s.stackoverflow ? `https://stackoverflow.com/users/${s.stackoverflow}` : '',
+  ].filter(Boolean);
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: siteConfig.author.name,
+    alternateName: NAME_VARIANTS,
     url: siteConfig.author.url,
     image: `${siteConfig.url}/profile.jpg`,
-    sameAs: [
-      `https://github.com/${siteConfig.social.github}`,
-      `https://www.linkedin.com/in/${siteConfig.social.linkedin}`,
-      `https://x.com/${siteConfig.social.twitter.replace('@', '')}`,
-    ].filter(Boolean),
+    email: `mailto:${siteConfig.author.email}`,
     jobTitle: 'Technical Lead',
-    worksFor: {
-      '@type': 'Organization',
-      name: 'Cubet Techno Labs',
+    worksFor: { '@type': 'Organization', name: 'Cubet Techno Labs' },
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Kochi',
+      addressRegion: 'Kerala',
+      addressCountry: 'IN',
     },
+    sameAs,
+    hasCredential: certifications.map(c => ({
+      '@type': 'EducationalOccupationalCredential',
+      name: c.name,
+      credentialCategory: 'certificate',
+      recognizedBy: { '@type': 'Organization', name: c.issuer },
+      validFrom: c.issued,
+      ...(c.expires ? { validUntil: c.expires } : {}),
+      ...(c.credentialId ? { identifier: c.credentialId } : {}),
+    })),
     knowsAbout: [
       'Laravel', 'PHP', 'Node.js', 'Backend Architecture',
-      'Application Security', 'Kubernetes', 'DevOps', 'CI/CD',
+      'Application Security', 'Kubernetes', 'DevOps', 'CI/CD', 'Rust',
     ],
     description: siteConfig.description,
+  };
+}
+
+export function getProfilePageSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    mainEntity: getPersonSchema(),
   };
 }
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { siteConfig } from "@/lib/seo-config";
+import { siteConfig, NAME_VARIANTS } from "@/lib/seo-config";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s — Anuragh KP',
   },
   description: siteConfig.description,
-  keywords: ["Anuragh KP", "Laravel", "PHP", "Node.js", "Backend Engineering", "Application Security", "Kubernetes", "DevOps", "Technical Lead"],
+  keywords: ["Anuragh KP", ...NAME_VARIANTS, "Laravel", "PHP", "Node.js", "Backend Engineering", "Application Security", "Kubernetes", "DevOps", "Technical Lead"],
   authors: [{ name: siteConfig.author.name, url: siteConfig.author.url }],
   creator: siteConfig.author.name,
   publisher: siteConfig.author.name,
