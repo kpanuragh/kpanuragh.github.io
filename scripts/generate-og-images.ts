@@ -17,8 +17,8 @@ async function generateOGImage(title: string, slug: string, tags?: string[]) {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          backgroundColor: '#0a0e27',
-          color: '#00ff00',
+          backgroundColor: '#0b0d12',
+          color: '#d6dae2',
           fontFamily: 'monospace',
           padding: '80px',
           position: 'relative',
@@ -32,10 +32,11 @@ async function generateOGImage(title: string, slug: string, tags?: string[]) {
             top: '40px',
             left: '40px',
             fontSize: 24,
-            opacity: 0.6,
+            color: '#c8965a',
+            opacity: 1,
           },
         },
-        '> 0x55aa'
+        'Anuragh KP'
       ),
       React.createElement(
         'div',
@@ -69,7 +70,7 @@ async function generateOGImage(title: string, slug: string, tags?: string[]) {
                   key: index,
                   style: {
                     backgroundColor: '#1a2332',
-                    color: '#00ff00',
+                    color: '#d6dae2',
                     padding: '8px 16px',
                     borderRadius: '6px',
                     fontSize: 20,
@@ -117,26 +118,22 @@ async function generateAllOGImages() {
     const posts = getAllPosts();
 
     // Generate OG image for each post
-    for (const post of posts) {
-      console.log(`Generating OG image for: ${post.title}`);
-      await generateOGImage(post.title, post.slug, post.tags);
+    if (posts.length > 0) {
+      for (const post of posts) {
+        console.log(`Generating OG image for: ${post.title}`);
+        await generateOGImage(post.title, post.slug, post.tags);
+      }
     }
 
-    // Generate default OG images
+    // Generate default OG image
     console.log('\nGenerating default OG images...');
     await generateOGImage(
-      'Personal Blog - Laravel, Cybersecurity, Open Source',
-      'og-default',
-      ['Laravel', 'Security', 'Open Source']
-    );
-    await generateOGImage(
-      'Blog - Articles & Tutorials',
-      'og-blog',
-      ['Web Dev', 'Security', 'Tech']
+      'Anuragh KP — Technical Lead, Backend & Security Engineer',
+      'og-default'
     );
 
     console.log(`\n✨ All OG images generated successfully!`);
-    console.log(`Total images: ${posts.length + 2}`);
+    console.log(`Total images: ${posts.length + 1}`);
   } catch (error) {
     console.error('Error generating OG images:', error);
     process.exit(1);
