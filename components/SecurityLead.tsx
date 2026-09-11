@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import { getAllPosts } from '@/lib/posts';
+
 const meta: [string, string][] = [
   ['commit', '1dcf0b38'],
   ['released', 'v12.48.0'],
@@ -6,6 +9,8 @@ const meta: [string, string][] = [
 ];
 
 export default function SecurityLead() {
+  const writeup = getAllPosts().find(p => p.slug.includes('injection-vector'));
+
   return (
     <div className="panel overflow-hidden">
       <div className="p-4 border-b border-line">
@@ -48,6 +53,13 @@ export default function SecurityLead() {
           valid index name. That&rsquo;s defence in depth, and it costs one{' '}
           <b className="text-tx font-medium">preg_match</b>.
         </p>
+        {writeup && (
+          <p className="m-0 mt-3 text-[11.5px] text-mut leading-relaxed">
+            <Link href={`/blog/${writeup.slug}`} className="text-acc2 underline underline-offset-2">
+              I wrote up how it was found and why no CVE was issued.
+            </Link>
+          </p>
+        )}
       </div>
     </div>
   );
