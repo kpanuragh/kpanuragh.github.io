@@ -1,54 +1,35 @@
-import { MetadataRoute } from 'next'
-import { getAllPosts, getAllTags } from '@/lib/posts'
+import { MetadataRoute } from 'next';
+import { getAllPosts } from '@/lib/posts';
+import { projects } from '@/lib/projects';
 
-export const dynamic = 'force-static'
+export const dynamic = 'force-static';
+
+const base = 'https://iamanuragh.in';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://iamanuragh.in'
+  const now = new Date();
 
-  // Get all blog posts
-  const posts = getAllPosts()
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: `${base}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${base}/work/`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/about/`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/contact/`, lastModified: now, changeFrequency: 'yearly', priority: 0.5 },
+  ];
 
-  // Create sitemap entries for blog posts
-  const blogEntries: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.updated || post.date),
+  const projectPages: MetadataRoute.Sitemap = projects.map(p => ({
+    url: `${base}/work/${p.slug}/`,
+    lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.7,
-  }))
+  }));
 
-  // Get all tags
-  const tags = getAllTags()
+  const postPages: MetadataRoute.Sitemap = getAllPosts().map(p => ({
+    url: `${base}/blog/${p.slug}/`,
+    lastModified: new Date(p.updated || p.date),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
 
-  // Create sitemap entries for tag pages
-  const tagEntries: MetadataRoute.Sitemap = tags.map((tag) => ({
-    url: `${baseUrl}/blog/tags/${tag.toLowerCase().replace(/\s+/g, '-')}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.5,
-  }))
-
-  // Static pages
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-  ]
-
-  return [...staticPages, ...blogEntries, ...tagEntries]
+  return [...staticPages, ...projectPages, ...postPages];
 }
