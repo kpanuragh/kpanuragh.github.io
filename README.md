@@ -1,185 +1,88 @@
-# 0x55aa - Personal Blog
+# kpanuragh.github.io
 
-A modern personal blogging website built with Next.js 16, featuring a terminal-themed design with boot animation.
+Personal site for Anuragh KP — Technical Lead, backend and security engineer. Built with
+Next.js 16 (App Router, React 19) and Tailwind v4, statically exported and deployed to
+GitHub Pages at [iamanuragh.in](https://iamanuragh.in). Dark theme only; there is no light
+mode and no `dark:` variants.
 
-## Features
-
-- **Next.js 16** with App Router and TypeScript
-- **Markdown Blog Posts** - Write posts in Markdown with frontmatter
-- **Terminal Theme** - Dark terminal aesthetic with custom boot animation
-- **Syntax Highlighting** - Code blocks with syntax highlighting
-- **Static Export** - Optimized for GitHub Pages
-- **Automatic Deployment** - GitHub Actions workflow for CI/CD
-- **SEO Optimized** - Meta tags, Open Graph, structured data
-- **Responsive Design** - Mobile-first design with Tailwind CSS
-
-## Tech Stack
-
-- Next.js 16 (React 19)
-- TypeScript
-- Tailwind CSS v4
-- Markdown processing (remark/rehype)
-- Syntax highlighting (rehype-highlight)
-- GitHub Pages deployment
-
-## Project Structure
-
-```
-├── app/                    # Next.js app directory
-│   ├── blog/              # Blog pages
-│   │   ├── [slug]/        # Dynamic blog post pages
-│   │   └── page.tsx       # Blog listing page
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Home page
-│   └── globals.css        # Global styles
-├── components/            # React components
-│   ├── BootAnimation.tsx  # Terminal boot animation
-│   ├── BlogCard.tsx       # Blog post card
-│   ├── Header.tsx         # Navigation header
-│   └── Footer.tsx         # Site footer
-├── content/               # Content directory
-│   └── posts/            # Blog posts (Markdown)
-├── lib/                   # Utility functions
-│   ├── posts.ts          # Post management utilities
-│   └── markdown.ts       # Markdown processing
-├── public/               # Static assets
-│   └── images/          # Image files
-├── .github/
-│   └── workflows/
-│       └── deploy.yml    # GitHub Actions deployment
-├── next.config.ts        # Next.js configuration
-├── tailwind.config.ts    # Tailwind configuration
-└── tsconfig.json         # TypeScript configuration
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 20 or later
-- npm or yarn
-
-### Installation
+## Commands
 
 ```bash
-# Clone the repository
-git clone https://github.com/kpanuragh/kpanuragh.github.io.git
-cd kpanuragh.github.io
-
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
+npm run dev              # next dev (localhost:3000)
+npm run build            # runs prebuild then `next build` → static export in /out
+npm start                # next start — unused under `output: 'export'`, no server to run
+npm run lint             # next lint — does not work; `next lint` was removed in Next 16
+npm test                 # vitest run (single pass, CI-style)
+npm run test:watch       # vitest (watch mode)
+npm run generate-og      # tsx scripts/generate-og-images.ts (per-slug OG images → public/og/)
+npm run fix-yaml         # tsx scripts/fix-yaml-escaping.ts (rewrites frontmatter)
+npm run generate-icons   # tsx scripts/generate-icons.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+`prebuild` runs `fix-yaml && generate-og` automatically before every build.
 
-## Writing Blog Posts
+Most of the vitest suite in `tests/` asserts against the built HTML/XML under `out/`, so run
+`npm run build` before `npm test` if you've touched anything a page renders. When in doubt,
+`npm run build && npm test` covers both.
 
-### Create a New Post
+## Structure
 
-1. Create a new Markdown file in `content/posts/`:
-   ```bash
-   touch content/posts/my-new-post.md
-   ```
-
-2. Add frontmatter and content:
-   ```markdown
-   ---
-   title: "My Awesome Post"
-   date: "2026-01-21"
-   excerpt: "A brief description of your post"
-   tags: ["laravel", "php", "tutorial"]
-   featured: false
-   ---
-
-   # Your Post Title
-
-   Your content here with **markdown** formatting.
-
-   ## Code Examples
-
-   ```php
-   echo "Hello, World!";
-   ```
-   ```
-
-3. The post will automatically appear on your blog!
-
-### Frontmatter Fields
-
-- `title`: Post title (required)
-- `date`: Publication date in YYYY-MM-DD format (required)
-- `excerpt`: Short description for previews (required)
-- `tags`: Array of tags (optional)
-- `featured`: Boolean to mark as featured (optional)
-- `coverImage`: Path to cover image (optional)
-
-## Development
-
-```bash
-# Development server with hot reload
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Lint code
-npm run lint
+```
+app/            Next.js routes — home, /about, /blog, /blog/[slug], /work, /work/[slug],
+                /contact, plus sitemap.xml and feed.xml route handlers
+components/     React server components (Header, Footer, RoleList, CertGrid, FactsPanel,
+                BlogCard, TableOfContents, SecurityLead, ...)
+content/posts/  Blog posts as Markdown files, one per file
+lib/            cv.ts, projects.ts, posts.ts, markdown.ts, schema.ts, seo-config.ts
+scripts/        Build-time tooling (OG image generation, frontmatter fixups, icons)
+public/         Static assets
+out/            Build output (generated, not committed)
 ```
 
-## Deployment
+Everything is a server component — no client-side interactivity is required to render
+content, and the site must work with JavaScript disabled.
 
-The site automatically deploys to GitHub Pages when you push to the `main` branch.
+## Data modules
 
-### Manual Deployment
+`lib/cv.ts` (`roles`, `certifications`, `yearsWorking()`, `CAREER_START`) and
+`lib/projects.ts` (`projects`, `getProject()`, `featuredProjects()`) are the single source
+of truth for facts about work history, certifications, and open-source projects. Pages
+(home, `/about`, `/work`, `/work/[slug]`) and `lib/schema.ts` (the Person/BlogPosting
+JSON-LD) all read from these modules — they do not duplicate the data. If you find a fact
+hardcoded into a page or into `schema.ts` instead of read from these modules, that's a bug,
+not a style choice.
 
-```bash
-# Build the site
-npm run build
+`lib/seo-config.ts` is the single source of truth for site URL, author identity, and
+social handles.
 
-# The static site is in the /out directory
-# Commit and push to deploy
-```
+## Static export
 
-### GitHub Pages Setup
+`next.config.ts` sets `output: 'export'`, `trailingSlash: true`, and
+`images.unoptimized: true`:
 
-1. Go to repository Settings > Pages
-2. Source: GitHub Actions
-3. The workflow will automatically build and deploy
+- There is no server-side runtime; every route must be statically renderable. The dynamic
+  routes `app/blog/[slug]/page.tsx` and `app/work/[slug]/page.tsx` export
+  `generateStaticParams` listing every slug.
+- No Next.js Image optimization — plain `<img>` or unoptimized `next/image` only.
+- Build output lives in `/out` and is published by `.github/workflows/nextjs-deploy.yml` to
+  GitHub Pages on every push to `main`.
+- `CNAME` and `.nojekyll` at the repo root are required for the custom domain.
 
-## Customization
+## Adding a post
 
-### Colors
+1. Create `content/posts/YYYY-MM-DD-slug.md`. The routing slug is the filename minus
+   extension, so the date prefix is part of the URL.
+2. Add frontmatter: `title`, `date` (YYYY-MM-DD), `excerpt`, `tags` (array). Optional:
+   `featured`, `coverImage`.
+3. Write the body in Markdown. It's converted to HTML at build time
+   (`unified` → `remark-parse` → `remark-gfm` → `remark-rehype` → `rehype-highlight` →
+   `rehype-stringify`); syntax highlighting happens at build time, not in the browser.
+4. Run `npm run build && npm test` before committing.
 
-Edit terminal theme colors in `app/globals.css`:
-
-```css
-@theme {
-  --color-terminal-bg: #0d1117;
-  --color-terminal-accent: #81a1c1;
-  /* ... */
-}
-```
-
-### Boot Animation
-
-Modify boot messages in `components/BootAnimation.tsx`.
-
-### Content
-
-Update your bio in `app/page.tsx`.
+Posts are written by hand, one at a time — there is no automation that generates or
+publishes them. Nothing reaches `main`, and therefore nothing deploys, without a human
+commit.
 
 ## License
 
 ISC
-
-## Author
-
-Anurag
-- [LinkedIn](https://www.linkedin.com/in/anuraghkp)
-- [GitHub](https://github.com/kpanuragh)
