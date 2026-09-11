@@ -15,7 +15,7 @@ export default function Header() {
           Anuragh KP
           <span className="ml-2 text-[11px] font-normal text-dim">0x55aa</span>
         </Link>
-        <nav className="flex gap-5 text-[12.5px] text-mut">
+        <nav aria-label="Main" className="flex gap-5 text-[12.5px] text-mut">
           {nav.map(n => (
             <Link key={n.href} href={n.href} className="hover:text-tx transition-colors">
               {n.label}

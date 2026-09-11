@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="w-full mt-20 border-t border-line">
       <div className="max-w-4xl mx-auto px-5 py-7 flex flex-wrap gap-4 justify-between items-center text-[12px] text-dim">
         <span>Kochi, Kerala</span>
-        <span className="flex gap-4">
+        <nav aria-label="Social links" className="flex gap-4">
           {links.map(l => {
             const isMailto = l.href.startsWith('mailto:');
             return (
@@ -23,7 +23,7 @@ export default function Footer() {
               </a>
             );
           })}
-        </span>
+        </nav>
       </div>
     </footer>
   );
