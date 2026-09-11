@@ -1,10 +1,20 @@
-import { yearsWorking } from '@/lib/cv';
+import { roles, yearsWorking } from '@/lib/cv';
+
+const MONTHS = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+function formatMonth(s: string): string {
+  const [y, m] = s.split('-');
+  return `${MONTHS[Number(m)]} ${y}`;
+}
+
+const current = roles.find(r => r.end === null && r.org === 'Cubet Techno Labs');
+if (!current) throw new Error('FactsPanel: no current Cubet Techno Labs role found in lib/cv.ts roles');
 
 const facts: [string, string][] = [
-  ['role', 'Technical Lead'],
-  ['company', 'Cubet Techno Labs'],
-  ['since', 'Jan 2021'],
-  ['based', 'Kochi, Kerala'],
+  ['role', current.title],
+  ['company', current.org],
+  ['since', formatMonth(current.start)],
+  ['based', current.location ?? ''],
   ['working since', `2017 · ${yearsWorking()} years`],
   ['writes', 'PHP · Node · Rust'],
 ];

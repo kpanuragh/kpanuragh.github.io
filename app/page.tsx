@@ -27,7 +27,8 @@ export default function Home() {
           </p>
           <p className="text-[12px] text-dim leading-relaxed m-0">
             Outside that I publish compression libraries, contribute where I can, and volunteer with
-            the Kerala Police Cyberdome. Occasionally available for consulting.
+            the Kerala Police Cyberdome, taking the occasional consulting engagement when it fits
+            around that.
           </p>
         </div>
         <FactsPanel />
