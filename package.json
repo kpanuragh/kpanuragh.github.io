@@ -19,7 +19,9 @@
     "generate-og": "tsx scripts/generate-og-images.ts",
     "generate-icons": "tsx scripts/generate-icons.ts",
     "fix-yaml": "tsx scripts/fix-yaml-escaping.ts",
-    "prebuild": "npm run fix-yaml && npm run generate-og"
+    "prebuild": "npm run fix-yaml && npm run generate-og",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
@@ -58,6 +60,8 @@
     "sharp": "^0.34.5",
     "tailwindcss": "^4.1.18",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.7"
   }
 }
