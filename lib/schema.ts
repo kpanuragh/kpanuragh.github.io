@@ -1,6 +1,7 @@
 import { siteConfig, NAME_VARIANTS } from './seo-config';
 import { Post } from './posts';
 import { certifications, roles, Role } from './cv';
+import { projects } from './projects';
 
 const currentRole: Role = (() => {
   const r = roles.find(role => role.end === null && role.org === 'Cubet Techno Labs');
@@ -133,6 +134,26 @@ export function getBlogPostingSchema(post: Post) {
     articleSection: post.tags[0] || 'Technology',
     wordCount: post.content.split(/\s+/).length,
     timeRequired: post.readingTime,
+  };
+}
+
+export function getWorkCollectionSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Work',
+    url: `${siteConfig.url}/work/`,
+    description: 'Open-source projects by Anuragh KP — compression libraries, MCP servers, and an operating system kernel.',
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: projects.map((p, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: p.name,
+        description: p.blurb,
+        url: `${siteConfig.url}/work/${p.slug}/`,
+      })),
+    },
   };
 }
 

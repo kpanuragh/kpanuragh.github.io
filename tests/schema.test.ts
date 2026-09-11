@@ -6,9 +6,11 @@ import {
   getBlogSchema,
   getBlogPostingSchema,
   getBreadcrumbSchema,
+  getWorkCollectionSchema,
 } from '@/lib/schema';
 import { siteConfig } from '@/lib/seo-config';
 import { roles } from '@/lib/cv';
+import { projects } from '@/lib/projects';
 import type { Post } from '@/lib/posts';
 
 describe('person schema', () => {
@@ -72,6 +74,29 @@ describe('site identity', () => {
     const pp = getProfilePageSchema();
     expect(pp['@type']).toBe('ProfilePage');
     expect(pp.mainEntity.name).toBe('Anuragh KP');
+  });
+});
+
+describe('work collection schema', () => {
+  const w = getWorkCollectionSchema();
+
+  it('is a CollectionPage', () => {
+    expect(w['@type']).toBe('CollectionPage');
+  });
+
+  it('wraps an ItemList in mainEntity', () => {
+    expect(w.mainEntity['@type']).toBe('ItemList');
+  });
+
+  it('has one ListItem per project, in order, with a trailing-slash url', () => {
+    const items = w.mainEntity.itemListElement;
+    expect(items.length).toBe(projects.length);
+    items.forEach((item: { position: number; name: string; description: string; url: string }, i: number) => {
+      expect(item.position).toBe(i + 1);
+      expect(item.name).toBe(projects[i].name);
+      expect(item.description).toBe(projects[i].blurb);
+      expect(item.url).toBe(`${siteConfig.url}/work/${projects[i].slug}/`);
+    });
   });
 });
 
@@ -148,6 +173,7 @@ describe('trailing-slash consistency', () => {
       getProfilePageSchema(),
       getBlogSchema(),
       getBlogPostingSchema(fakePost),
+      getWorkCollectionSchema(),
       getBreadcrumbSchema([
         { name: 'Home', url: '/' },
         { name: 'Blog', url: '/blog' },

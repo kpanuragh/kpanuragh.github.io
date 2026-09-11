@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { projects } from '@/lib/projects';
 import { siteConfig } from '@/lib/seo-config';
+import { getWorkCollectionSchema, getBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: 'Work',
@@ -43,6 +44,19 @@ export default function WorkIndex() {
           </Link>
         ))}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            getWorkCollectionSchema(),
+            getBreadcrumbSchema([
+              { name: 'Home', url: '/' },
+              { name: 'Work', url: '/work' },
+            ]),
+          ]),
+        }}
+      />
     </div>
   );
 }
