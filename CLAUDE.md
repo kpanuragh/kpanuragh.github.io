@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Static personal blog ("0x55aa") built with Next.js 16 (App Router, React 19) and Tailwind v4, deployed to GitHub Pages at `iamanuragh.in`. Posts are Markdown files in `content/posts/` rendered to static HTML at build time.
+Personal site for Anuragh KP, built with Next.js 16 (App Router, React 19) and Tailwind v4, deployed to GitHub Pages at `iamanuragh.in`. Dark theme only. Content comes from Markdown in `content/posts/` plus two hand-authored data modules, `lib/cv.ts` and `lib/projects.ts`.
+
+`0x55aa` survives only as a small secondary wordmark next to the name in the header (`components/Header.tsx`) — it is not the site's identity.
 
 ## Commands
 
@@ -12,23 +14,26 @@ Static personal blog ("0x55aa") built with Next.js 16 (App Router, React 19) and
 npm run dev              # next dev (localhost:3000)
 npm run build            # runs prebuild then `next build` → static export in /out
 npm run lint             # next lint
+npm test                 # vitest run (single pass, CI-style)
+npm run test:watch       # vitest (watch mode)
 npm run generate-og      # tsx scripts/generate-og-images.ts (per-slug OG images → public/og/)
 npm run fix-yaml         # tsx scripts/fix-yaml-escaping.ts (rewrites frontmatter)
 npm run generate-icons   # tsx scripts/generate-icons.ts
 ```
 
-`prebuild` runs `fix-yaml && generate-og` automatically before every build. There is no test suite.
+`prebuild` runs `fix-yaml && generate-og` automatically before every build.
 
-The legacy local blog-generation scripts (`generate-blog`, `batch-blog*`, `fetch-trends`, etc.) require `ANTHROPIC_API_KEY` and are mostly superseded by the GitHub Actions workflow — only run them if explicitly asked.
+There is a vitest suite in `tests/`. Some specs are pure unit tests over `lib/` (e.g. `cv.test.ts`, `projects.test.ts`) and can run standalone. Others (`homepage.test.ts`, `about.test.ts`, `work.test.ts`, `blog.test.ts`, `sitemap.test.ts`, `schema.test.ts`, `og.test.ts`, and more) assert against the built HTML/XML under `out/`, so run `npm run build` before `npm test` if you've touched anything those pages render. When in doubt, `npm run build && npm test` covers both.
 
 ## Static-export constraints
 
 `next.config.ts` sets `output: 'export'`, `trailingSlash: true`, and `images.unoptimized: true`. Consequences when editing:
 
-- No server-side runtime — every route must be statically renderable. The dynamic routes `app/blog/[slug]/page.tsx` and `app/blog/tags/[tag]/page.tsx` both export `generateStaticParams` listing every slug/tag; new dynamic segments must do the same.
+- No server-side runtime — every route must be statically renderable. The dynamic routes `app/blog/[slug]/page.tsx` and `app/work/[slug]/page.tsx` export `generateStaticParams` listing every slug; new dynamic segments must do the same.
 - No Next.js Image optimization. Plain `<img>` or unoptimized `next/image` only.
 - Build output lives in `/out` and is published by `.github/workflows/nextjs-deploy.yml` to GitHub Pages on every push to `main`.
 - `CNAME` and `.nojekyll` at the repo root are required for the custom domain — do not delete.
+- `app/blog/[slug]/page.tsx`'s `generateStaticParams()` emits a `{ slug: '__placeholder__' }` fallback when `getAllPostSlugs()` returns zero slugs, because Next 16 rejects a dynamic route under `output: 'export'` whose `generateStaticParams()` resolves to zero params — even though the function is present. The page calls `notFound()` for that placeholder since no post file matches it. It self-disarms the moment at least one real post exists (the normal case today, with one post in `content/posts/`). Do not "clean up" this fallback — removing it breaks the build the next time `content/posts/` is ever emptied.
 
 ## Content pipeline
 
@@ -38,44 +43,38 @@ The legacy local blog-generation scripts (`generate-blog`, `batch-blog*`, `fetch
 4. Required frontmatter fields: `title`, `date` (YYYY-MM-DD), `excerpt`, `tags` (array). Optional: `featured`, `coverImage`.
 5. `lib/seo-config.ts` is the single source of truth for site URL, author, and social handles — update it rather than hardcoding values in metadata.
 
+Posts are now written by hand, one at a time. There is no automation that generates or publishes them — nothing reaches `main` (and therefore nothing deploys) without a human commit. `content/posts/` currently holds exactly one post.
+
 ### Frontmatter YAML quirks
 
-Posts written by the automated workflow have historically produced broken YAML (double-quoted tag entries like `"\"laravel\""`, unescaped backslashes in excerpts like `GuzzleHttp\Client`). `scripts/fix-yaml-escaping.ts` runs in `prebuild` to reconstruct frontmatter so builds don't fail. When manually editing posts, you can leave tags as plain strings — fix-yaml will normalize them, but it's better not to introduce new breakage.
+Some older posts (from a since-removed generation workflow) produced broken YAML — double-quoted tag entries like `"\"laravel\""`, unescaped backslashes in excerpts like `GuzzleHttp\Client`. `scripts/fix-yaml-escaping.ts` runs in `prebuild` to reconstruct frontmatter so builds don't fail. When manually writing new posts, plain unquoted tags are fine — fix-yaml will normalize them, but it's better not to introduce new breakage.
 
 ## OG image generation
 
-`scripts/generate-og-images.ts` uses `@vercel/og` to render a 1200×630 PNG per post into `public/og/<slug>.png`, plus a default fallback. The build depends on these files existing (referenced by `generateMetadata` in `app/blog/[slug]/page.tsx`), which is why it runs in `prebuild`. If you add metadata fields that should appear in the OG card, update the React tree in that script.
+`scripts/generate-og-images.ts` uses `@vercel/og` to render a 1200×630 PNG per post into `public/og/<slug>.png`, plus a default fallback. The build depends on these files existing (referenced by `generateMetadata` in `app/blog/[slug]/page.tsx`), which is why it runs in `prebuild`. The card uses the dark palette: `#0b0d12` ground, `#d6dae2` body text, and an `Anuragh KP` mark in `#c8965a`. If you add metadata fields that should appear in the OG card, update the React tree in that script and keep it on this palette.
 
-## Automated blog generation (GitHub Actions)
+## Facts and claim discipline
 
-`.github/workflows/auto-blog-generation.yml` runs daily at 10:00 UTC and on `workflow_dispatch`. It invokes `anthropics/claude-code-action@v1` three times sequentially (security → backend → devops) using `CLAUDE_CODE_OAUTH_TOKEN`. Each job authors a Markdown post in `content/posts/`, then commits and pushes to `main` directly — which then triggers `nextjs-deploy.yml`. The jobs are chained via `needs:` to avoid push races.
+These rules bind all future content work — pages, posts, schema, and copy alike:
 
-Implications:
-- Do not assume `main` is quiet — bot commits land daily.
-- When changing post structure (frontmatter shape, filename convention, directory), update the prompts in this workflow too or the bot will keep producing the old shape.
-- `blog-config.json` lists topic pools used by the older local scripts; the GH Actions workflow has its own inline prompts and does not read this file.
+- Canonical name is `Anuragh KP`. Variants `Anuragh K P`, `Anuragh K.P`, `Anuragh K. P.`, `K P Anuragh` appear only in schema `alternateName`.
+- Location is `Kochi, Kerala`. Never Vatakara.
+- **Never state or imply a CVE was assigned for the Laravel work.** No `CVE-NNNN-NNNNN` strings. The only approved claim: "Reported and patched an SQL injection vector in Laravel's query builder; shipped in v12.48.0." Supporting facts: commit `1dcf0b38`, advisory `GHSA-9p82-4j4w-5hw8` (draft, no CVE).
+- The CEH certification is always shown dated `2021 – 2024` and marked lapsed.
+- No langchain CVE claim anywhere — unverified.
+- Banned copy: quality claims about the author, star counts, `★`, sales CTAs. Consulting availability is a subordinate clause, never a button.
 
-### Topic rotation (anti-repeat)
+## Data modules
 
-Each generate-* job has a `Pick today's topic` step that:
-1. Maps `date -u +%u` (1=Mon … 7=Sun) to a sub-category — 7 sub-categories per role × 3 roles = 21 sub-categories on rotation.
-2. Picks a random topic from that day's pool.
-3. Emits the last ~63 post filenames into `$GITHUB_ENV` as `RECENT_POSTS`.
-
-The subsequent Claude prompt receives `BLOG_SUB_CATEGORY`, `BLOG_TOPIC`, and `RECENT_POSTS`, and is instructed to PIVOT to a sibling topic if the suggestion overlaps with anything recent. This is what prevents the bot from re-generating "JWT Security", "Docker multi-stage builds", or "Node.js graceful shutdown" on loop.
-
-To add/rebalance topics, edit the `TOPICS=(…)` arrays in the `Pick today's topic` step of the relevant job. Those arrays are the single source of truth for the topic universe — `blog-config.json` is unused by this workflow.
+`lib/cv.ts` (`roles`, `certifications`, `yearsWorking()`, `CAREER_START`) and `lib/projects.ts` (`projects`, `getProject()`, `featuredProjects()`) are the single source of truth for facts about work history, certifications, and open-source projects. Pages (home, `/about/`, `/work/`, `/work/[slug]/`) and `lib/schema.ts` (`getPersonSchema()`'s `hasCredential`, etc.) both read from these modules — they do not duplicate the data. Hardcoding a fact into a page instead of reading it from these modules is a defect; treat any such hardcoding you find as a bug to fix, not a style choice.
 
 ## Author / company voice in posts
 
-When writing new posts (manually or via the workflow) and adding a personal-experience anecdote:
+When writing new posts and adding a personal-experience anecdote:
 
 - **Default to Cubet Techno Labs** (current role — Technical Lead). Present-tense "in production / on my team / at work" anecdotes should reference Cubet (or the short form "Cubet").
 - **Acodez is an earlier role.** Mention it only occasionally (~1 in 5 posts) and always with chronology cues — "early in my career at Acodez", "back when I was at Acodez", "before Cubet, at Acodez". Never write Acodez as if it were the current employer.
 - When an anecdote would feel forced, drop the company name entirely — generic "in production" is fine.
-- Older posts in `content/posts/` over-reference Acodez; that's historical and not a pattern to imitate.
-
-The three prompts in `.github/workflows/auto-blog-generation.yml` already encode this rule under an `AUTHOR CONTEXT` block — keep that block in sync if the framing changes.
 
 ## Path alias
 
