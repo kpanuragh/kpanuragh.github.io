@@ -81,8 +81,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased min-h-screen flex flex-col">
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main id="main-content" className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
