@@ -38,15 +38,35 @@ It isn't, because unlike `where()`, this value can't be bound as a parameter. `u
 
 ## The patch
 
-The fix is a single allow-list check, added to each grammar before the value is interpolated:
+`forceIndex()` and `inRandomOrder()` got different guards, because the value each one takes is a different kind of thing.
+
+The index name is checked against an allow-list before it's interpolated:
 
 ```php
 if (! preg_match('/^[a-zA-Z0-9_$]+$/', $index)) {
-    throw new InvalidArgumentException("Invalid index name.");
+    throw new InvalidArgumentException('Index name contains invalid characters.');
 }
 ```
 
-I picked an allow-list over escaping on purpose. Escaping makes sense when the value is data — a string that needs to survive being embedded in SQL syntax while still meaning what it meant. An index identifier isn't data in that sense. It's a name, and MySQL, SQLite, and SQL Server all agree on what a valid identifier of this kind can contain: letters, digits, underscores, and `$`. There's no legitimate index name that this regex rejects. So instead of trying to neutralize dangerous characters, the guard just refuses to compile anything that couldn't be a real index name in the first place. Nothing gets escaped because nothing dangerous should ever reach that line.
+I picked an allow-list over escaping on purpose. Escaping makes sense when the value is data — a string that needs to survive being embedded in SQL syntax while still meaning what it meant. An index identifier isn't data in that sense. It's a name, and MySQL, SQLite, and SQL Server all agree on what a valid identifier of this kind can contain: letters, digits, underscores, and `$`. There's no legitimate index name that this regex rejects. So instead of trying to neutralize dangerous characters, the guard just refuses to compile anything that couldn't be a real index name in the first place.
+
+Alongside the regex, the compiled SQL also wraps the identifier in backticks — `"force index (`{$index}`)"` in MySQL, `"indexed by `{$index}`"` in SQLite. The allow-list makes the value safe; the quoting makes it correct even for an identifier that happens to collide with a reserved word. Belt and braces.
+
+The seed passed to `inRandomOrder()` isn't a name, it's a number, so it gets a numeric check and a cast instead of a regex:
+
+```php
+if ($seed === '' || $seed === null) {
+    return 'RAND()';
+}
+
+if (! is_numeric($seed)) {
+    throw new \InvalidArgumentException('The seed value must be numeric.');
+}
+
+return 'RAND('.(int) $seed.')';
+```
+
+Same principle, different shape. An index name is validated against the set of strings that could ever be a valid identifier. A seed is validated as a number and then cast to one, so whatever reaches the query is never anything but an integer literal. The right guard follows from what the value actually is — there's no single "sanitize this" function that fits both.
 
 ## The disagreement
 
