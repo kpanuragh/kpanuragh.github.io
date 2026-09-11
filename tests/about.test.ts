@@ -27,6 +27,11 @@ describe('about page', () => {
     expect(html).toMatch(/<meta property="og:image" content="[^"]+"/);
   });
 
+  it('embeds a Home → Experience BreadcrumbList', () => {
+    expect(html).toContain('"@type":"BreadcrumbList"');
+    expect(html).toContain('"name":"Experience"');
+  });
+
   it('builds a contact page', () => {
     expect(outExists('contact/index.html')).toBe(true);
   });

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import RoleList from '@/components/RoleList';
 import CertGrid from '@/components/CertGrid';
-import { getPersonSchema } from '@/lib/schema';
+import { getPersonSchema, getBreadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/seo-config';
 import { roles, yearsWorking } from '@/lib/cv';
 
@@ -57,7 +57,15 @@ export default function About() {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(getPersonSchema()) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            getPersonSchema(),
+            getBreadcrumbSchema([
+              { name: 'Home', url: '/' },
+              { name: 'Experience', url: '/about' },
+            ]),
+          ]),
+        }}
       />
     </div>
   );
