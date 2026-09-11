@@ -19,7 +19,20 @@ export async function generateMetadata(
     title: p.name,
     description: p.blurb,
     alternates: { canonical: `/work/${p.slug}` },
-    openGraph: { type: 'article', url: `${siteConfig.url}/work/${p.slug}`, title: `${p.name} — Anuragh KP`, description: p.blurb },
+    openGraph: {
+      type: 'article',
+      url: `${siteConfig.url}/work/${p.slug}`,
+      title: `${p.name} — Anuragh KP`,
+      description: p.blurb,
+      images: [
+        {
+          url: siteConfig.ogImage,
+          width: 1200,
+          height: 630,
+          alt: `${p.name} — Anuragh KP`,
+        },
+      ],
+    },
   };
 }
 

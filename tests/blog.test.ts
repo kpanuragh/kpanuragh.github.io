@@ -19,6 +19,10 @@ describe('blog index', () => {
   it('drops the 0x55aa framing from blog metadata', () => {
     expect(readOut('blog/index.html')).not.toContain('Blog - 0x55aa');
   });
+
+  it('emits an og:image meta tag', () => {
+    expect(readOut('blog/index.html')).toMatch(/<meta property="og:image" content="[^"]+"/);
+  });
 });
 
 describe('blog post styling', () => {

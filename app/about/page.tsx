@@ -9,7 +9,19 @@ export const metadata: Metadata = {
   title: 'Experience',
   description: 'Anuragh KP — Technical Lead at Cubet Techno Labs, Kochi. Backend architecture, application security and DevOps since 2017.',
   alternates: { canonical: '/about' },
-  openGraph: { type: 'profile', url: `${siteConfig.url}/about`, title: 'Experience — Anuragh KP' },
+  openGraph: {
+    type: 'profile',
+    url: `${siteConfig.url}/about`,
+    title: 'Experience — Anuragh KP',
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: 'Experience — Anuragh KP',
+      },
+    ],
+  },
 };
 
 export default function About() {

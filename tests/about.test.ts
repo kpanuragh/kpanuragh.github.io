@@ -23,6 +23,10 @@ describe('about page', () => {
     expect(html).toContain('EducationalOccupationalCredential');
   });
 
+  it('emits an og:image meta tag', () => {
+    expect(html).toMatch(/<meta property="og:image" content="[^"]+"/);
+  });
+
   it('builds a contact page', () => {
     expect(outExists('contact/index.html')).toBe(true);
   });

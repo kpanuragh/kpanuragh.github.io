@@ -7,7 +7,19 @@ export const metadata: Metadata = {
   title: 'Work',
   description: 'Open-source projects by Anuragh KP — compression libraries, MCP servers, and an operating system kernel.',
   alternates: { canonical: '/work' },
-  openGraph: { type: 'website', url: `${siteConfig.url}/work`, title: 'Work — Anuragh KP' },
+  openGraph: {
+    type: 'website',
+    url: `${siteConfig.url}/work`,
+    title: 'Work — Anuragh KP',
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: 'Work — Anuragh KP',
+      },
+    ],
+  },
 };
 
 export default function WorkIndex() {

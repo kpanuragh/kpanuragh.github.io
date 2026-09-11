@@ -24,4 +24,9 @@ describe('work section', () => {
   it('quotes no star counts', () => {
     expect(readOut('work/index.html')).not.toContain('★');
   });
+
+  it('emits an og:image meta tag on the index and a project page', () => {
+    expect(readOut('work/index.html')).toMatch(/<meta property="og:image" content="[^"]+"/);
+    expect(readOut('work/zstd-js/index.html')).toMatch(/<meta property="og:image" content="[^"]+"/);
+  });
 });

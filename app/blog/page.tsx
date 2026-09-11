@@ -8,7 +8,19 @@ export const metadata: Metadata = {
   title: 'Writing',
   description: 'Occasional writing on backend engineering, application security and DevOps by Anuragh KP.',
   alternates: { canonical: '/blog' },
-  openGraph: { type: 'website', url: `${siteConfig.url}/blog`, title: 'Writing — Anuragh KP' },
+  openGraph: {
+    type: 'website',
+    url: `${siteConfig.url}/blog`,
+    title: 'Writing — Anuragh KP',
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: 'Writing — Anuragh KP',
+      },
+    ],
+  },
 };
 
 export default function BlogPage() {
