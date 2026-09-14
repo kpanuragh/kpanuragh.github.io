@@ -4,6 +4,7 @@ import CertGrid from '@/components/CertGrid';
 import { getPersonSchema, getBreadcrumbSchema } from '@/lib/schema';
 import { siteConfig } from '@/lib/seo-config';
 import { roles, yearsWorking } from '@/lib/cv';
+import { securityFindings } from '@/lib/security';
 
 export const metadata: Metadata = {
   title: 'Experience',
@@ -54,6 +55,23 @@ export default function About() {
 
       <div className="rule mb-4 mt-10">Certifications</div>
       <CertGrid />
+
+      <div className="rule mb-4 mt-10">Security findings</div>
+      <div className="panel">
+        {securityFindings.map((f, i) => (
+          <div
+            key={f.id}
+            data-finding={f.id}
+            className={`px-3.5 py-2.5 text-[11.5px] ${i < securityFindings.length - 1 ? 'border-b border-line' : ''}`}
+          >
+            <div className="font-mono text-[9.5px] uppercase tracking-wider text-dim mb-1">
+              {f.packageName} · {f.cve ? f.cve : 'no CVE assigned'}
+            </div>
+            <div className="text-tx font-medium mb-1">{f.title}</div>
+            <p className="m-0 text-mut leading-relaxed">{f.summary}</p>
+          </div>
+        ))}
+      </div>
 
       <script
         type="application/ld+json"

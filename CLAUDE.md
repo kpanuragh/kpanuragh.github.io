@@ -60,14 +60,15 @@ These rules bind all future content work — pages, posts, schema, and copy alik
 
 - Canonical name is `Anuragh KP`. Variants `Anuragh K P`, `Anuragh K.P`, `Anuragh K. P.`, `K P Anuragh` appear only in schema `alternateName`.
 - Location is `Kochi, Kerala`. Never Vatakara.
-- **Never state or imply a CVE was assigned for the Laravel work.** No `CVE-NNNN-NNNNN` strings. The only approved claim: "Reported and patched an SQL injection vector in Laravel's query builder; shipped in v12.48.0." Supporting facts: commit `1dcf0b38`, advisory `GHSA-9p82-4j4w-5hw8` (draft, no CVE).
+- **✅ Permitted — a real, verified CVE, for langchain, not Laravel:** he reported `CVE-2026-26019`, an SSRF bypass in `@langchain/community`'s `RecursiveUrlLoader` (insufficient URL origin validation in the `preventOutside` check, plus missing filtering of private/reserved IP ranges), credited as **reporter**, fixed in `1.1.14`. Advisory `GHSA-gf3v-fwqg-4vh7` (published 2026-02-11, severity medium, `CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:N`). This is verified and belongs on the site — see `lib/security.ts`. Do not remove it, and do not "unverify" it based on an older instruction in this file's history.
+- **❌ Still forbidden — never state or imply a CVE was assigned for the Laravel work.** No `CVE-NNNN-NNNNN` string may ever appear near, or in reference to, the Laravel finding. `GHSA-9p82-4j4w-5hw8` was closed **unpublished, with no CVE assigned** — it is unrelated to `CVE-2026-26019` above and must never be presented as having one. The only approved Laravel claim remains: "Reported and patched an SQL injection vector in Laravel's query builder; shipped in v12.48.0." Supporting facts: commit `1dcf0b38`, across `MySqlGrammar.php`, `SQLiteGrammar.php`, `SqlServerGrammar.php`.
+- **These two findings are not interchangeable.** langchain = real CVE, reporter credit, use it. Laravel = no CVE, ever, full stop. `lib/security.ts` models this as a discriminated union (`cve: string` vs. `cve: null`) specifically so the two cannot be confused in code; keep that discipline in prose too.
 - The CEH certification is always shown dated `2021 – 2024` and marked lapsed.
-- No langchain CVE claim anywhere — unverified.
 - Banned copy: quality claims about the author, star counts, `★`, sales CTAs. Consulting availability is a subordinate clause, never a button.
 
 ## Data modules
 
-`lib/cv.ts` (`roles`, `certifications`, `yearsWorking()`, `CAREER_START`) and `lib/projects.ts` (`projects`, `getProject()`, `featuredProjects()`) are the single source of truth for facts about work history, certifications, and open-source projects. Pages (home, `/about/`, `/work/`, `/work/[slug]/`) and `lib/schema.ts` (`getPersonSchema()`'s `hasCredential`, etc.) both read from these modules — they do not duplicate the data. Hardcoding a fact into a page instead of reading it from these modules is a defect; treat any such hardcoding you find as a bug to fix, not a style choice.
+`lib/cv.ts` (`roles`, `certifications`, `yearsWorking()`, `CAREER_START`), `lib/projects.ts` (`projects`, `getProject()`, `featuredProjects()`), and `lib/security.ts` (`securityFindings`) are the single source of truth for facts about work history, certifications, open-source projects, and security findings. Pages (home, `/about/`, `/work/`, `/work/[slug]/`) and `lib/schema.ts` (`getPersonSchema()`'s `hasCredential`, etc.) both read from these modules — they do not duplicate the data. Hardcoding a fact into a page instead of reading it from these modules is a defect; treat any such hardcoding you find as a bug to fix, not a style choice.
 
 ## Author / company voice in posts
 

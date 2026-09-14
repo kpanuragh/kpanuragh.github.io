@@ -18,11 +18,17 @@ describe('homepage build output', () => {
     expect(html).toContain('Kerala Police Cyberdome');
   });
 
-  it('makes the approved Laravel claim and never a CVE claim', () => {
+  it('makes the approved Laravel claim and never a CVE claim for it', () => {
     expect(html).toContain('v12.48.0');
     expect(html).toContain('1dcf0b38');
     expect(html).not.toMatch(/CVE in Laravel/i);
-    expect(html).not.toMatch(/CVE-\d{4}-\d+/);
+    // The site now carries one real, verified CVE (langchain, see below) — the
+    // Laravel-specific proximity check lives in tests/banned-copy.test.ts, which
+    // isolates each finding's own rendered block via its `data-finding` marker.
+    const found = html.match(/CVE-\d{4}-\d+/g) ?? [];
+    for (const cve of found) {
+      expect(cve).toBe('CVE-2026-26019');
+    }
   });
 
   it('shows CEH as lapsed with its date range', () => {
@@ -48,7 +54,13 @@ describe('homepage build output', () => {
     expect(html).not.toContain('SearchAction');
   });
 
-  it('mentions langchain nowhere', () => {
-    expect(html.toLowerCase()).not.toContain('langchain');
+  it('mentions langchain only alongside its verified CVE', () => {
+    // Verified 2026-02-11: CVE-2026-26019 / GHSA-gf3v-fwqg-4vh7, reporter credit.
+    // This was previously "mentions langchain nowhere" while the claim was
+    // unverified — see lib/security.ts and CLAUDE.md's "Facts and claim
+    // discipline" section for the source of truth.
+    expect(html.toLowerCase()).toContain('langchain');
+    expect(html).toContain('CVE-2026-26019');
+    expect(html).toContain('GHSA-gf3v-fwqg-4vh7');
   });
 });
